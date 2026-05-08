@@ -44,9 +44,71 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| | | | |
+<table>
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+
+  <tr>
+    <td><b>Primera Entrega (AV1)</b></td>
+    <td>12/04/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Güere Calero, Fernando Julio <br>
+      <br>
+      <p></p>
+      Huaman Oscco, Aldo Jesus <br>
+      <br>
+      <p></p>
+      Ramos Fuentes Rivera, Adriana Nicole <br>
+    </td>
+    <td>
+      Capítulo I: Introducción <br>
+      Capítulo II: Requirements Elicitation & Analysis <br>
+      Capítulo III: Requirements Specification <br>
+      Capítulo IV: Product Design <br>
+      Capítulo V: Product Implementation, Validation & Deployment (5.1. & 5.2. Sprint 1) <br>
+      Codificación Landing Page
+    </td>
+  </tr>
+
+  <tr>
+    <td><b>Segunda Entrega (TB1)</b></td>
+    <td>4/05/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Güere Calero, Fernando Julio <br>
+      <br>
+      <p></p>
+      Huaman Oscco, Aldo Jesus <br>
+      <br>
+      <p></p>
+      Ramos Fuentes Rivera, Adriana Nicole <br>
+    </td>
+    <td>
+      Corrección del reporte <br>
+      Mejora de artefactos <br>
+      Nueva versión desplegada de Landing Page <br>
+      Primera versión desplegada de Frontend Web Applications <br>
+      Capítulo V: Product Implementation, Validation & Deployment (Sprint 2) <br>
+    </td>
+  </tr>
+
+
+</table>
 
 ---
 
