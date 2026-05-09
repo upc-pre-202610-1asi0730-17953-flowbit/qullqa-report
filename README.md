@@ -2592,22 +2592,22 @@ La organización de líderes y colaboradores está directamente relacionada con 
 
 | **User Story Id** | **Título de la Historia** | **Task Id** | **Título de la Tarea** | **Descripción de la Tarea** | **Est. (Hrs)** | **Asignado** | **Status** |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| **QULLQA-13** | Registrarse e iniciar sesión | T-13-1 | Diseño de formularios | Crear la interfaz visual para el registro de nuevos dueños y el acceso seguro. | 6 | Usuario | To-Do |
-| | | T-13-2 | Lógica de autenticación | Programar la validación de credenciales y creación de cuentas en la base de datos. | 8 | Usuario | To-Do |
-| | | T-13-3 | Pruebas de acceso | Verificar que el usuario pueda entrar y salir de su sesión correctamente. | 3 | Usuario | To-Do |
-| **QULLQA-15** | Registrar producto | T-15-1 | Formulario de datos | Implementar el formulario para ingresar nombre, precio, stock y categoría del producto. | 6 | Usuario | To-Do |
-| | | T-15-2 | Guardado en inventario | Configurar el envío de datos para que el producto aparezca en la lista oficial. | 5 | Usuario | To-Do |
-| **QULLQA-16** | Actualizar producto y precio | T-16-1 | Función de edición | Habilitar el botón de editar para cargar los datos actuales en el formulario. | 4 | Usuario | To-Do |
-| | | T-16-2 | Actualización de costos | Programar el cambio de precios en tiempo real para reflejar datos actuales. | 4 | Usuario | To-Do |
-| **QULLQA-17** | Consultar lista de productos y disponibilidad | T-17-1 | Vista de tabla principal | Crear la pantalla donde se listan todos los productos registrados. | 7 | Usuario | To-Do |
-| | | T-17-2 | Buscador de stock | Implementar una barra de búsqueda para filtrar productos por nombre o código. | 4 | Usuario | To-Do |
-| **QULLQA-09** | Conocer la propuesta de valor para bodegueros | T-09-1 | Redacción de beneficios | Escribir los textos que explican cómo Qullqa ayuda específicamente a las bodegas. | 3 | Usuario | To-Do |
-| | | T-09-2 | Diseño sección Bodegas | Crear el bloque visual en la landing page enfocado en el segmento bodeguero. | 5 | Usuario | To-Do |
-| **QULLQA-10** | Conocer la propuesta de valor para farmacias | T-10-1 | Contenido especializado | Redactar la sección sobre control de vencimientos y reposición de medicamentos. | 3 | Usuario | To-Do |
-| | | T-10-2 | Diseño sección Farmacias | Implementar los elementos gráficos que representen el valor para el sector farmacéutico. | 5 | Usuario | To-Do |
-| **QULLQA-12** | Redirigirse desde la Landing Page hacia la aplicación | T-12-1 | Configuración de botones | Crear y enlazar los botones de "Empezar" o "Login" en la página principal. | 2 | Usuario | To-Do |
-| | | T-12-2 | Flujo de navegación | Asegurar que al hacer clic, el usuario llegue a la pantalla correcta de la app. | 2 | Usuario | To-Do |
-| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **77** | | |
+| **QULLQA-13** | Registrarse e iniciar sesión | T-13-1 | Diseño de formularios | Crear la interfaz visual para el registro de nuevos dueños y el acceso seguro. | 6 | Güere Calero, Fernando Julio | Done |
+| | | T-13-2 | Lógica de autenticación | Programar la validación de credenciales y creación de cuentas en la base de datos. | 8 | Huaman Oscco, Aldo Jesus | Done |
+| | | T-13-3 | Pruebas de acceso | Verificar que el usuario pueda entrar y salir de su sesión correctamente. | 3 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| **QULLQA-15** | Registrar producto | T-15-1 | Formulario de datos | Implementar el formulario para ingresar nombre, precio, stock y categoría del producto. | 6 | Contreras Torres, Arturo Valentino | Done |
+| | | T-15-2 | Guardado en inventario | Configurar el envío de datos para que el producto aparezca en la lista oficial. | 5 | Asmat Alminco, Martin Alejandro | Done |
+| **QULLQA-16** | Actualizar producto y precio | T-16-1 | Función de edición | Habilitar el botón de editar para cargar los datos actuales en el formulario. | 4 | Güere Calero, Fernando Julio | Done |
+| | | T-16-2 | Actualización de costos | Programar el cambio de precios en tiempo real para reflejar datos actuales. | 4 | Huaman Oscco, Aldo Jesus | Done |
+| **QULLQA-17** | Consultar lista de productos y disponibilidad | T-17-1 | Vista de tabla principal | Crear la pantalla donde se listan todos los productos registrados. | 7 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| | | T-17-2 | Buscador de stock | Implementar una barra de búsqueda para filtrar productos por nombre o código. | 4 | Contreras Torres, Arturo Valentino | Done |
+| **QULLQA-09** | Conocer la propuesta de valor para bodegueros | T-09-1 | Redacción de beneficios | Escribir los textos que explican cómo Qullqa ayuda específicamente a las bodegas. | 3 | Asmat Alminco, Martin Alejandro | Done |
+| | | T-09-2 | Diseño sección Bodegas | Crear el bloque visual en la landing page enfocado en el segmento bodeguero. | 5 | Güere Calero, Fernando Julio | Done |
+| **QULLQA-10** | Conocer la propuesta de valor para farmacias | T-10-1 | Contenido especializado | Redactar la sección sobre control de vencimientos y reposición de medicamentos. | 3 | Huaman Oscco, Aldo Jesus | Done |
+| | | T-10-2 | Diseño sección Farmacias | Implementar los elementos gráficos que representen el valor para el sector farmacéutico. | 5 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| **QULLQA-12** | Redirigirse desde la Landing Page hacia la aplicación | T-12-1 | Configuración de botones | Crear y enlazar los botones de "Empezar" o "Login" en la página principal. | 2 | Contreras Torres, Arturo Valentino | Done |
+| | | T-12-2 | Flujo de navegación | Asegurar que al hacer clic, el usuario llegue a la pantalla correcta de la app. | 2 | Asmat Alminco, Martin Alejandro | Done |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **67** | | |
 
 ---
 
@@ -2617,7 +2617,7 @@ La organización de líderes y colaboradores está directamente relacionada con 
 </p>
 
 ##### Resumen Técnico
-- **Total de Horas:** 77 horas.
+- **Total de Horas:** 67 horas.
 - **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
 - **Entregable Principal:** Aplicación base con Landing Page informativa y módulo funcional de inventario (CRUD de productos).
 
