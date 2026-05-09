@@ -2615,6 +2615,11 @@ La organización de líderes y colaboradores está directamente relacionada con 
   <img src="assets/img/artefacts/sprint.png" width="800" alt="Product Backlog"/>
   <br/><i>Artefacto: Jira para Sprint Priorizado</i>
 </p>
+<p align="center">
+  <img src="assets/img/artefacts/Tableo_Kanban.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban</i>
+</p>
+
 
 ##### Resumen Técnico
 - **Total de Horas:** 67 horas.
