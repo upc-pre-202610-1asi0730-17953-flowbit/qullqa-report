@@ -662,10 +662,10 @@ En esta sección se realiza la identificación y descripción de los principales
 
   <tr>
     <td><b>Precios & Costos</b></td>
-    <td>Modelos de suscripción y un plan gratuito siendo accesible para las microempresas.</td>
-    <td>Suscripción accesible.</td>
-    <td>Planes por suscripción (más costosos).</td>
-    <td>Costos variables según módulos e implementación.</td>
+    <td>Modelos de suscripción y un plan gratuito. Plan Free <b>S/0</b>, Plan Pro <b>S/49.90</b>, Plan Premium <b>S/89.90</b></td>
+    <td>Modelos de suscripción. Plan Inicia <b>S/49.90</b>, Plan Arranca <b>S/79.90</b>, Plan Vuela <b>S/99.90</b></td>
+    <td>Modelos de suscripción y un plan gratuito. Plan Gratis <b>S/0</b>, Plan Estandar <b>S/159</b>, Plan Profesional <b>S/399</b>, Plan Premium <b>S/639</b>, Plan Empresa <b>S/1199</b></td>
+    <td>Modelos de suscripción y un plan gratuito. Plan Gratis <b>S/0</b>, Plan Pro <b>S/99</b>, Plan Empresa <b>S/239</b></td>
   </tr>
 
   <tr>
