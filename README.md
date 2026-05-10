@@ -2727,6 +2727,8 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * A partir de las entrevistas realizadas a los segmentos objetivo, se comprobó que existe una necesidad real de soluciones tecnológicas simples, accesibles y adaptadas al contexto de los microempresarios peruanos ya que los usuarios manifestaron interés en herramientas que reduzcan el tiempo de gestión y mejoren el control operativo de sus negocios.
 
+* La aplicación de metodologías como Lean UX, entrevistas, análisis competitivo y Domain-Driven Design permitió construir una solución más alineada con las necesidades reales de los usuarios, facilitando la definición de funcionalidades prioritarias y una arquitectura escalable.
+
 ### Recomendaciones
 
 ## Video About-the-Team
