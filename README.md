@@ -2411,7 +2411,7 @@ Dashboard & Analytics <br>
 
 ### 4.8.1. Database Diagrams
 <p align="center">
-  <img src="assets\img\diagrams\qullqa_database_diagram_.png" width="500" alt="Qullqa Database Diagram"/>
+  <img src="assets\img\diagrams\qullqa_database_diagram-2026-05-09_23-45.png" width="500" alt="Qullqa Database Diagram"/>
   <br/><i>Qullqa Database Diagram</i>
 </p>
 
