@@ -2840,6 +2840,25 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 # Conclusiones
 ## Conclusiones y recomendaciones
+### Conclusiones
+
+* Es importante continuar con la validación de Qullqa mediante pruebas piloto en bodegas y farmacias reales, con el fin de obtener retroalimentación constante que permita mejorar la experiencia de usuario y adaptar las funcionalidades a necesidades específicas del mercado.
+
+* A partir de las entrevistas realizadas a los segmentos objetivo, se comprobó que existe una necesidad real de soluciones tecnológicas simples, accesibles y adaptadas al contexto de los microempresarios peruanos ya que los usuarios manifestaron interés en herramientas que reduzcan el tiempo de gestión y mejoren el control operativo de sus negocios.
+
+* La aplicación de metodologías como Lean UX, entrevistas, análisis competitivo y Domain-Driven Design permitió construir una solución más alineada con las necesidades reales de los usuarios, facilitando la definición de funcionalidades prioritarias y una arquitectura escalable.
+
+* El proyecto también permitió fortalecer las competencias técnicas y colaborativas del equipo, especialmente en áreas como desarrollo web, arquitectura de software, modelado de dominio, trabajo en equipo y comunicación efectiva.
+
+### Recomendaciones
+
+* Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
+
+* Resulta necesario fortalecer los módulos financieros y de reportes analíticos para brindar mayor claridad sobre ganancias, flujo de caja y productos más rentables, permitiendo una mejor toma de decisiones.
+
+* Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
+
+* Es conveniente desarrollar estrategias de capacitación y acompañamiento para los usuarios finales, ya que la adopción tecnológica depende no solo de la herramienta, sino también de la confianza y comprensión que los usuarios tengan sobre ella.
 
 ## Video About-the-Team
 
