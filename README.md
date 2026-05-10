@@ -2739,6 +2739,8 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
 
+* Es conveniente desarrollar estrategias de capacitación y acompañamiento para los usuarios finales, ya que la adopción tecnológica depende no solo de la herramienta, sino también de la confianza y comprensión que los usuarios tengan sobre ella.
+
 ## Video About-the-Team
 
 # Bibliografía
