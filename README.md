@@ -2676,8 +2676,37 @@ El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hostin
   <br/><i>Landing Page Desplegada</i>
 </p>
 
-
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+**Dinámica de Implementación**
+Durante este ciclo, el equipo concentró sus esfuerzos en el desarrollo Frontend y la Documentación Técnica. Se utilizó el modelo GitFlow para separar las tareas de diseño visual de las tareas de redacción del informe. La comunicación se mantuvo mediante Discord y WhatsApp para resolver dudas sobre la guía de estilos en tiempo real.
+
+**Analíticos de Colaboración**
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
+
+* Desarrollo Frontend: Implementación de componentes responsivos de la Landing Page, secciones de propuesta de valor, internacionalizacion y formularios de captura de datos.
+
+* Documentación y Calidad: Redacción de Historias de Usuario en Jira, diseño de arquitectura C4 y elaboración del informe de Sprint Review conforme a la rúbrica.
+
+* Control de Versiones: Supervisión de la limpieza del historial mediante el uso estratégico de git merge y git rebase para integrar las secciones del documento.
+
+**Evidencia GitFlow: Graph**
+<p align="center">
+  <img src="assets/img/Graph.png" width="200" alt="Graph"/>
+  <br/><i>Grafo de versiones para el gitflow</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img/Commits.png" width="500" alt="Commits"/>
+  <br/><i>Grafico estadistico de commits por usuario</i>
+</p>
+
+**Evidencia GitFlow: Network**
+<p align="center">
+  <img src="assets/img/Network.png" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo</i>
+</p>
+
 
 ### 5.2.2. Sprint 2
 
