@@ -2737,6 +2737,7 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * Resulta necesario fortalecer los módulos financieros y de reportes analíticos para brindar mayor claridad sobre ganancias, flujo de caja y productos más rentables, permitiendo una mejor toma de decisiones.
 
+* Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
 
 ## Video About-the-Team
 
