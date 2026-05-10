@@ -2721,6 +2721,11 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 # Conclusiones
 ## Conclusiones y recomendaciones
+### Conclusiones
+
+* Es importante continuar con la validación de Qullqa mediante pruebas piloto en bodegas y farmacias reales, con el fin de obtener retroalimentación constante que permita mejorar la experiencia de usuario y adaptar las funcionalidades a necesidades específicas del mercado.
+
+### Recomendaciones
 
 ## Video About-the-Team
 
