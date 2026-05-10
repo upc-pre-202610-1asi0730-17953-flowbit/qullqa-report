@@ -2647,6 +2647,31 @@ La organización de líderes y colaboradores está directamente relacionada con 
 ---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing
+Page.
+
+Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó,
+usa y usará para el desarrollo del proyecto:
+ 
+ | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 20e25b9 | initial commit | Create repository | 07/04/2026 |
+  | Arturouu | chapter-04 | 20e25b9 | docs(chapter-03): add user stories | Added content in all sections of chapter-04 |25/04/2026 |
+  | Arturouu | chapter-05 | 85d1161 | docs(chapter-05): add chapter 05 index | Added content in all sections of chapter-05 | 25/04/2026 |
+
+<br/>
+A continuación se presentan los commits más importantes para la Landing Page, los cuales muestran todo el contenido visual y funcionalidades
+implementadas en el Sprint 1:
+
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 6f68daa | Initial commit | Create repository | 25/04/2026 |
+  | Arturouu | main | 5491a21 | feature(landingPage): update Landing Page - Qullqa | Added files for landing page, like footers, headers, all information about the start-up, subscriptions, forms and other content | 25/04/2026 |
+  | Arturouu | main | d68b19c | fix: rename qullqa.html as index.html | Fixed files for landing page | 06/05/2026 |
+  <br/>
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page. Aunque el almacenamiento persistente será parte del próximo Sprint, se ha programado la lógica de captura, validación y respuesta visual en el frontend para los siguientes servicios simulados:
