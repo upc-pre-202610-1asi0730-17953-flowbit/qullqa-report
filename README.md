@@ -2673,6 +2673,100 @@ implementadas en el Sprint 1:
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En el sprint 1, hemos logrado implementar todas las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, se explorarán nuestros avances a través de imágenes que muestran el resultado obtenido.
+<br/>
+
+1.  Sección header: Aquí mostramos la barra de navegación de nuestro sitio
+web.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Header.png" width="800" alt="Header Landing page"/>
+  <br/><i>Sección Header de la Landing page</i>
+</p>
+<br/>
+
+2. Sección de muestra sobre el monitoreo: Demostramos de manera simple la función de la aplicación incluyendo una demostración del dashboard.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/MainInformation.png" width="800" alt="MainInformation"/>
+  <br/><i>Sección de muestra sobre el monitoreo en la Landing page</i>
+</p>
+<br/>
+
+3. Sección sobre el público objetivo: Se muestra el contenido sobre nuestros dos segmentos objetivos.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/SegmentoObjetivo.png" width="800" alt="Segmento Objetivo"/>
+  <br/><i>Sección sobre el público objetivo</i>
+</p>
+<br/>
+
+4. Sección servicios: Se informa sobre los servicios ofrecidos por el producto.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Servicios.png" width="800" alt="Servicios"/>
+  <br/><i>Sección servicios</i>
+</p>
+<br/>
+
+5. Sección visión: Se muestra información sobre la visión y misión de la start-up.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Vision.png" width="800" alt="Vision"/>
+  <br/><i>Sección visión</i>
+</p>
+<br/>
+
+6. Sección portafolio: Se muestra una recopilación de nuestro trabajo.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Portafolio.png" width="800" alt="Portafolio"/>
+  <br/><i>Sección portafolio</i>
+</p>
+<br/>
+
+7. Sección planes: Se muestra la información de los planes que ofrecemos para los usuarios.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Planes.png" width="800" alt="Planes"/>
+  <br/><i>Sección planes</i>
+</p>
+<br/>
+
+8. Sección formulario de contacto: Se muestra un formulario con la finalidad de poder contactarse con la startup.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Formulario.png" width="800" alt="Formulario"/>
+  <br/><i>Sección formulario</i>
+</p>
+<br/>
+
+9. Sección footer: Parte final del sitio web.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Footer.png" width="800" alt="Footer"/>
+  <br/><i>Sección footer</i>
+</p>
+<br/>
+
+
+Para finalizar, se mostrará una demostración de nuestro avance sobre la landing page dentro de GitHub, para la publicación de la página web:
+<p align="center">
+  <img src="assets/img/artefacts/RepositorioGithub.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la landing page</i>
+</p>
+
+Video de explicación sobre esta sección: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page. Aunque el almacenamiento persistente será parte del próximo Sprint, se ha programado la lógica de captura, validación y respuesta visual en el frontend para los siguientes servicios simulados:
 
