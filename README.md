@@ -2729,6 +2729,8 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * La aplicación de metodologías como Lean UX, entrevistas, análisis competitivo y Domain-Driven Design permitió construir una solución más alineada con las necesidades reales de los usuarios, facilitando la definición de funcionalidades prioritarias y una arquitectura escalable.
 
+* El proyecto también permitió fortalecer las competencias técnicas y colaborativas del equipo, especialmente en áreas como desarrollo web, arquitectura de software, modelado de dominio, trabajo en equipo y comunicación efectiva.
+
 ### Recomendaciones
 
 ## Video About-the-Team
