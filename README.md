@@ -2725,6 +2725,8 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * Es importante continuar con la validación de Qullqa mediante pruebas piloto en bodegas y farmacias reales, con el fin de obtener retroalimentación constante que permita mejorar la experiencia de usuario y adaptar las funcionalidades a necesidades específicas del mercado.
 
+* A partir de las entrevistas realizadas a los segmentos objetivo, se comprobó que existe una necesidad real de soluciones tecnológicas simples, accesibles y adaptadas al contexto de los microempresarios peruanos ya que los usuarios manifestaron interés en herramientas que reduzcan el tiempo de gestión y mejoren el control operativo de sus negocios.
+
 ### Recomendaciones
 
 ## Video About-the-Team
