@@ -2733,6 +2733,8 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 ### Recomendaciones
 
+* Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
+
 ## Video About-the-Team
 
 # Bibliografía
