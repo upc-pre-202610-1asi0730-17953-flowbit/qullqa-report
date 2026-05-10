@@ -2735,6 +2735,9 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 * Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
 
+* Resulta necesario fortalecer los módulos financieros y de reportes analíticos para brindar mayor claridad sobre ganancias, flujo de caja y productos más rentables, permitiendo una mejor toma de decisiones.
+
+
 ## Video About-the-Team
 
 # Bibliografía
