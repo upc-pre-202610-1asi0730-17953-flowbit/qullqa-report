@@ -2396,13 +2396,34 @@ Dashboard & Analytics <br>
 
 ### 4.7.1. Class Diagrams
 
-<img src="assets/img/diagrams/class/Alerts_and_Supplier.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/Identity_and_Product.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/Product_and_Alerts.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/Product_and_Dashboard.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/Sales_and_Dashboard.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/subscription_and_delivery.png" alt="Class Diagram" width="1000"/> <br>
-<img src="assets/img/diagrams/class/Supplier_and_Replenishment.png" alt="Class Diagram" width="1000"/> <br>
+**Bounded Contexts**
+
+- Shared <br><br>
+<img src="assets/img/diagrams/class/shared.png" alt="Class Diagram" width="1000"/> <br>
+
+- Identity & Access Management <br><br>
+<img src="assets/img/diagrams/class/identity_and_access_management.png" alt="Class Diagram" width="1000"/> <br>
+
+- Subscription & Plan Management <br><br>
+<img src="assets/img/diagrams/class/subscription_and_plan_management.png" alt="Class Diagram" width="1000"/> <br>
+
+- Product & Inventory Management <br><br>
+<img src="assets/img/diagrams/class/product_and_inventory_management.png" alt="Class Diagram" width="1000"/> <br>
+
+- Sales & POS Management <br><br>
+<img src="assets/img/diagrams/class/sales_and_pos_management.png" alt="Class Diagram" width="1000"/> <br>
+
+- Alerts & Operational Monitoring <br><br>
+<img src="assets/img/diagrams/class/alerts_and_operational_monitoring.png" alt="Class Diagram" width="1000"/> <br>
+
+- Supplier & Replenishment Management <br><br>
+<img src="assets/img/diagrams/class/supplier_and_replenishment_management.png" alt="Class Diagram" width="1000"/> <br>
+
+- Dashboard & Analytics <br><br>
+<img src="assets/img/diagrams/class/dashboard_and_analytics.png" alt="Class Diagram" width="1000"/> <br>
+
+- Delivery Tracking <br><br>
+<img src="assets/img/diagrams/class/delivery_tracking.png" alt="Class Diagram" width="1000"/> <br>
 
 ## 4.8. Database Design
 <p align="justify">
