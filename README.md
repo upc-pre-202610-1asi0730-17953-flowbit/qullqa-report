@@ -113,6 +113,24 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 ---
 
 # Project Report Collaboration Insights
+El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante repositorios de GitHub creados para la gestión del Project Report y de los diferentes componentes del sistema Qullqa. Estos repositorios contienen los archivos del informe, diagramas, evidencias, wireframes, avances de la landing page y el historial de versiones correspondiente a cada entrega.
+
+URL del repositorio (Report): https://github.com/Flowbit-app/qullqa-report <br>
+URL del repositorio (Backend): https://github.com/Flowbit-app/qullqa-backend <br>
+URL del repositorio (Frontend Web Application): https://github.com/Flowbit-app/qullqa-frontend-web-application <br>
+URL del repositorio (Landing Page): https://github.com/Flowbit-app/qullqa-landing-page <br>
+
+**Primera Entrega (AV1)**
+
+Durante la primera entrega del proyecto Qullqa, el equipo trabajó de manera colaborativa en la elaboración del Project Report, organizando las actividades y responsabilidades de forma grupal para cubrir las diferentes secciones del informe y los primeros avances del producto.
+
+El desarrollo del trabajo incluyó actividades de investigación, definición de la problemática, análisis del mercado, entrevistas a usuarios, elaboración de artefactos UX y diseño inicial de la solución. Como parte de este proceso, el equipo desarrolló de manera conjunta los apartados relacionados con Lean UX, User Personas, Empathy Maps, User Journey Maps, User Task Matrix, análisis competitivo, EventStorming y Ubiquitous Language, permitiendo consolidar una visión compartida sobre las necesidades de los segmentos objetivo: bodegas y farmacias.
+
+Asimismo, durante esta etapa se realizó el avance de los primeros wireframes mobile y la construcción de la primera versión de la landing page de Qullqa, enfocándose en comunicar la propuesta de valor del proyecto y establecer una identidad visual inicial alineada con la experiencia de usuario planteada.
+
+Para la organización y seguimiento del trabajo, el equipo utilizó GitHub como plataforma principal de colaboración y control de versiones. Mediante repositorios compartidos, commits y ramas de trabajo, fue posible registrar los avances realizados en el informe, los diseños UX/UI y los componentes iniciales de la landing page, manteniendo evidencia continua de la participación grupal y de la evolución del proyecto durante la primera entrega.
+
+<img src="assets/img/project-report-collaboration-insights/AV1/github-organization-qullqa.png" width="500"/>
 
 ---
 
