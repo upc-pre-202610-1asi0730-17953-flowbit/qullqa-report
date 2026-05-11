@@ -589,16 +589,17 @@ Creemos que implementar herramientas que agilicen el registro de entradas y sali
 
 ## 1.3. Segmentos objetivo
 
+**Bodegueros independientes** <br>
 Propietarios de bodegas o minimarkets que gestionan su negocio de forma manual o con herramientas básicas. Presentan problemas como descontrol del stock, pérdidas por productos vencidos y falta de claridad sobre sus ganancias mes a mes. Buscan una solución simple y accesible para organizar mejor su negocio
 
 Estos negocios se encuentran en Lima, Perú, donde cuentan con una infraestructura apta para una gestión de productos baja a media. Normalmente, se localizan en mercados o tiendas mayoristad como un supermarket donde con un puesto, venden libremente sus productos sin mucho cobro por uso de la zona donde venden sus productos. Por tanto, este grupo está compuesto por micro y pequeños empresarios que operan con recursos limitados e intentan recortar presupuesto para optimizar la ganancia adquirida. Sin embargo, por otro lado, representan segmento con alto potencial de adopción tecnológica debido a la necesidad creciente de digitalización en pequeños comercios y a la búsqueda de soluciones accesibles y fáciles de implementar. 
 
 
-- **Farmacias independientes** <br>
+**Farmacias independientes** <br>
 Pequeñas farmacias que requieran un control más riguroso del inventario, especialmente en fechas de vencimiento y disponibilidad de medicamentos. Necesitan 
 herramientas más confiables que les permitan reducir riesgos, evitar pérdidas y asegurar un mejor control operativo.
 
-Este grupo se encuentra distribuidos a lo largo del departamento de Lima, siendo este departamento donde mayor movimiento de stock en farmacia se mueve en el Perú.Lima Metropolitana concentra cerca del 27% de establecimientos autorizados a vender a nivel nacional. Luego, estos están conformados por pequeños establecimientos farmacéuticos que no cuentan con sistemas empresariales avanzados debido a limitaciones económicas o técnicas. Estos tienen cierto contacto con laboratorios, sin embargo, en su mayoría les son distribuidos por laborotarios relativamente conocidos y que aportan beneificios a ciertas start ups. 
+Este grupo se encuentra distribuidos a lo largo del departamento de Lima, siendo este departamento donde mayor movimiento de stock en farmacia se mueve en el Perú.Lima Metropolitana concentra cerca del 27% de establecimientos autorizados a vender a nivel nacional. Luego, estos están conformados por pequeños establecimientos farmacéuticos que no cuentan con sistemas empresariales avanzados debido a limitaciones económicas o técnicas. Estos tienen cierto contacto marcas distribuidoras; Sin embargo, no contacto directo con laboratorios especializados.
 
 Demográficamente, representan un mercado relevante debido al crecimiento de pequeñas farmacias en sectores urbanos y distritos con alta demanda de atención rápida y cercana. Esto los convierte en usuarios potenciales de una solución tecnológica simple, confiable y escalable.
 
@@ -2582,6 +2583,87 @@ Scenario Outline: Product stock alert
     | Milk    | 5         |
 ```
 ### 5.1.4. Software Deployment Configuration
+
+#### Descripción General del Despliegue
+
+La solución de flowbit está compuesta por tres productos digitales principales:
+1) ##### Landing Page corporativa con propuesta de valor explayada
+2) ##### Frontend Web
+3) ##### Backend REST API y microservicios desplegados como software ERP
+
+Cada componente es desplegado de manera independiente utilizando servicios cloud que permiten escalabilidad, integración continua y acceso remoto seguro para los usuarios. El flujo de despliegue se basa en repositorios GitHub utilizando las buenas prácticas como el modelo de ramificación de Gitflow para el correcto desarrollo de la la aplicación y el uso de plataformas de publicación automática como Vercel y Azure App Service, permitiendo automatizar la integración y entrega continua (CI/CD).
+
+###### Explicación de la Landing Page:
+
+La landing page tiene como objetivo principal comunicar de forma eficiente la propuesta de valor que ofrece nuestro producto. Para nuestro caso, se buscó un diseño simplista para comunicar confianza y seriedad para nuestro enfoque **ERP**. 
+
+Se desarrolló utilizando el framework **Vite** con el *IDE webstorm*, para luego compaginarlo con el uso de lenguaje de programación *javascript* para programar las funcionalidades. De momento, para el desarrollo se mantiene segementados cada site en la barra de navegación.
+
+Para ello, realizamos los siguientes pasos mencionados a continuación:
+
+- Se programó utilizando Webstorm con el framework Vite y se consideró la pertinente aplicación de UX design. 
+
+- Se tuvo consideración en primero subir el código en github con su respectivo repositorio, llamado *qullqa-landing-page*.
+
+![landing-page](assets/deployment-configuration/landing-deploy-1.png)
+
+- Importar el repositorio subido al github a vercel y realizar su respectivo deployment.
+
+- Publicar la aplicación dentro del entorno de vercel y probar la URL generada en el navegador.
+
+*URL generada y validada*: https://qullqa-landing-page.vercel.app/
+
+###### Explicación del despliegue la aplicación Frontend
+
+Para este caso, aplicamos el mismo formato de producción continua, donde todo el team se encarga de desarollar el código para luego ser subido al github. 
+
+La aplicación proporciona las siguientes funcionalidades **core**: 
+
+- Autentiticación de usuarios para roles de trabajo
+- Visualización de inventario a tiempo real
+- Gestión de stock en entrada y salida
+- Gestión de stock brindada por proveedores
+- Apartado dedicado pedidos en línea/deliverys. 
+
+Para la conexión correcta de recuperación de datos para nuestras funcionalidades, utilizamos el criterio de Mock-API, que será desplegado a una máquina virtual en el servicio Azure. 
+
+*Evidencia de la VM desplegada en Azure*
+
+![mockup-imagen](mockup-imagen-1.png)
+
+Para esto, se realizaron los siguientes pasos:
+
+- Subir el proyecto frontend al repositorio GitHub.
+- Conectar el repositorio con Vercel.
+- Configurar variables de entorno de producción.
+- Definir el comando de construcción.
+- Ejecutar el despliegue automático.
+- Validar la conexión entre frontend y backend
+
+*URL de la API deployada*: https://flowbit-api.azurewebsites.net
+
+Consideraciones para el deployment de la máquina virtual: 
+
+- Subir el backend al repositorio GitHub.
+- Crear un Azure App Service.
+- Configurar runtime de Node.js.
+- Configurar variables de entorno y credenciales.
+- Conectar el repositorio GitHub con Azure.
+- Activar despliegue automático.
+- Publicar la API.
+- Validar endpoints mediante pruebas HTTP.
+
+###### Explicación del flujo general para el desarrollo del team
+
+El team, bajo la metodología de trabajo SCRUM, se consideró el modelo de ramificación gitflow para el sistema de controld e versiones **git**. 
+
+Para esta entrega, se considera ya el deployment completo de máquina virtual con el MOCK API utilizando azure, así como también el uso de vercel como tecnologías relevantes. Para la programación, el uso de webstorm fue fundamental para el correcto desarrollo.
+
+<div align = "center">
+<img src ="assets/deployment-configuration/webstorm-ide-icon.png" alt = "vercel logo" height = 100/>
+<img src ="assets/deployment-configuration/vercel-logo.png" alt = "vercel logo" height = 100/>
+<img src ="assets/deployment-configuration/microsoft-azure.png" alt = "azure logo" height = 100/>
+</div>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
