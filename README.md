@@ -2804,15 +2804,21 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hosting, aprovechando su infraestructura global para garantizar tiempos de carga óptimos para la Landing Page. Se priorizó la automatización para permitir iteraciones rápidas sobre el diseño y contenido informativo orientado a bodegas y farmacias.
 
 **Actividades de Despliegue Realizadas**
-* Configuración de Firebase Project: Creación del proyecto qullqa-landing en la consola de Firebase y vinculación con el repositorio local.
+* Configuración de Vercel Project: Creación y vinculación del proyecto qullqa-landing mediante el dashboard de Vercel, estableciendo la integración continua con el repositorio de GitHub para despliegues automáticos.
 
 * Firebase CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
 
 * Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando firebase deploy automáticamente cada vez que se realiza un merge a la rama main.
 
-**Evidencia Deploy: Landign Page**
+**Evidencia Deploy: Landign Page - Responsive**
 <p align="center">
   <img src="assets/img/DeployLanding.png" width="500" alt="Graph"/>
+  <br/><i>Landing Page Desplegada</i>
+</p>
+
+**Evidencia Deploy: Landign Page Movile - Responsive**
+<p align="center">
+  <img src="assets/img/Landing-Mobile.jpeg" width="300" alt="Graph"/>
   <br/><i>Landing Page Desplegada</i>
 </p>
 
