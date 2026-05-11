@@ -44,93 +44,13 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 
 # Registro de Versiones del Informe
 
-<table>
-  <tr>
-    <th>Versión</th>
-    <th>Fecha</th>
-    <th>Autor</th>
-    <th>Descripción de modificación</th>
-  </tr>
-
-  <tr>
-    <td><b>Primera Entrega (AV1)</b></td>
-    <td>12/04/2026</td>
-    <td>
-      Asmat Alminco, Martin Alejandro <br>
-      <br>
-      <p></p>
-      Contreras Torres, Arturo Valentino <br>
-      <br>
-      <p></p>
-      Güere Calero, Fernando Julio <br>
-      <br>
-      <p></p>
-      Huaman Oscco, Aldo Jesus <br>
-      <br>
-      <p></p>
-      Ramos Fuentes Rivera, Adriana Nicole <br>
-    </td>
-    <td>
-      Capítulo I: Introducción <br>
-      Capítulo II: Requirements Elicitation & Analysis <br>
-      Capítulo III: Requirements Specification <br>
-      Capítulo IV: Product Design <br>
-      Capítulo V: Product Implementation, Validation & Deployment (5.1. & 5.2. Sprint 1) <br>
-      Codificación Landing Page
-    </td>
-  </tr>
-
-  <tr>
-    <td><b>Segunda Entrega (TB1)</b></td>
-    <td>4/05/2026</td>
-    <td>
-      Asmat Alminco, Martin Alejandro <br>
-      <br>
-      <p></p>
-      Contreras Torres, Arturo Valentino <br>
-      <br>
-      <p></p>
-      Güere Calero, Fernando Julio <br>
-      <br>
-      <p></p>
-      Huaman Oscco, Aldo Jesus <br>
-      <br>
-      <p></p>
-      Ramos Fuentes Rivera, Adriana Nicole <br>
-    </td>
-    <td>
-      Corrección del reporte <br>
-      Mejora de artefactos <br>
-      Nueva versión desplegada de Landing Page <br>
-      Primera versión desplegada de Frontend Web Applications <br>
-      Capítulo V: Product Implementation, Validation & Deployment (Sprint 2) <br>
-    </td>
-  </tr>
-
-
-</table>
+| Versión | Fecha | Autor | Descripción de modificación |
+|---------|-------|-------|-----------------------------|
+| | | | |
 
 ---
 
 # Project Report Collaboration Insights
-El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante repositorios de GitHub creados para la gestión del Project Report y de los diferentes componentes del sistema Qullqa. Estos repositorios contienen los archivos del informe, diagramas, evidencias, wireframes, avances de la landing page y el historial de versiones correspondiente a cada entrega.
-
-URL del repositorio (Report): https://github.com/Flowbit-app/qullqa-report <br>
-URL del repositorio (Backend): https://github.com/Flowbit-app/qullqa-backend <br>
-URL del repositorio (Frontend Web Application): https://github.com/Flowbit-app/qullqa-frontend-web-application <br>
-URL del repositorio (Landing Page): https://github.com/Flowbit-app/qullqa-landing-page <br>
-
-**Primera Entrega (AV1)**
-
-Durante la primera entrega del proyecto Qullqa, el equipo trabajó de manera colaborativa en la elaboración del Project Report, organizando las actividades y responsabilidades de forma grupal para cubrir las diferentes secciones del informe y los primeros avances del producto.
-
-El desarrollo del trabajo incluyó actividades de investigación, definición de la problemática, análisis del mercado, entrevistas a usuarios, elaboración de artefactos UX y diseño inicial de la solución. Como parte de este proceso, el equipo desarrolló de manera conjunta los apartados relacionados con Lean UX, User Personas, Empathy Maps, User Journey Maps, User Task Matrix, análisis competitivo, EventStorming y Ubiquitous Language, permitiendo consolidar una visión compartida sobre las necesidades de los segmentos objetivo: bodegas y farmacias.
-
-Asimismo, durante esta etapa se realizó el avance de los primeros wireframes mobile y la construcción de la primera versión de la landing page de Qullqa, enfocándose en comunicar la propuesta de valor del proyecto y establecer una identidad visual inicial alineada con la experiencia de usuario planteada.
-
-Para la organización y seguimiento del trabajo, el equipo utilizó GitHub como plataforma principal de colaboración y control de versiones. Mediante repositorios compartidos, commits y ramas de trabajo, fue posible registrar los avances realizados en el informe, los diseños UX/UI y los componentes iniciales de la landing page, manteniendo evidencia continua de la participación grupal y de la evolución del proyecto durante la primera entrega.
-
-<img src="assets/img/project-report-collaboration-insights/AV1/github-organization-qullqa.png" width="500"/>
 
 ---
 
@@ -218,15 +138,6 @@ Para la organización y seguimiento del trabajo, el equipo utilizó GitHub como 
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
@@ -680,10 +591,10 @@ En esta sección se realiza la identificación y descripción de los principales
 
   <tr>
     <td><b>Precios & Costos</b></td>
-    <td>Modelos de suscripción y un plan gratuito. Plan Free <b>S/0</b>, Plan Pro <b>S/49.90</b>, Plan Premium <b>S/89.90</b></td>
-    <td>Modelos de suscripción. Plan Inicia <b>S/49.90</b>, Plan Arranca <b>S/79.90</b>, Plan Vuela <b>S/99.90</b></td>
-    <td>Modelos de suscripción y un plan gratuito. Plan Gratis <b>S/0</b>, Plan Estandar <b>S/159</b>, Plan Profesional <b>S/399</b>, Plan Premium <b>S/639</b>, Plan Empresa <b>S/1199</b></td>
-    <td>Modelos de suscripción y un plan gratuito. Plan Gratis <b>S/0</b>, Plan Pro <b>S/99</b>, Plan Empresa <b>S/239</b></td>
+    <td>Modelos de suscripción y un plan gratuito siendo accesible para las microempresas.</td>
+    <td>Suscripción accesible.</td>
+    <td>Planes por suscripción (más costosos).</td>
+    <td>Costos variables según módulos e implementación.</td>
   </tr>
 
   <tr>
@@ -2396,34 +2307,13 @@ Dashboard & Analytics <br>
 
 ### 4.7.1. Class Diagrams
 
-**Bounded Contexts**
-
-- Shared <br><br>
-<img src="assets/img/diagrams/class/shared.png" alt="Class Diagram" width="1000"/> <br>
-
-- Identity & Access Management <br><br>
-<img src="assets/img/diagrams/class/identity_and_access_management.png" alt="Class Diagram" width="1000"/> <br>
-
-- Subscription & Plan Management <br><br>
-<img src="assets/img/diagrams/class/subscription_and_plan_management.png" alt="Class Diagram" width="1000"/> <br>
-
-- Product & Inventory Management <br><br>
-<img src="assets/img/diagrams/class/product_and_inventory_management.png" alt="Class Diagram" width="1000"/> <br>
-
-- Sales & POS Management <br><br>
-<img src="assets/img/diagrams/class/sales_and_pos_management.png" alt="Class Diagram" width="1000"/> <br>
-
-- Alerts & Operational Monitoring <br><br>
-<img src="assets/img/diagrams/class/alerts_and_operational_monitoring.png" alt="Class Diagram" width="1000"/> <br>
-
-- Supplier & Replenishment Management <br><br>
-<img src="assets/img/diagrams/class/supplier_and_replenishment_management.png" alt="Class Diagram" width="1000"/> <br>
-
-- Dashboard & Analytics <br><br>
-<img src="assets/img/diagrams/class/dashboard_and_analytics.png" alt="Class Diagram" width="1000"/> <br>
-
-- Delivery Tracking <br><br>
-<img src="assets/img/diagrams/class/delivery_tracking.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Alerts_and_Supplier.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Identity_and_Product.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Product_and_Alerts.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Product_and_Dashboard.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Sales_and_Dashboard.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/subscription_and_delivery.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/diagrams/class/Supplier_and_Replenishment.png" alt="Class Diagram" width="1000"/> <br>
 
 ## 4.8. Database Design
 <p align="justify">
@@ -2432,7 +2322,7 @@ Dashboard & Analytics <br>
 
 ### 4.8.1. Database Diagrams
 <p align="center">
-  <img src="assets\img\diagrams\qullqa_database_diagram-2026-05-09_23-45.png" width="500" alt="Qullqa Database Diagram"/>
+  <img src="assets\img\diagrams\qullqa_database_diagram_.png" width="500" alt="Qullqa Database Diagram"/>
   <br/><i>Qullqa Database Diagram</i>
 </p>
 
@@ -2631,22 +2521,22 @@ La organización de líderes y colaboradores está directamente relacionada con 
 
 | **User Story Id** | **Título de la Historia** | **Task Id** | **Título de la Tarea** | **Descripción de la Tarea** | **Est. (Hrs)** | **Asignado** | **Status** |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| **QULLQA-13** | Registrarse e iniciar sesión | T-13-1 | Diseño de formularios | Crear la interfaz visual para el registro de nuevos dueños y el acceso seguro. | 6 | Güere Calero, Fernando Julio | Done |
-| | | T-13-2 | Lógica de autenticación | Programar la validación de credenciales y creación de cuentas en la base de datos. | 8 | Huaman Oscco, Aldo Jesus | Done |
-| | | T-13-3 | Pruebas de acceso | Verificar que el usuario pueda entrar y salir de su sesión correctamente. | 3 | Ramos Fuentes Rivera, Adriana Nicole | Done |
-| **QULLQA-15** | Registrar producto | T-15-1 | Formulario de datos | Implementar el formulario para ingresar nombre, precio, stock y categoría del producto. | 6 | Contreras Torres, Arturo Valentino | Done |
-| | | T-15-2 | Guardado en inventario | Configurar el envío de datos para que el producto aparezca en la lista oficial. | 5 | Asmat Alminco, Martin Alejandro | Done |
-| **QULLQA-16** | Actualizar producto y precio | T-16-1 | Función de edición | Habilitar el botón de editar para cargar los datos actuales en el formulario. | 4 | Güere Calero, Fernando Julio | Done |
-| | | T-16-2 | Actualización de costos | Programar el cambio de precios en tiempo real para reflejar datos actuales. | 4 | Huaman Oscco, Aldo Jesus | Done |
-| **QULLQA-17** | Consultar lista de productos y disponibilidad | T-17-1 | Vista de tabla principal | Crear la pantalla donde se listan todos los productos registrados. | 7 | Ramos Fuentes Rivera, Adriana Nicole | Done |
-| | | T-17-2 | Buscador de stock | Implementar una barra de búsqueda para filtrar productos por nombre o código. | 4 | Contreras Torres, Arturo Valentino | Done |
-| **QULLQA-09** | Conocer la propuesta de valor para bodegueros | T-09-1 | Redacción de beneficios | Escribir los textos que explican cómo Qullqa ayuda específicamente a las bodegas. | 3 | Asmat Alminco, Martin Alejandro | Done |
-| | | T-09-2 | Diseño sección Bodegas | Crear el bloque visual en la landing page enfocado en el segmento bodeguero. | 5 | Güere Calero, Fernando Julio | Done |
-| **QULLQA-10** | Conocer la propuesta de valor para farmacias | T-10-1 | Contenido especializado | Redactar la sección sobre control de vencimientos y reposición de medicamentos. | 3 | Huaman Oscco, Aldo Jesus | Done |
-| | | T-10-2 | Diseño sección Farmacias | Implementar los elementos gráficos que representen el valor para el sector farmacéutico. | 5 | Ramos Fuentes Rivera, Adriana Nicole | Done |
-| **QULLQA-12** | Redirigirse desde la Landing Page hacia la aplicación | T-12-1 | Configuración de botones | Crear y enlazar los botones de "Empezar" o "Login" en la página principal. | 2 | Contreras Torres, Arturo Valentino | Done |
-| | | T-12-2 | Flujo de navegación | Asegurar que al hacer clic, el usuario llegue a la pantalla correcta de la app. | 2 | Asmat Alminco, Martin Alejandro | Done |
-| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **67** | | |
+| **QULLQA-13** | Registrarse e iniciar sesión | T-13-1 | Diseño de formularios | Crear la interfaz visual para el registro de nuevos dueños y el acceso seguro. | 6 | Usuario | To-Do |
+| | | T-13-2 | Lógica de autenticación | Programar la validación de credenciales y creación de cuentas en la base de datos. | 8 | Usuario | To-Do |
+| | | T-13-3 | Pruebas de acceso | Verificar que el usuario pueda entrar y salir de su sesión correctamente. | 3 | Usuario | To-Do |
+| **QULLQA-15** | Registrar producto | T-15-1 | Formulario de datos | Implementar el formulario para ingresar nombre, precio, stock y categoría del producto. | 6 | Usuario | To-Do |
+| | | T-15-2 | Guardado en inventario | Configurar el envío de datos para que el producto aparezca en la lista oficial. | 5 | Usuario | To-Do |
+| **QULLQA-16** | Actualizar producto y precio | T-16-1 | Función de edición | Habilitar el botón de editar para cargar los datos actuales en el formulario. | 4 | Usuario | To-Do |
+| | | T-16-2 | Actualización de costos | Programar el cambio de precios en tiempo real para reflejar datos actuales. | 4 | Usuario | To-Do |
+| **QULLQA-17** | Consultar lista de productos y disponibilidad | T-17-1 | Vista de tabla principal | Crear la pantalla donde se listan todos los productos registrados. | 7 | Usuario | To-Do |
+| | | T-17-2 | Buscador de stock | Implementar una barra de búsqueda para filtrar productos por nombre o código. | 4 | Usuario | To-Do |
+| **QULLQA-09** | Conocer la propuesta de valor para bodegueros | T-09-1 | Redacción de beneficios | Escribir los textos que explican cómo Qullqa ayuda específicamente a las bodegas. | 3 | Usuario | To-Do |
+| | | T-09-2 | Diseño sección Bodegas | Crear el bloque visual en la landing page enfocado en el segmento bodeguero. | 5 | Usuario | To-Do |
+| **QULLQA-10** | Conocer la propuesta de valor para farmacias | T-10-1 | Contenido especializado | Redactar la sección sobre control de vencimientos y reposición de medicamentos. | 3 | Usuario | To-Do |
+| | | T-10-2 | Diseño sección Farmacias | Implementar los elementos gráficos que representen el valor para el sector farmacéutico. | 5 | Usuario | To-Do |
+| **QULLQA-12** | Redirigirse desde la Landing Page hacia la aplicación | T-12-1 | Configuración de botones | Crear y enlazar los botones de "Empezar" o "Login" en la página principal. | 2 | Usuario | To-Do |
+| | | T-12-2 | Flujo de navegación | Asegurar que al hacer clic, el usuario llegue a la pantalla correcta de la app. | 2 | Usuario | To-Do |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **77** | | |
 
 ---
 
@@ -2654,238 +2544,26 @@ La organización de líderes y colaboradores está directamente relacionada con 
   <img src="assets/img/artefacts/sprint.png" width="800" alt="Product Backlog"/>
   <br/><i>Artefacto: Jira para Sprint Priorizado</i>
 </p>
-<p align="center">
-  <img src="assets/img/artefacts/Tableo_Kanban.png" width="800" alt="Tablero Kanban"/>
-  <br/><i>Artefacto: Jira para demostrar el tablero Kanban</i>
-</p>
-
 
 ##### Resumen Técnico
-- **Total de Horas:** 67 horas.
+- **Total de Horas:** 77 horas.
 - **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
 - **Entregable Principal:** Aplicación base con Landing Page informativa y módulo funcional de inventario (CRUD de productos).
 
 ---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
-En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing
-Page.
-
-Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó,
-usa y usará para el desarrollo del proyecto:
- 
- | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
-  | :--- | :--- | :--- | :--- | :--- | :---: |
-  | Arturouu | main | 20e25b9 | initial commit | Create repository | 07/04/2026 |
-  | Arturouu | chapter-04 | 20e25b9 | docs(chapter-03): add user stories | Added content in all sections of chapter-04 |25/04/2026 |
-  | Arturouu | chapter-05 | 85d1161 | docs(chapter-05): add chapter 05 index | Added content in all sections of chapter-05 | 25/04/2026 |
-
-<br/>
-A continuación se presentan los commits más importantes para la Landing Page, los cuales muestran todo el contenido visual y funcionalidades
-implementadas en el Sprint 1:
-
-
-| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
-  | :--- | :--- | :--- | :--- | :--- | :---: |
-  | Arturouu | main | 6f68daa | Initial commit | Create repository | 25/04/2026 |
-  | Arturouu | main | 5491a21 | feature(landingPage): update Landing Page - Qullqa | Added files for landing page, like footers, headers, all information about the start-up, subscriptions, forms and other content | 25/04/2026 |
-  | Arturouu | main | d68b19c | fix: rename qullqa.html as index.html | Fixed files for landing page | 06/05/2026 |
-  <br/>
-
-
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.#### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
-En el sprint 1, hemos logrado implementar todas las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, se explorarán nuestros avances a través de imágenes que muestran el resultado obtenido.
-<br/>
-
-1.  Sección header: Aquí mostramos la barra de navegación de nuestro sitio
-web.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Header.png" width="800" alt="Header Landing page"/>
-  <br/><i>Sección Header de la Landing page</i>
-</p>
-<br/>
-
-2. Sección de muestra sobre el monitoreo: Demostramos de manera simple la función de la aplicación incluyendo una demostración del dashboard.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/MainInformation.png" width="800" alt="MainInformation"/>
-  <br/><i>Sección de muestra sobre el monitoreo en la Landing page</i>
-</p>
-<br/>
-
-3. Sección sobre el público objetivo: Se muestra el contenido sobre nuestros dos segmentos objetivos.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/SegmentoObjetivo.png" width="800" alt="Segmento Objetivo"/>
-  <br/><i>Sección sobre el público objetivo</i>
-</p>
-<br/>
-
-4. Sección servicios: Se informa sobre los servicios ofrecidos por el producto.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Servicios.png" width="800" alt="Servicios"/>
-  <br/><i>Sección servicios</i>
-</p>
-<br/>
-
-5. Sección visión: Se muestra información sobre la visión y misión de la start-up.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Vision.png" width="800" alt="Vision"/>
-  <br/><i>Sección visión</i>
-</p>
-<br/>
-
-6. Sección portafolio: Se muestra una recopilación de nuestro trabajo.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Portafolio.png" width="800" alt="Portafolio"/>
-  <br/><i>Sección portafolio</i>
-</p>
-<br/>
-
-7. Sección planes: Se muestra la información de los planes que ofrecemos para los usuarios.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Planes.png" width="800" alt="Planes"/>
-  <br/><i>Sección planes</i>
-</p>
-<br/>
-
-8. Sección formulario de contacto: Se muestra un formulario con la finalidad de poder contactarse con la startup.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Formulario.png" width="800" alt="Formulario"/>
-  <br/><i>Sección formulario</i>
-</p>
-<br/>
-
-9. Sección footer: Parte final del sitio web.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Footer.png" width="800" alt="Footer"/>
-  <br/><i>Sección footer</i>
-</p>
-<br/>
-
-
-Para finalizar, se mostrará una demostración de nuestro avance sobre la landing page dentro de GitHub, para la publicación de la página web:
-<p align="center">
-  <img src="assets/img/artefacts/RepositorioGithub.png" width="800" alt="Repositorio de Github"/>
-  <br/><i>Repositorio de GitHub sobre la landing page</i>
-</p>
-
-Video de explicación sobre esta sección: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
-Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page. Aunque el almacenamiento persistente será parte del próximo Sprint, se ha programado la lógica de captura, validación y respuesta visual en el frontend para los siguientes servicios simulados:
-
-| Endpoint / Interacción | Acción (HTTP) | Parámetros (Input IDs) | Descripción del Response |
-| :--- | :---: | :--- | :--- |
-| `login.html#loginForm` | **POST (Mock)** | `loginEmail`, `loginPass` | **200 OK**: Redirección a Home tras validación de credenciales demo. |
-| `register.html#registerForm` | **POST (Mock)** | `bizName`, `bizType`, `fullName`, `regEmail`, `regPass` | **201 Created**: Mensaje de éxito visual y redirección al flujo de inicio. |
-| `checkout.html#checkoutForm` | **POST (Mock)** | `bizName`, `cardNum`, `cardExp`, `cardCvc` | **200 OK**: Simulación de pasarela de pagos y confirmación de suscripción. |
-| `index.html#contactForm` | **POST (Mock)** | `name`, `email`, `message` | **202 Accepted**: Cambio de estado del botón a "Enviado" y reset del formulario. |
-
-* **URL del Repositorio de Landing Page:** [https://github.com/Flowbit-app/Qullqa-Landing-Page.git](https://github.com/Flowbit-app/Qullqa-Landing-Page)
-
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hosting, aprovechando su infraestructura global para garantizar tiempos de carga óptimos para la Landing Page. Se priorizó la automatización para permitir iteraciones rápidas sobre el diseño y contenido informativo orientado a bodegas y farmacias.
-
-**Actividades de Despliegue Realizadas**
-* Configuración de Vercel Project: Creación y vinculación del proyecto qullqa-landing mediante el dashboard de Vercel, estableciendo la integración continua con el repositorio de GitHub para despliegues automáticos.
-
-* Firebase CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
-
-* Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando firebase deploy automáticamente cada vez que se realiza un merge a la rama main.
-
-**Evidencia Deploy: Landign Page - Responsive**
-<p align="center">
-  <img src="assets/img/DeployLanding.png" width="500" alt="Graph"/>
-  <br/><i>Landing Page Desplegada</i>
-</p>
-
-**Evidencia Deploy: Landign Page Movile - Responsive**
-<p align="center">
-  <img src="assets/img/Landing-Mobile.jpeg" width="300" alt="Graph"/>
-  <br/><i>Landing Page Desplegada</i>
-</p>
-
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-**Dinámica de Implementación**
-Durante este ciclo, el equipo concentró sus esfuerzos en el desarrollo Frontend y la Documentación Técnica. Se utilizó el modelo GitFlow para separar las tareas de diseño visual de las tareas de redacción del informe. La comunicación se mantuvo mediante Discord y WhatsApp para resolver dudas sobre la guía de estilos en tiempo real.
-
-**Analíticos de Colaboración**
-La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
-
-* Desarrollo Frontend: Implementación de componentes responsivos de la Landing Page, secciones de propuesta de valor, internacionalizacion y formularios de captura de datos.
-
-* Documentación y Calidad: Redacción de Historias de Usuario en Jira, diseño de arquitectura C4 y elaboración del informe de Sprint Review conforme a la rúbrica.
-
-* Control de Versiones: Supervisión de la limpieza del historial mediante el uso estratégico de git merge y git rebase para integrar las secciones del documento.
-
-**Evidencia GitFlow: Graph**
-<p align="center">
-  <img src="assets/img/Graph.png" width="200" alt="Graph"/>
-  <br/><i>Grafo de versiones para el gitflow</i>
-</p>
-
-**Evidencia GitFlow: Commits**
-<p align="center">
-  <img src="assets/img/Commits.png" width="500" alt="Commits"/>
-  <br/><i>Grafico estadistico de commits por usuario</i>
-</p>
-
-**Evidencia GitFlow: Network**
-<p align="center">
-  <img src="assets/img/Network.png" width="500" alt="Network"/>
-  <br/><i>Grafo de trabajo</i>
-</p>
-
-
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2
-#### 5.2.2.2. Aspect Leaders and Collaborators
-#### 5.2.2.3. Sprint Backlog 2
-#### 5.2.2.4. Development Evidence for Sprint Review
-#### 5.2.2.5. Execution Evidence for Sprint Review
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 # Conclusiones
 ## Conclusiones y recomendaciones
-### Conclusiones
-
-* Es importante continuar con la validación de Qullqa mediante pruebas piloto en bodegas y farmacias reales, con el fin de obtener retroalimentación constante que permita mejorar la experiencia de usuario y adaptar las funcionalidades a necesidades específicas del mercado.
-
-* A partir de las entrevistas realizadas a los segmentos objetivo, se comprobó que existe una necesidad real de soluciones tecnológicas simples, accesibles y adaptadas al contexto de los microempresarios peruanos ya que los usuarios manifestaron interés en herramientas que reduzcan el tiempo de gestión y mejoren el control operativo de sus negocios.
-
-* La aplicación de metodologías como Lean UX, entrevistas, análisis competitivo y Domain-Driven Design permitió construir una solución más alineada con las necesidades reales de los usuarios, facilitando la definición de funcionalidades prioritarias y una arquitectura escalable.
-
-* El proyecto también permitió fortalecer las competencias técnicas y colaborativas del equipo, especialmente en áreas como desarrollo web, arquitectura de software, modelado de dominio, trabajo en equipo y comunicación efectiva.
-
-### Recomendaciones
-
-* Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
-
-* Resulta necesario fortalecer los módulos financieros y de reportes analíticos para brindar mayor claridad sobre ganancias, flujo de caja y productos más rentables, permitiendo una mejor toma de decisiones.
-
-* Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
-
-* Es conveniente desarrollar estrategias de capacitación y acompañamiento para los usuarios finales, ya que la adopción tecnológica depende no solo de la herramienta, sino también de la confianza y comprensión que los usuarios tengan sobre ella.
 
 ## Video About-the-Team
 
