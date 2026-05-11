@@ -589,11 +589,18 @@ Creemos que implementar herramientas que agilicen el registro de entradas y sali
 
 ## 1.3. Segmentos objetivo
 
-- **Bodegueros independientes** <br>
 Propietarios de bodegas o minimarkets que gestionan su negocio de forma manual o con herramientas básicas. Presentan problemas como descontrol del stock, pérdidas por productos vencidos y falta de claridad sobre sus ganancias mes a mes. Buscan una solución simple y accesible para organizar mejor su negocio
 
+Estos negocios se encuentran en Lima, Perú, donde cuentan con una infraestructura apta para una gestión de productos baja a media. Normalmente, se localizan en mercados o tiendas mayoristad como un supermarket donde con un puesto, venden libremente sus productos sin mucho cobro por uso de la zona donde venden sus productos. Por tanto, este grupo está compuesto por micro y pequeños empresarios que operan con recursos limitados e intentan recortar presupuesto para optimizar la ganancia adquirida. Sin embargo, por otro lado, representan segmento con alto potencial de adopción tecnológica debido a la necesidad creciente de digitalización en pequeños comercios y a la búsqueda de soluciones accesibles y fáciles de implementar. 
+
+
 - **Farmacias independientes** <br>
-Pequeñas farmacias que requieran un control más riguroso del inventario, especialmente en fechas de vencimiento y disponibilidad de medicamentos. Necesitan herramientas más confiables que les permitan reducir riesgos, evitar pérdidas y asegurar un mejor control operativo.
+Pequeñas farmacias que requieran un control más riguroso del inventario, especialmente en fechas de vencimiento y disponibilidad de medicamentos. Necesitan 
+herramientas más confiables que les permitan reducir riesgos, evitar pérdidas y asegurar un mejor control operativo.
+
+Este grupo se encuentra distribuidos a lo largo del departamento de Lima, siendo este departamento donde mayor movimiento de stock en farmacia se mueve en el Perú.Lima Metropolitana concentra cerca del 27% de establecimientos autorizados a vender a nivel nacional. Luego, estos están conformados por pequeños establecimientos farmacéuticos que no cuentan con sistemas empresariales avanzados debido a limitaciones económicas o técnicas. Estos tienen cierto contacto con laboratorios, sin embargo, en su mayoría les son distribuidos por laborotarios relativamente conocidos y que aportan beneificios a ciertas start ups. 
+
+Demográficamente, representan un mercado relevante debido al crecimiento de pequeñas farmacias en sectores urbanos y distritos con alta demanda de atención rápida y cercana. Esto los convierte en usuarios potenciales de una solución tecnológica simple, confiable y escalable.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
