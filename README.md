@@ -3098,7 +3098,7 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/SegmentoObjetivo.png" width="800" alt="Segmento Objetivo"/>
+  <img src="assets/img/evidences/dashboard.png" width="800" alt="Segmento Objetivo"/>
   <br/><i>Seccion visualizacion principal</i>
 </p>
 <br/>
@@ -3107,7 +3107,7 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/Servicios.png" width="800" alt="Servicios"/>
+  <img src="assets/img/evidences/products.png" width="800" alt="Servicios"/>
   <br/><i>Seccion productos</i>
 </p>
 <br/>
@@ -3116,7 +3116,7 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/Vision.png" width="800" alt="Vision"/>
+  <img src="assets/img/evidences/carrito.png" width="800" alt="Vision"/>
   <br/><i>Seccion compras</i>
 </p>
 <br/>
@@ -3125,7 +3125,7 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/Portafolio.png" width="800" alt="Portafolio"/>
+  <img src="assets/img/evidences/customers.png" width="800" alt="Portafolio"/>
   <br/><i>seccion Customers</i>
 </p>
 <br/>
@@ -3134,7 +3134,7 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/Planes.png" width="800" alt="Planes"/>
+  <img src="assets/img/evidences/alertas.png" width="800" alt="Planes"/>
   <br/><i>Pantalla alertas</i>
 </p>
 <br/>
@@ -3143,19 +3143,11 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 <br/>
 <p align="center">
-  <img src="assets/img/artefacts/Formulario.png" width="800" alt="Formulario"/>
+  <img src="assets/img/evidences/i18n.png" width="800" alt="Formulario"/>
   <br/><i>Implementacion de la internacionalizacion</i>
 </p>
 <br/>
 
-9. Sección footer: Parte final del sitio web.
-
-<br/>
-<p align="center">
-  <img src="assets/img/artefacts/Footer.png" width="800" alt="Footer"/>
-  <br/><i>Sección footer</i>
-</p>
-<br/>
 
 
 Para finalizar, se mostrará una demostración de nuestro avance sobre la landing page dentro de GitHub, para la publicación de la página web:
