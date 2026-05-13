@@ -3199,19 +3199,19 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 **Evidencia GitFlow: Graph**
 <p align="center">
-  <img src="assets/img" width="200" alt="Graph"/>
+  <img src="assets/img/evidences/Grapho.png" width="200" alt="Graph"/>
   <br/><i>Grafo de versiones para el gitflow 2.0</i>
 </p>
 
 **Evidencia GitFlow: Commits**
 <p align="center">
-  <img src="assets/img" width="500" alt="Commits"/>
+  <img src="assets/img/evidences/Commits.png" width="500" alt="Commits"/>
   <br/><i>Grafico estadistico de commits por usuario 2.0</i>
 </p>
 
 **Evidencia GitFlow: Network**
 <p align="center">
-  <img src="assets/img" width="500" alt="Network"/>
+  <img src="assets/img/evidences/Network.png" width="500" alt="Network"/>
   <br/><i>Grafo de trabajo 2.0</i>
 </p>
 
