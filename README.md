@@ -1836,79 +1836,781 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
   </tr>
 
   <tr>
-    <td><strong>TS01</strong></td>
-    <td>Enviar alertas operativas mediante API Notificación</td>
-    <td>
-      Como developer, quiero enviar alertas operativas mediante la API Notificación,
-      para informar eventos críticos como bajo stock o productos próximos a vencer.
-    </td>
-    <td>
-      <strong>Escenario 1: Envío exitoso de alerta de bajo stock</strong><br>
-      Dado que existe un producto cuyo stock ha alcanzado el umbral mínimo<br>
-      Cuando el developer envía una solicitud POST a /api/notificaciones/alertas con el tipo LOW_STOCK<br>
-      Entonces la API responde con 201 Created<br>
-      Y registra la alerta correctamente<br>
-      Y devuelve el estado de envío de la notificación.
-      <p></p>
-      <strong>Escenario 2: Envío exitoso de alerta por vencimiento próximo</strong><br>
-      Dado que existe un producto dentro del umbral de vencimiento configurado<br>
-      Cuando el developer envía una solicitud POST a /api/notificaciones/alertas con el tipo EXPIRATION_WARNING<br>
-      Entonces la API responde con 201 Created<br>
-      Y registra la alerta correctamente<br>
-      Y devuelve el detalle de la notificación generada.
-      <p></p>
-      <strong>Escenario 3: Consulta de alertas generadas</strong><br>
-      Dado que existen alertas registradas para el negocio<br>
-      Cuando el developer envía una solicitud GET a /api/notificaciones/alertas/{businessId}<br>
-      Entonces la API responde con 200 OK<br>
-      Y devuelve la lista de alertas activas<br>
-      Y cada alerta incluye tipo, producto relacionado y fecha de generación.
-      <p></p>
-      <strong>Escenario 4: Solicitud inválida de alerta</strong><br>
-      Dado que el developer envía una solicitud sin tipo de alerta o sin identificador de producto<br>
-      Cuando la API valida el request<br>
-      Entonces la API responde con 400 Bad Request<br>
-      Y devuelve el detalle del error de validación.
-    </td>
-    <td>EP08 – Technical Stories RESTful API</td>
-  </tr>
+  <td><strong>US20</strong></td>
+  <td>Gestionar clientes del negocio</td>
+  <td>
+    Como dueño del negocio, quiero registrar y eliminar clientes,
+    para mantener actualizada la cartera de compradores frecuentes y facilitar el seguimiento de ventas.
+  </td>
+  <td>
+    <strong>Escenario 1: Registro exitoso de cliente</strong><br>
+    Dado que el usuario cuenta con permisos de administración<br>
+    Cuando el usuario registra un cliente con datos válidos<br>
+    Entonces el sistema guarda la información del cliente y lo incorpora a la cartera del negocio.
+    <p></p>
+    <strong>Escenario 2: Validación de datos obligatorios al registrar</strong><br>
+    Dado que el usuario intenta registrar un cliente<br>
+    Cuando el registro no incluye datos obligatorios como nombre o número de documento<br>
+    Entonces el sistema rechaza el registro e informa que los datos son incompletos.
+    <p></p>
+    <strong>Escenario 3: Eliminación exitosa de cliente</strong><br>
+    Dado que el cliente existe en la cartera del negocio<br>
+    Cuando el usuario solicita eliminar al cliente<br>
+    Entonces el sistema elimina el registro del cliente del negocio.
+  </td>
+  <td>EP06 – Proveedores, usuarios y colaboración</td>
+</tr>
 
-  <tr>
-    <td><strong>TS02</strong></td>
-    <td>Consultar ubicación de entrega mediante API Geolocalización</td>
-    <td>
-      Como developer, quiero consultar la ubicación de una entrega mediante la API Geolocalización,
-      para mostrar el estado y la posición actual del envío hacia el almacén o bodega.
-    </td>
-    <td>
-      <strong>Escenario 1: Consulta exitosa de ubicación de entrega</strong><br>
-      Dado que existe una entrega asociada a un dispositivo o evento de rastreo válido<br>
-      Cuando el developer envía una solicitud GET a /api/geolocalizacion/entregas/{deliveryId}<br>
-      Entonces la API responde con 200 OK<br>
-      Y devuelve la ubicación más reciente de la entrega<br>
-      Y devuelve el estado actual del envío.
-      <p></p>
-      <strong>Escenario 2: Entrega finalizada</strong><br>
-      Dado que la entrega ya llegó al destino final<br>
-      Cuando el developer consulta /api/geolocalizacion/entregas/{deliveryId}<br>
-      Entonces la API responde con 200 OK<br>
-      Y devuelve el estado COMPLETED<br>
-      Y devuelve la última ubicación registrada como destino final.
-      <p></p>
-      <strong>Escenario 3: Entrega no encontrada</strong><br>
-      Dado que el identificador de entrega no existe en el sistema<br>
-      Cuando el developer envía la solicitud de consulta<br>
-      Entonces la API responde con 404 Not Found<br>
-      Y devuelve un mensaje indicando que la entrega no fue encontrada.
-      <p></p>
-      <strong>Escenario 4: Solicitud sin autenticación válida</strong><br>
-      Dado que el developer intenta consultar una entrega sin token válido<br>
-      Cuando la API valida el acceso<br>
-      Entonces la API responde con 401 Unauthorized<br>
-      Y rechaza la consulta de geolocalización.
-    </td>
-    <td>EP08 – Technical Stories RESTful API</td>
-  </tr>
+<tr>
+  <td><strong>TS01</strong></td>
+  <td>Gestionar usuarios mediante el endpoint /users</td>
+  <td>
+    Como developer, quiero gestionar usuarios a través del endpoint /users,
+    para crear, consultar, actualizar y eliminar cuentas de usuario del sistema.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los usuarios</strong><br>
+    Dado que existen usuarios registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /users<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de todos los usuarios con sus datos principales.
+    <p></p>
+    <strong>Escenario 2: Consulta de usuario por ID</strong><br>
+    Dado que existe un usuario con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /users/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos del usuario correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de usuario</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de usuario<br>
+    Cuando el developer envía una solicitud POST a /users<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el usuario creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de usuario</strong><br>
+    Dado que existe un usuario con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /users/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el usuario con los datos actualizados.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS02</strong></td>
+  <td>Gestionar roles mediante el endpoint /roles</td>
+  <td>
+    Como developer, quiero gestionar roles a través del endpoint /roles,
+    para consultar, crear y eliminar los roles disponibles en el sistema.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los roles</strong><br>
+    Dado que existen roles registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /roles<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de roles disponibles.
+    <p></p>
+    <strong>Escenario 2: Consulta de rol por ID</strong><br>
+    Dado que existe un rol con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /roles/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos del rol correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de rol</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de rol<br>
+    Cuando el developer envía una solicitud POST a /roles<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el rol creado con su identificador asignado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS03</strong></td>
+  <td>Gestionar negocios mediante el endpoint /businesses</td>
+  <td>
+    Como developer, quiero gestionar negocios a través del endpoint /businesses,
+    para consultar y actualizar la información de los establecimientos registrados.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los negocios</strong><br>
+    Dado que existen negocios registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /businesses<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de negocios con sus datos principales.
+    <p></p>
+    <strong>Escenario 2: Consulta de negocio por ID</strong><br>
+    Dado que existe un negocio con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /businesses/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos del negocio correspondiente incluyendo tipo, dirección y plan activo.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS04</strong></td>
+  <td>Gestionar planes mediante el endpoint /plans</td>
+  <td>
+    Como developer, quiero gestionar planes a través del endpoint /plans,
+    para consultar, crear y actualizar los planes de suscripción disponibles.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los planes</strong><br>
+    Dado que existen planes registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /plans<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de planes con nombre, precio y características incluidas.
+    <p></p>
+    <strong>Escenario 2: Consulta de plan por ID</strong><br>
+    Dado que existe un plan con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /plans/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del plan correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de plan</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de plan<br>
+    Cuando el developer envía una solicitud POST a /plans<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el plan creado con su identificador asignado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS05</strong></td>
+  <td>Gestionar almacenes mediante el endpoint /warehouses</td>
+  <td>
+    Como developer, quiero gestionar almacenes a través del endpoint /warehouses,
+    para consultar, crear y actualizar la información de los almacenes del negocio.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los almacenes</strong><br>
+    Dado que existen almacenes registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /warehouses<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de almacenes con código, estado y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de almacén por ID</strong><br>
+    Dado que existe un almacén con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /warehouses/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos del almacén correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de almacén</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de almacén<br>
+    Cuando el developer envía una solicitud POST a /warehouses<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el almacén creado con su identificador asignado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS06</strong></td>
+  <td>Gestionar productos mediante el endpoint /products</td>
+  <td>
+    Como developer, quiero gestionar productos a través del endpoint /products,
+    para crear, consultar, actualizar y eliminar los productos del catálogo del negocio.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los productos</strong><br>
+    Dado que existen productos registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /products<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de productos con nombre, categoría y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de producto por ID</strong><br>
+    Dado que existe un producto con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /products/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del producto correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de producto</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de producto<br>
+    Cuando el developer envía una solicitud POST a /products<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el producto creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de producto</strong><br>
+    Dado que existe un producto con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /products/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el producto con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de producto</strong><br>
+    Dado que existe un producto con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /products/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el producto es removido del catálogo.
+    <p></p>
+    <strong>Escenario 6: Consulta de productos por negocio</strong><br>
+    Dado que existen productos asociados a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /products?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los productos del negocio indicado.
+    <p></p>
+    <strong>Escenario 7: Consulta de productos por categoría</strong><br>
+    Dado que existen productos con una categoría específica registrada<br>
+    Cuando el developer envía una solicitud GET a /products?category={category}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los productos que corresponden a la categoría indicada.
+    <p></p>
+    <strong>Escenario 8: Producto no encontrado</strong><br>
+    Dado que el identificador de producto no existe en el sistema<br>
+    Cuando el developer envía una solicitud GET a /products/{id}<br>
+    Entonces la API responde con 404 Not Found<br>
+    Y devuelve un mensaje indicando que el producto no fue encontrado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS07</strong></td>
+  <td>Gestionar lotes mediante el endpoint /batches</td>
+  <td>
+    Como developer, quiero gestionar lotes de productos a través del endpoint /batches,
+    para registrar, consultar, actualizar y eliminar la información de lotes con fecha de vencimiento.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los lotes</strong><br>
+    Dado que existen lotes registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /batches<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de lotes con fecha de vencimiento, precio de compra y producto asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de lote por ID</strong><br>
+    Dado que existe un lote con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /batches/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del lote correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de lote</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de lote<br>
+    Cuando el developer envía una solicitud POST a /batches<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el lote creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de lote</strong><br>
+    Dado que existe un lote con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /batches/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el lote con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de lote</strong><br>
+    Dado que existe un lote con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /batches/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el lote es removido del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de lotes por producto</strong><br>
+    Dado que existen lotes asociados a un producto específico<br>
+    Cuando el developer envía una solicitud GET a /batches?productId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los lotes del producto indicado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS08</strong></td>
+  <td>Gestionar inventarios mediante el endpoint /inventories</td>
+  <td>
+    Como developer, quiero gestionar inventarios a través del endpoint /inventories,
+    para consultar, crear, actualizar y eliminar registros de stock por almacén y producto.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los inventarios</strong><br>
+    Dado que existen registros de inventario en el sistema<br>
+    Cuando el developer envía una solicitud GET a /inventories<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de inventarios con stock, producto y almacén asociados.
+    <p></p>
+    <strong>Escenario 2: Consulta de inventario por ID</strong><br>
+    Dado que existe un inventario con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /inventories/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos del inventario correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de inventario</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de inventario<br>
+    Cuando el developer envía una solicitud POST a /inventories<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el registro de inventario creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de stock en inventario</strong><br>
+    Dado que existe un inventario con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /inventories/{id} con el nuevo valor de stock<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el inventario con el stock actualizado.
+    <p></p>
+    <strong>Escenario 5: Eliminación de inventario</strong><br>
+    Dado que existe un inventario con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /inventories/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el registro de inventario es removido del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de inventarios por almacén</strong><br>
+    Dado que existen inventarios asociados a un almacén específico<br>
+    Cuando el developer envía una solicitud GET a /inventories?warehouseId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los inventarios del almacén indicado.
+    <p></p>
+    <strong>Escenario 7: Consulta de inventarios por negocio</strong><br>
+    Dado que existen inventarios asociados a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /inventories?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los inventarios del negocio indicado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS09</strong></td>
+  <td>Gestionar ventas mediante el endpoint /sales</td>
+  <td>
+    Como developer, quiero gestionar ventas a través del endpoint /sales,
+    para registrar, consultar, actualizar y eliminar las transacciones de venta del negocio.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todas las ventas</strong><br>
+    Dado que existen ventas registradas en el sistema<br>
+    Cuando el developer envía una solicitud GET a /sales<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de ventas con fecha, estado y método de pago.
+    <p></p>
+    <strong>Escenario 2: Consulta de venta por ID</strong><br>
+    Dado que existe una venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /sales/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos de la venta correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de venta</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de venta<br>
+    Cuando el developer envía una solicitud POST a /sales<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve la venta creada con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de venta</strong><br>
+    Dado que existe una venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /sales/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la venta con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de venta</strong><br>
+    Dado que existe una venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /sales/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y la venta es removida del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de ventas por negocio</strong><br>
+    Dado que existen ventas asociadas a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /sales?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las ventas del negocio indicado.
+    <p></p>
+    <strong>Escenario 7: Consulta de ventas por estado</strong><br>
+    Dado que existen ventas con un estado específico (PAID, OPEN, CANCELLED)<br>
+    Cuando el developer envía una solicitud GET a /sales?status={status}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las ventas que corresponden al estado indicado.
+    <p></p>
+    <strong>Escenario 8: Consulta de ventas por cliente</strong><br>
+    Dado que existen ventas asociadas a un cliente específico<br>
+    Cuando el developer envía una solicitud GET a /sales?customerId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las ventas del cliente indicado.
+    <p></p>
+    <strong>Escenario 9: Consulta de ventas por método de pago</strong><br>
+    Dado que existen ventas registradas con un método de pago específico<br>
+    Cuando el developer envía una solicitud GET a /sales?paymentMethod={method}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las ventas realizadas con el método de pago indicado.
+    <p></p>
+    <strong>Escenario 10: Venta no encontrada</strong><br>
+    Dado que el identificador de venta no existe en el sistema<br>
+    Cuando el developer envía una solicitud GET a /sales/{id}<br>
+    Entonces la API responde con 404 Not Found<br>
+    Y devuelve un mensaje indicando que la venta no fue encontrada.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS10</strong></td>
+  <td>Gestionar detalles de venta mediante el endpoint /saleDetails</td>
+  <td>
+    Como developer, quiero gestionar los detalles de ventas a través del endpoint /saleDetails,
+    para registrar, consultar, actualizar y eliminar las líneas de producto asociadas a cada venta.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los detalles de venta</strong><br>
+    Dado que existen detalles de venta registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /saleDetails<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de detalles con cantidad, precio unitario, descuento y venta asociada.
+    <p></p>
+    <strong>Escenario 2: Consulta de detalle de venta por ID</strong><br>
+    Dado que existe un detalle de venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /saleDetails/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del detalle correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de detalle de venta</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de detalle<br>
+    Cuando el developer envía una solicitud POST a /saleDetails<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el detalle creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de detalle de venta</strong><br>
+    Dado que existe un detalle de venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /saleDetails/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el detalle con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de detalle de venta</strong><br>
+    Dado que existe un detalle de venta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /saleDetails/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el detalle es removido del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de detalles por venta</strong><br>
+    Dado que existen detalles asociados a una venta específica<br>
+    Cuando el developer envía una solicitud GET a /saleDetails?saleId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los detalles de la venta indicada.
+    <p></p>
+    <strong>Escenario 7: Consulta de detalles por producto</strong><br>
+    Dado que existen detalles asociados a un producto específico<br>
+    Cuando el developer envía una solicitud GET a /saleDetails?productId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los detalles que involucran el producto indicado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS11</strong></td>
+  <td>Gestionar clientes mediante el endpoint /customers</td>
+  <td>
+    Como developer, quiero gestionar clientes a través del endpoint /customers,
+    para registrar, consultar, actualizar y eliminar la información de clientes del negocio.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los clientes</strong><br>
+    Dado que existen clientes registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /customers<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de clientes con nombre, documento y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de cliente por ID</strong><br>
+    Dado que existe un cliente con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /customers/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del cliente correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de cliente</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de cliente<br>
+    Cuando el developer envía una solicitud POST a /customers<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el cliente creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de cliente</strong><br>
+    Dado que existe un cliente con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /customers/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el cliente con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de cliente</strong><br>
+    Dado que existe un cliente con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /customers/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el cliente es removido del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de clientes por negocio</strong><br>
+    Dado que existen clientes asociados a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /customers?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los clientes del negocio indicado.
+    <p></p>
+    <strong>Escenario 7: Cliente no encontrado</strong><br>
+    Dado que el identificador de cliente no existe en el sistema<br>
+    Cuando el developer envía una solicitud GET a /customers/{id}<br>
+    Entonces la API responde con 404 Not Found<br>
+    Y devuelve un mensaje indicando que el cliente no fue encontrado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS12</strong></td>
+  <td>Gestionar proveedores mediante el endpoint /suppliers</td>
+  <td>
+    Como developer, quiero gestionar proveedores a través del endpoint /suppliers,
+    para registrar, consultar, actualizar y eliminar la información de proveedores del negocio.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los proveedores</strong><br>
+    Dado que existen proveedores registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /suppliers<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de proveedores con nombre, RUC, estado y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de proveedor por ID</strong><br>
+    Dado que existe un proveedor con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /suppliers/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del proveedor correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de proveedor</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de proveedor<br>
+    Cuando el developer envía una solicitud POST a /suppliers<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el proveedor creado con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de proveedor</strong><br>
+    Dado que existe un proveedor con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /suppliers/{id} con datos válidos<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el proveedor con los datos actualizados.
+    <p></p>
+    <strong>Escenario 5: Eliminación de proveedor</strong><br>
+    Dado que existe un proveedor con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /suppliers/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el proveedor es removido del sistema.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS13</strong></td>
+  <td>Gestionar órdenes de compra mediante el endpoint /purchases</td>
+  <td>
+    Como developer, quiero gestionar órdenes de compra a través del endpoint /purchases,
+    para registrar, consultar, actualizar y eliminar las órdenes de reposición de inventario.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todas las órdenes de compra</strong><br>
+    Dado que existen órdenes de compra registradas en el sistema<br>
+    Cuando el developer envía una solicitud GET a /purchases<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de órdenes con fecha, estado, proveedor y negocio asociados.
+    <p></p>
+    <strong>Escenario 2: Consulta de orden de compra por ID</strong><br>
+    Dado que existe una orden de compra con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /purchases/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos de la orden correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de orden de compra</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de orden de compra<br>
+    Cuando el developer envía una solicitud POST a /purchases<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve la orden creada con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de estado de orden de compra</strong><br>
+    Dado que existe una orden de compra con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /purchases/{id} con el nuevo estado<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la orden con el estado actualizado.
+    <p></p>
+    <strong>Escenario 5: Consulta de órdenes por negocio</strong><br>
+    Dado que existen órdenes de compra asociadas a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /purchases?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las órdenes del negocio indicado.
+    <p></p>
+    <strong>Escenario 6: Consulta de órdenes por proveedor</strong><br>
+    Dado que existen órdenes de compra asociadas a un proveedor específico<br>
+    Cuando el developer envía una solicitud GET a /purchases?supplierId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las órdenes del proveedor indicado.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS14</strong></td>
+  <td>Gestionar detalles de compra mediante el endpoint /purchaseDetails</td>
+  <td>
+    Como developer, quiero gestionar los detalles de órdenes de compra a través del endpoint /purchaseDetails,
+    para registrar, consultar, actualizar y eliminar las líneas de producto de cada orden.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todos los detalles de compra</strong><br>
+    Dado que existen detalles de compra registrados en el sistema<br>
+    Cuando el developer envía una solicitud GET a /purchaseDetails<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de detalles con cantidad, precio, estado de entrega y número de tracking.
+    <p></p>
+    <strong>Escenario 2: Consulta de detalle de compra por ID</strong><br>
+    Dado que existe un detalle de compra con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /purchaseDetails/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos del detalle correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de detalle de compra</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de detalle<br>
+    Cuando el developer envía una solicitud POST a /purchaseDetails<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve el detalle creado con su identificador y número de tracking asignados.
+    <p></p>
+    <strong>Escenario 4: Actualización de estado de entrega</strong><br>
+    Dado que existe un detalle de compra con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /purchaseDetails/{id} con el nuevo estado de entrega<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el detalle con el estado de entrega actualizado.
+    <p></p>
+    <strong>Escenario 5: Eliminación de detalle de compra</strong><br>
+    Dado que existe un detalle de compra con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /purchaseDetails/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y el detalle es removido del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de detalles por orden de compra</strong><br>
+    Dado que existen detalles asociados a una orden de compra específica<br>
+    Cuando el developer envía una solicitud GET a /purchaseDetails?purchaseId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los detalles de la orden indicada.
+    <p></p>
+    <strong>Escenario 7: Consulta de detalles por estado de entrega</strong><br>
+    Dado que existen detalles de compra con un estado de entrega específico<br>
+    Cuando el developer envía una solicitud GET a /purchaseDetails?deliveryStatus={status}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente los detalles con el estado de entrega indicado.
+    <p></p>
+    <strong>Escenario 8: Consulta de detalle por número de tracking</strong><br>
+    Dado que existe un detalle de compra con el número de tracking proporcionado<br>
+    Cuando el developer envía una solicitud GET a /purchaseDetails?deliveryTrackingNum={trackingNum}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve el detalle de compra correspondiente a ese número de seguimiento.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS15</strong></td>
+  <td>Gestionar alertas mediante el endpoint /alerts</td>
+  <td>
+    Como developer, quiero gestionar alertas operativas a través del endpoint /alerts,
+    para consultar, crear, actualizar y eliminar alertas de bajo stock y vencimiento próximo.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todas las alertas</strong><br>
+    Dado que existen alertas registradas en el sistema<br>
+    Cuando el developer envía una solicitud GET a /alerts<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de alertas con tipo, severidad, estado y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de alerta por ID</strong><br>
+    Dado que existe una alerta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /alerts/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos de la alerta correspondiente.
+    <p></p>
+    <strong>Escenario 3: Creación de alerta</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con tipo, severidad y producto válidos<br>
+    Cuando el developer envía una solicitud POST a /alerts<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve la alerta creada con su identificador asignado.
+    <p></p>
+    <strong>Escenario 4: Actualización de estado de alerta</strong><br>
+    Dado que existe una alerta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /alerts/{id} con el nuevo estado<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la alerta con el estado actualizado.
+    <p></p>
+    <strong>Escenario 5: Eliminación de alerta</strong><br>
+    Dado que existe una alerta con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud DELETE a /alerts/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y la alerta es removida del sistema.
+    <p></p>
+    <strong>Escenario 6: Consulta de alertas por negocio</strong><br>
+    Dado que existen alertas asociadas a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /alerts?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las alertas del negocio indicado.
+    <p></p>
+    <strong>Escenario 7: Consulta de alertas por tipo</strong><br>
+    Dado que existen alertas con un tipo específico (LOW_STOCK o EXPIRATION)<br>
+    Cuando el developer envía una solicitud GET a /alerts?type={type}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las alertas del tipo indicado.
+    <p></p>
+    <strong>Escenario 8: Consulta de alertas activas</strong><br>
+    Dado que existen alertas con estado ACTIVE en el sistema<br>
+    Cuando el developer envía una solicitud GET a /alerts?status=ACTIVE<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las alertas que se encuentran activas.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS16</strong></td>
+  <td>Gestionar métricas mediante el endpoint /metrics</td>
+  <td>
+    Como developer, quiero gestionar métricas del negocio a través del endpoint /metrics,
+    para consultar los indicadores operativos y de ventas de cada establecimiento.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todas las métricas</strong><br>
+    Dado que existen registros de métricas en el sistema<br>
+    Cuando el developer envía una solicitud GET a /metrics<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de métricas con total de productos, ventas, valor de inventario y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de métricas por negocio</strong><br>
+    Dado que existen métricas asociadas a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /metrics?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las métricas del negocio indicado con la fecha de generación más reciente.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
+
+<tr>
+  <td><strong>TS17</strong></td>
+  <td>Gestionar entregas mediante el endpoint /deliveries</td>
+  <td>
+    Como developer, quiero gestionar entregas a través del endpoint /deliveries,
+    para registrar, consultar, actualizar y eliminar el estado y ubicación de los envíos en tránsito.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta de todas las entregas</strong><br>
+    Dado que existen entregas registradas en el sistema<br>
+    Cuando el developer envía una solicitud GET a /deliveries<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la lista de entregas con número de tracking, estado, coordenadas y negocio asociado.
+    <p></p>
+    <strong>Escenario 2: Consulta de entrega por ID</strong><br>
+    Dado que existe una entrega con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud GET a /deliveries/{id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve los datos completos de la entrega incluyendo su última ubicación registrada.
+    <p></p>
+    <strong>Escenario 3: Creación de entrega</strong><br>
+    Dado que el developer envía un cuerpo de solicitud con datos válidos de entrega<br>
+    Cuando el developer envía una solicitud POST a /deliveries<br>
+    Entonces la API responde con 201 Created<br>
+    Y devuelve la entrega creada con su identificador y número de tracking asignados.
+    <p></p>
+    <strong>Escenario 4: Actualización de estado y ubicación de entrega</strong><br>
+    Dado que existe una entrega con el identificador proporcionado<br>
+    Cuando el developer envía una solicitud PUT a /deliveries/{id} con el nuevo estado y coordenadas<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve la entrega con el estado y ubicación actualizados.
+    <p></p>
+    <strong>Escenario 5: Consulta de entregas por negocio</strong><br>
+    Dado que existen entregas asociadas a un negocio específico<br>
+    Cuando el developer envía una solicitud GET a /deliveries?businessId={id}<br>
+    Entonces la API responde con 200 OK<br>
+    Y devuelve únicamente las entregas del negocio indicado con su estado actual.
+  </td>
+  <td>EP08 – Technical Stories RESTful API</td>
+</tr>
 </table>
 
 ## 3.2. Impact Mapping
