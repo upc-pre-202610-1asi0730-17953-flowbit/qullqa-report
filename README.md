@@ -1859,10 +1859,85 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
     Entonces el sistema elimina el registro del cliente del negocio.
   </td>
   <td>EP06 – Proveedores, usuarios y colaboración</td>
-</tr>
+  </tr>
+
+  <tr>
+    <td><strong>TS01</strong></td>
+    <td>Enviar alertas operativas mediante API Notificación</td>
+    <td>
+      Como developer, quiero enviar alertas operativas mediante la API Notificación,
+      para informar eventos críticos como bajo stock o productos próximos a vencer.
+    </td>
+    <td>
+      <strong>Escenario 1: Envío exitoso de alerta de bajo stock</strong><br>
+      Dado que existe un producto cuyo stock ha alcanzado el umbral mínimo<br>
+      Cuando el developer envía una solicitud POST a /api/notificaciones/alertas con el tipo LOW_STOCK<br>
+      Entonces la API responde con 201 Created<br>
+      Y registra la alerta correctamente<br>
+      Y devuelve el estado de envío de la notificación.
+      <p></p>
+      <strong>Escenario 2: Envío exitoso de alerta por vencimiento próximo</strong><br>
+      Dado que existe un producto dentro del umbral de vencimiento configurado<br>
+      Cuando el developer envía una solicitud POST a /api/notificaciones/alertas con el tipo EXPIRATION_WARNING<br>
+      Entonces la API responde con 201 Created<br>
+      Y registra la alerta correctamente<br>
+      Y devuelve el detalle de la notificación generada.
+      <p></p>
+      <strong>Escenario 3: Consulta de alertas generadas</strong><br>
+      Dado que existen alertas registradas para el negocio<br>
+      Cuando el developer envía una solicitud GET a /api/notificaciones/alertas/{businessId}<br>
+      Entonces la API responde con 200 OK<br>
+      Y devuelve la lista de alertas activas<br>
+      Y cada alerta incluye tipo, producto relacionado y fecha de generación.
+      <p></p>
+      <strong>Escenario 4: Solicitud inválida de alerta</strong><br>
+      Dado que el developer envía una solicitud sin tipo de alerta o sin identificador de producto<br>
+      Cuando la API valida el request<br>
+      Entonces la API responde con 400 Bad Request<br>
+      Y devuelve el detalle del error de validación.
+    </td>
+    <td>EP08 – Technical Stories RESTful API</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS02</strong></td>
+    <td>Consultar ubicación de entrega mediante API Geolocalización</td>
+    <td>
+      Como developer, quiero consultar la ubicación de una entrega mediante la API Geolocalización,
+      para mostrar el estado y la posición actual del envío hacia el almacén o bodega.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta exitosa de ubicación de entrega</strong><br>
+      Dado que existe una entrega asociada a un dispositivo o evento de rastreo válido<br>
+      Cuando el developer envía una solicitud GET a /api/geolocalizacion/entregas/{deliveryId}<br>
+      Entonces la API responde con 200 OK<br>
+      Y devuelve la ubicación más reciente de la entrega<br>
+      Y devuelve el estado actual del envío.
+      <p></p>
+      <strong>Escenario 2: Entrega finalizada</strong><br>
+      Dado que la entrega ya llegó al destino final<br>
+      Cuando el developer consulta /api/geolocalizacion/entregas/{deliveryId}<br>
+      Entonces la API responde con 200 OK<br>
+      Y devuelve el estado COMPLETED<br>
+      Y devuelve la última ubicación registrada como destino final.
+      <p></p>
+      <strong>Escenario 3: Entrega no encontrada</strong><br>
+      Dado que el identificador de entrega no existe en el sistema<br>
+      Cuando el developer envía la solicitud de consulta<br>
+      Entonces la API responde con 404 Not Found<br>
+      Y devuelve un mensaje indicando que la entrega no fue encontrada.
+      <p></p>
+      <strong>Escenario 4: Solicitud sin autenticación válida</strong><br>
+      Dado que el developer intenta consultar una entrega sin token válido<br>
+      Cuando la API valida el acceso<br>
+      Entonces la API responde con 401 Unauthorized<br>
+      Y rechaza la consulta de geolocalización.
+    </td>
+    <td>EP08 – Technical Stories RESTful API</td>
+  </tr>
 
 <tr>
-  <td><strong>TS01</strong></td>
+  <td><strong>TS03</strong></td>
   <td>Gestionar usuarios mediante el endpoint /users</td>
   <td>
     Como developer, quiero gestionar usuarios a través del endpoint /users,
@@ -1897,7 +1972,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS02</strong></td>
+  <td><strong>TS04</strong></td>
   <td>Gestionar roles mediante el endpoint /roles</td>
   <td>
     Como developer, quiero gestionar roles a través del endpoint /roles,
@@ -1926,7 +2001,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS03</strong></td>
+  <td><strong>TS05</strong></td>
   <td>Gestionar negocios mediante el endpoint /businesses</td>
   <td>
     Como developer, quiero gestionar negocios a través del endpoint /businesses,
@@ -1949,7 +2024,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS04</strong></td>
+  <td><strong>TS06</strong></td>
   <td>Gestionar planes mediante el endpoint /plans</td>
   <td>
     Como developer, quiero gestionar planes a través del endpoint /plans,
@@ -1978,7 +2053,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS05</strong></td>
+  <td><strong>TS07</strong></td>
   <td>Gestionar almacenes mediante el endpoint /warehouses</td>
   <td>
     Como developer, quiero gestionar almacenes a través del endpoint /warehouses,
@@ -2007,7 +2082,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS06</strong></td>
+  <td><strong>TS08</strong></td>
   <td>Gestionar productos mediante el endpoint /products</td>
   <td>
     Como developer, quiero gestionar productos a través del endpoint /products,
@@ -2066,7 +2141,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS07</strong></td>
+  <td><strong>TS09</strong></td>
   <td>Gestionar lotes mediante el endpoint /batches</td>
   <td>
     Como developer, quiero gestionar lotes de productos a través del endpoint /batches,
@@ -2113,7 +2188,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS08</strong></td>
+  <td><strong>TS10</strong></td>
   <td>Gestionar inventarios mediante el endpoint /inventories</td>
   <td>
     Como developer, quiero gestionar inventarios a través del endpoint /inventories,
@@ -2166,7 +2241,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS09</strong></td>
+  <td><strong>TS11</strong></td>
   <td>Gestionar ventas mediante el endpoint /sales</td>
   <td>
     Como developer, quiero gestionar ventas a través del endpoint /sales,
@@ -2237,7 +2312,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS10</strong></td>
+  <td><strong>TS12</strong></td>
   <td>Gestionar detalles de venta mediante el endpoint /saleDetails</td>
   <td>
     Como developer, quiero gestionar los detalles de ventas a través del endpoint /saleDetails,
@@ -2290,7 +2365,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS11</strong></td>
+  <td><strong>TS13</strong></td>
   <td>Gestionar clientes mediante el endpoint /customers</td>
   <td>
     Como developer, quiero gestionar clientes a través del endpoint /customers,
@@ -2343,7 +2418,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS12</strong></td>
+  <td><strong>TS14</strong></td>
   <td>Gestionar proveedores mediante el endpoint /suppliers</td>
   <td>
     Como developer, quiero gestionar proveedores a través del endpoint /suppliers,
@@ -2384,7 +2459,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS13</strong></td>
+  <td><strong>TS15</strong></td>
   <td>Gestionar órdenes de compra mediante el endpoint /purchases</td>
   <td>
     Como developer, quiero gestionar órdenes de compra a través del endpoint /purchases,
@@ -2431,7 +2506,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS14</strong></td>
+  <td><strong>TS16</strong></td>
   <td>Gestionar detalles de compra mediante el endpoint /purchaseDetails</td>
   <td>
     Como developer, quiero gestionar los detalles de órdenes de compra a través del endpoint /purchaseDetails,
@@ -2490,7 +2565,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS15</strong></td>
+  <td><strong>TS17</strong></td>
   <td>Gestionar alertas mediante el endpoint /alerts</td>
   <td>
     Como developer, quiero gestionar alertas operativas a través del endpoint /alerts,
@@ -2549,7 +2624,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS16</strong></td>
+  <td><strong>TS18</strong></td>
   <td>Gestionar métricas mediante el endpoint /metrics</td>
   <td>
     Como developer, quiero gestionar métricas del negocio a través del endpoint /metrics,
@@ -2572,7 +2647,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
 </tr>
 
 <tr>
-  <td><strong>TS17</strong></td>
+  <td><strong>TS19</strong></td>
   <td>Gestionar entregas mediante el endpoint /deliveries</td>
   <td>
     Como developer, quiero gestionar entregas a través del endpoint /deliveries,
@@ -2611,6 +2686,7 @@ Las historias consideradas abarcan tanto la Landing Page, orientada a visitantes
   </td>
   <td>EP08 – Technical Stories RESTful API</td>
 </tr>
+  
 </table>
 
 ## 3.2. Impact Mapping
@@ -3494,7 +3570,7 @@ El Sprint Planning Meeting marcó el inicio formal del desarrollo del código de
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **SmartLock**.
+* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **QULLQA**.
 
 La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante el Sprint.
 
@@ -3544,10 +3620,13 @@ La organización de líderes y colaboradores está directamente relacionada con 
   <br/><i>Artefacto: Jira para Sprint Priorizado</i>
 </p>
 <p align="center">
-  <img src="assets/img/artefacts/Tableo_Kanban.png" width="800" alt="Tablero Kanban"/>
-  <br/><i>Artefacto: Jira para demostrar el tablero Kanban</i>
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
 </p>
-
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
+</p>
 
 ##### Resumen Técnico
 - **Total de Horas:** 67 horas.
@@ -3695,9 +3774,9 @@ El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hostin
 **Actividades de Despliegue Realizadas**
 * Configuración de Vercel Project: Creación y vinculación del proyecto qullqa-landing mediante el dashboard de Vercel, estableciendo la integración continua con el repositorio de GitHub para despliegues automáticos.
 
-* Firebase CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
+* Vercel CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
 
-* Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando firebase deploy automáticamente cada vez que se realiza un merge a la rama main.
+* Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando Vercel deploy automáticamente cada vez que se realiza un merge a la rama main.
 
 **Evidencia Deploy: Landign Page - Responsive**
 <p align="center">
@@ -3748,15 +3827,270 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 
 ### 5.2.2. Sprint 2
+Durante el segundo ciclo de desarrollo, se consolidaron los pilares operativos de QULLQA, integrando un esfuerzo colaborativo bajo metodologías ágiles para entregar un Producto Mínimo Viable (MVP). En este Sprint, el equipo priorizó el desarrollo del core del negocio mediante la implementación de la aplicación web y el despliegue estratégico en Vercel, estableciendo una comunicación funcional con la landing page. Cada fase, desde la planificación en Jira hasta el despliegue final, fue documentada detalladamente para validar la integridad del sistema y asegurar que la propuesta de valor llegue eficazmente a bodegas y farmacias.
 
 #### 5.2.2.1. Sprint Planning 2
+El Sprint Planning Meeting inicio la transición hacia la fase de maduración técnica de QULLQA. En esta sesión, el equipo de desarrollo y el Product Owner seleccionaron las Historias de Usuario del Product Backlog enfocadas en envio de alertas y y recepcion de alertas para el administrador o encargado. El objetivo central de este ciclo es transformar los datos operativos en información accionable, asegurando una experiencia de usuario fluida y una arquitectura escalable.
+A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-05-10 |
+| **Time** | 11:00 AM |
+| **Location** | Cubiculo - Pabellon L |
+| **Prepared By** | Arturo Valentino Contreras Torres  |
+| **Attendees (to planning meeting)** | Asmat Alminco, Martin Alejandro / Contreras Torres, Arturo Valentino / Güere Calero, Fernando Julio / Huaman Oscco, Aldo Jesus / Ramos Fuentes Rivera, Adriana Nicole |
+| **Sprint 1 Review Summary** | Se completó con éxito la fase de ideación y diseño técnico. Se cuenta con la arquitectura C4, la estructura de la base de datos y el despliegue inicial en Vercel. El Product Owner validó la estructura de los repositorios y hizo comentarios con relacion a la mejora del trabajo coperativo en relacion al gitflow, brindando una guia escrita de como realizar el paso a paso para desarrollarlo. |
+| **Sprint 1 Retrospective Summary** | El equipo destacó la eficiencia de las herramientas colaborativas (Jira/GitHub). Como compromiso de mejora, se acordó aplicar reglas estrictas de GitFlow y el uso de Conventional Commits para evitar colisiones en las ramas de desarrollo durante la codificación activa. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Contexto:** Tras finalizar la fase de ideación, el equipo de QULLQA se enfoca en este segundo ciclo en refinar la identidad digital y materializar la infraestructura técnica. El esfuerzo es dual: por un lado, se optimiza la Landing Page y los diagramas de arquitectura del Sprint 1 para asegurar que la propuesta de valor para bodegas (stock) y farmacias (vencimientos) sea impecable; por otro lado, se inicializa la Web Application, implementando el sistema de gestión de identidad (Auth) y la base del módulo de inventario, transformando los mock-ups en un entorno funcional y seguro. <br><br> **Sprint Goal:**<br>“Our focus is on building a reliable digital presence and enabling a secure entry point to the platform by improving the landing page, refining the architecture diagrams, and launching the web application. The success of this sprint will be measured by the deployment of 100% of the committed user stories (registration, login, and initial inventory) to Vercel, achieving 90% validation of the acceptance criteria, and maintaining a zero (0) critical vulnerabilities report in the development environment. This will allow users like Carlos or Carmen to authenticate and interact with their product catalog for the first time without errors.”|
+| **Sprint 2 Velocity** | 15 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar codigo en relacion a los bounded context principales del sistema). |
+| **Sum of Story Points** | 15 Story Points. |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+Se presenta la Leadership-and-Collaboration Matrix (LACX), herramienta diseñada para estructurar la gestión de responsabilidades del equipo QULLQA. En esta matriz, se definen los roles de liderazgo (L) y colaboración (C), optimizando la comunicación interna y asegurando el cumplimiento de los objetivos estratégicos de este Sprint.
+
+La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante el Sprint.
+
+| Team Member | GitHub Username | Arquitectura & Documentación (L/C) | Desarrollo Backend & API (L/C) | Base de Datos & Persistencia (L/C) | Frontend & UI/UX (L/C) | QA, Testing & DevOps (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | C | L | C |
+| Contreras Torres, Arturo Valentino | Arturouu  | L | C | C | C | C |
+| Güere Calero, Fernando Julio | FerG17 | C | L | C | C | C |
+| Huaman Oscco, Aldo Jesus | Jesusho22 | C | C | C | C | L |
+| Ramos Fuentes Rivera, Adriana Nicole | Adriana832 | C | C | L | C | C |
+---
+
+> **Leyenda:**  </br>
+> **L:** Lider (Líder del aspecto)  
+> **C:** Colaborador (Colaborador y desarrollo)
+
 #### 5.2.2.3. Sprint Backlog 2
+
+**Periodo:** 4 de mayo – 6 de julio  
+**Objetivo del Sprint:** Tener la web aplicattion desplegada con acceso directo desde la landing page, asegurar la comunicacion y contar con usuarios reales accediendo y mostrando interes en nuestro sistema, estableciendo la base visual y funcional de QULLQA.
+
+---
+| User Story Id | Título de la Historia | Task Id | Título de la Tarea | Descripción de la Tarea | Est. (Hrs) | Asignado | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| US-10 | Controlar stock por almacén | T-10-1 | Modelado multi-almacén | Adaptar la base de datos para soportar múltiples ubicaciones por producto. | 7 | Fernando | Done |
+| US-10 | Controlar stock por almacén | T-10-2 | Selector de ubicación | Implementar en el Frontend el selector de almacén para entrada/salida de stock. | 5 | Fernando | Done |
+| US-10 | Controlar stock por almacén | T-10-3 | Reporte de distribución | Crear la vista de consulta que muestre cuánto stock hay en cada almacén. | 6 | Fernando | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-1 | Configuración de umbrales | Crear interfaz para definir el 'stock mínimo' por cada producto. | 4 | Arturo | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-2 | Motor de verificación | Programar el trigger que compare el stock actual vs el mínimo en cada movimiento. | 6 | Arturo | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-3 | Interfaz de notificaciones | Diseñar el panel de notificaciones dentro de la app para mostrar las alertas. | 4 | Arturo | Done |
+| US-12 | Recibir alertas de vencimiento | T-12-1 | Lógica de fechas | Implementar algoritmo que calcule días restantes para el vencimiento de lotes. | 6 | Fernando | Done |
+| US-12 | Recibir alertas de vencimiento | T-12-2 | Reporte de mermas | Generar una lista de productos próximos a vencer para acciones preventivas. | 4 | Fernando | Done |
+| US-15 | Visualizar dashboard | T-15-1 | Integración de KPIs | Desarrollar los endpoints que calculen ventas totales, stock crítico y alertas. | 8 | Martin | Done |
+| US-15 | Visualizar dashboard | T-15-2 | Gráficos estadísticos | Implementar librerías visuales (Charts) para mostrar tendencias de inventario. | 7 | Martin | Done |
+| US-15 | Visualizar dashboard | T-15-3 | Filtros de tiempo | Añadir selectores para visualizar el dashboard por día, semana o mes. | 4 | Martin | Done |
+| US-18 | Gestionar roles y usuarios | T-18-1 | CRUD de usuarios | Crear la funcionalidad para invitar, editar y eliminar miembros del staff. | 6 | Aldo | Done |
+| US-18 | Gestionar roles y usuarios | T-18-2 | Control de permisos | Implementar el Middleware de roles (Admin vs Ventas) para restringir vistas. | 7 | Aldo | Done |
+| TS-01 | Enviar alertas mediante API | T-01-1 | Configuración del Servicio | Configurar el proveedor de mensajería/notificación y los Webhooks. | 6 | Adriana | Done |
+| TS-01 | Enviar alertas mediante API | T-01-2 | Formateo de mensajes | Programar las plantillas de mensaje para 'Bajo Stock' y 'Vencimiento'. | 4 | Adriana | Done |
+| TS-01 | Enviar alertas mediante API | T-01-3 | Pruebas de envío | Realizar tests de integración para asegurar que la API envíe la alerta al dispararse el evento. | 5 | Adriana | Done |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **89** | | |
+
+---
+
+<p align="center">
+  <img src="assets/img/artefacts/sprint_2.png" width="800" alt="Product Backlog"/>
+  <br/><i>Artefacto: Jira para Sprint 2 Priorizado</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban en curso</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban finalizado</i>
+</p>
+
+##### Resumen Técnico
+- **Total de Horas:** 67 horas.
+- **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
+- **Entregable Principal:** Despliegue de la web application y mejoras en la landing page, aplicando el módulo funcional de inventario (CRUD de productos).
+
+---
+
 #### 5.2.2.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application
+Page.
+
+Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó,
+usa y usará para el desarrollo del proyecto:
+ 
+ | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | develop | 98499a0 | Merge pull Flowbit-app/feature/update-class-diagrams | Feature/update class diagrams | 10/05/2026 |
+  | Adriana832 | main | 01287d4 | docs(database-diagram) | Aupdate database diagram | 10/05/2026 |
+  | Arturouu | chapter-04 | 538d942 | docs(chapter-04) | update class diagrams photos | 10/05/2026 |
+
+<br/>
+A continuación se presentan los commits más importantes para la Landing Page, los cuales muestran todo el contenido visual y funcionalidades
+implementadas en el Sprint 1:
+
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 6f68daa | Initial commit | Create repository | 25/04/2026 |
+  | Arturouu | main | 5491a21 | feature(landingPage): update Landing Page - Qullqa | Added files for landing page, like footers, headers, all information about the start-up, subscriptions, forms and other content | 25/04/2026 |
+  | Arturouu | main | d68b19c | fix: rename qullqa.html as index.html | Fixed files for landing page | 06/05/2026 |
+  <br/>
+
+  Finalmente se presentan los commits más importantes para la Web Application, los cuales muestran todo el contenido visual y funcionalidades
+implementadas en el Sprint 2:
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 237eeb5 | Merge pull request from upc-pre-202610-flowbit/feature/alerts | Fix: Changes were adjusted in execution, modifications to alerts, sto… | 13/05/2026 |
+  | Fernando | main | 5491a21 |  feature(alerts): update business dashboard | update business dashboard | 12/05/2026 |
+  | Jesus | main | 538d942 | fidocs(chapter-04):| update class diagrams photos | 13/5/2026 |
+  <br/>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web application, se modifico desperfectos de la lading. A continuación, se explorarán nuestros avances a través de imágenes que muestran el resultado obtenido.
+<br/>
+
+1.  Sección Principal: Formulario de inicio de sesion
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/iniciar_sesio.png" width="800" alt="Header Landing page"/>
+  <br/><i>Formulario de inicio de sesion</i>
+</p>
+<br/>
+
+2. Sección de formulario para la creacion de una cuenta
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/crear_cuenta.png" width="800" alt="MainInformation"/>
+  <br/><i>Sección de muestra para crear cuenta</i>
+</p>
+<br/>
+
+3. Seccion principal de dashboard
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/dashboard.png" width="800" alt="Segmento Objetivo"/>
+  <br/><i>Seccion visualizacion principal</i>
+</p>
+<br/>
+
+4. Seccion de visualizacion de productos
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/products.png" width="800" alt="Servicios"/>
+  <br/><i>Seccion productos</i>
+</p>
+<br/>
+
+5. Sección visión: Carrito de compras.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/carrito.png" width="800" alt="Vision"/>
+  <br/><i>Seccion compras</i>
+</p>
+<br/>
+
+6. Sección visualizacion : Customers.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/customers.png" width="800" alt="Portafolio"/>
+  <br/><i>seccion Customers</i>
+</p>
+<br/>
+
+7. Sección alertas: Pantalla de alertas.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/alertas.png" width="800" alt="Planes"/>
+  <br/><i>Pantalla alertas</i>
+</p>
+<br/>
+
+8. Seccion principal: Implementacion de I18N.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/i18n.png" width="800" alt="Formulario"/>
+  <br/><i>Implementacion de la internacionalizacion</i>
+</p>
+<br/>
+
+
+
+Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
+<p align="center">
+  <img src="assets/img/evidences/repositorio.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la app web</i>
+</p>
+
+Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmacias y bodegas, el despliegue se ejecutó mediante una arquitectura escalable en Vercel. En esta etapa, priorizamos la robustez del flujo de trabajo, logrando que cada mejora en el core del negocio esté disponible de manera inmediata y segura.
+
+**Actividades de Despliegue Realizadas**
+* Sincronización Continua (Vercel): Administración del proyecto web mediante el dashboard de Vercel, estableciendo políticas de despliegue automático que conectan directamente el código fuente con la interfaz de usuario.
+
+* Control de Infraestructura: Uso especializado de herramientas de comandos de Vercel para supervisar el estado del hosting y las funciones vinculadas al despliegue.
+
+* Implementación de Pipelines Automáticos: Configuración de disparadores en GitHub Actions que ejecutan pruebas y despliegues (Vercel deploy) de forma autónoma al consolidar cambios en main.
+
+**Evidencia Repo: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_report.png" width="500" alt="Graph"/><br/>
+<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</a></i></p>
+
+**Evidencia Deploy: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_deploy.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): <a href="https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard">https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard</a></i>
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+**Dinámica de Implementación**
+<p align="center">
+Durante este segundo ciclo, el equipo evolucionó su enfoque desde el diseño visual hacia la consolidación de la lógica del negocio y la arquitectura técnica de la Web Application. Los esfuerzos se centraron en los siguientes pilares operativos:
+</p>
+
+**Analíticos de Colaboración**
+<p align="center">
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
+
+* Desarrollo Full-stack: Implementación del sistema multi-almacén, lógica de cálculo para alertas de vencimiento (algoritmos de semáforo) y diseño de la interfaz del Dashboard administrativo. 
+
+* Infraestructura y API: Configuración de servicios de notificación externa, creación de endpoints para la gestión de KPIs y modelado de la base de datos para soportar la trazabilidad de stock por usuario.
+
+* Aseguramiento de Calidad: Supervisión de la integridad del repositorio mediante Conventional Commits y validación de historias de usuario mediante pruebas de integración entre los servicios de alerta y la base de datos.
+</p>
+
+**Evidencia GitFlow: Graph**
+<p align="center">
+  <img src="assets/img/evidences/Grapho.png" width="200" alt="Graph"/>
+  <br/><i>Grafo de versiones para el gitflow 2.0</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img/evidences/Commits.png" width="500" alt="Commits"/>
+  <br/><i>Grafico estadistico de commits por usuario 2.0</i>
+</p>
+
+**Evidencia GitFlow: Network**
+<p align="center">
+  <img src="assets/img/evidences/Network.png" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo 2.0</i>
+</p>
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
