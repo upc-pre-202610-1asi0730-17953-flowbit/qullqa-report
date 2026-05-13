@@ -2744,10 +2744,13 @@ La organización de líderes y colaboradores está directamente relacionada con 
   <br/><i>Artefacto: Jira para Sprint Priorizado</i>
 </p>
 <p align="center">
-  <img src="assets/img/artefacts/Tableo_Kanban.png" width="800" alt="Tablero Kanban"/>
-  <br/><i>Artefacto: Jira para demostrar el tablero Kanban</i>
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
 </p>
-
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
+</p>
 
 ##### Resumen Técnico
 - **Total de Horas:** 67 horas.
@@ -2988,6 +2991,53 @@ La organización de líderes y colaboradores está directamente relacionada con 
 > **C:** Colaborador (Colaborador y desarrollo)
 
 #### 5.2.2.3. Sprint Backlog 2
+
+**Periodo:** 4 de mayo – 6 de julio  
+**Objetivo del Sprint:** Tener la web aplicattion desplegada con acceso directo desde la landing page, asegurar la comunicacion y contar con usuarios reales accediendo y mostrando interes en nuestro sistema, estableciendo la base visual y funcional de QULLQA.
+
+---
+| User Story Id | Título de la Historia | Task Id | Título de la Tarea | Descripción de la Tarea | Est. (Hrs) | Asignado | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| US-10 | Controlar stock por almacén | T-10-1 | Modelado multi-almacén | Adaptar la base de datos para soportar múltiples ubicaciones por producto. | 7 | Fernando | Done |
+| US-10 | Controlar stock por almacén | T-10-2 | Selector de ubicación | Implementar en el Frontend el selector de almacén para entrada/salida de stock. | 5 | Fernando | Done |
+| US-10 | Controlar stock por almacén | T-10-3 | Reporte de distribución | Crear la vista de consulta que muestre cuánto stock hay en cada almacén. | 6 | Fernando | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-1 | Configuración de umbrales | Crear interfaz para definir el 'stock mínimo' por cada producto. | 4 | Arturo | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-2 | Motor de verificación | Programar el trigger que compare el stock actual vs el mínimo en cada movimiento. | 6 | Arturo | Done |
+| US-11 | Recibir alertas de bajo stock | T-11-3 | Interfaz de notificaciones | Diseñar el panel de notificaciones dentro de la app para mostrar las alertas. | 4 | Arturo | Done |
+| US-12 | Recibir alertas de vencimiento | T-12-1 | Lógica de fechas | Implementar algoritmo que calcule días restantes para el vencimiento de lotes. | 6 | Fernando | Done |
+| US-12 | Recibir alertas de vencimiento | T-12-2 | Reporte de mermas | Generar una lista de productos próximos a vencer para acciones preventivas. | 4 | Fernando | Done |
+| US-15 | Visualizar dashboard | T-15-1 | Integración de KPIs | Desarrollar los endpoints que calculen ventas totales, stock crítico y alertas. | 8 | Martin | Done |
+| US-15 | Visualizar dashboard | T-15-2 | Gráficos estadísticos | Implementar librerías visuales (Charts) para mostrar tendencias de inventario. | 7 | Martin | Done |
+| US-15 | Visualizar dashboard | T-15-3 | Filtros de tiempo | Añadir selectores para visualizar el dashboard por día, semana o mes. | 4 | Martin | Done |
+| US-18 | Gestionar roles y usuarios | T-18-1 | CRUD de usuarios | Crear la funcionalidad para invitar, editar y eliminar miembros del staff. | 6 | Aldo | Done |
+| US-18 | Gestionar roles y usuarios | T-18-2 | Control de permisos | Implementar el Middleware de roles (Admin vs Ventas) para restringir vistas. | 7 | Aldo | Done |
+| TS-01 | Enviar alertas mediante API | T-01-1 | Configuración del Servicio | Configurar el proveedor de mensajería/notificación y los Webhooks. | 6 | Adriana | Done |
+| TS-01 | Enviar alertas mediante API | T-01-2 | Formateo de mensajes | Programar las plantillas de mensaje para 'Bajo Stock' y 'Vencimiento'. | 4 | Adriana | Done |
+| TS-01 | Enviar alertas mediante API | T-01-3 | Pruebas de envío | Realizar tests de integración para asegurar que la API envíe la alerta al dispararse el evento. | 5 | Adriana | Done |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **89** | | |
+
+---
+
+<p align="center">
+  <img src="assets/img/artefacts/sprint_2.png" width="800" alt="Product Backlog"/>
+  <br/><i>Artefacto: Jira para Sprint 2 Priorizado</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban en curso</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban finalizado</i>
+</p>
+
+##### Resumen Técnico
+- **Total de Horas:** 67 horas.
+- **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
+- **Entregable Principal:** Despliegue de la web application y mejoras en la landing page, aplicando el módulo funcional de inventario (CRUD de productos).
+
+---
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
