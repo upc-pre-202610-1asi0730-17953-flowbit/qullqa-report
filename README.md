@@ -2951,6 +2951,23 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 Durante el segundo ciclo de desarrollo, se consolidaron los pilares operativos de QULLQA, integrando un esfuerzo colaborativo bajo metodologías ágiles para entregar un Producto Mínimo Viable (MVP). En este Sprint, el equipo priorizó el desarrollo del core del negocio mediante la implementación de la aplicación web y el despliegue estratégico en Vercel, estableciendo una comunicación funcional con la landing page. Cada fase, desde la planificación en Jira hasta el despliegue final, fue documentada detalladamente para validar la integridad del sistema y asegurar que la propuesta de valor llegue eficazmente a bodegas y farmacias.
 
 #### 5.2.2.1. Sprint Planning 2
+El Sprint Planning Meeting inicio la transición hacia la fase de maduración técnica de QULLQA. En esta sesión, el equipo de desarrollo y el Product Owner seleccionaron las Historias de Usuario del Product Backlog enfocadas en envio de alertas y y recepcion de alertas para el administrador o encargado. El objetivo central de este ciclo es transformar los datos operativos en información accionable, asegurando una experiencia de usuario fluida y una arquitectura escalable.
+A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-05-10 |
+| **Time** | 11:00 AM |
+| **Location** | Cubiculo - Pabellon L |
+| **Prepared By** | Arturo Valentino Contreras Torres  |
+| **Attendees (to planning meeting)** | Asmat Alminco, Martin Alejandro / Contreras Torres, Arturo Valentino / Güere Calero, Fernando Julio / Huaman Oscco, Aldo Jesus / Ramos Fuentes Rivera, Adriana Nicole |
+| **Sprint 1 Review Summary** | Se completó con éxito la fase de ideación y diseño técnico. Se cuenta con la arquitectura C4, la estructura de la base de datos y el despliegue inicial en Vercel. El Product Owner validó la estructura de los repositorios y hizo comentarios con relacion a la mejora del trabajo coperativo en relacion al gitflow, brindando una guia escrita de como realizar el paso a paso para desarrollarlo. |
+| **Sprint 1 Retrospective Summary** | El equipo destacó la eficiencia de las herramientas colaborativas (Jira/GitHub). Como compromiso de mejora, se acordó aplicar reglas estrictas de GitFlow y el uso de Conventional Commits para evitar colisiones en las ramas de desarrollo durante la codificación activa. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Contexto:** Tras finalizar la fase de ideación, el equipo de QULLQA se enfoca en este segundo ciclo en refinar la identidad digital y materializar la infraestructura técnica. El esfuerzo es dual: por un lado, se optimiza la Landing Page y los diagramas de arquitectura del Sprint 1 para asegurar que la propuesta de valor para bodegas (stock) y farmacias (vencimientos) sea impecable; por otro lado, se inicializa la Web Application, implementando el sistema de gestión de identidad (Auth) y la base del módulo de inventario, transformando los mock-ups en un entorno funcional y seguro. <br><br> **Sprint Goal:**<br>“Our focus is on building a reliable digital presence and enabling a secure entry point to the platform by improving the landing page, refining the architecture diagrams, and launching the web application. The success of this sprint will be measured by the deployment of 100% of the committed user stories (registration, login, and initial inventory) to Vercel, achieving 90% validation of the acceptance criteria, and maintaining a zero (0) critical vulnerabilities report in the development environment. This will allow users like Carlos or Carmen to authenticate and interact with their product catalog for the first time without errors.”|
+| **Sprint 2 Velocity** | 15 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar codigo en relacion a los bounded context principales del sistema). |
+| **Sum of Story Points** | 15 Story Points. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 #### 5.2.2.3. Sprint Backlog 2
