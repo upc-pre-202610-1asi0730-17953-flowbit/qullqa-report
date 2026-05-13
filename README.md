@@ -2948,8 +2948,10 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 
 ### 5.2.2. Sprint 2
+Durante el segundo ciclo de desarrollo, se consolidaron los pilares operativos de QULLQA, integrando un esfuerzo colaborativo bajo metodologías ágiles para entregar un Producto Mínimo Viable (MVP). En este Sprint, el equipo priorizó el desarrollo del core del negocio mediante la implementación de la aplicación web y el despliegue estratégico en Vercel, estableciendo una comunicación funcional con la landing page. Cada fase, desde la planificación en Jira hasta el despliegue final, fue documentada detalladamente para validar la integridad del sistema y asegurar que la propuesta de valor llegue eficazmente a bodegas y farmacias.
 
 #### 5.2.2.1. Sprint Planning 2
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
 #### 5.2.2.3. Sprint Backlog 2
 #### 5.2.2.4. Development Evidence for Sprint Review
