@@ -3150,13 +3150,13 @@ En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web
 
 
 
-Para finalizar, se mostrará una demostración de nuestro avance sobre la landing page dentro de GitHub, para la publicación de la página web:
+Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
 <p align="center">
-  <img src="assets/img/artefacts/RepositorioGithub.png" width="800" alt="Repositorio de Github"/>
-  <br/><i>Repositorio de GitHub sobre la landing page</i>
+  <img src="assets/img/evidences/repositorio.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la app web</i>
 </p>
 
-Video de explicación sobre esta sección: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
