@@ -3039,7 +3039,42 @@ La organización de líderes y colaboradores está directamente relacionada con 
 ---
 
 #### 5.2.2.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application
+Page.
+
+Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó,
+usa y usará para el desarrollo del proyecto:
+ 
+ | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | develop | 98499a0 | Merge pull Flowbit-app/feature/update-class-diagrams | Feature/update class diagrams | 10/05/2026 |
+  | Adriana832 | main | 01287d4 | docs(database-diagram) | Aupdate database diagram | 10/05/2026 |
+  | Arturouu | chapter-04 | 538d942 | docs(chapter-04) | update class diagrams photos | 10/05/2026 |
+
+<br/>
+A continuación se presentan los commits más importantes para la Landing Page, los cuales muestran todo el contenido visual y funcionalidades
+implementadas en el Sprint 1:
+
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 6f68daa | Initial commit | Create repository | 25/04/2026 |
+  | Arturouu | main | 5491a21 | feature(landingPage): update Landing Page - Qullqa | Added files for landing page, like footers, headers, all information about the start-up, subscriptions, forms and other content | 25/04/2026 |
+  | Arturouu | main | d68b19c | fix: rename qullqa.html as index.html | Fixed files for landing page | 06/05/2026 |
+  <br/>
+
+  Finalmente se presentan los commits más importantes para la Web Application, los cuales muestran todo el contenido visual y funcionalidades
+implementadas en el Sprint 2:
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+  | :--- | :--- | :--- | :--- | :--- | :---: |
+  | Arturouu | main | 237eeb5 | Merge pull request from upc-pre-202610-flowbit/feature/alerts | Fix: Changes were adjusted in execution, modifications to alerts, sto… | 13/05/2026 |
+  | Fernando | main | 5491a21 |  feature(alerts): update business dashboard | update business dashboard | 12/05/2026 |
+  | Jesus | main | 538d942 | fidocs(chapter-04):| update class diagrams photos | 13/5/2026 |
+  <br/>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 #### 5.2.2.8. Team Collaboration Insights during Sprint
