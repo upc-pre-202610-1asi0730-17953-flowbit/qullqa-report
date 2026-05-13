@@ -3791,3 +3791,13 @@ Delgado, R. S. B., & Lopez, H. Y. B., (2024). Modelo PDCA para incrementar el í
 Mendoza, B. J. F., & Anchiraico, B. W. R., (2018). Determinación de patrones de ventas en boticas independientes para mejorar las ventas [Tesis de maestría, Universidad San Ignacio de Loyola]. Repositorio Académico USIL. https://hdl.handle.net/20.500.14005/8591
 
 # Anexos
+
+URL del repositorio (report): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report <br>
+URL del repositorio (webapp): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp <br>
+URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website <br>
+URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform <br>
+URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
+
+URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
+URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br>
+URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1
