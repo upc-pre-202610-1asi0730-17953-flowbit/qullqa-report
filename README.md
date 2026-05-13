@@ -115,10 +115,11 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 # Project Report Collaboration Insights
 El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante repositorios de GitHub creados para la gestión del Project Report y de los diferentes componentes del sistema Qullqa. Estos repositorios contienen los archivos del informe, diagramas, evidencias, wireframes, avances de la landing page y el historial de versiones correspondiente a cada entrega.
 
-URL del repositorio (Report): https://github.com/Flowbit-app/qullqa-report <br>
-URL del repositorio (Backend): https://github.com/Flowbit-app/qullqa-backend <br>
-URL del repositorio (Frontend Web Application): https://github.com/Flowbit-app/qullqa-frontend-web-application <br>
-URL del repositorio (Landing Page): https://github.com/Flowbit-app/qullqa-landing-page <br>
+URL del repositorio (report): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report <br>
+URL del repositorio (webapp): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp <br>
+URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website <br>
+URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform <br>
+URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
 
 **Primera Entrega (AV1)**
 
@@ -131,6 +132,18 @@ Asimismo, durante esta etapa se realizó el avance de los primeros wireframes mo
 Para la organización y seguimiento del trabajo, el equipo utilizó GitHub como plataforma principal de colaboración y control de versiones. Mediante repositorios compartidos, commits y ramas de trabajo, fue posible registrar los avances realizados en el informe, los diseños UX/UI y los componentes iniciales de la landing page, manteniendo evidencia continua de la participación grupal y de la evolución del proyecto durante la primera entrega.
 
 <img src="assets/img/project-report-collaboration-insights/AV1/github-organization-qullqa.png" width="500"/>
+
+**Trabajo Parcial (TB1)**
+
+Durante el desarrollo del Trabajo Parcial (TB1) del proyecto Qullqa, el equipo continuó trabajando de manera colaborativa en la mejora y consolidación de los avances obtenidos en la primera entrega, enfocándose principalmente en la implementación técnica de la web application, la documentación del sprint y la optimización de los artefactos funcionales y visuales del sistema.
+
+En esta etapa, el equipo desarrolló actividades relacionadas con la implementación de bounded contexts dentro de la arquitectura de la aplicación web, permitiendo una mejor organización de los módulos y funcionalidades del sistema. Asimismo, se realizaron mejoras en la Landing Page para optimizar la experiencia visual y reforzar la propuesta de valor presentada a los usuarios.
+
+Como parte del trabajo técnico y de documentación, se actualizaron User Stories y Technical Stories, se mejoró el Design Level Event Storming y se implementó MockAPI para la simulación y validación de datos dentro del sistema. Además, se realizaron mejoras en el diagrama de base de datos y revisiones generales de diagramas para mantener coherencia entre la arquitectura, la lógica del negocio y la estructura de datos del proyecto.
+
+Durante el TB1 también se desarrollaron evidencias relacionadas con el Sprint Review, incluyendo Development Evidence, Execution Evidence, Services Documentation Evidence y Software Deployment Evidence, permitiendo registrar el avance técnico del proyecto y las pruebas realizadas sobre la aplicación. Asimismo, se documentaron Team Collaboration Insights y Project Report Collaboration Insights para evidenciar la participación activa y coordinada de todos los integrantes durante el desarrollo del sprint.
+
+Para la gestión y seguimiento del trabajo colaborativo, el equipo continuó utilizando GitHub como herramienta principal de control de versiones y colaboración. Mediante el uso de ramas, commits y repositorios compartidos, se logró mantener un registro organizado de los avances realizados en el desarrollo de la web application, las mejoras visuales, la documentación técnica y las implementaciones funcionales realizadas durante el TB1.
 
 ---
 
