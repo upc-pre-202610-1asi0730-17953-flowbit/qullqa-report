@@ -2898,9 +2898,9 @@ El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hostin
 **Actividades de Despliegue Realizadas**
 * Configuración de Vercel Project: Creación y vinculación del proyecto qullqa-landing mediante el dashboard de Vercel, estableciendo la integración continua con el repositorio de GitHub para despliegues automáticos.
 
-* Firebase CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
+* Vercel CLI Integration: Instalación y configuración de herramientas de línea de comandos para gestionar el despliegue desde el entorno de desarrollo (JettBrains).
 
-* Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando firebase deploy automáticamente cada vez que se realiza un merge a la rama main.
+* Configuración de GitHub Actions: Se implementó un flujo de trabajo de Continuous Deployment (CD) que activa un comando Vercel deploy automáticamente cada vez que se realiza un merge a la rama main.
 
 **Evidencia Deploy: Landign Page - Responsive**
 <p align="center">
@@ -3160,7 +3160,29 @@ Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.c
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmacias y bodegas, el despliegue se ejecutó mediante una arquitectura escalable en Vercel. En esta etapa, priorizamos la robustez del flujo de trabajo, logrando que cada mejora en el core del negocio esté disponible de manera inmediata y segura.
+
+**Actividades de Despliegue Realizadas**
+* Sincronización Continua (Vercel): Administración del proyecto web mediante el dashboard de Vercel, estableciendo políticas de despliegue automático que conectan directamente el código fuente con la interfaz de usuario.
+
+* Control de Infraestructura: Uso especializado de herramientas de comandos de Vercel para supervisar el estado del hosting y las funciones vinculadas al despliegue.
+
+* Implementación de Pipelines Automáticos: Configuración de disparadores en GitHub Actions que ejecutan pruebas y despliegues (Vercel deploy) de forma autónoma al consolidar cambios en main.
+
+**Evidencia Repo: App Web**
+<p align="center">
+  <img src="assets/img/DeployLanding.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</i>
+</p>
+
+**Evidencia Deploy: App Web**
+<p align="center">
+  <img src="assets/img/Landing-Mobile.jpeg" width="200" alt="Graph"/>
+  <br/><i>URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br></i>
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
