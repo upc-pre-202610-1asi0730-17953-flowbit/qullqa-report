@@ -3171,14 +3171,13 @@ Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmac
 
 **Evidencia Repo: App Web**
 <p align="center">
-  <img src="assets/img/DeployLanding.png" width="500" alt="Graph"/>
-  <br/><i>URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</i>
-</p>
+  <img src="assets/img/evidences/Evidencia_report.png" width="500" alt="Graph"/><br/>
+<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</a></i></p>
 
 **Evidencia Deploy: App Web**
 <p align="center">
-  <img src="assets/img/Landing-Mobile.jpeg" width="200" alt="Graph"/>
-  <br/><i>URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br></i>
+  <img src="assets/img/evidences/Evidencia_deploy.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): <a href="https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard">https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard</a></i>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
