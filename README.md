@@ -4147,4 +4147,6 @@ URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-
 
 URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
 URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br>
-URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1
+URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1 <br>
+
+URL de exposición (TB1): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63
