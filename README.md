@@ -3073,7 +3073,98 @@ implementadas en el Sprint 2:
   <br/>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+En el sprint 2, hemos logrado implementar las secciones mas relevantes en la web application, se modifico desperfectos de la lading. A continuación, se explorarán nuestros avances a través de imágenes que muestran el resultado obtenido.
+<br/>
 
+1.  Sección Principal: Formulario de inicio de sesion
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/iniciar_sesio.png" width="800" alt="Header Landing page"/>
+  <br/><i>Formulario de inicio de sesion</i>
+</p>
+<br/>
+
+2. Sección de formulario para la creacion de una cuenta
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/crear_cuenta.png" width="800" alt="MainInformation"/>
+  <br/><i>Sección de muestra para crear cuenta</i>
+</p>
+<br/>
+
+3. Seccion principal de dashboard
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/SegmentoObjetivo.png" width="800" alt="Segmento Objetivo"/>
+  <br/><i>Seccion visualizacion principal</i>
+</p>
+<br/>
+
+4. Seccion de visualizacion de productos
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Servicios.png" width="800" alt="Servicios"/>
+  <br/><i>Seccion productos</i>
+</p>
+<br/>
+
+5. Sección visión: Carrito de compras.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Vision.png" width="800" alt="Vision"/>
+  <br/><i>Seccion compras</i>
+</p>
+<br/>
+
+6. Sección visualizacion : Customers.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Portafolio.png" width="800" alt="Portafolio"/>
+  <br/><i>seccion Customers</i>
+</p>
+<br/>
+
+7. Sección alertas: Pantalla de alertas.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Planes.png" width="800" alt="Planes"/>
+  <br/><i>Pantalla alertas</i>
+</p>
+<br/>
+
+8. Seccion principal: Implementacion de I18N.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Formulario.png" width="800" alt="Formulario"/>
+  <br/><i>Implementacion de la internacionalizacion</i>
+</p>
+<br/>
+
+9. Sección footer: Parte final del sitio web.
+
+<br/>
+<p align="center">
+  <img src="assets/img/artefacts/Footer.png" width="800" alt="Footer"/>
+  <br/><i>Sección footer</i>
+</p>
+<br/>
+
+
+Para finalizar, se mostrará una demostración de nuestro avance sobre la landing page dentro de GitHub, para la publicación de la página web:
+<p align="center">
+  <img src="assets/img/artefacts/RepositorioGithub.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la landing page</i>
+</p>
+
+Video de explicación sobre esta sección: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
