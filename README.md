@@ -3181,6 +3181,39 @@ Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmac
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+**Dinámica de Implementación**
+<p align="center">
+Durante este segundo ciclo, el equipo evolucionó su enfoque desde el diseño visual hacia la consolidación de la lógica del negocio y la arquitectura técnica de la Web Application. Los esfuerzos se centraron en los siguientes pilares operativos:
+</p>
+
+**Analíticos de Colaboración**
+<p align="center">
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
+
+* Desarrollo Full-stack: Implementación del sistema multi-almacén, lógica de cálculo para alertas de vencimiento (algoritmos de semáforo) y diseño de la interfaz del Dashboard administrativo. 
+
+* Infraestructura y API: Configuración de servicios de notificación externa, creación de endpoints para la gestión de KPIs y modelado de la base de datos para soportar la trazabilidad de stock por usuario.
+
+* Aseguramiento de Calidad: Supervisión de la integridad del repositorio mediante Conventional Commits y validación de historias de usuario mediante pruebas de integración entre los servicios de alerta y la base de datos.
+</p>
+
+**Evidencia GitFlow: Graph**
+<p align="center">
+  <img src="assets/img" width="200" alt="Graph"/>
+  <br/><i>Grafo de versiones para el gitflow 2.0</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img" width="500" alt="Commits"/>
+  <br/><i>Grafico estadistico de commits por usuario 2.0</i>
+</p>
+
+**Evidencia GitFlow: Network**
+<p align="center">
+  <img src="assets/img" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo 2.0</i>
+</p>
 
 
 # Conclusiones
