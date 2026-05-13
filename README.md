@@ -2694,7 +2694,7 @@ El Sprint Planning Meeting marcó el inicio formal del desarrollo del código de
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **SmartLock**.
+* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **QULLQA**.
 
 La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante el Sprint.
 
@@ -2970,6 +2970,23 @@ A continuación, se presenta el cuadro resumen con los detalles y acuerdos de es
 | **Sum of Story Points** | 15 Story Points. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
+Se presenta la Leadership-and-Collaboration Matrix (LACX), herramienta diseñada para estructurar la gestión de responsabilidades del equipo QULLQA. En esta matriz, se definen los roles de liderazgo (L) y colaboración (C), optimizando la comunicación interna y asegurando el cumplimiento de los objetivos estratégicos de este Sprint.
+
+La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante el Sprint.
+
+| Team Member | GitHub Username | Arquitectura & Documentación (L/C) | Desarrollo Backend & API (L/C) | Base de Datos & Persistencia (L/C) | Frontend & UI/UX (L/C) | QA, Testing & DevOps (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | C | L | C |
+| Contreras Torres, Arturo Valentino | Arturouu  | L | C | C | C | C |
+| Güere Calero, Fernando Julio | FerG17 | C | L | C | C | C |
+| Huaman Oscco, Aldo Jesus | Jesusho22 | C | C | C | C | L |
+| Ramos Fuentes Rivera, Adriana Nicole | Adriana832 | C | C | L | C | C |
+---
+
+> **Leyenda:**  </br>
+> **L:** Lider (Líder del aspecto)  
+> **C:** Colaborador (Colaborador y desarrollo)
+
 #### 5.2.2.3. Sprint Backlog 2
 #### 5.2.2.4. Development Evidence for Sprint Review
 #### 5.2.2.5. Execution Evidence for Sprint Review
