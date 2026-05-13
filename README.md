@@ -115,10 +115,11 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 # Project Report Collaboration Insights
 El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante repositorios de GitHub creados para la gestión del Project Report y de los diferentes componentes del sistema Qullqa. Estos repositorios contienen los archivos del informe, diagramas, evidencias, wireframes, avances de la landing page y el historial de versiones correspondiente a cada entrega.
 
-URL del repositorio (Report): https://github.com/Flowbit-app/qullqa-report <br>
-URL del repositorio (Backend): https://github.com/Flowbit-app/qullqa-backend <br>
-URL del repositorio (Frontend Web Application): https://github.com/Flowbit-app/qullqa-frontend-web-application <br>
-URL del repositorio (Landing Page): https://github.com/Flowbit-app/qullqa-landing-page <br>
+URL del repositorio (report): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report <br>
+URL del repositorio (webapp): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp <br>
+URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website <br>
+URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform <br>
+URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
 
 **Primera Entrega (AV1)**
 
@@ -131,6 +132,18 @@ Asimismo, durante esta etapa se realizó el avance de los primeros wireframes mo
 Para la organización y seguimiento del trabajo, el equipo utilizó GitHub como plataforma principal de colaboración y control de versiones. Mediante repositorios compartidos, commits y ramas de trabajo, fue posible registrar los avances realizados en el informe, los diseños UX/UI y los componentes iniciales de la landing page, manteniendo evidencia continua de la participación grupal y de la evolución del proyecto durante la primera entrega.
 
 <img src="assets/img/project-report-collaboration-insights/AV1/github-organization-qullqa.png" width="500"/>
+
+**Trabajo Parcial (TB1)**
+
+Durante el desarrollo del Trabajo Parcial (TB1) del proyecto Qullqa, el equipo continuó trabajando de manera colaborativa en la mejora y consolidación de los avances obtenidos en la primera entrega, enfocándose principalmente en la implementación técnica de la web application, la documentación del sprint y la optimización de los artefactos funcionales y visuales del sistema.
+
+En esta etapa, el equipo desarrolló actividades relacionadas con la implementación de bounded contexts dentro de la arquitectura de la aplicación web, permitiendo una mejor organización de los módulos y funcionalidades del sistema. Asimismo, se realizaron mejoras en la Landing Page para optimizar la experiencia visual y reforzar la propuesta de valor presentada a los usuarios.
+
+Como parte del trabajo técnico y de documentación, se actualizaron User Stories y Technical Stories, se mejoró el Design Level Event Storming y se implementó MockAPI para la simulación y validación de datos dentro del sistema. Además, se realizaron mejoras en el diagrama de base de datos y revisiones generales de diagramas para mantener coherencia entre la arquitectura, la lógica del negocio y la estructura de datos del proyecto.
+
+Durante el TB1 también se desarrollaron evidencias relacionadas con el Sprint Review, incluyendo Development Evidence, Execution Evidence, Services Documentation Evidence y Software Deployment Evidence, permitiendo registrar el avance técnico del proyecto y las pruebas realizadas sobre la aplicación. Asimismo, se documentaron Team Collaboration Insights y Project Report Collaboration Insights para evidenciar la participación activa y coordinada de todos los integrantes durante el desarrollo del sprint.
+
+Para la gestión y seguimiento del trabajo colaborativo, el equipo continuó utilizando GitHub como herramienta principal de control de versiones y colaboración. Mediante el uso de ramas, commits y repositorios compartidos, se logró mantener un registro organizado de los avances realizados en el desarrollo de la web application, las mejoras visuales, la documentación técnica y las implementaciones funcionales realizadas durante el TB1.
 
 ---
 
@@ -243,12 +256,97 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | Asmat Alminco, Martin Alejandro <br>**AV1** <br> <br> Contreras Torres, Arturo Valentino <br>**AV1** <br> <br> Güere Calero, Fernando Julio <br>**AV1** <br> <br> Huaman Oscco, Aldo Jesus <br>**AV1** <br> <br> Ramos Fuentes Rivera, Adriana Nicole <br>**AV1** <br> | |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Asmat Alminco, Martin Alejandro <br>**AV1** <br> <br> Contreras Torres, Arturo Valentino <br>**AV1** <br> <br> Güere Calero, Fernando Julio <br>**AV1** <br> <br> Huaman Oscco, Aldo Jesus <br>**AV1** <br> <br> Ramos Fuentes Rivera, Adriana Nicole <br>**AV1** <br> | |
+<table>
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+
+  <tr>
+    <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
+    <td>
+      <b>Asmat Alminco, Martin Alejandro</b> <br>
+      <u>AV1</u> <br>
+      Participó en la elaboración de antecedentes y problemática desde los enfoques <i>When</i> y <i>Where</i>, así como en Lean UX Problem Statements, registro y análisis de entrevistas y User Task Matrix. Sus aportes permitieron fortalecer el análisis colaborativo de necesidades de los usuarios y la organización inicial de requerimientos del proyecto.
+      <br><br> <u>TB1</u> <br>
+      Participó en la corrección de segmentos objetivo, Software Deployment Configuration e implementación de bounded contexts en la web application. Sus actividades permitieron fortalecer la organización del despliegue y mejorar la estructura funcional de la aplicación.
+      <br> <br>
+      <b>Contreras Torres, Arturo Valentino</b> <br>
+      <u>AV1</u> <br>
+      Participó en la descripción de la startup, Solution Profile, segmentos objetivo, competidores, análisis competitivo, diseño y registro de entrevistas, User Personas, Big Picture Event Storming, Design Level Event Storming, Ubiquitous Language y Diagramas de Clases. Sus actividades permitieron integrar el análisis del dominio, modelado del sistema y definición funcional del producto.
+      <br><br> <u>TB1</u> <br>
+      Participó en Project Report Collaboration Insights, mejora de Design Level Event Storming, actualización de User Stories y Technical Stories, implementación de bounded contexts, implementación de MockAPI y mejora de la Landing Page. Sus aportes contribuyeron a mejorar la coordinación técnica, el modelado del dominio y la validación funcional del sistema.
+      <br> <br>
+      <b>Güere Calero, Fernando Julio</b> <br>
+      <u>AV1</u> <br>
+      Participó en antecedentes y problemática considerando los aspectos <i>Who</i> y <i>Why</i>, Lean UX Assumptions, entrevistas, Empathy Mapping, Information Architecture, diseño de mockups y wireframes, Software Configuration Management y configuración de la landing page. Sus aportes contribuyeron a la coordinación de aspectos visuales, técnicos y organizativos del proyecto.
+      <br><br> <u>TB1</u> <br>
+      Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron evidenciar el avance del sprint y fortalecer la integración visual y funcional de la aplicación web.
+      <br> <br>
+      <b>Huaman Oscco, Aldo Jesus</b> <br>
+      <u>AV1</u> <br>
+      Participó en antecedentes y problemática desde los enfoques <i>How</i> y <i>How Much</i>, Lean UX Hypothesis Statements, estrategias y tácticas frente a competidores, entrevistas y Empathy Mapping. Estas actividades permitieron fortalecer el análisis estratégico y la validación de hipótesis relacionadas con las necesidades de los usuarios.
+      <br><br> <u>TB1</u> <br>
+      Participó en Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint e implementación de bounded contexts en la web application. Sus aportes contribuyeron a documentar el proceso técnico y fortalecer la colaboración del equipo durante el sprint.
+      <br> <br>
+      <b>Ramos Fuentes Rivera, Adriana Nicole</b> <br>
+      <u>AV1</u> <br>
+      Participó en antecedentes y problemática desde el enfoque <i>What</i>, Lean UX Canvas, registro de entrevistas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus aportes permitieron organizar la experiencia del usuario, la estructura de datos y los lineamientos visuales del sistema.
+      <br><br> <u>TB1</u> <br>
+      Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Sus actividades permitieron mantener coherencia entre la documentación, la estructura de datos y el diseño del sistema.
+    </td>
+    <td>
+      <u>AV1</u> <br>
+      Como equipo, durante el AV1 se fortaleció el trabajo colaborativo mediante la distribución de responsabilidades relacionadas con investigación, análisis, diseño y modelado del sistema. Cada integrante aportó desde diferentes áreas del proyecto, permitiendo integrar perspectivas funcionales, técnicas y de experiencia de usuario para alcanzar los objetivos planteados de manera conjunta.
+      <br><br><u>TB1</u> <br>
+      Como equipo, durante el TB1 se fortaleció el liderazgo compartido mediante la colaboración en actividades técnicas, documentación del sprint, mejoras de diseño y despliegue de la aplicación web. La integración de bounded contexts, la actualización de historias de usuario y la mejora de evidencias técnicas permitieron consolidar el trabajo coordinado y el cumplimiento de los objetivos establecidos para el sprint.
+    </td>
+  </tr>
+
+  <tr>
+    <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
+    <td>
+      <b>Asmat Alminco, Martin Alejandro</b> <br>
+      <u>AV1</u> <br>
+      Participó en la recopilación y análisis de entrevistas, así como en la elaboración de User Task Matrix y Lean UX Problem Statements. Estas actividades permitieron identificar necesidades de los usuarios y organizar tareas orientadas al cumplimiento de los objetivos iniciales del proyecto.
+      <br><br> <u>TB1</u> <br>
+      Participó en la corrección de segmentos objetivo, Software Deployment Configuration e implementación de bounded contexts. Estas actividades permitieron mejorar la organización funcional del sistema y apoyar el cumplimiento de los objetivos técnicos del sprint.
+      <br> <br>
+      <b>Contreras Torres, Arturo Valentino</b> <br>
+      <u>AV1</u> <br>
+      Participó en la definición de la startup, análisis competitivo, User Personas, Event Storming, lenguaje ubicuo y diagramas de clases. Su participación permitió estructurar el análisis funcional y técnico del proyecto, favoreciendo la planificación y coordinación de actividades del equipo.
+      <br><br> <u>TB1</u> <br>
+      Participó en la actualización de User Stories y Technical Stories, mejora de Event Storming, implementación de MockAPI y bounded contexts, además de la mejora de la Landing Page. Sus aportes contribuyeron a organizar los requerimientos y fortalecer la planificación y validación funcional del proyecto.
+      <br> <br>
+      <b>Güere Calero, Fernando Julio</b> <br>
+      <u>AV1</u> <br>
+      Participó en actividades de UX y diseño como Empathy Mapping, Information Architecture, mockups y wireframes, además de la configuración de la landing page y Software Configuration Management. Sus aportes contribuyeron a la integración técnica y visual del proyecto, promoviendo un trabajo coordinado entre los integrantes.
+      <br><br> <u>TB1</u> <br>
+      Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron registrar avances del sprint y mantener coordinación entre aspectos técnicos y visuales de la aplicación.
+      <br> <br>
+      <b>Huaman Oscco, Aldo Jesus</b> <br>
+      <u>AV1</u> <br>
+      Participó en Lean UX Hypothesis Statements, estrategias frente a competidores, entrevistas y Empathy Mapping. Estas actividades permitieron analizar oportunidades de mejora y apoyar la toma de decisiones grupales relacionadas con la propuesta de solución.
+      <br><br> <u>TB1</u> <br>
+      Participó en Services Documentation Evidence, Software Deployment Evidence, Team Collaboration Insights e implementación de bounded contexts. Sus aportes permitieron documentar evidencias del trabajo colaborativo y asegurar el cumplimiento de tareas relacionadas con despliegue y servicios.
+      <br> <br>
+      <b>Ramos Fuentes Rivera, Adriana Nicole</b> <br>
+      <u>AV1</u> <br>
+      Participó en Lean UX Canvas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus actividades permitieron mantener coherencia entre la experiencia del usuario, el diseño visual y la estructura de datos, contribuyendo al cumplimiento organizado de los objetivos del AV1.
+      <br><br> <u>TB1</u> <br>
+      Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron mantener coherencia entre la documentación técnica, el diseño visual y la estructura de datos.
+    </td>
+    <td>
+      <u>AV1</u> <br>
+      Como equipo, durante el AV1 se promovió un entorno colaborativo mediante la distribución organizada de actividades y la comunicación constante entre los integrantes. La planificación de tareas según las habilidades de cada miembro permitió cumplir los objetivos establecidos, mantener coherencia entre los entregables y fomentar una participación inclusiva durante el desarrollo del proyecto.
+      <br><br> <u>TB1</u> <br>
+      Como equipo, durante el TB1 se promovió un entorno colaborativo mediante la distribución organizada de tareas relacionadas con documentación, despliegue, diseño, modelado y desarrollo técnico de la aplicación web. La coordinación constante entre los integrantes permitió cumplir los objetivos del sprint, mejorar la integración de componentes del sistema y fortalecer la calidad de los entregables realizados.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -4027,3 +4125,13 @@ Delgado, R. S. B., & Lopez, H. Y. B., (2024). Modelo PDCA para incrementar el í
 Mendoza, B. J. F., & Anchiraico, B. W. R., (2018). Determinación de patrones de ventas en boticas independientes para mejorar las ventas [Tesis de maestría, Universidad San Ignacio de Loyola]. Repositorio Académico USIL. https://hdl.handle.net/20.500.14005/8591
 
 # Anexos
+
+URL del repositorio (report): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report <br>
+URL del repositorio (webapp): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp <br>
+URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website <br>
+URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform <br>
+URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
+
+URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
+URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br>
+URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1
