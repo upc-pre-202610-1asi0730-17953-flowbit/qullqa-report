@@ -3505,7 +3505,7 @@ Para la conexión correcta de recuperación de datos para nuestras funcionalidad
 
 *Evidencia de la VM desplegada en Azure*
 
-![mockup-imagen](mockup-imagen-1.png)
+![mockup-imagen](/assets/deployment-configuration/mockup-imagen.png)
 
 Para esto, se realizaron los siguientes pasos:
 
