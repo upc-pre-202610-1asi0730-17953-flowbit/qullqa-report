@@ -106,8 +106,35 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
       Capítulo V: Product Implementation, Validation & Deployment (Sprint 2) <br>
     </td>
   </tr>
-
-
+  <tr>
+    <td><b>Tercera Entrega (AV2)</b></td>
+    <td>02/06/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Güere Calero, Fernando Julio <br>
+      <br>
+      <p></p>
+      Huaman Oscco, Aldo Jesus <br>
+      <br>
+      <p></p>
+      Ramos Fuentes Rivera, Adriana Nicole <br>
+    </td>
+    <td>
+    Corrección del reporte <br>
+    Mejora de artefactos <br>
+    Nueva versión desplegada de Landing Page <br>
+    Nueva versión desplegada de Frontend Web Applications <br>
+    Primera versión desplegada de Web Services <br>
+    Primera versión publicada de Video About-The-Product <br>
+    Primera versión publicada de Video About-The-Team <br>
+    Capítulo V: Product Implementation, Validation & Deployment (Sprint 3 / Validation Interviews) <br>
+    </td>
+  </tr>
 </table>
 
 ---
