@@ -2763,29 +2763,52 @@ En el marco de Scrum, nuestro equipo utilizara este inventario para seleccionar 
 
 ## Product Backlog Priorizado
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-| :--- | :--- | :--- | :--- | :---: |
-| 1 | **TS-02** | Consultar ubicación de entrega mediante API Geolocalización | Como developer, quiero consultar la ubicación de una entrega mediante la API Geolocalización para mostrar el estado y la posición actual del envío hacia el almacén o bodega. | 5 |
-| 2 | **US-16** | Consultar y descargar reportes detallados | Como dueño del negocio con plan Premium, quiero consultar y descargar reportes detallados, para analizar el desempeño por día, semana, producto y ventas. | 5 |
-| 3 | **US-19** | Rastrear entrega de productos al almacén | Como dueño del negocio con plan Premium, quiero rastrear la entrega de productos mediante IoT, para conocer el estado y ubicación de los envíos hacia mi bodega o almacén. | 5 |
+## Product Backlog Priorizado - QULLQA
+
+## Product Backlog Priorizado - QULLQA (Por Story Points)
+
+| # Orden | ID | Título | Descripción | Story Points |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | **US-16** | Consultar y descargar reportes detallados | Como dueño del negocio con plan Premium, quiero consultar y descargar reportes detallados, para analizar el desempeño por día, semana, producto y ventas. | 5 |
+| 2 | **US-19** | Rastrear entrega de productos al almacén | Como dueño del negocio con plan Premium, quiero rastrear la entrega de productos mediante IoT, para conocer el estado y ubicación de los envíos hacia mi bodega o almacén. | 5 |
+| 3 | **TS-02** | Consultar ubicación de entrega mediante API Geolocalización | Como developer, quiero consultar la ubicación de una entrega mediante la API Geolocalización para mostrar el estado y la posición actual del envío hacia el almacén o bodega. | 5 |
 | 4 | **US-05** | Registrarse e iniciar sesión | Como dueño de bodega o farmacia, quiero registrarme e iniciar sesión en Qullqa, para acceder de forma segura a la gestión de mi negocio. | 3 |
-| 5 | **US-06** | Gestionar el plan contratado y sus límites | Como dueño del negocio, quiero conocer y gestionar el plan contratado, para entender las capacidades habilitadas y los límites de uso disponibles. | 3 |
-| 6 | **US-11** | Recibir alertas de bajo stock | Como dueño del negocio, quiero recibir alertas de bajo stock, para reponer productos antes de afectar la venta o disponibilidad. | 3 |
-| 7 | **US-12** | Recibir alertas de productos por vencer | Como dueño de bodega o farmacia, quiero recibir alertas de productos por vencer, para tomar acciones preventivas y reducir pérdidas. | 3 |
-| 8 | **US-13** | Registrar ingreso o recepción de stock | Como dueño del negocio, quiero registrar ingresos o recepciones de stock, para mantener actualizado el inventario real del establecimiento. | 3 |
-| 9 | **TS-01** | Enviar alertas operativas mediante API Notificación | Como developer, quiero enviar alertas operativas mediante la API Notificación para informar eventos críticos como bajo stock o productos próximos a vencer. | 3 |
-| 10 | **US-10** | Controlar stock por almacén | Como dueño del negocio con plan Pro o superior, quiero controlar el stock por almacén, para conocer la distribución exacta del inventario en cada ubicación. | 3 |
-| 11 | **US-14** | Registrar venta POS | Como vendedor, quiero registrar una venta POS, para actualizar el inventario y dejar trazabilidad comercial de la operación. | 3 |
-| 12 | **US-15** | Visualizar dashboard del negocio | Como dueño del negocio, quiero visualizar un dashboard con indicadores clave, para tomar decisiones basadas en ventas, stock y alertas. | 3 |
-| 13 | **US-18** | Gestionar roles y usuarios del negocio | Como administrador del negocio, quiero asignar roles y controlar usuarios, para distribuir responsabilidades entre administración y ventas. | 3 |
-| 14 | **US-03** | Visualizar funcionalidades y planes | Como visitante, quiero visualizar las funcionalidades y planes de Qullqa, para comparar alternativas y reconocer cuál se ajusta mejor a mi negocio. | 2 |
-| 15 | **US-07** | Registrar producto | Como dueño del negocio, quiero registrar productos con sus datos principales, para mantener un inventario organizado y controlado. | 2 |
-| 16 | **US-08** | Actualizar producto y precio | Como dueño del negocio, quiero actualizar la información y precio de un producto, para mantener los datos comerciales y operativos al día. | 2 |
-| 17 | **US-09** | Consultar lista de productos y disponibilidad | Como dueño del negocio o vendedor, quiero consultar la lista de productos y su disponibilidad, para conocer el estado actual del inventario. | 2 |
-| 18 | **US-17** | Gestionar proveedores | Como dueño del negocio, quiero registrar y consultar proveedores, para mantener organizado el abastecimiento y facilitar la reposición de productos. | 2 |
-| 19 | **US-01** | Conocer la propuesta de valor para bodegueros | Como visitante del segmento bodegueros independientes, quiero conocer la propuesta de valor de Qullqa, para entender cómo mejorar el control de stock, reducir pérdidas y conocer mejor la rentabilidad del negocio. | 1 |
-| 20 | **US-02** | Conocer la propuesta de valor para farmacias | Como visitante del segmento farmacias independientes, quiero conocer la propuesta de valor de Qullqa, para entender cómo controlar mejor vencimientos, disponibilidad y reposición de medicamentos. | 1 |
-| 21 | **US-04** | Redirigirse desde la Landing Page hacia la aplicación | Como visitante, quiero acceder desde la Landing Page a la vista correspondiente de la Web Application, para iniciar mi proceso de registro o uso del servicio. | 1 |
+| 5 | **TS-03** | Gestionar usuarios mediante el endpoint /users | Como developer, quiero gestionar usuarios a través del endpoint /users, para crear, consultar, actualizar y eliminar cuentas de usuario del sistema. | 3 |
+| 6 | **TS-08** | Gestionar productos mediante el endpoint /products | Como developer, quiero gestionar productos a través del endpoint /products, para crear, consultar, actualizar y eliminar los productos del catálogo del negocio. | 3 |
+| 7 | **US-14** | Registrar venta POS | Como vendedor, quiero registrar una venta POS, para actualizar el inventario y dejar trazabilidad comercial de la operación. | 3 |
+| 8 | **TS-11** | Gestionar ventas mediante el endpoint /sales | Como developer, quiero gestionar ventas a través del endpoint /sales, para registrar, consultar, actualizar y eliminar las transacciones de venta del negocio. | 3 |
+| 9 | **US-13** | Registrar ingreso o recepción de stock | Como dueño del negocio, quiero registrar ingresos o recepciones de stock, para mantener actualizado el inventario real del establecimiento. | 3 |
+| 10 | **TS-10** | Gestionar inventarios mediante el endpoint /inventories | Como developer, quiero gestionar inventarios a través del endpoint /inventories, para consultar, crear, actualizar y eliminar registros de stock por almacén y producto. | 3 |
+| 11 | **US-10** | Controlar stock por almacén | Como dueño del negocio con plan Pro o superior, quiero controlar el stock por almacén, para conocer la distribución exacta del inventario en cada ubicación. | 3 |
+| 12 | **TS-09** | Gestionar lotes mediante el endpoint /batches | Como developer, quiero gestionar lotes de productos a través del endpoint /batches, para registrar, consultar, actualizar y eliminar la información de lotes con fecha de vencimiento. | 3 |
+| 13 | **US-11** | Recibir alertas de bajo stock | Como dueño del negocio, quiero recibir alertas de bajo stock, para reponer productos antes de afectar la venta o disponibilidad. | 3 |
+| 14 | **US-12** | Recibir alertas de productos por vencer | Como dueño de bodega o farmacia, quiero recibir alertas de productos por vencer, para tomar acciones preventivas y reducir pérdidas. | 3 |
+| 15 | **TS-01** | Enviar alertas operativas mediante API Notificación | Como developer, quiero enviar alertas operativas mediante la API Notificación para informar eventos críticos como bajo stock o productos próximos a vencer. | 3 |
+| 16 | **TS-17** | Gestionar alertas mediante el endpoint /alerts | Como developer, quiero gestionar alertas operativas a través del endpoint /alerts, para consultar, crear, actualizar y eliminar alertas de bajo stock y vencimiento próximo. | 3 |
+| 17 | **US-15** | Visualizar dashboard del negocio | Como dueño del negocio, quiero visualizar un dashboard con indicadores clave, para tomar decisiones basadas en ventas, stock y alertas. | 3 |
+| 18 | **TS-18** | Gestionar métricas mediante el endpoint /metrics | Como developer, quiero gestionar métricas del negocio a través del endpoint /metrics, para consultar los indicadores operativos y de ventas de cada establecimiento. | 3 |
+| 19 | **US-06** | Gestionar el plan contratado y sus límites | Como dueño del negocio, quiero conocer y gestionar el plan contratado, para entender las capacidades habilitadas y los límites de uso disponibles. | 3 |
+| 20 | **US-18** | Gestionar roles y usuarios del negocio | Como administrador del negocio, quiero asignar roles y controlar usuarios, para distribuir responsabilidades entre administración y ventas. | 3 |
+| 21 | **TS-15** | Gestionar órdenes de compra mediante el endpoint /purchases | Como developer, quiero gestionar órdenes de compra a través del endpoint /purchases, para registrar, consultar, actualizar y eliminar las órdenes de reposición de inventario. | 3 |
+| 22 | **TS-16** | Gestionar detalles de compra mediante el endpoint /purchaseDetails | Como developer, quiero gestionar los detalles de órdenes de compra a través del endpoint /purchaseDetails, para registrar, consultar, actualizar y eliminar las líneas de producto de cada orden. | 3 |
+| 23 | **TS-19** | Gestionar entregas mediante el endpoint /deliveries | Como developer, quiero gestionar entregas a través del endpoint /deliveries, para registrar, consultar, actualizar y eliminar el estado y ubicación de los envíos en tránsito. | 3 |
+| 24 | **TS-04** | Gestionar roles mediante el endpoint /roles | Como developer, quiero gestionar roles a través del endpoint /roles, para consultar, crear y eliminar los roles disponibles en el sistema. | 2 |
+| 25 | **US-07** | Registrar producto | Como dueño del negocio, quiero registrar productos con sus datos principales, para mantener un inventario organizado y controlado. | 2 |
+| 26 | **US-08** | Actualizar producto y precio | Como dueño del negocio, quiero actualizar la información y precio de un producto, para mantener los datos comerciales y operativos al día. | 2 |
+| 27 | **US-09** | Consultar lista de productos y disponibilidad | Como dueño del negocio o vendedor, quiero consultar la lista de productos y su disponibilidad, para conocer el estado actual del inventario. | 2 |
+| 28 | **TS-12** | Gestionar detalles de venta mediante el endpoint /saleDetails | Como developer, quiero gestionar los detalles de ventas a través del endpoint /saleDetails, para registrar, consultar, actualizar y eliminar las líneas de producto asociadas a cada venta. | 2 |
+| 29 | **TS-05** | Gestionar negocios mediante el endpoint /businesses | Como developer, quiero gestionar negocios a través del endpoint /businesses, para consultar y actualizar la información de los establecimientos registrados. | 2 |
+| 30 | **TS-07** | Gestionar almacenes mediante el endpoint /warehouses | Como developer, quiero gestionar almacenes a través del endpoint /warehouses, para consultar, crear y actualizar la información de los almacenes del negocio. | 2 |
+| 31 | **US-17** | Gestionar proveedores | Como dueño del negocio, quiero registrar y consultar proveedores, para mantener organizado el abastecimiento y facilitar la reposición de productos. | 2 |
+| 32 | **TS-14** | Gestionar proveedores mediante el endpoint /suppliers | Como developer, quiero gestionar proveedores a través del endpoint /suppliers, para registrar, consultar, actualizar y eliminar la información de proveedores del negocio. | 2 |
+| 33 | **US-20** | Gestionar clientes del negocio | Como dueño del negocio, quiero registrar y eliminar clientes, para mantener actualizada la cartera de compradores frecuentes y facilitar el seguimiento de ventas. | 2 |
+| 34 | **TS-13** | Gestionar clientes mediante el endpoint /customers | Como developer, quiero gestionar clientes a través del endpoint /customers, para registrar, consultar, actualizar y eliminar la información de clientes del negocio. | 2 |
+| 35 | **US-03** | Visualizar funcionalidades y planes | Como visitante, quiero visualizar las funcionalidades y planes de Qullqa, para comparar alternativas y reconocer cuál se ajusta mejor a mi negocio. | 2 |
+| 36 | **TS-06** | Gestionar planes mediante el endpoint /plans | Como developer, quiero gestionar planes a través del endpoint /plans, para consultar, crear y actualizar los planes de suscripción disponibles. | 2 |
+| 37 | **US-01** | Conocer la propuesta de valor para bodegueros | Como visitante del segmento bodegueros independientes, quiero conocer la propuesta de valor de Qullqa, para entender cómo mejorar el control de stock, reducir pérdidas y conocer mejor la rentabilidad del negocio. | 1 |
+| 38 | **US-02** | Conocer la propuesta de valor para farmacias | Como visitante del segmento farmacias independientes, quiero conocer la propuesta de valor de Qullqa, para entender cómo controlar mejor vencimientos, disponibilidad y reposición de medicamentos. | 1 |
+| 39 | **US-04** | Redirigirse desde la Landing Page hacia la aplicación | Como visitante, quiero acceder desde la Landing Page a la vista correspondiente de la Web Application, para iniciar mi proceso de registro o uso del servicio. | 1 |
+
 </br>
 <p align="center">
   <img src="assets/img/artefacts/epics.png" width="500" alt="Epicas"/>
