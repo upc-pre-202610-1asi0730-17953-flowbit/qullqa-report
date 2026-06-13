@@ -2763,10 +2763,6 @@ En el marco de Scrum, nuestro equipo utilizara este inventario para seleccionar 
 
 ## Product Backlog Priorizado
 
-## Product Backlog Priorizado - QULLQA
-
-## Product Backlog Priorizado - QULLQA (Por Story Points)
-
 | # Orden | ID | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
 | 1 | **US-16** | Consultar y descargar reportes detallados | Como dueño del negocio con plan Premium, quiero consultar y descargar reportes detallados, para analizar el desempeño por día, semana, producto y ventas. | 5 |
@@ -4169,6 +4165,7 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 </p>
 
 ### 5.2.3. Sprint 3
+Durante el tercer ciclo de desarrollo, se consolidaron los pilares operativos y se ejecutaron las funcionalidades clave para estructurar y gestionar la base de datos de QULLQA. Mediante un esfuerzo colaborativo bajo la metodología Scrum, el equipo logró completar con éxito el incremento correspondiente a este Sprint. El enfoque principal se centró en el desarrollo del backend, implementando la lógica necesaria para gestionar el envío y la recepción de solicitudes (requests) de datos. Con esta infraestructura operativa, el equipo está preparado para iniciar las entrevistas de validación, las cuales permitirán que los usuarios interactúen con el producto y evalúen de manera intuitiva el flujo de trabajo de la aplicación.
 
 #### 5.2.3.1. Sprint Planning 3
 
