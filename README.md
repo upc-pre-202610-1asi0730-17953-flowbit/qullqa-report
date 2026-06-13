@@ -3199,6 +3199,27 @@ El usuario accede a la sección Suppliers y utiliza el filtro desplegable de cat
 **Unhappy path:**
 No se desprende un unhappy path explícito de esta user story ni de las pantallas del flujo, ya que ambos escenarios descritos (registro y consulta) corresponden a flujos exitosos del proceso de gestión de proveedores.
 
+5) <strong>User Flow 5:</strong> Consultar lista de productos y disponibilidad
+
+- User goal:
+<br> Como dueño del negocio o vendedor, quiero consultar la lista de productos y su disponibilidad, para conocer el estado actual del inventario.
+
+<br><strong>User Story asociada:</strong></br>
+US09 - Como dueño del negocio o vendedor, quiero consultar la lista de productos y su disponibilidad, para conocer el estado actual del inventario.
+
+- web
+<p align="center">
+<img src="assets/img/userflows/userflow-5-web.png" alt="user flow" width="550"/>
+</p>
+
+- <strong>Descripción del flujo:</strong>
+
+**Happy path (productos disponibles):**
+El usuario accede a la sección Inventory desde el menú lateral, donde visualiza el resumen general (Total products, Low stock, Expiring soon, Out of stock) junto con el listado de productos registrados, mostrando categoría, stock, mínimo, precio, expiración y estado. El usuario filtra por categoría mediante el selector desplegable (por ejemplo, "Bebidas") y el sistema evalúa si existen elementos relacionados a ese criterio de búsqueda. Al encontrar coincidencias, el sistema presenta el listado filtrado mostrando los productos disponibles de dicha categoría (por ejemplo, Gaseosa Inca Kola 1.5L, Coca Cola 1.5L, Sprite 1.5L) junto con su stock actual y estado "Normal", permitiendo al usuario editar cada producto mediante el ícono correspondiente.
+
+**Unhappy path (sin elementos disponibles):**
+Si el usuario aplica un filtro de categoría y adicionalmente selecciona el indicador "Out of stock", el sistema evalúa la búsqueda y determina que no existen productos que cumplan con dicho criterio. En ese caso, el listado se muestra vacío con un ícono de caja y el mensaje "No products found", indicando que no hay productos sin stock disponibles para la categoría seleccionada, sin generar errores en la interfaz.
+
 ## 4.5. Web Applications Prototyping
 
   <div>
@@ -4195,9 +4216,9 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 
 *Se considerarán los siguientes User Flows*:
 
-- **Userflow 4**: Gestionar proveedores (registro y consulta).
+- **Userflow 5*: Consultar lista de productos y disponibilidad.
 
-El User Flow propuesto corresponde a una funcionalidad core del módulo de inventario para el rol de bodeguero, abarcando el ciclo de abastecimiento desde el registro de un nuevo proveedor hasta la consulta del listado existente.
+El User Flow propuesto corresponde a una funcionalidad core del módulo de inventario para el rol de bodeguero, donde abarca como se consultan los productos y los escenarios posibles al momento de realizar dicha acción. 
 
 ---
 
