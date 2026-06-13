@@ -3089,108 +3089,96 @@ Que el usuario pueda observar todas las métricas posibles dentro de su lógica 
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-##### User goal: 
+6) <strong>User Flow 6:</strong> Gestionar el plan contratado y sus límites
 
-##### Userr flow: Visualización del plan de suscripción adquirido y posible mejora 
+- User goal:
+<br> Como dueño del negocio, quiero conocer y gestionar el plan contratado, para entender las capacidades habilitadas y los límites de uso disponibles.
 
+<br><strong>User Story asociada:</strong></br>
+US06 - Como dueño del negocio, quiero conocer y gestionar el plan contratado, para entender las capacidades habilitadas y los límites de uso disponibles.
 
-##### User goal: 
+- mobile
+<p align="center">
+<img src="assets/img/userflows/userflow-1-mob.png" alt="user flow" width="550"/>
+</p>
 
-Que el usuario pueda observar a todo detalle cuales son las funcionalidades que desbloquea dependiendo del tipo de suscripción que posea para luego evaluar cambiarlo.
+- <strong>Descripción del flujo:</strong>
 
+**Happy path:**
+El usuario accede a la sección "Plan y Límites" desde el menú principal, donde visualiza el estado de su suscripción actual (por ejemplo, "Plan Premium - Todas las funcionalidades habilitadas", con estado ACTIVO y fecha de activación). A continuación, el sistema presenta el listado de "Funcionalidades Disponibles", indicando para cada una el nivel de plan requerido (Todos, Pro+, etc.) y marcándolas como habilitadas según el plan contratado. El usuario desplaza la vista hacia la sección "Límites de Uso", donde el sistema muestra cada recurso (número de productos, usuarios del sistema, almacenes, proveedores, historial de movimientos, descarga de reportes) junto con su límite asignado según el plan (por ejemplo, "Ilimitado" o "Hasta 10") y el uso actual registrado. Finalmente, el sistema despliega un bloque informativo "Acceso Completo" que resume las capacidades habilitadas para el rol de administrador bajo el plan vigente, incluyendo gestión de productos, usuarios, almacenes, proveedores y reportes.
 
-###### Descripción del flujo: 
-
-Dashboard → Plan y Límites → Funciones y funcionalidades → Planes disponibles
-
-###### Explicación del flujo:
-
-El usuario, desde el dashboard principal puede entrar a visualizar el tipo de suscripción que posee en planes, para luego poder ingresar al apartado de planes disponibles para el caso que intente cambiar de plan. 
-
-
-<img src="assets/img/userflow1.png" alt="Design Level Event Storming - Qullqa" width="500"/>
-
-
-###### Elementos de diseño
-
-El flujo utiliza tarjetas informativas, listas de funcionalidades y bloques de comparación de planes. Se incluyen etiquetas de estado (activo, límites), listas con iconos de verificación y secciones diferenciadas para funcionalidades y restricciones del sistema.
-
-###### Aplicación de principios de diseño
-
-Se aplica correctamente el principio de jerarquía al destacar el estado del plan actual en la parte superior. La proximidad agrupa funcionalidades disponibles y límites de uso en bloques diferenciados, lo que facilita su comprensión. La consistencia en iconografía y colores permite identificar rápidamente funcionalidades habilitadas y restricciones.
-
-###### Diseño inclusivo
-
-El diseño es claro y comprensible, utilizando lenguaje directo y visual (checks, etiquetas). Esto facilita la interpretación incluso para usuarios no técnicos. Como mejora, podría reforzarse el contraste en algunas secciones para asegurar accesibilidad visual en distintos contextos.
-
-###### Arquitectura de la información
-
-La estructura sigue una lógica clara:
-
-Estado actual del usuario (plan activo)
-Funcionalidades disponibles
-Límites de uso
-Métricas actuales del sistema
-Comparación de planes
-
-Esta organización permite que el usuario entienda primero su situación actual y luego evalúe posibles mejoras o cambios de plan.
-
-###### Heurísticas de usabilidad
-
-Se cumple el principio de transparencia del sistema, mostrando claramente límites y capacidades. También se evidencia control del usuario, al permitir evaluar y comparar planes antes de tomar una decisión. Como mejora, podría incorporarse mayor feedback en acciones como cambio de plan.
-
-###### Information Architecture & Logistics
-
-Desde el enfoque de arquitectura y logística, el flujo optimiza la toma de decisiones al presentar la información en un orden lógico: estado → capacidades → límites → comparación. Esto reduce la incertidumbre del usuario y facilita procesos como la actualización de suscripción o gestión de recursos del sistema.
+**Unhappy path (restricción según plan):**
+Si el usuario intenta utilizar una capacidad que no está incluida en su plan actual (por ejemplo, una funcionalidad marcada como "Requiere: Premium" mientras cuenta con un plan inferior), el sistema valida el acceso a dicha capacidad y la restringe, informando al usuario que la funcionalidad requiere un plan superior. El usuario es dirigido a la pantalla "Planes Disponibles", donde puede comparar las características y precios de los planes Básico (S/49/mes), Pro (S/99/mes) y Premium (S/199/mes), y seleccionar uno superior para habilitar la capacidad solicitada.
 
 
 
-###### Userr flow: Visualización del reporte y generación de archivos multimedia
+
+16) <strong>User Flow 16:</strong> Consultar y descargar reportes detallados
+
+- User goal:
+<br> Como dueño del negocio con plan Premium, quiero consultar y descargar reportes detallados, para analizar el desempeño por día, semana, producto y ventas.
+
+<br><strong>User Story asociada:</strong></br>
+US16 - Como dueño del negocio con plan Premium, quiero consultar y descargar reportes detallados, para analizar el desempeño por día, semana, producto y ventas.
+
+- mobile
+<p align="center">
+<img src="assets/img/userflows/userflow-2-mob.png" alt="user flow" width="550"/>
+</p>
+
+- <strong>Descripción del flujo:</strong>
+
+**Happy path:**
+El usuario, contando con plan Premium habilitado, accede a la sección "Reportes" desde el menú principal y selecciona el período de análisis deseado (por ejemplo, "Esta Semana") mediante el filtro desplegable. El sistema genera y presenta los indicadores generales correspondientes al período seleccionado: Ventas Totales, Productos Vendidos, Movimientos y Promedio Diario, cada uno con su variación porcentual respecto al periodo anterior. Al continuar el recorrido, el sistema muestra el gráfico de "Ventas de la Semana" y el gráfico circular de "Movimientos por Tipo" (Entradas, Salidas, Ajustes). Más adelante, presenta el gráfico de barras "Productos Más Vendidos" junto con el "Resumen de Inventario" (total de productos, productos con stock bajo, productos por vencer y valor total de inventario) y el desglose de "Top Categorías" con su participación porcentual (Bebidas, Abarrotes, Lácteos, Limpieza, Otros). Finalmente, el usuario accede al bloque "Descargar Reportes" y selecciona el formato de exportación deseado —"Descargar PDF", "Descargar Excel" o "Descargar CSV"—, tras lo cual el sistema genera y entrega el reporte correspondiente en el formato seleccionado.
+
+**Unhappy path:**
+No se desprende un unhappy path explícito de esta user story ni de las pantallas del flujo, dado que el acceso a la sección de Reportes está condicionado al plan Premium (validado previamente en la gestión de planes), y ambos escenarios descritos —consulta y descarga— corresponden a flujos exitosos del proceso de generación de reportes.
 
 
-###### User goal: 
+<strong>User Flow 3:</strong> Recibir alertas de productos por vencer
 
-Que el usuario pueda observar todas las métricas posibles dentro de su lógica del negocio. Luego, podrá realizar un reporte en un formato conocido resumiendo el reporte.
+- User goal:
+<br> Como dueño de bodega o farmacia, quiero recibir alertas de productos por vencer, para tomar acciones preventivas y reducir pérdidas.
 
+<br><strong>User Story asociada:</strong></br>
+US12 - Como dueño de bodega o farmacia, quiero recibir alertas de productos por vencer, para tomar acciones preventivas y reducir pérdidas.
 
-###### Descripción del flujo: 
+- web
+<p align="center">
+<img src="assets/img/userflows/userflow-3-web.png" alt="user flow" width="550"/>
+</p>
 
-Dashboard → Reportes→ Descargar reportes 
+- <strong>Descripción del flujo:</strong>
 
-###### Explicación del flujo:
+**Happy path (SI):**
+El usuario accede a la sección Alerts desde el menú lateral, donde visualiza el resumen general de alertas activas (Active alerts, Critical, Stock, Expiry) junto con el banner "X critical alerts require immediate attention". El sistema evalúa la fecha de expiración de los productos registrados y detecta que existen productos dentro del umbral de vencimiento definido. El usuario aplica el filtro "to expire" en la barra de búsqueda, y el sistema presenta el listado de alertas priorizando los productos según la cercanía de su fecha de vencimiento, mostrando tipo de alerta, producto, detalle, severidad, fecha de generación y estado. Al presionar "View" sobre una alerta de tipo "Expired", el sistema despliega el modal de detalle con la información completa de la alerta (producto, fecha de vencimiento, severidad, días desde la expiración), permitiendo al usuario "Acknowledge" o "Resolve" la alerta, o cerrarla mediante "Close".
 
-El usuario, desde el dashboard principal puede entrar a visualizar el apartado reportes para luego ir scroleando abajo del todo y encuentrar la opción que nos marca la descarga de un resumen de un reporte en formatos clásicos.
+**Unhappy path (NO):**
+Si el sistema evalúa las fechas de expiración de los productos y no detecta ningún producto próximo a vencer, el usuario accede a la sección Alerts y, al aplicar el filtro "Expired", el listado se muestra vacío con el ícono de campana y el mensaje "No alerts match these filters", indicando que no existen alertas de vencimiento activas en ese momento, sin generar errores en la interfaz.
 
+4) <strong>User Flow 4:</strong> Gestionar proveedores
 
+- User goal:
+<br> Como dueño del negocio, quiero registrar y consultar proveedores, para mantener organizado el abastecimiento y facilitar la reposición de productos.
 
-<img src="assets/img/userflow2.png" alt="Design Level Event Storming - Qullqa" width="500"/>
+<br><strong>User Story asociada:</strong></br>
+US17 - Como dueño del negocio, quiero registrar y consultar proveedores, para mantener organizado el abastecimiento y facilitar la reposición de productos.
 
+- web
+<p align="center">
+<img src="assets/img/userflows/userflow-4-web.png" alt="user flow" width="550"/>
+</p>
 
-###### Elementos de diseño
-El flujo presenta una interfaz basada en tarjetas informativas (cards), gráficos estadísticos y paneles de resumen. Se incluyen componentes como indicadores clave (KPIs), gráficos de líneas y barras, listas categorizadas y botones de descarga. La navegación es vertical y progresiva, permitiendo al usuario explorar desde métricas generales hasta detalles específicos.
+- <strong>Descripción del flujo:</strong>
 
-###### Aplicación de principios de diseño
-Se evidencia una adecuada jerarquía visual, donde los indicadores principales (ventas, productos, movimientos) se ubican en la parte superior, seguidos de visualizaciones más analíticas. El uso de tarjetas separadas refuerza el principio de proximidad, facilitando la agrupación de información relacionada. Además, la consistencia en colores y estilos contribuye a una experiencia uniforme.
+**Happy path (registrar proveedor):**
+El usuario accede a la sección Suppliers desde el menú lateral, donde visualiza el resumen general (Active Suppliers, Pending Orders, Pending Amount, Delayed Orders) y el listado de proveedores registrados con su RUC, contacto, categoría y estado. El usuario presiona el botón "+ Register" y el sistema despliega el modal "Register supplier", donde ingresa el nombre del negocio (Business name), apellido o sufijo, RUC, categoría, persona de contacto, teléfono, email y dirección. Al presionar "Register supplier", el sistema valida y guarda la información del nuevo proveedor, actualizando el contador de Active Suppliers y agregando el registro al listado general.
 
-###### Diseño inclusivo
-El diseño prioriza la claridad mediante el uso de etiquetas descriptivas y estructuras simples. Los gráficos permiten una interpretación visual rápida, reduciendo la carga cognitiva. Sin embargo, podría mejorarse incorporando alternativas textuales más explícitas para usuarios con dificultades en la interpretación gráfica.
+**Happy path (consultar proveedor por categoría):**
+El usuario accede a la sección Suppliers y utiliza el filtro desplegable de categoría (por ejemplo, "Groceries") ubicado junto a la barra de búsqueda. El sistema presenta el listado filtrado mostrando únicamente los proveedores asociados a dicha categoría, con su información de RUC, contacto, categoría y estado (Active/Inactive), permitiendo al usuario presionar "View" sobre cualquier proveedor para consultar el detalle.
 
-###### Arquitectura de la información
-La información se organiza de manera jerárquica y progresiva:
-Resumen general (KPIs)
-Análisis temporal (ventas de la semana)
-Comparativas (productos más vendidos)
-Detalle operativo (inventario y categorías)
-Acciones finales (descarga de reportes)
-Esta estructura permite que el usuario pase de una visión global a un análisis detallado sin perder contexto, favoreciendo la toma de decisiones.
-
-
-###### Heurísticas de usabilidad
-El flujo cumple con el principio de visibilidad del estado del sistema, mostrando datos actualizados y comparativos. También favorece el reconocimiento sobre la memoria, al presentar información ya procesada visualmente. Como mejora, podría reforzarse el feedback al momento de interactuar con filtros o descargas.
-
-###### Information Architecture & Logistics
-Desde una perspectiva de arquitectura y logística de la información, el sistema organiza los datos según su valor operativo, priorizando primero los indicadores críticos y luego los elementos analíticos. El flujo permite una navegación eficiente entre análisis y acción, reduciendo fricción en tareas como evaluación del rendimiento o generación de reportes.
-
+**Unhappy path:**
+No se desprende un unhappy path explícito de esta user story ni de las pantallas del flujo, ya que ambos escenarios descritos (registro y consulta) corresponden a flujos exitosos del proceso de gestión de proveedores.
 
 ## 4.5. Web Applications Prototyping
 
@@ -4166,6 +4154,58 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
+
+#### Segmento 1: Bodegueros independientes
+
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de Qullqa desde la perspectiva del bodeguero independiente. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, ajustándose al progreso entregado por el equipo de desarrollo y a la disponibilidad coordinada con los entrevistados. Se recogerá el feedback de cada participante respecto al uso de la aplicación web, enfocándose en las funcionalidades orientadas a la gestión de inventario y al manejo de proveedores dentro del flujo operativo del negocio.
+
+##### Objetivos de la Entrevista:
+
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del panel del bodeguero, evaluando si comprende la arquitectura de navegación y puede acceder de forma intuitiva a las funcionalidades del sistema de gestión de inventario (IRP).
+
+2) Evaluar si Qullqa ofrece una propuesta de valor diferencial frente a otras alternativas de gestión de inventario, y si las funcionalidades base relacionadas al registro y consulta de proveedores satisfacen las necesidades operativas del bodeguero.
+
+##### Criterios de Evaluación:
+
+- Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el dashboard general del IRP.
+- Medir el tiempo que toma al usuario comprender las funcionalidades e interfaces principales de la aplicación.
+- Evaluar la comprensión de la propuesta de valor de la solución por parte del usuario.
+- Evaluar si el usuario puede identificar y acceder a la sección de Suppliers desde el panel principal sin ambigüedades.
+- Evaluar si el usuario comprende el proceso de registro de un nuevo proveedor, incluyendo los campos requeridos del formulario.
+- Evaluar si el usuario puede consultar proveedores existentes y filtrarlos por categoría de manera intuitiva.
+
+*Se considerarán los siguientes User Flows*:
+
+- **Userflow 4**: Gestionar proveedores (registro y consulta).
+
+El User Flow propuesto corresponde a una funcionalidad core del módulo de inventario para el rol de bodeguero, abarcando el ciclo de abastecimiento desde el registro de un nuevo proveedor hasta la consulta del listado existente.
+
+---
+
+#### Segmento 2: Farmacias independientes
+
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de Qullqa desde la perspectiva de la farmacia independiente. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, variando según el progreso propuesto por el equipo de desarrollo y la coordinación con los entrevistados. Se recogerá el feedback de cada participante en el uso de la aplicación web, con especial énfasis en las funcionalidades de monitoreo de alertas, notificaciones y control de vencimientos, propias del manejo de productos farmacéuticos.
+
+##### Objetivos de la Entrevista:
+
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del módulo de alertas, evaluando si el usuario comprende la arquitectura de navegación y puede acceder de manera intuitiva al monitoreo de alertas dentro del sistema IRP.
+
+2) Evaluar si Qullqa ofrece una propuesta de valor diferencial respecto a otras soluciones de gestión de inventario, y si las funcionalidades de notificación de alertas y aviso de expiración de productos cubren satisfactoriamente las necesidades de control de la farmacia.
+
+##### Criterios de Evaluación:
+
+- Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el dashboard general del IRP.
+- Medir el tiempo que toma al usuario comprender las funcionalidades e interfaces relacionadas al módulo de alertas.
+- Evaluar la comprensión de la propuesta de valor de la solución por parte del usuario, en especial respecto al control de vencimientos.
+- Evaluar si el usuario puede identificar y acceder a la sección de Alerts desde el panel principal sin ambigüedades.
+- Evaluar si el usuario comprende los indicadores resumen (alertas activas, críticas, de stock y de vencimiento) presentados en el dashboard de alertas.
+- Evaluar si el usuario puede filtrar y priorizar las alertas de productos por expirar, así como reconocer (Acknowledge) o resolver (Resolve) una alerta desde el detalle correspondiente.
+
+*Se considerarán los siguientes User Flows*:
+
+- **Userflow 3**: Recibir alertas de productos por vencer.
+
+El User Flow propuesto corresponde a una funcionalidad core del módulo de alertas para el rol de farmacia, abarcando el ciclo completo desde la detección automática de productos próximos a vencer hasta la gestión y resolución de la alerta correspondiente.
 
 ### 5.3.2. Registro de Entrevistas
 
