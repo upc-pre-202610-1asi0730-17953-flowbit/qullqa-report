@@ -4154,7 +4154,6 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
-
 #### Segmento 1: Bodegueros independientes
 
 Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de Qullqa desde la perspectiva del bodeguero independiente. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, ajustándose al progreso entregado por el equipo de desarrollo y a la disponibilidad coordinada con los entrevistados. Se recogerá el feedback de cada participante respecto al uso de la aplicación web, enfocándose en las funcionalidades orientadas a la gestión de inventario y al manejo de proveedores dentro del flujo operativo del negocio.
@@ -4206,7 +4205,6 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 - **Userflow 3**: Recibir alertas de productos por vencer.
 
 El User Flow propuesto corresponde a una funcionalidad core del módulo de alertas para el rol de farmacia, abarcando el ciclo completo desde la detección automática de productos próximos a vencer hasta la gestión y resolución de la alerta correspondiente.
-
 ### 5.3.2. Registro de Entrevistas
 
 ### 5.3.3. Evaluaciones según heurísticas
