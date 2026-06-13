@@ -172,6 +172,17 @@ Durante el TB1 también se desarrollaron evidencias relacionadas con el Sprint R
 
 Para la gestión y seguimiento del trabajo colaborativo, el equipo continuó utilizando GitHub como herramienta principal de control de versiones y colaboración. Mediante el uso de ramas, commits y repositorios compartidos, se logró mantener un registro organizado de los avances realizados en el desarrollo de la web application, las mejoras visuales, la documentación técnica y las implementaciones funcionales realizadas durante el TB1.
 
+
+**Tercera Entrega (AV2)**
+
+Durante la entrega del AV2 del proyecto Qullqa, el equipo consolidó los avances previos mediante un enfoque intensivo en la arquitectura de backend y la persistencia de datos. Esta etapa se caracterizó por la integración técnica y la validación funcional del sistema, permitiendo que la web application evolucionara hacia una solución robusta, conectada y preparada para entornos reales donde los clientes validaran el incremento.
+
+En este sprint, el equipo se centró en la implementación del backend y la estructuración de la base de datos, garantizando una comunicación fluida y eficiente con la capa de presentación. Se desarrollaron y desplegaron las primeras versiones de los Web Services, asegurando que la lógica de negocio esté correctamente desacoplada y sea escalable. Paralelamente, se llevó a cabo el despliegue de las versiones actualizadas tanto de la Landing Page como de la Web Application, refinando la experiencia de usuario y optimizando los flujos de interacción basados en las correciones de los entregables anteriores, presentando una mejora continua.
+
+Como parte del rigor técnico y de gestión, se realizó una exhaustiva labor de documentación y validación. Se integraron las entrevistas de validación de usuario y evaluaciones heurísticas para medir la usabilidad del sistema, y se elaboraron los artefactos correspondientes al Sprint 3, incluyendo el Sprint Planning, la definición de roles (líderes y colaboradores) y el Sprint Backlog actualizado. Asimismo, se generaron las evidencias de desarrollo, ejecución, servicios y despliegue técnico, las cuales demuestran la madurez alcanzada en la infraestructura del proyecto.
+
+Para registrar el avance integral del equipo, se produjeron los videos About-the-Product y About-the-Team, junto con el informe final, la presentación keynote y el reporte de desempeño individual. La gestión del trabajo colaborativo mantuvo su base en GitHub, donde se centralizaron el control de versiones, la integración continua y la coherencia del repositorio, asegurando que todos los entregables, tanto el código fuente como los documentos complementarios, cumplan con los estándares de calidad definidos para esta etapa del proyecto.
+
 ---
 
 # Contenido
