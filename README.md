@@ -4261,22 +4261,23 @@ El User Flow propuesto corresponde a una funcionalidad core del módulo de alert
 ### 5.3.2. Registro de Entrevistas
 
 **PRIMER SEGMENTO OBJETIVO (BODEGUEROS INDEPENDIENTES)**
+**Userflow 5**: Consultar lista de productos y disponibilidad.
 
 <u>Entrevista 1:</u>
 
-Entrevistador: 
+Entrevistador: Arturo Contreras Torres
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:** Ruben
+- **Apellidos:** De la Cruz
+- **Edad:** 53 años
+- **Distrito:** Comas
+- **Timing:** 0:00:02 - 0:14:25
 
 <p align="center">
   <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <br/><i>Evidencia de entrevista: Ruben de la Cruz </i>
 </p>
 
 **Resumen descriptivo:**
@@ -4285,6 +4286,7 @@ Datos del entrevistado
 <!--- Escribir descripción aquí !--->
 </div>
 
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQC9FJTxFdWQSK_glUj1Gr6RAcE7JG8vUcuE8xO7KTuXakE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Na4bfI)
 
 <u>Entrevista 2:</u>
 
@@ -4309,6 +4311,7 @@ Datos del entrevistado
 <!--- Escribir descripción aquí !--->
 </div>
 
+***Enlace del video:*** [Ver grabación aquí]()
 
 <u>Entrevista 3:</u>
 
@@ -4333,7 +4336,10 @@ Datos del entrevistado
 <!--- Escribir descripción aquí !--->
 </div>
 
+***Enlace del video:*** [Ver grabación aquí]()
+
 **SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)**
+**Userflow 3**: Recibir alertas de productos por vencer.
 
 <u>Entrevista 1:</u>
 
@@ -4358,6 +4364,8 @@ Datos del entrevistado
 <!--- Escribir descripción aquí !--->
 </div>
 
+***Enlace del video:*** [Ver grabación aquí]()
+
 
 <u>Entrevista 2:</u>
 
@@ -4381,6 +4389,8 @@ Datos del entrevistado
 <div align="justify">
 <!--- Escribir descripción aquí !--->
 </div>
+
+***Enlace del video:*** [Ver grabación aquí]()
 
 
 <u>Entrevista 3:</u>
