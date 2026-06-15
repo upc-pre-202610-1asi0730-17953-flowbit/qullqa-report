@@ -4260,7 +4260,7 @@ El User Flow propuesto corresponde a una funcionalidad core del módulo de alert
 
 ### 5.3.2. Registro de Entrevistas
 
-**PRIMER SEGMENTO OBJETIVO (BODEGUEROS INDEPENDIENTES)**
+**PRIMER SEGMENTO OBJETIVO (BODEGUEROS INDEPENDIENTES)** <br>
 **Userflow 5**: Consultar lista de productos y disponibilidad.
 
 <u>Entrevista 1:</u>
@@ -4276,14 +4276,14 @@ Datos del entrevistado
 - **Timing:** 0:00:02 - 0:14:25
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
+  <img src="assets/img/Entrevistas/validation-interview-1.png" alt="Entrevista de validación" width="500"/>
   <br/><i>Evidencia de entrevista: Ruben de la Cruz </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Rubén De la Cruz, bodeguero independiente de 53 años residente en Comas, encontró interesante la landing page de Qullqa, destacando que es muy vistosa y llamativa, conteniendo todos los datos importantes para conocer más acerca del producto. Expresó particular interés en la sección de ventas y planteó una pregunta relevante respecto a la flexibilidad del sistema: cuestionó cómo se aplicaría la venta en caso de que un cliente quisiera adquirir una cantidad de arroz no registrada en el sistema, como 1/4 de arroz, que es muy común en las bodegas. Identificó claramente el flujo de "Consultar lista de productos y disponibilidad" como una funcionalidad clave, señalando que es claro e interesante, ya que servirá de gran ayuda para bodegueros con estos puntos débiles y agilizará significativamente sus negocios. Mencionó que es muy importante que la aplicación permita añadir más productos, considerando que una bodega contiene infinidad de artículos y la capacidad de gestionar un catálogo amplio es esencial. En general, le gustó la aplicación Qullqa, considerándola interactiva, amigable y muy fácil de entender, lo que sugiere un potencial significativo para mejorar la operatividad de pequeños comerciantes como él.
 </div>
 
 ***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQC9FJTxFdWQSK_glUj1Gr6RAcE7JG8vUcuE8xO7KTuXakE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Na4bfI)
@@ -4338,7 +4338,7 @@ Datos del entrevistado
 
 ***Enlace del video:*** [Ver grabación aquí]()
 
-**SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)**
+**SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)** <br>
 **Userflow 3**: Recibir alertas de productos por vencer.
 
 <u>Entrevista 1:</u>
