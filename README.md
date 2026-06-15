@@ -4227,7 +4227,7 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 
 *Se considerarán los siguientes User Flows*:
 
-- **Userflow 5*: Consultar lista de productos y disponibilidad.
+- **Userflow 5**: Consultar lista de productos y disponibilidad.
 
 El User Flow propuesto corresponde a una funcionalidad core del módulo de inventario para el rol de bodeguero, donde abarca como se consultan los productos y los escenarios posibles al momento de realizar dicha acción. 
 
@@ -4257,7 +4257,166 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 - **Userflow 3**: Recibir alertas de productos por vencer.
 
 El User Flow propuesto corresponde a una funcionalidad core del módulo de alertas para el rol de farmacia, abarcando el ciclo completo desde la detección automática de productos próximos a vencer hasta la gestión y resolución de la alerta correspondiente.
+
 ### 5.3.2. Registro de Entrevistas
+
+**PRIMER SEGMENTO OBJETIVO (BODEGUEROS INDEPENDIENTES)** <br>
+**Userflow 5**: Consultar lista de productos y disponibilidad.
+
+<u>Entrevista 1:</u>
+
+Entrevistador: Arturo Contreras Torres
+
+Datos del entrevistado
+
+- **Nombre:** Ruben
+- **Apellidos:** De la Cruz
+- **Edad:** 53 años
+- **Distrito:** Comas
+- **Timing:** 0:00:02 - 0:14:25
+
+<p align="center">
+  <img src="assets/img/Entrevistas/validation-interview-1.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Ruben de la Cruz </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Rubén De la Cruz, bodeguero independiente de 53 años residente en Comas, encontró interesante la landing page de Qullqa, destacando que es muy vistosa y llamativa, conteniendo todos los datos importantes para conocer más acerca del producto. Expresó particular interés en la sección de ventas y planteó una pregunta relevante respecto a la flexibilidad del sistema: cuestionó cómo se aplicaría la venta en caso de que un cliente quisiera adquirir una cantidad de arroz no registrada en el sistema, como 1/4 de arroz, que es muy común en las bodegas. Identificó claramente el flujo de "Consultar lista de productos y disponibilidad" como una funcionalidad clave, señalando que es claro e interesante, ya que servirá de gran ayuda para bodegueros con estos puntos débiles y agilizará significativamente sus negocios. Mencionó que es muy importante que la aplicación permita añadir más productos, considerando que una bodega contiene infinidad de artículos y la capacidad de gestionar un catálogo amplio es esencial. En general, le gustó la aplicación Qullqa, considerándola interactiva, amigable y muy fácil de entender, lo que sugiere un potencial significativo para mejorar la operatividad de pequeños comerciantes como él.
+</div>
+
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQC9FJTxFdWQSK_glUj1Gr6RAcE7JG8vUcuE8xO7KTuXakE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Na4bfI)
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+**SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)** <br>
+**Userflow 3**: Recibir alertas de productos por vencer.
+
+<u>Entrevista 1:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
 
 ### 5.3.3. Evaluaciones según heurísticas
 
