@@ -4227,7 +4227,7 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 
 *Se considerarán los siguientes User Flows*:
 
-- **Userflow 5*: Consultar lista de productos y disponibilidad.
+- **Userflow 5**: Consultar lista de productos y disponibilidad.
 
 El User Flow propuesto corresponde a una funcionalidad core del módulo de inventario para el rol de bodeguero, donde abarca como se consultan los productos y los escenarios posibles al momento de realizar dicha acción. 
 
@@ -4257,7 +4257,156 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 - **Userflow 3**: Recibir alertas de productos por vencer.
 
 El User Flow propuesto corresponde a una funcionalidad core del módulo de alertas para el rol de farmacia, abarcando el ciclo completo desde la detección automática de productos próximos a vencer hasta la gestión y resolución de la alerta correspondiente.
+
 ### 5.3.2. Registro de Entrevistas
+
+**PRIMER SEGMENTO OBJETIVO (BODEGUEROS INDEPENDIENTES)**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+**SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:**
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+<!--- Escribir descripción aquí !--->
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
 
 ### 5.3.3. Evaluaciones según heurísticas
 
