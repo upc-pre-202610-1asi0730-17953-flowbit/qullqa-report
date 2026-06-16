@@ -337,6 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en antecedentes y problemática considerando los aspectos <i>Who</i> y <i>Why</i>, Lean UX Assumptions, entrevistas, Empathy Mapping, Information Architecture, diseño de mockups y wireframes, Software Configuration Management y configuración de la landing page. Sus aportes contribuyeron a la coordinación de aspectos visuales, técnicos y organizativos del proyecto.
       <br><br> <u>TB1</u> <br>
       Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron evidenciar el avance del sprint y fortalecer la integración visual y funcional de la aplicación web.
+      <br><br> <u>AV2</u> <br>
+      Participó en el desarrollo e integración de los servicios del backend, la ejecución de entrevistas de validación con usuarios y la implementación de mejoras en el frontend de la aplicación web. Sus aportes permitieron alinear los requerimientos técnicos con las necesidades validadas del público objetivo, fortaleciendo la arquitectura del sistema y consolidando la dirección y el esfuerzo conjunto del equipo de desarrollo.
       <br> <br>
       <b>Huaman Oscco, Aldo Jesus</b> <br>
       <u>AV1</u> <br>
@@ -378,6 +380,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en actividades de UX y diseño como Empathy Mapping, Information Architecture, mockups y wireframes, además de la configuración de la landing page y Software Configuration Management. Sus aportes contribuyeron a la integración técnica y visual del proyecto, promoviendo un trabajo coordinado entre los integrantes.
       <br><br> <u>TB1</u> <br>
       Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron registrar avances del sprint y mantener coordinación entre aspectos técnicos y visuales de la aplicación.
+      <br><br> <u>AV2</u> <br>
+      Participó en la planificación de las entrevistas de validación para recopilar feedback, así como en la estructuración de tareas orientadas a la optimización del frontend y el desarrollo del backend. Estas actividades facilitaron la coordinación técnica entre los integrantes, asegurando el cumplimiento de los objetivos funcionales del sprint y promoviendo un entorno de trabajo organizado para la entrega del producto.
       <br> <br>
       <b>Huaman Oscco, Aldo Jesus</b> <br>
       <u>AV1</u> <br>
