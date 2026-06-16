@@ -4383,53 +4383,53 @@ Rubén De la Cruz, bodeguero independiente de 53 años residente en Comas, encon
 
 <u>Entrevista 2:</u>
 
-Entrevistador: 
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Raul** 
+- **Apellidos: Gimenez** 
+- **Edad: 61 años**
+- **Distrito: Chaclacayo** 
+- **Timing: 15:58** 
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/Entrevista_Bodega_1.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Raul Gimenez </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Raúl Gimenez, bodeguero independiente de 61 años residente en Chaclacayo, exploró la propuesta de Qullqa, destacando que su interfaz es bastante atractiva y sus funcionalidades se perciben muy completas desde el primer vistazo. Expresó particular interés en el módulo de registro de transacciones y planteó distintas observaciones que se presentaron al momento de la explicacion, como el duplicado de imagenes en el portafolio, el error de los formularion dentro de la app web, entre otros. Identificó claramente el flujo de "Registro rápido de productos, ventas y clientes" como una herramienta fundamental, señalando que parece muy intuitiva, ya que servirá de enorme ayuda para mantener el orden de las cuentas diarias y reducirá los tiempos de atención al cliente. Mencionó que, aunque siente que el programa está completo en cuanto a opciones operativas, considera que definitivamente se pueden realizar mejoras al producto, enfocándose más que todo en refinar la interfaz para el usuario. En general, quedó satisfecho con la aplicación Qullqa, considerándola una solución sólida y bien estructurada, lo que sugiere un impacto muy positivo para facilitar el trabajo de bodegueros tradicionales como él.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQA3DYjrfZ9gQIGrUn0tcVkiAa3WAIuDh0ApoUbamb99WlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CtEEDW)
 
 <u>Entrevista 3:</u>
 
-Entrevistador: 
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Juan** 
+- **Apellidos: Ayllon Pauccar** 
+- **Edad: 27 años**
+- **Distrito: Chorrillos** 
+- **Timing: 26:56** 
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/Entrevista_Bodega_2.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Juan Ayllon Pauccar </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Juan Ayllon Pauccar, bodeguero de 27 años proveniente de Chorrillos, analizó la plataforma de Qullqa, expresando más que todo halagos al destacar que el proyecto se ve muy completo y tiene una excelente estructura general. Expresó particular interés en la sección de administración del sistema, pero planteó una observación relevante respecto a la usabilidad técnica: identificó ciertos "bugs" o errores menores al interactuar con los formularios destinados a agregar distintos objetos, ya sea al registrar un nuevo producto, un proveedor o algún otro formulario similar. Identificó claramente el flujo de "Registro y gestión de productos" como una funcionalidad clave, señalando que está muy bien planteada y servirá de enorme ayuda para mantener el orden del negocio de forma ágil. Mencionó que siente que todo el diseño está bien logrado y enfatiza menos en hacerle mejoras a la interfaz visual, pero remarcó que de todos modos es indispensable solucionar esos fallos en los formularios para perfeccionar la experiencia del usuario. En general, le gustó mucho la aplicación Qullqa, considerándola una herramienta sólida y directa, lo que sugiere un gran potencial operativo una vez aplicados esos ajustes técnicos.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQB9DMRTBLIHRpSgstMUKgLtAYfcufx9IzRchfAdBSh64jE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZNoXPe)
 
 **SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)** <br>
 **Userflow 3**: Recibir alertas de productos por vencer.
