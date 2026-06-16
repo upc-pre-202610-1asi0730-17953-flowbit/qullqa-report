@@ -4189,6 +4189,23 @@ Durante el tercer ciclo de desarrollo, se consolidaron los pilares operativos y 
 
 #### 5.2.3.1. Sprint Planning 3
 
+El Sprint actual marcó el inicio del desarrollo del código de QULLCA para el backend, asimismo, el desarrollo y despliegue de la base de datos. Durante esta sesión, el equipo de desarrollo junto al Product Owner seleccionaron las Historias de Usuario pertinentes del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-10 |
+| **Time** | 10:00 AM |
+| **Location** | Cubiculo - Pabellon I |
+| **Prepared By** | Arturo Valentino Contreras Torres  |
+| **Attendees (to planning meeting)** | Asmat Alminco, Martin Alejandro / Contreras Torres, Arturo Valentino / Güere Calero, Fernando Julio / Huaman Oscco, Aldo Jesus / Ramos Fuentes Rivera, Adriana Nicole |
+| **Sprint 2 Review Summary** |Se completó con éxito la fase de desarrollo del backend, afinar detalles para el Fronted y despliegue técnico para la base de datos. Se cuenta con la arquitectura desarrollada, la estructura de la base de datos aplicada y el despliegue de nuestro producto en Vercel para el acceso libre. El Product Owner validó la estructura de los repositorios y hizo comentarios con relacion a la mejora del trabajo coperativo en relacion al gitflow, reforzando el uso de la guia escrita de como realizar el paso a paso para enviar commits o avances al repositorio.|
+| **Sprint 2 Retrospective Summary** | Como retrospectiva del trabajo, el equipo identificó como acierto el uso de herramientas compartidas, estas facilitan el avance colaborativo en tiempo real asi como debatir sobre la participacion de cada uno, ademas, el uso de herramientas colaborativos como GitHub y Jira permiten encapsular el desarrollo de muchas herrramientas. Finalmente, se reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | **Contexto:** El equipo de producto de QULLQA ha decidido priorizar el establecimiento de la identidad digital de la plataforma y la seguridad de acceso para los primeros usuarios. El esfuerzo se centra en comunicar de manera efectiva la propuesta de valor diferenciada para dueños de bodegas independientes (enfocada en control de stock) y farmacias (enfocada en vencimientos). Asimismo, se implementará el sistema base de gestión de identidad para permitir que los usuarios reales comiencen a interactuar con el módulo de inventario, transformando el diseño de arquitectura y mock-ups previos en un entorno funcional y seguro. <br><br> **Sprint Goal:**<br>*“Our focus is on establishing a trustworthy digital presence and a secure entry point for our initial business owners. We believe it delivers clarity on the product’s value proposition to prospective customers and a reliable onboarding experience to independent store and pharmacy owners.This will be confirmed when visitors can identify specific benefits for their business segment on the Landing Page, and administrators (like Carlos and Carmen) can successfully register, log in, and perform the initial registration of their product catalog without errors.” |
+| **Sprint n Velocity** | 25 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar los módulos de autenticación básicos). |
+| **Sum of Story Points** | 12 Story Points. |
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 #### 5.2.3.3. Sprint Backlog 3
