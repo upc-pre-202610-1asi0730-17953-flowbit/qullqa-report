@@ -4226,7 +4226,66 @@ La organización de líderes y colaboradores está directamente relacionada con 
 > **C:** Colaborador (Colaborador y desarrollo)
 
 #### 5.2.3.3. Sprint Backlog 3
+*Periodo:** 4 de Mayo – 16 de Junio  
+**Objetivo del Sprint:** Tener la aplicacion web funcional con usuarios reales accediendo y mostrando interes, estableciendo la base visual y funcional de QULLQA en fase de prueba.
 
+---
+
+| User Story Id | Título de la Historia | Task Id | Título de la Tarea | Descripción de la Tarea | Est. (Hrs) |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **QULLQA-22** | Registrar venta POS | T-22-1 | Interfaz de venta rápida | Diseño de UI para selección de productos y cantidad. | 4 |
+| | | T-22-2 | Lógica de validación POS | Validación de stock disponible antes de procesar venta. | 4 |
+| | | T-22-3 | Integración con API | Conexión con el endpoint /sales para registrar la transacción. | 2 |
+| **QULLQA-14** | Gestionar plan y límites | T-14-1 | Definición de límites | Estructuración de lógica de límites según plan (básico/pro). | 2 |
+| | | T-14-2 | Backend de suscripción | Implementar control de permisos en los endpoints. | 2 |
+| | | T-14-3 | Notificación de límite | Mostrar aviso visual al usuario al alcanzar su límite. | 2 |
+| **QULLQA-21** | Ingreso de stock | T-21-1 | Formulario de entrada | Crear formulario para registrar nueva mercancía recibida. | 2 |
+| | | T-21-2 | Actualización de inventario | Lógica backend para incrementar el stock en la base de datos. | 2 |
+| | | T-21-3 | Registro de historial | Guardar registro del movimiento (fecha/cantidad) en logs. | 2 |
+| **QULLQA-11** | Visualizar planes | T-11-1 | Diseño de comparativa | Crear vista con la tabla comparativa de funcionalidades. | 2 |
+| | | T-11-2 | Consumo de datos | Conectar la vista con el servicio de planes del backend. | 2 |
+| | | T-11-3 | Feedback visual | Destacar el plan actual del usuario en la vista. | 2 |
+| **QULLQA-25** | Gestionar usuarios (/users) | T-25-1 | Controlador de usuarios | Implementar operaciones CRUD básicas para usuarios. | 2   |
+| | | T-25-2 | Middleware de seguridad | Asegurar el endpoint con validación de tokens JWT. | 2 |
+| | | T-25-3 | Pruebas de integración | Validar el registro y lectura de usuarios en DB. | 2 |
+| **QULLQA-30** | Gestionar ventas (/sales) | T-30-1 | Estructura de modelo | Definir el esquema de datos para documentos de venta. | 2 |
+| | | T-30-2 | Lógica de negocio | Implementar cálculos de totales y descuentos. | 2 |
+| | | T-30-3 | Endpoint de listado | Crear endpoint para consultar historial de ventas. | 2 |
+| **QULLQA-34** | Gestionar lotes (/batches) | T-34-1 | Modelo de vencimientos | Crear esquema para tracking de lotes y fechas de expiración. | 2 |
+| | | T-34-2 | Lógica de asignación | Lógica para asociar stock nuevo a un lote específico. | 2 |
+| | | T-34-3 | Endpoint de consulta | Habilitar endpoint para ver lotes próximos a vencer. | 2 |
+| **QULLQA-36** | Gestionar alertas (/alerts) | T-36-1 | Motor de reglas | Definir condiciones para disparar alertas (stock mínimo). | 2 |
+|  | T-36-2 | Servicio de alertas | Implementar servicio para persistir notificaciones. | 2 |
+| | | T-36-3 | Endpoint de lectura | Habilitar endpoint para obtener alertas del usuario. | 2 |
+| **QULLQA-38** | Gestionar productos (/products) | T-38-1 | Optimización de DB | Indexación de campos clave para búsqueda rápida de productos. | 2 |
+| | | T-38-2 | Endpoints de gestión | Implementar endpoints para crear, editar y eliminar productos. | 2 |
+| | | T-38-3 | Validación de datos | Implementar validaciones de tipos de datos en la entrada. | 2 |
+| **QULLQA-39** | Gestionar métricas (/metrics) | T-39-1 | Agregación de datos | Crear consultas para obtener totales de venta y stock. | 2 |
+| | | T-39-2 | Endpoint de reporte | Habilitar endpoint para consumo de métricas desde el frontend. | 2 |
+| | | T-39-3 | Formateo de respuesta | Asegurar que la data entregada sea eficiente para gráficos. | 2 |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **67** | | |
+
+---
+
+<p align="center">
+  <img src="assets/img/artefacts/sprint.png" width="800" alt="Product Backlog"/>
+  <br/><i>Artefacto: Jira para Sprint Priorizado</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
+</p>
+
+##### Resumen Técnico
+- **Total de Horas:** 64 horas.
+- **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
+- **Entregable Principal:** Aplicación base con Landing Page informativa y módulo funcional de inventario (CRUD de productos).
+
+---
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
