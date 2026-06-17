@@ -337,6 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en antecedentes y problemática considerando los aspectos <i>Who</i> y <i>Why</i>, Lean UX Assumptions, entrevistas, Empathy Mapping, Information Architecture, diseño de mockups y wireframes, Software Configuration Management y configuración de la landing page. Sus aportes contribuyeron a la coordinación de aspectos visuales, técnicos y organizativos del proyecto.
       <br><br> <u>TB1</u> <br>
       Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron evidenciar el avance del sprint y fortalecer la integración visual y funcional de la aplicación web.
+      <br><br> <u>AV2</u> <br>
+      Participó en el desarrollo e integración de los servicios del backend, la ejecución de entrevistas de validación con usuarios y la implementación de mejoras en el frontend de la aplicación web. Sus aportes permitieron alinear los requerimientos técnicos con las necesidades validadas del público objetivo, fortaleciendo la arquitectura del sistema y consolidando la dirección y el esfuerzo conjunto del equipo de desarrollo.
       <br> <br>
       <b>Huaman Oscco, Aldo Jesus</b> <br>
       <u>AV1</u> <br>
@@ -378,6 +380,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en actividades de UX y diseño como Empathy Mapping, Information Architecture, mockups y wireframes, además de la configuración de la landing page y Software Configuration Management. Sus aportes contribuyeron a la integración técnica y visual del proyecto, promoviendo un trabajo coordinado entre los integrantes.
       <br><br> <u>TB1</u> <br>
       Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron registrar avances del sprint y mantener coordinación entre aspectos técnicos y visuales de la aplicación.
+      <br><br> <u>AV2</u> <br>
+      Participó en la planificación de las entrevistas de validación para recopilar feedback, así como en la estructuración de tareas orientadas a la optimización del frontend y el desarrollo del backend. Estas actividades facilitaron la coordinación técnica entre los integrantes, asegurando el cumplimiento de los objetivos funcionales del sprint y promoviendo un entorno de trabajo organizado para la entrega del producto.
       <br> <br>
       <b>Huaman Oscco, Aldo Jesus</b> <br>
       <u>AV1</u> <br>
@@ -4189,10 +4193,103 @@ Durante el tercer ciclo de desarrollo, se consolidaron los pilares operativos y 
 
 #### 5.2.3.1. Sprint Planning 3
 
+El Sprint actual marcó el inicio del desarrollo del código de QULLCA para el backend, asimismo, el desarrollo y despliegue de la base de datos. Durante esta sesión, el equipo de desarrollo junto al Product Owner seleccionaron las Historias de Usuario pertinentes del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-10 |
+| **Time** | 10:00 AM |
+| **Location** | Cubiculo - Pabellon I |
+| **Prepared By** | Arturo Valentino Contreras Torres  |
+| **Attendees (to planning meeting)** | Asmat Alminco, Martin Alejandro / Contreras Torres, Arturo Valentino / Güere Calero, Fernando Julio / Huaman Oscco, Aldo Jesus / Ramos Fuentes Rivera, Adriana Nicole |
+| **Sprint 2 Review Summary** |Se completó con éxito la fase de desarrollo del backend, afinar detalles para el Fronted y despliegue técnico para la base de datos. Se cuenta con la arquitectura desarrollada, la estructura de la base de datos aplicada y el despliegue de nuestro producto en Vercel para el acceso libre. El Product Owner validó la estructura de los repositorios y hizo comentarios con relacion a la mejora del trabajo coperativo en relacion al gitflow, reforzando el uso de la guia escrita de como realizar el paso a paso para enviar commits o avances al repositorio.|
+| **Sprint 2 Retrospective Summary** | Como retrospectiva del trabajo, el equipo identificó como acierto el uso de herramientas compartidas, estas facilitan el avance colaborativo en tiempo real asi como debatir sobre la participacion de cada uno, ademas, el uso de herramientas colaborativos como GitHub y Jira permiten encapsular el desarrollo de muchas herrramientas. Finalmente, se reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | **Contexto:** El equipo de ingeniería de Qullqa se enfoca en este sprint en cerrar la brecha entre el diseño arquitectónico y la ejecución funcional. Priorizamos la construcción del ecosistema backend utilizando una arquitectura limpia, el despliegue de la infraestructura de base de datos y la integración de los servicios con el frontend. El objetivo es pasar de una presencia estática a un entorno dinámico donde las operaciones CRUD (Crear, Leer, Actualizar, Borrar) sean ejecutables, asegurando que la conexión entre el cliente y el servidor sea robusta, eficiente y escalable para las necesidades de gestión de inventarios y farmacias.<br><br> **Sprint Goal:**<br>*“Our focus is to transition from architectural planning to a functional, connected system by implementing the core backend logic, deploying the database, and establishing secure API endpoints. We believe this will enable a seamless data flow between the frontend and backend, validating the application’s business logic in real-time. This will be confirmed when users can successfully perform end-to-end operations—specifically adding, retrieving, and updating inventory items—with zero connection errors, and the system maintains consistent state management between the interface and the database.” |
+| **Sprint n Velocity** | 25 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para desarrollar entornos y features complejos). |
+| **Sum of Story Points** | 15 Story Points. |
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-#### 5.2.3.3. Sprint Backlog 3
+* En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **QULLQA**.
 
+La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante el Sprint.
+
+| Team Member | GitHub Username | Arquitectura & DDD (L/C) | Desarrollo Backend & API (L/C) | Simulacion IoT & Hardware (L/C) | Frontend & UI/UX (L/C) | QA & Testing (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asmat Alminco, Martin Alejandro | Alemarr2 | L | C | C | C | C |
+| Contreras Torres, Arturo Valentino | Arturouu  | C | C | C | C | L |
+| Güere Calero, Fernando Julio | FerG17 | C | L | C | C | C |
+| Huaman Oscco, Aldo Jesus | Jesusho22 | C | C | C | L | C |
+| Ramos Fuentes Rivera, Adriana Nicole | Adriana832 | C | C | L | C | C |
+---
+
+> **Leyenda:**  </br>
+> **L:** Lider (Líder del aspecto)  
+> **C:** Colaborador (Colaborador y desarrollo)
+
+#### 5.2.3.3. Sprint Backlog 3
+*Periodo:** 4 de Mayo – 16 de Junio  
+**Objetivo del Sprint:** Tener la aplicacion web funcional con usuarios reales accediendo y mostrando interes, estableciendo la base visual y funcional de QULLQA en fase de prueba.
+
+---
+
+| User Story Id | Título de la Historia | Task Id | Título de la Tarea | Descripción de la Tarea | Est. (Hrs) |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **QULLQA-22** | Registrar venta POS | T-22-1 | Interfaz de venta rápida | Diseño de UI para selección de productos y cantidad. | 4 |
+| | | T-22-2 | Lógica de validación POS | Validación de stock disponible antes de procesar venta. | 4 |
+| | | T-22-3 | Integración con API | Conexión con el endpoint /sales para registrar la transacción. | 2 |
+| **QULLQA-14** | Gestionar plan y límites | T-14-1 | Definición de límites | Estructuración de lógica de límites según plan (básico/pro). | 2 |
+| | | T-14-2 | Backend de suscripción | Implementar control de permisos en los endpoints. | 2 |
+| | | T-14-3 | Notificación de límite | Mostrar aviso visual al usuario al alcanzar su límite. | 2 |
+| **QULLQA-21** | Ingreso de stock | T-21-1 | Formulario de entrada | Crear formulario para registrar nueva mercancía recibida. | 2 |
+| | | T-21-2 | Actualización de inventario | Lógica backend para incrementar el stock en la base de datos. | 2 |
+| | | T-21-3 | Registro de historial | Guardar registro del movimiento (fecha/cantidad) en logs. | 2 |
+| **QULLQA-11** | Visualizar planes | T-11-1 | Diseño de comparativa | Crear vista con la tabla comparativa de funcionalidades. | 2 |
+| | | T-11-2 | Consumo de datos | Conectar la vista con el servicio de planes del backend. | 2 |
+| | | T-11-3 | Feedback visual | Destacar el plan actual del usuario en la vista. | 2 |
+| **QULLQA-25** | Gestionar usuarios (/users) | T-25-1 | Controlador de usuarios | Implementar operaciones CRUD básicas para usuarios. | 2   |
+| | | T-25-2 | Middleware de seguridad | Asegurar el endpoint con validación de tokens JWT. | 2 |
+| | | T-25-3 | Pruebas de integración | Validar el registro y lectura de usuarios en DB. | 2 |
+| **QULLQA-30** | Gestionar ventas (/sales) | T-30-1 | Estructura de modelo | Definir el esquema de datos para documentos de venta. | 2 |
+| | | T-30-2 | Lógica de negocio | Implementar cálculos de totales y descuentos. | 2 |
+| | | T-30-3 | Endpoint de listado | Crear endpoint para consultar historial de ventas. | 2 |
+| **QULLQA-34** | Gestionar lotes (/batches) | T-34-1 | Modelo de vencimientos | Crear esquema para tracking de lotes y fechas de expiración. | 2 |
+| | | T-34-2 | Lógica de asignación | Lógica para asociar stock nuevo a un lote específico. | 2 |
+| | | T-34-3 | Endpoint de consulta | Habilitar endpoint para ver lotes próximos a vencer. | 2 |
+| **QULLQA-36** | Gestionar alertas (/alerts) | T-36-1 | Motor de reglas | Definir condiciones para disparar alertas (stock mínimo). | 2 |
+|  | T-36-2 | Servicio de alertas | Implementar servicio para persistir notificaciones. | 2 |
+| | | T-36-3 | Endpoint de lectura | Habilitar endpoint para obtener alertas del usuario. | 2 |
+| **QULLQA-38** | Gestionar productos (/products) | T-38-1 | Optimización de DB | Indexación de campos clave para búsqueda rápida de productos. | 2 |
+| | | T-38-2 | Endpoints de gestión | Implementar endpoints para crear, editar y eliminar productos. | 2 |
+| | | T-38-3 | Validación de datos | Implementar validaciones de tipos de datos en la entrada. | 2 |
+| **QULLQA-39** | Gestionar métricas (/metrics) | T-39-1 | Agregación de datos | Crear consultas para obtener totales de venta y stock. | 2 |
+| | | T-39-2 | Endpoint de reporte | Habilitar endpoint para consumo de métricas desde el frontend. | 2 |
+| | | T-39-3 | Formateo de respuesta | Asegurar que la data entregada sea eficiente para gráficos. | 2 |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **67** | | |
+
+---
+
+<p align="center">
+  <img src="assets/img/artefacts/sprint.png" width="800" alt="Product Backlog"/>
+  <br/><i>Artefacto: Jira para Sprint Priorizado</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
+</p>
+
+##### Resumen Técnico
+- **Total de Horas:** 64 horas.
+- **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
+- **Entregable Principal:** Aplicación base con Landing Page informativa y módulo funcional de inventario (CRUD de productos).
+
+---
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -4290,53 +4387,53 @@ Rubén De la Cruz, bodeguero independiente de 53 años residente en Comas, encon
 
 <u>Entrevista 2:</u>
 
-Entrevistador: 
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Raul** 
+- **Apellidos: Gimenez** 
+- **Edad: 61 años**
+- **Distrito: Chaclacayo** 
+- **Timing: 15:58** 
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/Entrevista_Bodega_1.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Raul Gimenez </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Raúl Gimenez, bodeguero independiente de 61 años residente en Chaclacayo, exploró la propuesta de Qullqa, destacando que su interfaz es bastante atractiva y sus funcionalidades se perciben muy completas desde el primer vistazo. Expresó particular interés en el módulo de registro de transacciones y planteó distintas observaciones que se presentaron al momento de la explicacion, como el duplicado de imagenes en el portafolio, el error de los formularion dentro de la app web, entre otros. Identificó claramente el flujo de "Registro rápido de productos, ventas y clientes" como una herramienta fundamental, señalando que parece muy intuitiva, ya que servirá de enorme ayuda para mantener el orden de las cuentas diarias y reducirá los tiempos de atención al cliente. Mencionó que, aunque siente que el programa está completo en cuanto a opciones operativas, considera que definitivamente se pueden realizar mejoras al producto, enfocándose más que todo en refinar la interfaz para el usuario. En general, quedó satisfecho con la aplicación Qullqa, considerándola una solución sólida y bien estructurada, lo que sugiere un impacto muy positivo para facilitar el trabajo de bodegueros tradicionales como él.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQA3DYjrfZ9gQIGrUn0tcVkiAa3WAIuDh0ApoUbamb99WlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CtEEDW)
 
 <u>Entrevista 3:</u>
 
-Entrevistador: 
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Juan** 
+- **Apellidos: Ayllon Pauccar** 
+- **Edad: 27 años**
+- **Distrito: Chorrillos** 
+- **Timing: 26:56** 
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/Entrevista_Bodega_2.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Juan Ayllon Pauccar </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Juan Ayllon Pauccar, bodeguero de 27 años proveniente de Chorrillos, analizó la plataforma de Qullqa, expresando más que todo halagos al destacar que el proyecto se ve muy completo y tiene una excelente estructura general. Expresó particular interés en la sección de administración del sistema, pero planteó una observación relevante respecto a la usabilidad técnica: identificó ciertos "bugs" o errores menores al interactuar con los formularios destinados a agregar distintos objetos, ya sea al registrar un nuevo producto, un proveedor o algún otro formulario similar. Identificó claramente el flujo de "Registro y gestión de productos" como una funcionalidad clave, señalando que está muy bien planteada y servirá de enorme ayuda para mantener el orden del negocio de forma ágil. Mencionó que siente que todo el diseño está bien logrado y enfatiza menos en hacerle mejoras a la interfaz visual, pero remarcó que de todos modos es indispensable solucionar esos fallos en los formularios para perfeccionar la experiencia del usuario. En general, le gustó mucho la aplicación Qullqa, considerándola una herramienta sólida y directa, lo que sugiere un gran potencial operativo una vez aplicados esos ajustes técnicos.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQB9DMRTBLIHRpSgstMUKgLtAYfcufx9IzRchfAdBSh64jE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZNoXPe)
 
 **SEGUNDO SEGMENTO OBJETIVO (FARMACIAS INDEPENDIENTES)** <br>
 **Userflow 3**: Recibir alertas de productos por vencer.
@@ -4395,28 +4492,28 @@ Datos del entrevistado
 
 <u>Entrevista 3:</u>
 
-Entrevistador: 
+Entrevistador: Aldo Jesus Huaman Oscco
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:** Wilmer Sebastian
+- **Apellidos:** Rojas Pulache
+- **Edad:** 28
+- **Distrito:** Pachacamac
+- **Timing:** 17:19 min
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/Entrevista_Wilmer.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Wilmer Sebastian Rojas Pulache </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacamac, encontró interesante la landing page de Qullqa, menciona que es llamativa, conteniendo datos relevantes para conocer más acerca del producto y de la empresa, generando cierta cofianza y espectativa. Dice tener interés en la sección de inventario y planteó una pregunta relevante respecto a la flexibilidad y uso intuitivo del sistema: cuestiono el uso de distintos idiomas nacionales para acercarse a nuevos segmentos estudiados o por explorar, ademas dio un feedback respecto a la interfaz, mencionando que el cambio de estilo a dark para invertir la paleta de colores a oscuros podria ser un atractivo visual en el sistema. Asimismo, indica que los demas diseños son intuitivos y por ende es facil de utilizar. Finalmente, destaca que el proyecto o aplicacion es de gran interes y ayuda en el contexto actual del Peru, pues hay muchas personas dueñas de farmacia que aun usar una gestion a papel.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h067_upc_edu_pe/IQDfea9TGuZzRJvdVeBhjy5mAdxf1pd3l4c4MFBbEunnp6E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VQDWTS]()
 
 ### 5.3.3. Evaluaciones según heurísticas
 
