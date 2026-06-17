@@ -4351,7 +4351,7 @@ Datos del entrevistado
 - **Apellidos:** Mariños Roble
 - **Edad:** 49 años
 - **Distrito:** Comas
-- **Timing:** 16:53
+- **Timing:** 00:00:00 - 00:16:53
 
 <p align="center">
   <img src="" alt="Entrevista de validación" width="500"/>
