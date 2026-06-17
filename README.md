@@ -4524,10 +4524,10 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 |---|---|
 | **CARRERA** | Ingeniería de Software |
 | **CURSO** | Aplicaciones Web |
-| **SECCIÓN** | *[Modifica aquí: código de la sección, ej. SI730]* |
-| **PROFESORES** | Todos |
-| **AUDITOR** | Nombre del Grupo |
-| **CLIENTE(S)** | *[Modifica aquí: nombres de los participantes de la sesión de validación, ej. Rubén De la Cruz, Raúl Gimenez, Juan Ayllon, María Mariños, Wilmer Rojas]* |
+| **SECCIÓN** | *[17953]* |
+| **PROFESORES** | Humberto Sánchez Ponce|
+| **AUDITOR** | vetsmart |
+| **CLIENTE(S)** | *[Martin Asmat, Arturo Contreras, Fernando Güere, Aldo Huaman, Adriana Ramos]* |
 
 ---
 
@@ -4551,6 +4551,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 5. Filtrar alertas por tipo de expiración desde la sección Alerts
 6. Reconocer (Acknowledge) y resolver (Resolve) una alerta de vencimiento
 7. Navegar entre las secciones principales de la aplicación web (menú lateral)
+8. Navegar por la landing Page para concer la propuesta de negocio
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
@@ -4604,6 +4605,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 **Problema:**
 Durante las sesiones de validación con ambos segmentos objetivo (bodegueros y farmacias), los usuarios no comprendieron términos clave de la interfaz como "Acknowledge", "Resolve", "Expiry", "Low Stock" o "Out of Stock". Aunque la aplicación cuenta con soporte de internacionalización (i18n), la interfaz se presentó en inglés durante la sesión, lo que generó una barrera de acceso directa para usuarios que no dominan el idioma. Esto afecta la igualdad de experiencia entre distintos perfiles de usuario.
 
+<img src="assets/img/dashboard-displayed.png" width="500"/>
+
 **Recomendación:**
 Activar el idioma español como configuración predeterminada para el mercado peruano. Asegurar que el switch de idioma sea visible y accesible desde el primer acceso, y que todos los textos, etiquetas de botones y mensajes del sistema estén correctamente traducidos en la versión en español.
 
@@ -4616,7 +4619,9 @@ Activar el idioma español como configuración predeterminada para el mercado pe
 **Heurística violada:** Information Architecture – Is it findable?
 
 **Problema:**
-Durante la entrevista de validación del User Flow 3 (Recibir alertas de productos por vencer), los usuarios del segmento farmacias no lograron identificar ni acceder a la sección "Alerts" desde el menú lateral sin asistencia del entrevistador. La etiqueta y el ícono no fueron suficientemente reconocibles para comunicar que en esa sección se concentran las notificaciones de vencimiento y stock crítico, que son funcionalidades de alto valor para este segmento.
+Durante la entrevista de validación del User Flow 3 (Recibir alertas de productos por vencer), los usuarios del segmento farmacias no lograron identificar ni acceder a la sección "Alerts" desde el menú lateral sin asistencia del entrevistador. Ello ocurre especialmente con el display que se encuentra en formato móvil. El sidebar, la etiqueta y el ícono no fueron suficientemente reconocibles. Se sugiere cambiar fuente o tamaño. Ello es relevante ya que son funcionalidades de alto valor para este segmento.
+
+<img src="assets/img/alerts-not-found.png" width ="500"/>
 
 **Recomendación:**
 Rediseñar la entrada de "Alerts" en el menú lateral para que cuente con una etiqueta textual clara en español ("Alertas"), un ícono de campana acompañado de un indicador numérico de alertas activas (badge), y considerar destacarla visualmente cuando existan alertas críticas pendientes.
@@ -4632,6 +4637,8 @@ Rediseñar la entrada de "Alerts" en el menú lateral para que cuente con una et
 **Problema:**
 Al navegar hacia vistas de detalle dentro de la aplicación (como el modal de detalle de una alerta o la vista de un producto), los usuarios no encontraron un botón o enlace claro para regresar al panel principal o al listado anterior sin necesidad de usar el botón "atrás" del navegador. Esto genera sensación de pérdida de control y puede interrumpir el flujo natural de trabajo.
 
+<img src="assets/img/dashboard-findable.png" width = "500"/>
+
 **Recomendación:**
 Incorporar breadcrumbs o un botón de regreso claramente etiquetado ("← Volver a Alertas", "← Volver al Inventario") en todas las vistas de detalle. Este control debe estar visible sin necesidad de hacer scroll.
 
@@ -4645,6 +4652,8 @@ Incorporar breadcrumbs o un botón de regreso claramente etiquetado ("← Volver
 
 **Problema:**
 Algunos ítems del menú lateral de la aplicación web presentan únicamente un ícono sin texto descriptivo, especialmente en resoluciones reducidas o cuando el menú está colapsado. Los usuarios con menor experiencia tecnológica, como los bodegueros de mayor edad entrevistados, no reconocieron la función de estos íconos y requirieron más tiempo para orientarse dentro de la navegación.
+
+<img src="assets/img/icons-wo-description.png" width = "500" />
 
 **Recomendación:**
 Asegurar que todos los ítems del menú lateral cuenten con etiqueta textual visible en todo momento, o al menos un tooltip con el nombre de la sección al pasar el cursor. Priorizar la legibilidad sobre la compacidad visual en el diseño de la barra de navegación.
@@ -4660,6 +4669,8 @@ Asegurar que todos los ítems del menú lateral cuenten con etiqueta textual vis
 **Problema:**
 Durante las sesiones de validación se observaron fallos en la conexión con la base de datos (errores en assembleres, queries y configuración del backend), que provocaron que varias secciones de la aplicación mostraran contenido vacío o no cargaran datos. En ninguno de estos casos el sistema informó al usuario sobre el error ocurrido, el motivo o los pasos a seguir. El usuario interpretó estos estados vacíos como ausencia de datos, no como un fallo técnico.
 
+<img src="assets/img/api-information-not-displayed.png" width = "500"/>
+
 **Recomendación:**
 Implementar manejo de errores en todas las llamadas a la API que muestre mensajes claros y amigables cuando ocurra un fallo de conexión (ej. "No se pudo cargar la información. Por favor, intenta nuevamente."). Adicionalmente, resolver los problemas de configuración del backend para estabilizar la conexión con la base de datos antes del lanzamiento.
 
@@ -4674,6 +4685,8 @@ Implementar manejo de errores en todas las llamadas a la API que muestre mensaje
 **Problema:**
 Los usuarios que intentaron completar formularios de registro (productos, proveedores) reportaron que al presionar el botón de guardar, la acción no producía ningún resultado visible: ni confirmación de éxito, ni mensaje de error, ni indicación de carga. Esto generó confusión sobre si la operación se había completado, y en algunos casos el usuario intentó enviar el formulario múltiples veces.
 
+<img src="assets/img/not-registered.png" width = "500"/>
+
 **Recomendación:**
 Añadir feedback visual inmediato tras cada acción de formulario: un indicador de carga mientras se procesa la solicitud, un mensaje de éxito cuando la operación se completa correctamente (ej. "Producto registrado con éxito"), y un mensaje de error descriptivo cuando falla (ej. "No se pudo guardar. Verifica tu conexión e intenta de nuevo.").
 
@@ -4687,6 +4700,8 @@ Añadir feedback visual inmediato tras cada acción de formulario: un indicador 
 
 **Problema:**
 Si bien la aplicación cuenta con una implementación de internacionalización (i18n), durante las sesiones de validación no fue posible identificar un control de cambio de idioma visible en la interfaz. Los usuarios que no manejan el inglés no tienen forma de acceder a la versión en español de manera autónoma, lo que limita la accesibilidad de la herramienta para el segmento objetivo principal.
+
+<img src="assets/img/i18n-overwritten.png" width = "500"/>
 
 **Recomendación:**
 Incorporar un selector de idioma accesible desde el encabezado o la configuración de la aplicación, con opciones claramente identificadas (ES / EN). El idioma español debe establecerse como valor predeterminado para todos los usuarios nuevos registrados en el mercado peruano.
