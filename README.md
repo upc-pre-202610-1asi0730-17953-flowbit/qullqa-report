@@ -4517,6 +4517,180 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+# UX Heuristics & Principles Evaluation
+## Usability – Inclusive Design – Information Architecture
+
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Aplicaciones Web |
+| **SECCIÓN** | *[Modifica aquí: código de la sección, ej. SI730]* |
+| **PROFESORES** | Todos |
+| **AUDITOR** | Nombre del Grupo |
+| **CLIENTE(S)** | *[Modifica aquí: nombres de los participantes de la sesión de validación, ej. Rubén De la Cruz, Raúl Gimenez, Juan Ayllon, María Mariños, Wilmer Rojas]* |
+
+---
+
+## SITE o APP A EVALUAR
+
+**Qullqa** — Sistema de gestión de inventario para bodegas y farmacias independientes.
+
+URL Web App: https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/
+URL Landing Page: https://qullqa-landing-page.vercel.app/
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Consultar lista de productos y disponibilidad (User Flow 5 – Segmento bodegueros)
+2. Filtrar productos por categoría desde la sección Inventory
+3. Visualizar el estado de stock de productos disponibles y agotados
+4. Recibir y visualizar alertas de productos por vencer (User Flow 3 – Segmento farmacias)
+5. Filtrar alertas por tipo de expiración desde la sección Alerts
+6. Reconocer (Acknowledge) y resolver (Resolve) una alerta de vencimiento
+7. Navegar entre las secciones principales de la aplicación web (menú lateral)
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro e inicio de sesión de nuevos usuarios
+2. Registro y edición de productos en el inventario
+3. Registro de ventas POS
+4. Gestión de proveedores (Suppliers)
+5. Consulta y descarga de reportes detallados (User Flow 16)
+6. Gestión del plan contratado y sus límites (User Flow 6)
+7. Rastreo de entregas con IoT
+
+---
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | Los textos de la interfaz están en inglés, lo que generó confusión en usuarios hispanohablantes que no reconocían etiquetas clave como "Acknowledge", "Resolve" o "Expiry" | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 2 | El usuario no encontró de forma autónoma la sección de Alerts y necesitó ser guiado para acceder a ella desde el menú lateral | 3 | Information Architecture: Is it findable? |
+| 3 | No existe un mecanismo visible para regresar al dashboard principal desde vistas internas de la aplicación | 2 | Usability: Libertad y control del usuario |
+| 4 | Algunos íconos del menú lateral no tienen etiqueta de texto de apoyo, lo que dificultó su reconocimiento por parte de usuarios con menor familiaridad tecnológica | 2 | Usability: Reconocimiento antes que recuerdo |
+| 5 | Errores en la conexión con la base de datos causaron que algunas vistas no cargaran datos reales o mostraran estados vacíos sin mensaje explicativo al usuario | 4 | Usability: Visibilidad del estado del sistema |
+| 6 | Los formularios de registro (productos, proveedores) presentaron fallos al intentar guardar, sin mostrar retroalimentación clara sobre el error ocurrido | 3 | Usability: Visibilidad del estado del sistema |
+| 7 | No se ofrecen alternativas de contenido en español ni indicadores visuales de idioma que permitan al usuario cambiar el idioma de la interfaz | 2 | Inclusive Design: Proporciona experiencias comparables |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+---
+
+### PROBLEMA #1
+**Los textos de la interfaz están en inglés, generando confusión en usuarios hispanohablantes**
+
+**Severidad:** 3
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+Durante las sesiones de validación con ambos segmentos objetivo (bodegueros y farmacias), los usuarios no comprendieron términos clave de la interfaz como "Acknowledge", "Resolve", "Expiry", "Low Stock" o "Out of Stock". Aunque la aplicación cuenta con soporte de internacionalización (i18n), la interfaz se presentó en inglés durante la sesión, lo que generó una barrera de acceso directa para usuarios que no dominan el idioma. Esto afecta la igualdad de experiencia entre distintos perfiles de usuario.
+
+**Recomendación:**
+Activar el idioma español como configuración predeterminada para el mercado peruano. Asegurar que el switch de idioma sea visible y accesible desde el primer acceso, y que todos los textos, etiquetas de botones y mensajes del sistema estén correctamente traducidos en la versión en español.
+
+---
+
+### PROBLEMA #2
+**El usuario no encontró de forma autónoma la sección de Alerts**
+
+**Severidad:** 3
+**Heurística violada:** Information Architecture – Is it findable?
+
+**Problema:**
+Durante la entrevista de validación del User Flow 3 (Recibir alertas de productos por vencer), los usuarios del segmento farmacias no lograron identificar ni acceder a la sección "Alerts" desde el menú lateral sin asistencia del entrevistador. La etiqueta y el ícono no fueron suficientemente reconocibles para comunicar que en esa sección se concentran las notificaciones de vencimiento y stock crítico, que son funcionalidades de alto valor para este segmento.
+
+**Recomendación:**
+Rediseñar la entrada de "Alerts" en el menú lateral para que cuente con una etiqueta textual clara en español ("Alertas"), un ícono de campana acompañado de un indicador numérico de alertas activas (badge), y considerar destacarla visualmente cuando existan alertas críticas pendientes.
+
+---
+
+### PROBLEMA #3
+**No existe un mecanismo visible para regresar al dashboard principal desde vistas internas**
+
+**Severidad:** 2
+**Heurística violada:** Usability – Libertad y control del usuario
+
+**Problema:**
+Al navegar hacia vistas de detalle dentro de la aplicación (como el modal de detalle de una alerta o la vista de un producto), los usuarios no encontraron un botón o enlace claro para regresar al panel principal o al listado anterior sin necesidad de usar el botón "atrás" del navegador. Esto genera sensación de pérdida de control y puede interrumpir el flujo natural de trabajo.
+
+**Recomendación:**
+Incorporar breadcrumbs o un botón de regreso claramente etiquetado ("← Volver a Alertas", "← Volver al Inventario") en todas las vistas de detalle. Este control debe estar visible sin necesidad de hacer scroll.
+
+---
+
+### PROBLEMA #4
+**Íconos del menú lateral sin etiqueta de texto de apoyo**
+
+**Severidad:** 2
+**Heurística violada:** Usability – Reconocimiento antes que recuerdo
+
+**Problema:**
+Algunos ítems del menú lateral de la aplicación web presentan únicamente un ícono sin texto descriptivo, especialmente en resoluciones reducidas o cuando el menú está colapsado. Los usuarios con menor experiencia tecnológica, como los bodegueros de mayor edad entrevistados, no reconocieron la función de estos íconos y requirieron más tiempo para orientarse dentro de la navegación.
+
+**Recomendación:**
+Asegurar que todos los ítems del menú lateral cuenten con etiqueta textual visible en todo momento, o al menos un tooltip con el nombre de la sección al pasar el cursor. Priorizar la legibilidad sobre la compacidad visual en el diseño de la barra de navegación.
+
+---
+
+### PROBLEMA #5
+**Errores de conexión con la base de datos generaron vistas vacías sin mensaje explicativo**
+
+**Severidad:** 4
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+Durante las sesiones de validación se observaron fallos en la conexión con la base de datos (errores en assembleres, queries y configuración del backend), que provocaron que varias secciones de la aplicación mostraran contenido vacío o no cargaran datos. En ninguno de estos casos el sistema informó al usuario sobre el error ocurrido, el motivo o los pasos a seguir. El usuario interpretó estos estados vacíos como ausencia de datos, no como un fallo técnico.
+
+**Recomendación:**
+Implementar manejo de errores en todas las llamadas a la API que muestre mensajes claros y amigables cuando ocurra un fallo de conexión (ej. "No se pudo cargar la información. Por favor, intenta nuevamente."). Adicionalmente, resolver los problemas de configuración del backend para estabilizar la conexión con la base de datos antes del lanzamiento.
+
+---
+
+### PROBLEMA #6
+**Formularios de registro presentaron fallos al guardar sin retroalimentación al usuario**
+
+**Severidad:** 3
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+Los usuarios que intentaron completar formularios de registro (productos, proveedores) reportaron que al presionar el botón de guardar, la acción no producía ningún resultado visible: ni confirmación de éxito, ni mensaje de error, ni indicación de carga. Esto generó confusión sobre si la operación se había completado, y en algunos casos el usuario intentó enviar el formulario múltiples veces.
+
+**Recomendación:**
+Añadir feedback visual inmediato tras cada acción de formulario: un indicador de carga mientras se procesa la solicitud, un mensaje de éxito cuando la operación se completa correctamente (ej. "Producto registrado con éxito"), y un mensaje de error descriptivo cuando falla (ej. "No se pudo guardar. Verifica tu conexión e intenta de nuevo.").
+
+---
+
+### PROBLEMA #7
+**No se ofrece un selector de idioma visible desde la interfaz**
+
+**Severidad:** 2
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+Si bien la aplicación cuenta con una implementación de internacionalización (i18n), durante las sesiones de validación no fue posible identificar un control de cambio de idioma visible en la interfaz. Los usuarios que no manejan el inglés no tienen forma de acceder a la versión en español de manera autónoma, lo que limita la accesibilidad de la herramienta para el segmento objetivo principal.
+
+**Recomendación:**
+Incorporar un selector de idioma accesible desde el encabezado o la configuración de la aplicación, con opciones claramente identificadas (ES / EN). El idioma español debe establecerse como valor predeterminado para todos los usuarios nuevos registrados en el mercado peruano.
+
 ## 5.4. Video About-the-Product
 
 <div align="justify">
