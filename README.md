@@ -4343,28 +4343,28 @@ Datos del entrevistado
 
 <u>Entrevista 1:</u>
 
-Entrevistador: 
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:** Maria Genoveva
+- **Apellidos:** Mariños Roble
+- **Edad:** 49 años
+- **Distrito:** Comas
+- **Timing:** 00:00:00 - 00:16:53
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/validation-interview-1-maria.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Maria Mariños </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+Maria Mariños, propietaria de una farmacia independiente de 49 años y reside en Comas, consideró que la landing page de Qullqa presenta un diseño atractivo, ordenado y fácil de comprender, destacando que la información proporcionada explica de manera precisa las principales funcionalidades y beneficios del sistema. Además, mostró especial interés en el dashboard de movimientos de inventario, ya que consideró que esta herramienta le permitiría supervisar con mayor facilidad las entradas y salidas de productos de su farmacia. Asimismo, identificó el flujo de “Recibir alertas de productos por vencer” como una funcionalidad clara y de gran utilidad para su negocio, principalmente la configuración del número de días en el que vence un producto, debido a que le permitiría detectar anticipadamente los medicamentos próximos a vencer, tomar medidas preventivas y reducir las pérdidas económicas. Finalmente, expresó satisfacción con las notificaciones de stock mínimo y productos agotados, pues estas facilitarían la reposición oportuna del inventario. En resumen, María percibió Qullqa como una aplicación práctica, muy intuitiva y adecuada para mejorar la organización y gestión diaria de negocios como el suyo.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAKQLxNzKWKSIVMUMhStymhAYEWEAfZo0-5LVXYF5N2vDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JqHgS1)
 
 
 <u>Entrevista 2:</u>
