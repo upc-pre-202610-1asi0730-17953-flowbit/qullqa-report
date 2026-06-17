@@ -4432,6 +4432,9 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
   <br/><i>Video About The Product</i>
 </p>
 
+
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=YXqRsN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 ### Conclusiones
