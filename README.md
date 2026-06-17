@@ -4354,8 +4354,8 @@ Datos del entrevistado
 - **Timing:** 00:00:00 - 00:16:53
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/validation-interview-1-maria.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Maria Mariños </i>
 </p>
 
 **Resumen descriptivo:**
