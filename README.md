@@ -4364,7 +4364,7 @@ Datos del entrevistado
 <!--- Escribir descripción aquí !--->
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAKQLxNzKWKSIVMUMhStymhAYEWEAfZo0-5LVXYF5N2vDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JqHgS1)
 
 
 <u>Entrevista 2:</u>
