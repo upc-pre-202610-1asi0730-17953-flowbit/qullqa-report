@@ -4422,6 +4422,19 @@ Datos del entrevistado
 
 ## 5.4. Video About-the-Product
 
+<div align="justify">
+En el video About the Product se presenta Qullqa, un sistema inteligente diseñado para optimizar la gestión de bodegas y farmacias. A través del video promocional, se explican las principales características y beneficios de la plataforma, como el control eficiente del inventario, el registro y análisis de ventas, alertas de productos con bajo stock o próximos a vencer y seguimiento de pedidos. Asimismo, se muestra la opinión positiva de un usuario, con el propósito de evidenciar cómo Qullqa ayuda a la administración diaria de estos negocios.
+</div>
+
+<br>
+<p align="center">
+  <img src="assets/img/about-the-product.png" alt="Video about the product" width="500"/>
+  <br/><i>Video About The Product</i>
+</p>
+
+
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=YXqRsN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 ### Conclusiones
