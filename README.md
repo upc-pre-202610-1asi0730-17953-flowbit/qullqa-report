@@ -4267,7 +4267,7 @@ La organización de líderes y colaboradores está directamente relacionada con 
 | **QULLQA-39** | Gestionar métricas (/metrics) | T-39-1 | Agregación de datos | Crear consultas para obtener totales de venta y stock. | 2 |
 | | | T-39-2 | Endpoint de reporte | Habilitar endpoint para consumo de métricas desde el frontend. | 2 |
 | | | T-39-3 | Formateo de respuesta | Asegurar que la data entregada sea eficiente para gráficos. | 2 |
-| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **67** | | |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **64** | | |
 
 ---
 
@@ -4323,8 +4323,7 @@ implementadas en el Sprint 2:
   | Adriana | develop | 538d942 | fidocs(chapter-04):| update class diagrams photos | 13/5/2026 |
   <br/>
 
- Finalmente se presentan los commits más importantes para el desarrollo del Backend, los cuales muestran todo el contenido visual y funcionalidades
-implementadas en el Sprint 3:
+ Finalmente se presentan los commits más importantes para el desarrollo del Backend, los cuales muestran todo el contenido visual y funcionalidades implementadas en el Sprint 3:
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
   | :--- | :--- | :--- | :--- | :--- | :---: |
   | Arturouu | main | 237eeb5 | Merge pull request from upc-pre-202610-flowbit/feature/alerts | Fix: Changes were adjusted in execution, modifications to alerts, sto… | 13/05/2026 |
@@ -4333,6 +4332,93 @@ implementadas en el Sprint 3:
   <br/>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+En el sprint 3, hemos logrado implementar y conectar las secciones mas relevantes de la web application con la landing page y la base de datos, se modifico desperfectos de la lading y se afino detalles en la web application. A continuación, se explorarán nuestros avances a través de imágenes que muestran el resultado obtenido.
+<br/>
+
+1.  Sección Principal: Formulario de inicio de sesion
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/iniciar_sesio.png" width="800" alt="Header Landing page"/>
+  <br/><i>Formulario de inicio de sesion</i>
+</p>
+<br/>
+
+2. Sección de formulario para la creacion de una cuenta
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/crear_cuenta.png" width="800" alt="MainInformation"/>
+  <br/><i>Sección de muestra para crear cuenta</i>
+</p>
+<br/>
+
+3. Seccion principal de dashboard
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/dashboard.png" width="800" alt="Segmento Objetivo"/>
+  <br/><i>Seccion visualizacion principal</i>
+</p>
+<br/>
+
+4. Seccion de visualizacion de productos
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/products.png" width="800" alt="Servicios"/>
+  <br/><i>Seccion productos</i>
+</p>
+<br/>
+
+5. Sección visión: Carrito de compras.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/carrito.png" width="800" alt="Vision"/>
+  <br/><i>Seccion compras</i>
+</p>
+<br/>
+
+6. Sección visualizacion : Customers.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/customers.png" width="800" alt="Portafolio"/>
+  <br/><i>seccion Customers</i>
+</p>
+<br/>
+
+7. Sección alertas: Pantalla de alertas.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/alertas.png" width="800" alt="Planes"/>
+  <br/><i>Pantalla alertas</i>
+</p>
+<br/>
+
+8. Seccion principal: Implementacion de I18N.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/i18n.png" width="800" alt="Formulario"/>
+  <br/><i>Implementacion de la internacionalizacion</i>
+</p>
+<br/>
+
+
+
+Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
+<p align="center">
+  <img src="assets/img/evidences/repositorio.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la app web</i>
+</p>
+
+Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video de explicación web application: [Ver video]()
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
