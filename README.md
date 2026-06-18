@@ -4323,7 +4323,7 @@ implementadas en el Sprint 2:
   | Adriana | develop | 538d942 | fidocs(chapter-04):| update class diagrams photos | 13/5/2026 |
   <br/>
 
- Finalmente se presentan los commits más importantes para el desarrollo del Backend, los cuales muestran todo el contenido visual y funcionalidades implementadas en el Sprint 3:
+ Finalmente se presentan los commits más importantes para el desarrollo del Backend, los cuales muestran todo el contenido en funcionalidades y conecciones con la base de datos implementadas en el Sprint 3:
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
   | :--- | :--- | :--- | :--- | :--- | :---: |
   | Arturouu | main | 237eeb5 | Merge pull request from upc-pre-202610-flowbit/feature/alerts | Fix: Changes were adjusted in execution, modifications to alerts, sto… | 13/05/2026 |
@@ -4340,7 +4340,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/iniciar_sesio.png" width="800" alt="Header Landing page"/>
+  <img src="assets/img/evidences/Inicio_Sesion_3.png" width="800" alt="Header Landing page"/>
   <br/><i>Formulario de inicio de sesion</i>
 </p>
 <br/>
@@ -4349,7 +4349,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/crear_cuenta.png" width="800" alt="MainInformation"/>
+  <img src="assets/img/evidences/Crear_cuenta_3.png" width="800" alt="MainInformation"/>
   <br/><i>Sección de muestra para crear cuenta</i>
 </p>
 <br/>
@@ -4358,7 +4358,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/dashboard.png" width="800" alt="Segmento Objetivo"/>
+  <img src="assets/img/evidences/Dashboard_3.png" width="800" alt="Segmento Objetivo"/>
   <br/><i>Seccion visualizacion principal</i>
 </p>
 <br/>
@@ -4367,25 +4367,25 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/products.png" width="800" alt="Servicios"/>
+  <img src="assets/img/evidences/Inventario_3.png" width="800" alt="Servicios"/>
   <br/><i>Seccion productos</i>
 </p>
 <br/>
 
-5. Sección visión: Carrito de compras.
+5. Sección visión: Ventas y registros.
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/carrito.png" width="800" alt="Vision"/>
+  <img src="assets/img/evidences/Ventas_3.png" width="800" alt="Vision"/>
   <br/><i>Seccion compras</i>
 </p>
 <br/>
 
-6. Sección visualizacion : Customers.
+6. Sección visualizacion : Proveedores.
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/customers.png" width="800" alt="Portafolio"/>
+  <img src="assets/img/evidences/Proveedores_3.png" width="800" alt="Portafolio"/>
   <br/><i>seccion Customers</i>
 </p>
 <br/>
@@ -4394,7 +4394,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/alertas.png" width="800" alt="Planes"/>
+  <img src="assets/img/evidences/Alertas_3.png" width="800" alt="Planes"/>
   <br/><i>Pantalla alertas</i>
 </p>
 <br/>
@@ -4403,7 +4403,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 <br/>
 <p align="center">
-  <img src="assets/img/evidences/i18n.png" width="800" alt="Formulario"/>
+  <img src="assets/img/evidences/I18N_3.png" width="800" alt="Formulario"/>
   <br/><i>Implementacion de la internacionalizacion</i>
 </p>
 <br/>
@@ -4412,7 +4412,7 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 
 Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
 <p align="center">
-  <img src="assets/img/evidences/repositorio.png" width="800" alt="Repositorio de Github"/>
+  <img src="assets/img/evidences/Repositorios_3.png" width="800" alt="Repositorio de Github"/>
   <br/><i>Repositorio de GitHub sobre la app web</i>
 </p>
 
