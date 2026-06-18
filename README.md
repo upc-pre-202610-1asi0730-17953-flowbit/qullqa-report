@@ -4272,22 +4272,22 @@ La organización de líderes y colaboradores está directamente relacionada con 
 ---
 
 <p align="center">
-  <img src="assets/img/artefacts/sprint.png" width="800" alt="Product Backlog"/>
+  <img src="assets/img/artefacts/sprint_3.png" width="800" alt="Product Backlog"/>
   <br/><i>Artefacto: Jira para Sprint Priorizado</i>
 </p>
 <p align="center">
-  <img src="assets/img/artefacts/kanban_curso.png" width="800" alt="Tablero Kanban"/>
+  <img src="assets/img/artefacts/kanban_proceso.png" width="800" alt="Tablero Kanban"/>
   <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
 </p>
 <p align="center">
-  <img src="assets/img/artefacts/kanban_finalizado.png" width="800" alt="Tablero Kanban"/>
+  <img src="assets/img/artefacts/kanban_3_finalizado.png" width="800" alt="Tablero Kanban"/>
   <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
 </p>
 
 ##### Resumen Técnico
 - **Total de Horas:** 64 horas.
 - **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
-- **Entregable Principal:** Aplicación base con Landing Page informativa y módulo funcional de inventario (CRUD de productos).
+- **Entregable Principal:** Web application conectada al backend con acceso a la base de datos.
 
 ---
 #### 5.2.3.4. Development Evidence for Sprint Review
