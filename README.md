@@ -4437,60 +4437,74 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmacias y bodegas, el despliegue se ejecutó mediante una arquitectura escalable en Vercel. En esta etapa, priorizamos la robustez del flujo de trabajo, logrando que cada mejora en el core del negocio esté disponible de manera inmediata y segura.
+Durante este ciclo, QULLQA consolidó su madurez técnica mediante el despliegue integral de una arquitectura Full-stack. El equipo logró la interconectividad entre el core del negocio, la capa de persistencia de datos y la interfaz de usuario, garantizando un ecosistema funcional y disponible en producción.
 
 **Actividades de Despliegue Realizadas**
-* Sincronización Continua (Vercel): Administración del proyecto web mediante el dashboard de Vercel, estableciendo políticas de despliegue automático que conectan directamente el código fuente con la interfaz de usuario.
+* Arquitectura Full-stack Integrada: Se automatizó el despliegue del Frontend en Vercel y para el Backend en conjunto con la base de datos en Azure, asegurando la consistencia entre la lógica de servidor y la experiencia del usuario final.
 
-* Control de Infraestructura: Uso especializado de herramientas de comandos de Vercel para supervisar el estado del hosting y las funciones vinculadas al despliegue.
+* Gestión de Persistencia y Datos: Configuración y despliegue del motor de base de datos vinculado al backend, garantizando la trazabilidad y disponibilidad de la información en tiempo real para las operaciones de farmacias y bodegas.
+
+* Comunicación End-to-End: Se implementó y validó la comunicación dinámica entre el backend y el frontend, permitiendo la ejecución de las User Stories críticas mediante el consumo eficiente de endpoints.
+
+* Optimización y Aseguramiento: Se realizaron mejoras críticas en el frontend para cumplir con los estándares de usabilidad, integrando auditorías de seguridad que garantizan la estabilidad del despliegue.
 
 * Implementación de Pipelines Automáticos: Configuración de disparadores en GitHub Actions que ejecutan pruebas y despliegues (Vercel deploy) de forma autónoma al consolidar cambios en main.
 
 **Evidencia Repo: App Web**
 <p align="center">
-  <img src="assets/img/evidences/Evidencia_report.png" width="500" alt="Graph"/><br/>
-<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</a></i></p>
+  <img src="assets/img/evidences/Repositorios_3.png" width="500" alt="Graph"/><br/>
+<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git</a></i></p>
 
 **Evidencia Deploy: App Web**
 <p align="center">
-  <img src="assets/img/evidences/Evidencia_deploy.png" width="500" alt="Graph"/>
-  <br/><i>URL del repositorio (website): <a href="https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard">https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard</a></i>
+  <img src="assets/img/evidences/Principal_page_3.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): <a href="https://calm-tree-02cb7940f.7.azurestaticapps.net/">https://calm-tree-02cb7940f.7.azurestaticapps.net/</a></i>
+</p>
+
+**Evidencia Coneccion: Connecion entre el Backend y SQL**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_coneccion_Sprint3.jpeg" width="200" alt="Graph"/>
+  <br/><i>Evidencia de coneccion entre el Backend y SQL</i>
 </p>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 **Dinámica de Implementación**
 <p align="center">
-Durante este segundo ciclo, el equipo evolucionó su enfoque desde el diseño visual hacia la consolidación de la lógica del negocio y la arquitectura técnica de la Web Application. Los esfuerzos se centraron en los siguientes pilares operativos:
+Durante este tercer ciclo de desarrollo, el equipo mejoro el enfoque del diseño visual para que sea relevante con las necesidades del usario y una correcta funcionalidad, ademas se confirmo que la arquitectura desarrollada para la weba application fue correcta en cuanto a lo que el usuario pedia de nuestro producto. Los esfuerzos se centraron en los siguientes pilares operativos:
+- Desarrollo y desploy del Backend.
+- Desarrollo y deploy del Frontend.
+- Conexion del Backend a la base de datos.
+- Conexion entre el Fronted y el Backend.
 </p>
 
 **Analíticos de Colaboración**
 <p align="center">
-La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales(Frontend) y técnicos(Backend):
 
-* Desarrollo Full-stack: Implementación del sistema multi-almacén, lógica de cálculo para alertas de vencimiento (algoritmos de semáforo) y diseño de la interfaz del Dashboard administrativo. 
+* Arquitectura Full-stack & Despliegue: Se completó la transición a un entorno de producción funcional, integrando el Frontend con el Backend desplegado. Se finalizó el motor de lógica de negocio (multi-almacén y semáforos de vencimiento) y se establecieron los pipelines de despliegue para asegurar la persistencia y disponibilidad de los datos en tiempo real.
 
-* Infraestructura y API: Configuración de servicios de notificación externa, creación de endpoints para la gestión de KPIs y modelado de la base de datos para soportar la trazabilidad de stock por usuario.
+* Conectividad y Core del Negocio: Se validó la comunicación end-to-end entre la Landing Page y la Web App, permitiendo un flujo de usuario fluido desde el registro hasta la gestión administrativa. Los endpoints de KPIs y notificaciones fueron estabilizados, consolidando la propuesta de valor para el control de inventarios y toma de decisiones.
 
-* Aseguramiento de Calidad: Supervisión de la integridad del repositorio mediante Conventional Commits y validación de historias de usuario mediante pruebas de integración entre los servicios de alerta y la base de datos.
+* Calidad y Estabilidad Operativa: Se aseguró la integridad del sistema mediante auditorías de seguridad (npm audit) y pruebas de integración exhaustivas. La gobernanza del repositorio (GitFlow) permitió gestionar el desarrollo paralelo de módulos críticos sin impacto en la estabilidad de las ramas principales (main y develop), garantizando un despliegue libre de regresiones.
 </p>
 
-**Evidencia GitFlow: Graph**
+**Evidencia GitFlow: Contribucion**
 <p align="center">
-  <img src="assets/img/evidences/Grapho.png" width="200" alt="Graph"/>
-  <br/><i>Grafo de versiones para el gitflow 2.0</i>
+  <img src="assets/img/evidences/Contribuidores_Sprint_3.png" width="200" alt="Graph"/>
+  <br/><i>Grafico de contribucion Sprint 3</i>
 </p>
 
 **Evidencia GitFlow: Commits**
 <p align="center">
-  <img src="assets/img/evidences/Commits.png" width="500" alt="Commits"/>
-  <br/><i>Grafico estadistico de commits por usuario 2.0</i>
+  <img src="assets/img/evidences/Commits_Sprint_3.png" width="500" alt="Commits"/>
+  <br/><i>Relacion de commits para el Sprint 3</i>
 </p>
 
 **Evidencia GitFlow: Network**
 <p align="center">
-  <img src="assets/img/evidences/Network.png" width="500" alt="Network"/>
-  <br/><i>Grafo de trabajo 2.0</i>
+  <img src="assets/img/evidences/Network_Sprint_3.png" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo 3.0</i>
 </p>
 
 ## 5.3. Validation Interviews
