@@ -4422,12 +4422,78 @@ Video de explicación web application: [Ver video]()
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page y el despliegue de la web application, configurando la comunicacion entre ambas partes. El core del negocio se ha aplicado por bounded context a los servicios dados. Ademas,  se ha programado la lógica de captura, validación y respuestas de los servicios simulados en el backend:
+
+| Endpoint / Interacción | Acción (HTTP) | Parámetros (Input IDs) | Descripción del Response |
+| :--- | :---: | :--- | :--- |
+| `login.html#loginForm` | **POST (Mock)** | `loginEmail`, `loginPass` | **200 OK**: Redirección a Home tras validación de credenciales demo. |
+| `register.html#registerForm` | **POST (Mock)** | `bizName`, `bizType`, `fullName`, `regEmail`, `regPass` | **201 Created**: Mensaje de éxito visual y redirección al flujo de inicio. |
+| `checkout.html#checkoutForm` | **POST (Mock)** | `bizName`, `cardNum`, `cardExp`, `cardCvc` | **200 OK**: Simulación de pasarela de pagos y confirmación de suscripción. |
+| `index.html#contactForm` | **POST (Mock)** | `name`, `email`, `message` | **202 Accepted**: Cambio de estado del botón a "Enviado" y reset del formulario. |
+
+* **URL del Repositorio de Landing Page:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website.git](https://qullqa-landing-page.vercel.app/)
+
+* **URL del Repositorio de Web Application:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmacias y bodegas, el despliegue se ejecutó mediante una arquitectura escalable en Vercel. En esta etapa, priorizamos la robustez del flujo de trabajo, logrando que cada mejora en el core del negocio esté disponible de manera inmediata y segura.
+
+**Actividades de Despliegue Realizadas**
+* Sincronización Continua (Vercel): Administración del proyecto web mediante el dashboard de Vercel, estableciendo políticas de despliegue automático que conectan directamente el código fuente con la interfaz de usuario.
+
+* Control de Infraestructura: Uso especializado de herramientas de comandos de Vercel para supervisar el estado del hosting y las funciones vinculadas al despliegue.
+
+* Implementación de Pipelines Automáticos: Configuración de disparadores en GitHub Actions que ejecutan pruebas y despliegues (Vercel deploy) de forma autónoma al consolidar cambios en main.
+
+**Evidencia Repo: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_report.png" width="500" alt="Graph"/><br/>
+<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website</a></i></p>
+
+**Evidencia Deploy: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_deploy.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): <a href="https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard">https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard</a></i>
+</p>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews
+**Dinámica de Implementación**
+<p align="center">
+Durante este segundo ciclo, el equipo evolucionó su enfoque desde el diseño visual hacia la consolidación de la lógica del negocio y la arquitectura técnica de la Web Application. Los esfuerzos se centraron en los siguientes pilares operativos:
+</p>
 
+**Analíticos de Colaboración**
+<p align="center">
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en la construcción de los artefactos visuales y técnicos:
+
+* Desarrollo Full-stack: Implementación del sistema multi-almacén, lógica de cálculo para alertas de vencimiento (algoritmos de semáforo) y diseño de la interfaz del Dashboard administrativo. 
+
+* Infraestructura y API: Configuración de servicios de notificación externa, creación de endpoints para la gestión de KPIs y modelado de la base de datos para soportar la trazabilidad de stock por usuario.
+
+* Aseguramiento de Calidad: Supervisión de la integridad del repositorio mediante Conventional Commits y validación de historias de usuario mediante pruebas de integración entre los servicios de alerta y la base de datos.
+</p>
+
+**Evidencia GitFlow: Graph**
+<p align="center">
+  <img src="assets/img/evidences/Grapho.png" width="200" alt="Graph"/>
+  <br/><i>Grafo de versiones para el gitflow 2.0</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img/evidences/Commits.png" width="500" alt="Commits"/>
+  <br/><i>Grafico estadistico de commits por usuario 2.0</i>
+</p>
+
+**Evidencia GitFlow: Network**
+<p align="center">
+  <img src="assets/img/evidences/Network.png" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo 2.0</i>
+</p>
+
+## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 #### Segmento 1: Bodegueros independientes
 
