@@ -316,94 +316,108 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <th>Acciones realizadas</th>
     <th>Conclusiones</th>
   </tr>
-
   <tr>
     <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
     <td>
-      <b>Asmat Alminco, Martin Alejandro</b> <br>
-      <u>AV1</u> <br>
-      Participó en la elaboración de antecedentes y problemática desde los enfoques <i>When</i> y <i>Where</i>, así como en Lean UX Problem Statements, registro y análisis de entrevistas y User Task Matrix. Sus aportes permitieron fortalecer el análisis colaborativo de necesidades de los usuarios y la organización inicial de requerimientos del proyecto.
-      <br><br> <u>TB1</u> <br>
-      Participó en la corrección de segmentos objetivo, Software Deployment Configuration e implementación de bounded contexts en la web application. Sus actividades permitieron fortalecer la organización del despliegue y mejorar la estructura funcional de la aplicación.
-      <br> <br>
-      <b>Contreras Torres, Arturo Valentino</b> <br>
-      <u>AV1</u> <br>
-      Participó en la descripción de la startup, Solution Profile, segmentos objetivo, competidores, análisis competitivo, diseño y registro de entrevistas, User Personas, Big Picture Event Storming, Design Level Event Storming, Ubiquitous Language y Diagramas de Clases. Sus actividades permitieron integrar el análisis del dominio, modelado del sistema y definición funcional del producto.
-      <br><br> <u>TB1</u> <br>
-      Participó en Project Report Collaboration Insights, mejora de Design Level Event Storming, actualización de User Stories y Technical Stories, implementación de bounded contexts, implementación de MockAPI y mejora de la Landing Page. Sus aportes contribuyeron a mejorar la coordinación técnica, el modelado del dominio y la validación funcional del sistema.
-      <br> <br>
-      <b>Güere Calero, Fernando Julio</b> <br>
-      <u>AV1</u> <br>
-      Participó en antecedentes y problemática considerando los aspectos <i>Who</i> y <i>Why</i>, Lean UX Assumptions, entrevistas, Empathy Mapping, Information Architecture, diseño de mockups y wireframes, Software Configuration Management y configuración de la landing page. Sus aportes contribuyeron a la coordinación de aspectos visuales, técnicos y organizativos del proyecto.
-      <br><br> <u>TB1</u> <br>
-      Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron evidenciar el avance del sprint y fortalecer la integración visual y funcional de la aplicación web.
-      <br><br> <u>AV2</u> <br>
-      Participó en el desarrollo e integración de los servicios del backend, la ejecución de entrevistas de validación con usuarios y la implementación de mejoras en el frontend de la aplicación web. Sus aportes permitieron alinear los requerimientos técnicos con las necesidades validadas del público objetivo, fortaleciendo la arquitectura del sistema y consolidando la dirección y el esfuerzo conjunto del equipo de desarrollo.
-      <br> <br>
-      <b>Huaman Oscco, Aldo Jesus</b> <br>
-      <u>AV1</u> <br>
-      Participó en antecedentes y problemática desde los enfoques <i>How</i> y <i>How Much</i>, Lean UX Hypothesis Statements, estrategias y tácticas frente a competidores, entrevistas y Empathy Mapping. Estas actividades permitieron fortalecer el análisis estratégico y la validación de hipótesis relacionadas con las necesidades de los usuarios.
-      <br><br> <u>TB1</u> <br>
-      Participó en Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint e implementación de bounded contexts en la web application. Sus aportes contribuyeron a documentar el proceso técnico y fortalecer la colaboración del equipo durante el sprint.
-      <br> <br>
-      <b>Ramos Fuentes Rivera, Adriana Nicole</b> <br>
-      <u>AV1</u> <br>
-      Participó en antecedentes y problemática desde el enfoque <i>What</i>, Lean UX Canvas, registro de entrevistas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus aportes permitieron organizar la experiencia del usuario, la estructura de datos y los lineamientos visuales del sistema.
-      <br><br> <u>TB1</u> <br>
-      Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Sus actividades permitieron mantener coherencia entre la documentación, la estructura de datos y el diseño del sistema.
-      <br><br> <u>AV2</u> <br>
-      Participó en el desarrollo del Sprint 3, en las entrevistas de validación y en la elaboración del video About the Product, coordinando responsabilidades y trabajando de manera conjunta con los demás integrantes, durante estas actividades apoyó en la realización y análisis de las entrevistas, y colaboró en la planificación y producción del video.
+      <b>Asmat Alminco, Martin Alejandro</b><br>
+      <u>AV1</u><br>
+      Condujo la consolidación del análisis de antecedentes y problemática desde los enfoques <i>When</i> y <i>Where</i>, coordinando con el equipo la redacción conjunta de los Lean UX Problem Statements. Su participación en el diseño, registro y análisis de entrevistas —evidenciada en las actas de entrevistas del repositorio del proyecto— y en la construcción del User Task Matrix mostró capacidad de trabajo coordinado con sus compañeros para sostener la continuidad del análisis de necesidades.
+      <br><br><u>TB1</u><br>
+      Asumió la corrección de los segmentos objetivo a partir de la retroalimentación recibida y coordinó con el equipo técnico el Software Deployment Configuration y la implementación de bounded contexts en la web application, garantizando continuidad en la gestión de comunicaciones entre los miembros responsables del despliegue.
+      <br><br><u>AV2</u><br>
+      Estuvo a cargo de tareas de desarrollo backend y coordinó junto al equipo la ejecución de la entrevista de validación, cuyo registro forma parte de la evidencia de Sprint 3, además de participar en la producción del video About the Team. Aplicó la evaluación según heurísticas para sustentar las mejoras propuestas en los userflows y en la web application, manteniendo coordinación constante con el resto del equipo de desarrollo.
+      <br><br>
+      <b>Contreras Torres, Arturo Valentino</b><br>
+      <u>AV1</u><br>
+      Lideró la elaboración de la descripción de la startup y del Solution Profile, coordinando con el equipo la definición de segmentos objetivo, el análisis competitivo y el diseño y registro de entrevistas. Condujo la construcción conjunta de los User Personas, el Big Picture Event Storming, el Design Level Event Storming, el Ubiquitous Language y los Diagramas de Clases, demostrando capacidad de articular el trabajo de distintos integrantes en un modelo de dominio coherente.
+      <br><br><u>TB1</u><br>
+      Estuvo a cargo de la elaboración del Project Report Collaboration Insights y coordinó la mejora del Design Level Event Storming, la actualización de User Stories y Technical Stories, la implementación de bounded contexts y la mejora de la landing page, evidenciando continuidad en la coordinación técnica del equipo a través de las actas de seguimiento del sprint.
+      <br><br><u>AV2</u><br>
+      Condujo el desarrollo backend y el despliegue en Azure, coordinando la conexión entre frontend y backend. Participó en la entrevista de validación y en el video About the Team, además de impulsar la mejora de la webapp y de los diagramas del proyecto, evidenciando trabajo coordinado y sostenido con el resto del equipo a lo largo del sprint.
+      <br><br>
+      <b>Güere Calero, Fernando Julio</b><br>
+      <u>AV1</u><br>
+      Condujo el análisis de antecedentes y problemática desde los enfoques <i>Who</i> y <i>Why</i>, coordinando con el equipo las Lean UX Assumptions y las entrevistas asociadas. Estuvo a cargo del Empathy Mapping, la Information Architecture, el diseño de mockups y wireframes, y el Software Configuration Management, articulando el trabajo entre los aspectos visuales y técnicos del proyecto.
+      <br><br><u>TB1</u><br>
+      Coordinó la elaboración del Development Evidence y del Execution Evidence for Sprint Review, registrando de forma sistemática el avance técnico del equipo. Lideró la implementación de bounded contexts y la mejora de la landing page, garantizando continuidad entre los registros de evidencia y el trabajo de desarrollo.
+      <br><br><u>AV2</u><br>
+      Estuvo a cargo del desarrollo backend, la mejora de la webapp y de la landing page, así como la conexión entre frontend y backend y el despliegue en Azure del Swagger. Coordinó con el equipo la realización de la entrevista de validación y participó en el video About the Team, evidenciando capacidad de sostener el liderazgo técnico del proyecto durante todo el sprint.
+      <br><br>
+      <b>Huaman Oscco, Aldo Jesus</b><br>
+      <u>AV1</u><br>
+      Condujo el análisis de antecedentes y problemática desde los enfoques <i>How</i> y <i>How Much</i>, coordinando con el equipo la redacción de los Lean UX Hypothesis Statements y la definición de estrategias y tácticas frente a competidores. Su participación en entrevistas y en el Empathy Mapping evidenció trabajo coordinado para validar las hipótesis del proyecto.
+      <br><br><u>TB1</u><br>
+      Estuvo a cargo de la documentación del Services Documentation Evidence y del Software Deployment Evidence for Sprint Review, además de registrar los Team Collaboration Insights durante el sprint, lo que evidencia de forma directa su capacidad de coordinar y dejar constancia del trabajo conjunto del equipo. Participó también en la implementación de bounded contexts en la web application.
+      <br><br><u>AV2</u><br>
+      Condujo el desarrollo backend y la actualización del Product Backlog y del Report Collaboration Insights, coordinando con el equipo el desarrollo del Sprint 3. Participó en la entrevista de validación y en el video About the Team, sosteniendo la práctica de documentar evidencia de coordinación que mantuvo desde el TB1.
+      <br><br>
+      <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+      <u>AV1</u><br>
+      Condujo el análisis de antecedentes y problemática desde el enfoque <i>What</i>, coordinando con el equipo la elaboración del Lean UX Canvas y el registro de entrevistas. Estuvo a cargo de la construcción del User Journey Mapping, el Database Diagram y los General Style Guidelines, articulando el trabajo entre la experiencia de usuario y la estructura de datos del sistema.
+      <br><br><u>TB1</u><br>
+      Lideró la mejora del diagrama de base de datos y la revisión cruzada de diagramas con el resto del equipo, coordinando además la actualización de conclusiones y recomendaciones. Participó en la implementación de bounded contexts y en la mejora de la landing page, manteniendo coherencia entre la documentación técnica y el trabajo de los demás integrantes.
+      <br><br><u>AV2</u><br>
+      Estuvo a cargo del desarrollo backend y coordinó la ejecución de la entrevista de validación y la producción del video About the Team y del video About the Product. Aplicó la evaluación según heurísticas y condujo el desarrollo del Sprint 3, evidenciando continuidad en la coordinación del equipo durante el cierre del proyecto.
     </td>
     <td>
-      <u>AV1</u> <br>
-      Como equipo, durante el AV1 se fortaleció el trabajo colaborativo mediante la distribución de responsabilidades relacionadas con investigación, análisis, diseño y modelado del sistema. Cada integrante aportó desde diferentes áreas del proyecto, permitiendo integrar perspectivas funcionales, técnicas y de experiencia de usuario para alcanzar los objetivos planteados de manera conjunta.
-      <br><br><u>TB1</u> <br>
-      Como equipo, durante el TB1 se fortaleció el liderazgo compartido mediante la colaboración en actividades técnicas, documentación del sprint, mejoras de diseño y despliegue de la aplicación web. La integración de bounded contexts, la actualización de historias de usuario y la mejora de evidencias técnicas permitieron consolidar el trabajo coordinado y el cumplimiento de los objetivos establecidos para el sprint.
+      <u>AV1</u><br>
+      Como equipo, durante el AV1 se distribuyó el liderazgo de las distintas dimensiones del análisis (antecedentes y problemática, Lean UX, entrevistas, modelado de dominio y diseño visual) entre los cinco integrantes, cada uno asumiendo la conducción de un frente específico. Esta distribución, sustentada en el registro de entrevistas y en la coordinación constante a través de GitHub, permitió que el liderazgo del proyecto se ejerciera de forma conjunta y no centralizada en una sola persona.
+      <br><br><u>TB1</u><br>
+      Durante el TB1 el equipo mantuvo la práctica de liderazgo compartido, evidenciada en la documentación sistemática de Development, Execution, Services Documentation y Software Deployment Evidence for Sprint Review, así como en los Team Collaboration Insights registrados durante el sprint. Estos artefactos constituyen evidencia directa de coordinación continua entre los integrantes a lo largo del ciclo de desarrollo.
+      <br><br><u>AV2</u><br>
+      En el AV2 el liderazgo conjunto se reflejó en la coordinación técnica para el desarrollo del backend, la conexión frontend-backend y el despliegue en Azure, tareas que requirieron sincronización constante entre los responsables de cada bounded context. La ejecución coordinada de la entrevista de validación y la producción de los videos About the Team y About the Product reforzaron, con nueva evidencia, la capacidad del equipo para sostener el liderazgo compartido hasta el cierre del proyecto.
     </td>
   </tr>
-
   <tr>
     <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
     <td>
-      <b>Asmat Alminco, Martin Alejandro</b> <br>
-      <u>AV1</u> <br>
-      Participó en la recopilación y análisis de entrevistas, así como en la elaboración de User Task Matrix y Lean UX Problem Statements. Estas actividades permitieron identificar necesidades de los usuarios y organizar tareas orientadas al cumplimiento de los objetivos iniciales del proyecto.
-      <br><br> <u>TB1</u> <br>
-      Participó en la corrección de segmentos objetivo, Software Deployment Configuration e implementación de bounded contexts. Estas actividades permitieron mejorar la organización funcional del sistema y apoyar el cumplimiento de los objetivos técnicos del sprint.
-      <br> <br>
-      <b>Contreras Torres, Arturo Valentino</b> <br>
-      <u>AV1</u> <br>
-      Participó en la definición de la startup, análisis competitivo, User Personas, Event Storming, lenguaje ubicuo y diagramas de clases. Su participación permitió estructurar el análisis funcional y técnico del proyecto, favoreciendo la planificación y coordinación de actividades del equipo.
-      <br><br> <u>TB1</u> <br>
-      Participó en la actualización de User Stories y Technical Stories, mejora de Event Storming, implementación de MockAPI y bounded contexts, además de la mejora de la Landing Page. Sus aportes contribuyeron a organizar los requerimientos y fortalecer la planificación y validación funcional del proyecto.
-      <br> <br>
-      <b>Güere Calero, Fernando Julio</b> <br>
-      <u>AV1</u> <br>
-      Participó en actividades de UX y diseño como Empathy Mapping, Information Architecture, mockups y wireframes, además de la configuración de la landing page y Software Configuration Management. Sus aportes contribuyeron a la integración técnica y visual del proyecto, promoviendo un trabajo coordinado entre los integrantes.
-      <br><br> <u>TB1</u> <br>
-      Participó en Development Evidence for Sprint Review, Execution Evidence for Sprint Review, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron registrar avances del sprint y mantener coordinación entre aspectos técnicos y visuales de la aplicación.
-      <br><br> <u>AV2</u> <br>
-      Participó en la planificación de las entrevistas de validación para recopilar feedback, así como en la estructuración de tareas orientadas a la optimización del frontend y el desarrollo del backend. Estas actividades facilitaron la coordinación técnica entre los integrantes, asegurando el cumplimiento de los objetivos funcionales del sprint y promoviendo un entorno de trabajo organizado para la entrega del producto.
-      <br> <br>
-      <b>Huaman Oscco, Aldo Jesus</b> <br>
-      <u>AV1</u> <br>
-      Participó en Lean UX Hypothesis Statements, estrategias frente a competidores, entrevistas y Empathy Mapping. Estas actividades permitieron analizar oportunidades de mejora y apoyar la toma de decisiones grupales relacionadas con la propuesta de solución.
-      <br><br> <u>TB1</u> <br>
-      Participó en Services Documentation Evidence, Software Deployment Evidence, Team Collaboration Insights e implementación de bounded contexts. Sus aportes permitieron documentar evidencias del trabajo colaborativo y asegurar el cumplimiento de tareas relacionadas con despliegue y servicios.
-      <br> <br>
-      <b>Ramos Fuentes Rivera, Adriana Nicole</b> <br>
-      <u>AV1</u> <br>
-      Participó en Lean UX Canvas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus actividades permitieron mantener coherencia entre la experiencia del usuario, el diseño visual y la estructura de datos, contribuyendo al cumplimiento organizado de los objetivos del AV1.
-      <br><br> <u>TB1</u> <br>
-      Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron mantener coherencia entre la documentación técnica, el diseño visual y la estructura de datos.
-      <br><br> <u>AV2</u> <br>
-      La participación en las tres actividades permitió establecer metas, distribuir responsabilidades y considerar las opiniones del equipo y de los usuarios. Gracias a esta organización, se cumplieron los objetivos del Sprint 3 dentro de los plazos establecidos.
+      <b>Asmat Alminco, Martin Alejandro</b><br>
+      <u>AV1</u><br>
+      Se mostró proactivo en la recopilación y análisis de entrevistas, escuchando las observaciones del equipo sobre los hallazgos identificados para integrarlas en el User Task Matrix y en los Lean UX Problem Statements, lo que permitió establecer metas claras para el cierre del primer avance.
+      <br><br><u>TB1</u><br>
+      Analizó las observaciones recibidas sobre los segmentos objetivo y propuso la corrección correspondiente; además planificó junto al equipo la configuración del despliegue, garantizando el cumplimiento de los objetivos técnicos establecidos para el sprint.
+      <br><br><u>AV2</u><br>
+      Fue receptivo a los resultados de la evaluación según heurísticas, proponiendo mejoras concretas en los userflows y en la web application a partir de esas observaciones, y planificó junto al equipo las tareas de desarrollo backend necesarias para cumplir los objetivos del sprint final.
+      <br><br>
+      <b>Contreras Torres, Arturo Valentino</b><br>
+      <u>AV1</u><br>
+      Se mostró proactivo en la definición de la startup y del análisis competitivo, escuchando las propuestas del equipo para estructurar el Event Storming y el Ubiquitous Language de forma colaborativa, lo que permitió planificar de manera ordenada las tareas de modelado del dominio.
+      <br><br><u>TB1</u><br>
+      Analizó las críticas recibidas sobre el Event Storming inicial y propuso su mejora, además de planificar junto al equipo la actualización de User Stories y Technical Stories y la implementación de MockAPI, garantizando el cumplimiento de los objetivos funcionales del sprint.
+      <br><br><u>AV2</u><br>
+      Propuso e implementó mejoras en la webapp y en los diagramas del proyecto a partir de la retroalimentación del equipo, y planificó el despliegue en Azure y la conexión frontend-backend, asegurando el cumplimiento de los objetivos técnicos previstos para el cierre del proyecto.
+      <br><br>
+      <b>Güere Calero, Fernando Julio</b><br>
+      <u>AV1</u><br>
+      Fue proactivo en el diseño de mockups y wireframes, integrando las opiniones del equipo sobre la Information Architecture propuesta, y estableció junto a sus compañeros los lineamientos del Software Configuration Management para ordenar el trabajo colaborativo del proyecto.
+      <br><br><u>TB1</u><br>
+      Escuchó las observaciones del equipo sobre el avance del sprint y las incorporó en el Development y Execution Evidence for Sprint Review, planificando junto al equipo la implementación de bounded contexts y la mejora de la landing page para cumplir los objetivos establecidos.
+      <br><br><u>AV2</u><br>
+      Fue proactivo en la planificación de las entrevistas de validación y en la estructuración de tareas de optimización del frontend y desarrollo del backend, garantizando la cooperación entre los integrantes responsables de la conexión frontend-backend y el despliegue del Swagger en Azure.
+      <br><br>
+      <b>Huaman Oscco, Aldo Jesus</b><br>
+      <u>AV1</u><br>
+      Analizó oportunidades de mejora frente a los competidores identificados y propuso ajustes a las Lean UX Hypothesis Statements a partir de las entrevistas y el Empathy Mapping, apoyando la toma de decisiones grupales sobre la propuesta de solución.
+      <br><br><u>TB1</u><br>
+      Documentó de forma proactiva las Services Documentation Evidence y Software Deployment Evidence, escuchando las necesidades del equipo para registrar los Team Collaboration Insights del sprint, lo que garantizó cooperación e integración efectiva entre los miembros del grupo.
+      <br><br><u>AV2</u><br>
+      Analizó el estado del Product Backlog y propuso su actualización junto con la del Report Collaboration Insights, planificando con el equipo el desarrollo del Sprint 3 para asegurar el cumplimiento de los objetivos de cierre del proyecto.
+      <br><br>
+      <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+      <u>AV1</u><br>
+      Fue proactiva en la elaboración del Lean UX Canvas y el User Journey Mapping, escuchando las opiniones del equipo para mantener coherencia entre la experiencia de usuario, el diseño visual y la estructura de datos planteada en el Database Diagram.
+      <br><br><u>TB1</u><br>
+      Analizó las observaciones sobre el diagrama de base de datos y propuso su mejora junto con la revisión cruzada de los demás diagramas, planificando la actualización de conclusiones y recomendaciones para garantizar coherencia entre la documentación y el sistema.
+      <br><br><u>AV2</u><br>
+      Estableció metas y distribuyó responsabilidades para la ejecución de las entrevistas de validación y la producción de los videos About the Team y About the Product, considerando las opiniones del equipo y de los usuarios entrevistados. Esta organización permitió cumplir, junto con la evaluación según heurísticas y el desarrollo del Sprint 3, los objetivos del cierre del proyecto dentro de los plazos establecidos.
     </td>
     <td>
-      <u>AV1</u> <br>
-      Como equipo, durante el AV1 se promovió un entorno colaborativo mediante la distribución organizada de actividades y la comunicación constante entre los integrantes. La planificación de tareas según las habilidades de cada miembro permitió cumplir los objetivos establecidos, mantener coherencia entre los entregables y fomentar una participación inclusiva durante el desarrollo del proyecto.
-      <br><br> <u>TB1</u> <br>
-      Como equipo, durante el TB1 se promovió un entorno colaborativo mediante la distribución organizada de tareas relacionadas con documentación, despliegue, diseño, modelado y desarrollo técnico de la aplicación web. La coordinación constante entre los integrantes permitió cumplir los objetivos del sprint, mejorar la integración de componentes del sistema y fortalecer la calidad de los entregables realizados.
+      <u>AV1</u><br>
+      Como equipo, durante el AV1 se promovió un entorno colaborativo e inclusivo mediante la escucha activa de las opiniones de cada integrante durante el análisis de entrevistas y la construcción de los artefactos UX. La planificación de tareas según las fortalezas de cada miembro permitió cumplir los objetivos establecidos para el avance, manteniendo coherencia entre los entregables.
+      <br><br><u>TB1</u><br>
+      Durante el TB1 el equipo analizó de forma conjunta las críticas y observaciones recibidas sobre los avances del AV1, traduciéndolas en mejoras concretas sobre el Event Storming, los diagramas y la landing page. La planificación coordinada de la documentación de evidencias de sprint y del despliegue permitió garantizar la cooperación, participación e integración efectiva de todos los miembros del grupo.
+      <br><br><u>AV2</u><br>
+      En el AV2 el equipo estableció metas claras para el cierre del proyecto, distribuyendo de forma inclusiva las tareas de desarrollo backend, conexión frontend-backend, despliegue en Azure y producción audiovisual. La incorporación de las opiniones recogidas en las entrevistas de validación y en la evaluación según heurísticas evidencia que el equipo analizó la retroalimentación recibida y propuso soluciones concretas, cumpliendo los objetivos planificados para el sprint final dentro de los plazos establecidos.
     </td>
   </tr>
 </table>
