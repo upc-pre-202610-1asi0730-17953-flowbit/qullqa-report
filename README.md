@@ -4466,28 +4466,31 @@ Maria Mariños, propietaria de una farmacia independiente de 49 años y reside e
 
 <u>Entrevista 2:</u>
 
-Entrevistador: 
+Entrevistador: Martin Alejandro Asmat Alminco 
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:**
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:** Pedro Pablo  
+- **Apellidos:** Aguilar Noquez
+- **Edad:** 55 años 
+- **Distrito:** La Maná
+- **Timing:** 00:00:00 - 00:20:24 
 
 <p align="center">
-  <img src="" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: <!--- Escribir nombre entrevistado aquí !---> </i>
+  <img src="assets/img/Entrevistas/validation-interview-aguilar.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Pablo Aguilar </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-<!--- Escribir descripción aquí !--->
+
+Pedro Aguilar, trabajador con rol del administrador de una farmacia independiente con unos 57 años. Le pareció que la landing Page. Piensa que el diseño comunica la idea, la propuesta. Sin embargo, considera que se debe mejorar como se accede a ciertos slides o como funciona la navigation bar en móvil. Considera luego en el apartado de la aplicación, la sugerencia de mejorar la traducción del i18n, tuvo ciertos problemas cuando se traducía del inglés al español debido a su navegador. Luego, identificó con éxito el dashboard de la aplicación y todas las sugerencias mostradas a primera vista, Sin embargo, no logró identifcar correctamente la ubicación del sidebar para por acceder el userflow alerts asignado. Una vez dentro, consideró que las funcionalidades son básicas, y que debemos mejorarlas sobretodo si queremos mejorar la escalabilidad a largo plazo. Aunque, para lo que es básico, considera que funciona correctamente, por lo que es un producto viable de utilizar y él personalmente, lo usaría.  
+
+
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416272_upc_edu_pe/IQCWKgxy0tTtQY3BbQPF90sPAaBYhpV7PRTlkd3LSsUahy4?e=b1nTkZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 <u>Entrevista 3:</u>
