@@ -351,6 +351,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en antecedentes y problemática desde el enfoque <i>What</i>, Lean UX Canvas, registro de entrevistas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus aportes permitieron organizar la experiencia del usuario, la estructura de datos y los lineamientos visuales del sistema.
       <br><br> <u>TB1</u> <br>
       Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Sus actividades permitieron mantener coherencia entre la documentación, la estructura de datos y el diseño del sistema.
+      <br><br> <u>AV2</u> <br>
+      Participó en el desarrollo del Sprint 3, en las entrevistas de validación y en la elaboración del video About the Product, coordinando responsabilidades y trabajando de manera conjunta con los demás integrantes, durante estas actividades apoyó en la realización y análisis de las entrevistas, y colaboró en la planificación y producción del video.
     </td>
     <td>
       <u>AV1</u> <br>
@@ -394,6 +396,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Participó en Lean UX Canvas, User Journey Mapping, Database Diagram y General Style Guidelines. Sus actividades permitieron mantener coherencia entre la experiencia del usuario, el diseño visual y la estructura de datos, contribuyendo al cumplimiento organizado de los objetivos del AV1.
       <br><br> <u>TB1</u> <br>
       Participó en la mejora del diagrama de base de datos, revisión de diagramas, actualización de conclusiones y recomendaciones, implementación de bounded contexts y mejora de la Landing Page. Estas actividades permitieron mantener coherencia entre la documentación técnica, el diseño visual y la estructura de datos.
+      <br><br> <u>AV2</u> <br>
+      La participación en las tres actividades permitió establecer metas, distribuir responsabilidades y considerar las opiniones del equipo y de los usuarios. Gracias a esta organización, se cumplieron los objetivos del Sprint 3 dentro de los plazos establecidos.
     </td>
     <td>
       <u>AV1</u> <br>
@@ -4714,6 +4718,9 @@ Incorporar un selector de idioma accesible desde el encabezado o la configuraci�
 <div align="justify">
 En el video About the Product se presenta Qullqa, un sistema inteligente diseñado para optimizar la gestión de bodegas y farmacias. A través del video promocional, se explican las principales características y beneficios de la plataforma, como el control eficiente del inventario, el registro y análisis de ventas, alertas de productos con bajo stock o próximos a vencer y seguimiento de pedidos. Asimismo, se muestra la opinión positiva de un usuario, con el propósito de evidenciar cómo Qullqa ayuda a la administración diaria de estos negocios.
 </div>
+<br>
+
+- **Timing: 00:01:44**
 
 <br>
 <p align="center">
