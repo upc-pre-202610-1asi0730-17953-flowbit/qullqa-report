@@ -4714,6 +4714,9 @@ Incorporar un selector de idioma accesible desde el encabezado o la configuraci�
 <div align="justify">
 En el video About the Product se presenta Qullqa, un sistema inteligente diseñado para optimizar la gestión de bodegas y farmacias. A través del video promocional, se explican las principales características y beneficios de la plataforma, como el control eficiente del inventario, el registro y análisis de ventas, alertas de productos con bajo stock o próximos a vencer y seguimiento de pedidos. Asimismo, se muestra la opinión positiva de un usuario, con el propósito de evidenciar cómo Qullqa ayuda a la administración diaria de estos negocios.
 </div>
+<br>
+
+- **Timing: 00:01:44**
 
 <br>
 <p align="center">
