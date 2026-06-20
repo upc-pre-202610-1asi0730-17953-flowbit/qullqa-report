@@ -4836,8 +4836,8 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-# UX Heuristics & Principles Evaluation
-## Usability – Inclusive Design – Information Architecture
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
 
 | | |
 |---|---|
@@ -4850,7 +4850,7 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 
 ---
 
-## SITE o APP A EVALUAR
+##### SITE o APP A EVALUAR
 
 **Qullqa** — Sistema de gestión de inventario para bodegas y farmacias independientes.
 
@@ -4859,7 +4859,7 @@ URL Landing Page: https://qullqa-landing-page.vercel.app/
 
 ---
 
-## TAREAS A EVALUAR
+##### TAREAS A EVALUAR
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -4884,7 +4884,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
-## ESCALA DE SEVERIDAD
+##### ESCALA DE SEVERIDAD
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
@@ -4897,7 +4897,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ---
 
-## TABLA RESUMEN
+##### TABLA RESUMEN
 
 | # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
 |---|---|---|---|
@@ -4911,11 +4911,11 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ---
 
-## DESCRIPCIÓN DE PROBLEMAS
+##### DESCRIPCIÓN DE PROBLEMAS
 
 ---
 
-### PROBLEMA #1
+###### PROBLEMA #1
 **Los textos de la interfaz están en inglés, generando confusión en usuarios hispanohablantes**
 
 **Severidad:** 3
@@ -4931,7 +4931,7 @@ Activar el idioma español como configuración predeterminada para el mercado pe
 
 ---
 
-### PROBLEMA #2
+###### PROBLEMA #2
 **El usuario no encontró de forma autónoma la sección de Alerts**
 
 **Severidad:** 3
@@ -4947,7 +4947,7 @@ Rediseñar la entrada de "Alerts" en el menú lateral para que cuente con una et
 
 ---
 
-### PROBLEMA #3
+###### PROBLEMA #3
 **No existe un mecanismo visible para regresar al dashboard principal desde vistas internas**
 
 **Severidad:** 2
@@ -4963,7 +4963,7 @@ Incorporar breadcrumbs o un botón de regreso claramente etiquetado ("← Volver
 
 ---
 
-### PROBLEMA #4
+###### PROBLEMA #4
 **Íconos del menú lateral sin etiqueta de texto de apoyo**
 
 **Severidad:** 2
@@ -4979,7 +4979,7 @@ Asegurar que todos los ítems del menú lateral cuenten con etiqueta textual vis
 
 ---
 
-### PROBLEMA #5
+###### PROBLEMA #5
 **Errores de conexión con la base de datos generaron vistas vacías sin mensaje explicativo**
 
 **Severidad:** 4
@@ -4995,7 +4995,7 @@ Implementar manejo de errores en todas las llamadas a la API que muestre mensaje
 
 ---
 
-### PROBLEMA #6
+###### PROBLEMA #6
 **Formularios de registro presentaron fallos al guardar sin retroalimentación al usuario**
 
 **Severidad:** 3
@@ -5011,7 +5011,7 @@ Añadir feedback visual inmediato tras cada acción de formulario: un indicador 
 
 ---
 
-### PROBLEMA #7
+###### PROBLEMA #7
 **No se ofrece un selector de idioma visible desde la interfaz**
 
 **Severidad:** 2
