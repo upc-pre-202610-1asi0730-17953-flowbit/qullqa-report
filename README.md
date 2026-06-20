@@ -4168,7 +4168,7 @@ Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmac
 **Evidencia Deploy: App Web**
 <p align="center">
   <img src="assets/img/evidences/Evidencia_deploy.png" width="500" alt="Graph"/>
-  <br/><i>URL del repositorio (website): <a href="https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard">https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/app/dashboard</a></i>
+  <br/><i>URL del repositorio (website): <a href="https://calm-tree-02cb7940f.7.azurestaticapps.net/">https://calm-tree-02cb7940f.7.azurestaticapps.net/</a></i>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -4851,7 +4851,7 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 
 **Qullqa** — Sistema de gestión de inventario para bodegas y farmacias independientes.
 
-URL Web App: https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/
+URL Web App: https://calm-tree-02cb7940f.7.azurestaticapps.net/
 URL Landing Page: https://qullqa-landing-page.vercel.app/
 
 ---
@@ -5081,7 +5081,7 @@ URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953
 URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
 
 URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
-URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br>
+URL de webapp (azure): https://calm-tree-02cb7940f.7.azurestaticapps.net/ <br>
 URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1 <br>
 URL de Qullqa platform (Swagger): https://qullqa-platform-v1.azurewebsites.net/swagger/index.html  
 
