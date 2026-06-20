@@ -4454,6 +4454,7 @@ Para finalizar, se mostrará una demostración de nuestro avance sobre la web ap
 
 Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+Video de explicación Web Application: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h067_upc_edu_pe/IQAJiNl5Q6OVSYIjo7xicw2fAXyhj9OEDmgj92Z6rnCFY0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JLPZIr)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
