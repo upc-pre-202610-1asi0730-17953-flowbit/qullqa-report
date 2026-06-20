@@ -4195,7 +4195,7 @@ Durante el tercer ciclo de desarrollo, se consolidaron los pilares operativos y 
 
 El Sprint actual marcó el inicio del desarrollo del código de QULLCA para el backend, asimismo, el desarrollo y despliegue de la base de datos. Durante esta sesión, el equipo de desarrollo junto al Product Owner seleccionaron las Historias de Usuario pertinentes del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
 
-| **Sprint #** | Sprint 1 |
+| **Sprint #** | Sprint 3 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
 | **Date** | 2026-06-10 |
@@ -4207,7 +4207,7 @@ El Sprint actual marcó el inicio del desarrollo del código de QULLCA para el b
 | **Sprint 2 Retrospective Summary** | Como retrospectiva del trabajo, el equipo identificó como acierto el uso de herramientas compartidas, estas facilitan el avance colaborativo en tiempo real asi como debatir sobre la participacion de cada uno, ademas, el uso de herramientas colaborativos como GitHub y Jira permiten encapsular el desarrollo de muchas herrramientas. Finalmente, se reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 3 Goal** | **Contexto:** El equipo de ingeniería de Qullqa se enfoca en este sprint en cerrar la brecha entre el diseño arquitectónico y la ejecución funcional. Priorizamos la construcción del ecosistema backend utilizando una arquitectura limpia, el despliegue de la infraestructura de base de datos y la integración de los servicios con el frontend. El objetivo es pasar de una presencia estática a un entorno dinámico donde las operaciones CRUD (Crear, Leer, Actualizar, Borrar) sean ejecutables, asegurando que la conexión entre el cliente y el servidor sea robusta, eficiente y escalable para las necesidades de gestión de inventarios y farmacias.<br><br> **Sprint Goal:**<br>*“Our focus is to transition from architectural planning to a functional, connected system by implementing the core backend logic, deploying the database, and establishing secure API endpoints. We believe this will enable a seamless data flow between the frontend and backend, validating the application’s business logic in real-time. This will be confirmed when users can successfully perform end-to-end operations—specifically adding, retrieving, and updating inventory items—with zero connection errors, and the system maintains consistent state management between the interface and the database.” |
-| **Sprint n Velocity** | 25 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para desarrollar entornos y features complejos). |
+| **Sprint 3 Velocity** | 25 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para desarrollar entornos y features complejos). |
 | **Sum of Story Points** | 15 Story Points. |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
@@ -4326,9 +4326,11 @@ implementadas en el Sprint 2:
  Finalmente se presentan los commits más importantes para el desarrollo del Backend, los cuales muestran todo el contenido en funcionalidades y conecciones con la base de datos implementadas en el Sprint 3:
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
   | :--- | :--- | :--- | :--- | :--- | :---: |
-  | Arturouu | main | 237eeb5 | Merge pull request from upc-pre-202610-flowbit/feature/alerts | Fix: Changes were adjusted in execution, modifications to alerts, sto… | 13/05/2026 |
-  | Fernando | main | 5491a21 |  feature(alerts): update business dashboard | update business dashboard | 12/05/2026 |
-  | Adriana | develop | 538d942 | fidocs(chapter-04):| update class diagrams photos | 13/5/2026 |
+  | Arturouu | feature/shared | 1ac3d63 | feat(shared): | update AuditableEntityInterceptor | 18/06/2026 |
+  | Fernando | feature/delivery | 5c96b13 |  feat(delivery): | fix delivery bounded context credentials | 19/06/2026 |
+  | Jesus | feature/dashboard | 3ff3316 |feat(dashboard): | add DashboardController with REST endpoints | 19/06/2026 |
+  | Adriana | festure/sales | deebedec | refactor(sales): | update SalesError definitions | 19/06/2026 |
+  | Martin | feature/alerts | 61afba9 | feat(alerts): | update alerts REST controller | 19/06/2026 |
   <br/>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -4408,7 +4410,41 @@ En el sprint 3, hemos logrado implementar y conectar las secciones mas relevante
 </p>
 <br/>
 
+9. Seccion principal: Coneccion Backend - SQL
 
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_coneccion_Sprint3.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Coneccion entre el Backend y la base de datos</i>
+</p>
+<br/>
+
+10. Seccion principal: Validacion de errores
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_Validacion.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Validaciones en los endpoints</i>
+</p>
+<br/>
+
+11. Seccion principal: Swagger
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Swagger.png" width="800" alt="Formulario"/>
+  <br/><i>Despliegue del Backend: Herramienta</i>
+</p>
+<br/>
+
+12. Seccion principal: Validacion de errores
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_Backend.png" width="800" alt="Formulario"/>
+  <br/><i>Evidencia despliegue del Backend</i>
+</p>
+<br/>
 
 Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
 <p align="center">
@@ -4418,11 +4454,10 @@ Para finalizar, se mostrará una demostración de nuestro avance sobre la web ap
 
 Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Video de explicación web application: [Ver video]()
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page y el despliegue de la web application, configurando la comunicacion entre ambas partes. El core del negocio se ha aplicado por bounded context a los servicios dados. Ademas,  se ha programado la lógica de captura, validación y respuestas de los servicios simulados en el backend:
+Para este Sprint, se han implementado y documentado los puntos de interacción de la Landing Page y el despliegue de la web application, configurando la comunicacion entre ambas partes. El core del negocio se ha aplicado por bounded context a los servicios dados. Ademas, se ha programado la lógica de captura, validación y respuestas de los servicios simulados en el backend:
 
 | Endpoint / Interacción | Acción (HTTP) | Parámetros (Input IDs) | Descripción del Response |
 | :--- | :---: | :--- | :--- |
@@ -4430,10 +4465,63 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 | `register.html#registerForm` | **POST (Mock)** | `bizName`, `bizType`, `fullName`, `regEmail`, `regPass` | **201 Created**: Mensaje de éxito visual y redirección al flujo de inicio. |
 | `checkout.html#checkoutForm` | **POST (Mock)** | `bizName`, `cardNum`, `cardExp`, `cardCvc` | **200 OK**: Simulación de pasarela de pagos y confirmación de suscripción. |
 | `index.html#contactForm` | **POST (Mock)** | `name`, `email`, `message` | **202 Accepted**: Cambio de estado del botón a "Enviado" y reset del formulario. |
+| `/api/v1/alerts/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna la lista de alertas asociadas al negocio indicado. |
+| `/api/v1/alerts/{id}` | **GET** | `id` | **200 OK**: Retorna los datos de la alerta con el ID especificado. |
+| `/api/v1/alerts` | **POST** | `body: alert data` | **201 Created**: Crea una nueva alerta y retorna los datos creados. |
+| `/api/v1/alerts/{id}/status` | **PUT** | `id`, `body: status` | **200 OK**: Actualiza el estado de la alerta indicada. |
+| `/api/v1/authentication/sign-in` | **POST** | `body: email, password` | **200 OK**: Retorna token de autenticación tras validar credenciales. |
+| `/api/v1/authentication/sign-up` | **POST** | `body: user data` | **201 Created**: Registra un nuevo usuario y retorna sus datos. |
+| `/api/v1/businesses` | **GET** | *(none)* | **200 OK**: Retorna la lista completa de negocios registrados. |
+| `/api/v1/businesses` | **POST** | `body: business data` | **201 Created**: Crea un nuevo negocio y retorna los datos creados. |
+| `/api/v1/businesses/{id}` | **GET** | `id` | **200 OK**: Retorna los datos del negocio con el ID especificado. |
+| `/api/v1/customers/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna todos los clientes asociados al negocio indicado. |
+| `/api/v1/customers` | **POST** | `body: customer data` | **201 Created**: Crea un nuevo cliente y retorna los datos creados. |
+| `/api/v1/dashboard/business/{businessId}/metrics` | **GET** | `businessId` | **200 OK**: Retorna las métricas más recientes del negocio indicado. |
+| `/api/v1/dashboard/business/{businessId}/reports` | **GET** | `businessId` | **200 OK**: Retorna los reportes generados para el negocio indicado. |
+| `/api/v1/dashboard/reports` | **POST** | `body: report data` | **201 Created**: Genera un nuevo reporte y retorna los datos creados. |
+| `/api/v1/dashboard/metrics` | **POST** | `body: metrics data` | **201 Created**: Registra un snapshot de métricas y retorna confirmación. |
+| `/api/v1/deliveries/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna las entregas asociadas al negocio indicado. |
+| `/api/v1/deliveries/{id}` | **GET** | `id` | **200 OK**: Retorna los datos de la entrega con el ID especificado. |
+| `/api/v1/deliveries/tracking/{trackingNumber}` | **GET** | `trackingNumber` | **200 OK**: Retorna los datos de la entrega con el número de tracking indicado. |
+| `/api/v1/deliveries` | **POST** | `body: delivery data` | **201 Created**: Crea una nueva entrega y retorna los datos creados. |
+| `/api/v1/deliveries/{id}/status` | **PUT** | `id`, `body: status` | **200 OK**: Actualiza el estado de la entrega indicada. |
+| `/api/v1/deliveries/{id}/location` | **PUT** | `id`, `body: location` | **200 OK**: Actualiza la ubicación de la entrega indicada. |
+| `/api/v1/products/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna todos los productos del negocio indicado. |
+| `/api/v1/products/{id}` | **GET** | `id` | **200 OK**: Retorna los datos del producto con el ID especificado. |
+| `/api/v1/products/{id}` | **PUT** | `id`, `body: product data` | **200 OK**: Actualiza los datos del producto indicado. |
+| `/api/v1/products` | **POST** | `body: product data` | **201 Created**: Crea un nuevo producto y retorna los datos creados. |
+| `/api/v1/products/business/{businessId}/inventory` | **GET** | `businessId` | **200 OK**: Retorna el inventario del negocio indicado. |
+| `/api/v1/products/stock-movements` | **POST** | `body: movement data` | **201 Created**: Registra un movimiento de stock y retorna confirmación. |
+| `/api/v1/products/{productId}/stock-movements/business/{businessId}` | **GET** | `productId`, `businessId` | **200 OK**: Retorna los movimientos de stock de un producto por negocio. |
+| `/api/v1/purchase-orders/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna las órdenes de compra del negocio indicado. |
+| `/api/v1/purchase-orders/{id}` | **GET** | `id` | **200 OK**: Retorna los datos de la orden de compra con el ID especificado. |
+| `/api/v1/purchase-orders` | **POST** | `body: order data` | **201 Created**: Crea una nueva orden de compra y retorna los datos creados. |
+| `/api/v1/purchase-orders/{id}/details` | **POST** | `id`, `body: detail data` | **201 Created**: Agrega un detalle a la orden de compra indicada. |
+| `/api/v1/purchase-orders/{id}/status` | **PUT** | `id`, `body: status` | **200 OK**: Actualiza el estado de la orden de compra indicada. |
+| `/api/v1/roles` | **GET** | *(none)* | **200 OK**: Retorna la lista de todos los roles disponibles. |
+| `/api/v1/roles` | **POST** | `body: role data` | **201 Created**: Crea un nuevo rol y retorna los datos creados. |
+| `/api/v1/sales/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna todas las ventas del negocio indicado. |
+| `/api/v1/sales/{id}` | **GET** | `id` | **200 OK**: Retorna los datos de la venta con el ID especificado. |
+| `/api/v1/sales` | **POST** | `body: sale data` | **201 Created**: Crea una nueva venta y retorna los datos creados. |
+| `/api/v1/sales/{id}/details` | **POST** | `id`, `body: detail data` | **201 Created**: Agrega un detalle a la venta indicada. |
+| `/api/v1/sales/{id}/pay` | **PUT** | `id` | **200 OK**: Procesa el pago de la venta indicada. |
+| `/api/v1/sales/{id}/cancel` | **PUT** | `id` | **200 OK**: Cancela la venta indicada. |
+| `/api/v1/suppliers/business/{businessId}` | **GET** | `businessId` | **200 OK**: Retorna los proveedores del negocio indicado. |
+| `/api/v1/suppliers/{id}` | **GET** | `id` | **200 OK**: Retorna los datos del proveedor con el ID especificado. |
+| `/api/v1/suppliers/{id}` | **PUT** | `id`, `body: supplier data` | **200 OK**: Actualiza los datos del proveedor indicado. |
+| `/api/v1/suppliers` | **POST** | `body: supplier data` | **201 Created**: Crea un nuevo proveedor y retorna los datos creados. |
+| `/api/v1/users` | **GET** | *(none)* | **200 OK**: Retorna la lista de todos los usuarios registrados. |
+| `/api/v1/users/{id}` | **GET** | `id` | **200 OK**: Retorna los datos del usuario con el ID especificado. |
+| `/api/v1/users/{id}` | **PUT** | `id`, `body: user data` | **200 OK**: Actualiza los datos del usuario indicado. |
 
 * **URL del Repositorio de Landing Page:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website.git](https://qullqa-landing-page.vercel.app/)
 
 * **URL del Repositorio de Web Application:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
+
+* **URL del Repositorio de Qullqa Platform:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform.git](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html)
+
+> Para acceder al Repositorio copia y pega el enlace en el navegador.
+> Para acceder al Producto da click en el enlace.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -4781,5 +4869,6 @@ URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-
 URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
 URL de webapp (azure): https://delightful-mud-0c20e9a0f.7.azurestaticapps.net/ <br>
 URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1 <br>
+URL de Qullqa platform (Swagger): https://qullqa-platform-v1.azurewebsites.net/swagger/index.html  
 
 URL de exposición (TB1): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63
