@@ -3491,7 +3491,7 @@ Referencia: https://vertabelo.com/
 Para la gestión del código fuente y el control de versiones, el equipo utiliza **GitHub** como plataforma principal. Esta herramienta permite la colaboración distribuida y asegura la integridad de los artefactos digitales del proyecto.
 
 **Repositorios del Proyecto:** </br>
-Landing Page: https://github.com/Flowbit-app/Qullqa-LandingPage
+Landing Page: https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website
 
 **Estrategia de Flujo de Trabajo (GitFlow):** </br>
 El equipo adoptará formalmente el modelo **GitFlow** para mantener un ciclo de vida profesional. Se utilizarán dos ramas principales de larga duración:
@@ -3618,9 +3618,9 @@ Para esto, se realizaron los siguientes pasos:
 - Ejecutar el despliegue automático.
 - Validar la conexión entre frontend y backend
 
-*URL de la API deployada*: https://flowbit-api.azurewebsites.net
+*URL de la API deployada*: https://qullqa-mockapi-group.azurewebsites.net/api/v1
 
-Consideraciones para el deployment de la máquina virtual: 
+Consideraciones para el deployment del mockapi: 
 
 - Subir el backend al repositorio GitHub.
 - Crear un Azure App Service.
@@ -3868,7 +3868,7 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 | `checkout.html#checkoutForm` | **POST (Mock)** | `bizName`, `cardNum`, `cardExp`, `cardCvc` | **200 OK**: Simulación de pasarela de pagos y confirmación de suscripción. |
 | `index.html#contactForm` | **POST (Mock)** | `name`, `email`, `message` | **202 Accepted**: Cambio de estado del botón a "Enviado" y reset del formulario. |
 
-* **URL del Repositorio de Landing Page:** [https://github.com/Flowbit-app/Qullqa-Landing-Page.git](https://github.com/Flowbit-app/Qullqa-Landing-Page)
+* **URL del Repositorio de Landing Page:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website)
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 El proceso de despliegue para el Sprint 1 se ejecutó utilizando Firebase Hosting, aprovechando su infraestructura global para garantizar tiempos de carga óptimos para la Landing Page. Se priorizó la automatización para permitir iteraciones rápidas sobre el diseño y contenido informativo orientado a bodegas y farmacias.
@@ -4146,9 +4146,9 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 | `checkout.html#checkoutForm` | **POST (Mock)** | `bizName`, `cardNum`, `cardExp`, `cardCvc` | **200 OK**: Simulación de pasarela de pagos y confirmación de suscripción. |
 | `index.html#contactForm` | **POST (Mock)** | `name`, `email`, `message` | **202 Accepted**: Cambio de estado del botón a "Enviado" y reset del formulario. |
 
-* **URL del Repositorio de Landing Page:** [https://github.com/Flowbit-app/Qullqa-Landing-Page.git](https://github.com/Flowbit-app/Qullqa-Landing-Page)
+* **URL del Repositorio de Landing Page:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website)
 
-* **URL del Repositorio de Web Site:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report.git](https://qullqa-landing-page.vercel.app/)
+* **URL de la landing page:** [https://qullqa-landing-page.vercel.app/](https://qullqa-landing-page.vercel.app/)
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 Con el objetivo de ofrecer una experiencia robusta a nuestros usuarios de farmacias y bodegas, el despliegue se ejecutó mediante una arquitectura escalable en Vercel. En esta etapa, priorizamos la robustez del flujo de trabajo, logrando que cada mejora en el core del negocio esté disponible de manera inmediata y segura.
@@ -4533,11 +4533,11 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 | `/api/v1/users/{id}` | **GET** | `id` | **200 OK**: Retorna los datos del usuario con el ID especificado. |
 | `/api/v1/users/{id}` | **PUT** | `id`, `body: user data` | **200 OK**: Actualiza los datos del usuario indicado. |
 
-* **URL del Repositorio de Landing Page:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website.git](https://qullqa-landing-page.vercel.app/)
+* **URL de Landing Page:** [https://qullqa-landing-page.vercel.app/](https://qullqa-landing-page.vercel.app/)
 
-* **URL del Repositorio de Web Application:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
+* **URL de Web Application:** [https://calm-tree-02cb7940f.7.azurestaticapps.net/](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
 
-* **URL del Repositorio de Qullqa Platform:** [https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform.git](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html)
+* **URL del Swagger:** [https://qullqa-platform-v1.azurewebsites.net/swagger/index.html](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html)
 
 > Para acceder al Repositorio copia y pega el enlace en el navegador.
 > Para acceder al Producto da click en el enlace.
@@ -5082,7 +5082,7 @@ URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-
 
 URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
 URL de webapp (azure): https://calm-tree-02cb7940f.7.azurestaticapps.net/ <br>
-URL de mockapi (azure): https://qullqa-mockapi.azurewebsites.net/api/v1 <br>
+URL de mockapi (azure): https://qullqa-mockapi-group.azurewebsites.net/api/v1 <br>
 URL de Qullqa platform (Swagger): https://qullqa-platform-v1.azurewebsites.net/swagger/index.html  
 
 URL de exposición (TB1): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63
