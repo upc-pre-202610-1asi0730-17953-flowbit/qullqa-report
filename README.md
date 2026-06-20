@@ -172,6 +172,7 @@ Durante el TB1 también se desarrollaron evidencias relacionadas con el Sprint R
 
 Para la gestión y seguimiento del trabajo colaborativo, el equipo continuó utilizando GitHub como herramienta principal de control de versiones y colaboración. Mediante el uso de ramas, commits y repositorios compartidos, se logró mantener un registro organizado de los avances realizados en el desarrollo de la web application, las mejoras visuales, la documentación técnica y las implementaciones funcionales realizadas durante el TB1.
 
+<img src="assets/img/artefacts/commits-av2.png" width="500"/>
 
 **Tercera Entrega (AV2)**
 
@@ -182,6 +183,8 @@ En este sprint, el equipo se centró en la implementación del backend y la estr
 Como parte del rigor técnico y de gestión, se realizó una exhaustiva labor de documentación y validación. Se integraron las entrevistas de validación de usuario y evaluaciones heurísticas para medir la usabilidad del sistema, y se elaboraron los artefactos correspondientes al Sprint 3, incluyendo el Sprint Planning, la definición de roles (líderes y colaboradores) y el Sprint Backlog actualizado. Asimismo, se generaron las evidencias de desarrollo, ejecución, servicios y despliegue técnico, las cuales demuestran la madurez alcanzada en la infraestructura del proyecto.
 
 Para registrar el avance integral del equipo, se produjeron los videos About-the-Product y About-the-Team, junto con el informe final, la presentación keynote y el reporte de desempeño individual. La gestión del trabajo colaborativo mantuvo su base en GitHub, donde se centralizaron el control de versiones, la integración continua y la coherencia del repositorio, asegurando que todos los entregables, tanto el código fuente como los documentos complementarios, cumplan con los estándares de calidad definidos para esta etapa del proyecto.
+
+<img src="assets/img/artefacts/commits-av2.png" width="500"/>
 
 ---
 
@@ -5064,6 +5067,20 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 
 ## Video About-the-Team
 
+<div align="justify">
+En el video About the Team se presenta al equipo de Flowbit, mostrando el proceso de trabajo realizado a lo largo del proyecto Qullqa. A través de escenas de sesiones de trabajo real del equipo, complementadas con narración en off, se resume la dinámica colaborativa, la planificación de tareas y el cumplimiento de objetivos a lo largo de las distintas entregas. Asimismo, se incluye el testimonio ante cámara de cada integrante, describiendo las actividades realizadas, los logros alcanzados y las competencias desarrolladas dentro del equipo, con el propósito de evidenciar el trabajo conjunto y el crecimiento profesional logrado durante el desarrollo del producto.
+</div>
+
+- **Timing: 00:10:03**
+
+<br>
+<p align="center">
+  <img src="assets/img/about-the-team.png" alt="Video about the team" width="500"/>
+  <br/><i>Video About The Team</i>
+</p>
+
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=Q3dda9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 # Bibliografía
 
 Romero, P. (2024, 10 de enero). Retos para impulsar la expansión de las billeteras digitales en las bodegas peruanas. Conexión ESAN. Recuperado de https://www.esan.edu.pe/conexion-esan/retos-para-impulsar-la-expansion-de-las-billeteras-digitales-en-las-bodegas-peruanas
@@ -5074,15 +5091,18 @@ Mendoza, B. J. F., & Anchiraico, B. W. R., (2018). Determinación de patrones de
 
 # Anexos
 
-URL del repositorio (report): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report <br>
-URL del repositorio (webapp): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp <br>
-URL del repositorio (website): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website <br>
-URL del repositorio (platform): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform <br>
-URL del repositorio (mockapi): https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api <br>
+URL del repositorio (report): [Repositorio Reporte](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-report) <br>
+URL del repositorio (webapp):  [Repositorio Webapp](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp) <br>
+URL del repositorio (website):  [Repositorio Website](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-website) <br>
+URL del repositorio (platform):  [Repositorio Platform](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-platform) <br>
+URL del repositorio (mockapi):  [Repositorio Mockapi](https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-mock-api) <br>
 
-URL de landing page (vercel): https://qullqa-landing-page.vercel.app/ <br>
-URL de webapp (azure): https://calm-tree-02cb7940f.7.azurestaticapps.net/ <br>
-URL de mockapi (azure): https://qullqa-mockapi-group.azurewebsites.net/api/v1 <br>
-URL de Qullqa platform (Swagger): https://qullqa-platform-v1.azurewebsites.net/swagger/index.html  
+URL de landing page (vercel):  [Landing Page](https://qullqa-landing-page.vercel.app/) <br>
+URL de webapp (azure): [WebApp](https://calm-tree-02cb7940f.7.azurestaticapps.net/) <br>
+URL de mockapi (azure): [Mockapi](https://qullqa-mockapi-group.azurewebsites.net/api/v1) <br>
+URL de Qullqa platform (Swagger): [Swagger](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html) <br>  
 
-URL de exposición (TB1): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63
+URL de Video About-the-product: [Youtube](https://youtu.be/pJ25aA79gag) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=kUFXc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+URL de Video About-the-team: [Youtube](https://youtu.be/iUh_RTxywNs) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=5GcbPQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+
+URL de exposición (TB1): [Video TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63)
