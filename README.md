@@ -4832,7 +4832,7 @@ Datos del entrevistado
 Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacamac, encontró interesante la landing page de Qullqa, menciona que es llamativa, conteniendo datos relevantes para conocer más acerca del producto y de la empresa, generando cierta cofianza y espectativa. Dice tener interés en la sección de inventario y planteó una pregunta relevante respecto a la flexibilidad y uso intuitivo del sistema: cuestiono el uso de distintos idiomas nacionales para acercarse a nuevos segmentos estudiados o por explorar, ademas dio un feedback respecto a la interfaz, mencionando que el cambio de estilo a dark para invertir la paleta de colores a oscuros podria ser un atractivo visual en el sistema. Asimismo, indica que los demas diseños son intuitivos y por ende es facil de utilizar. Finalmente, destaca que el proyecto o aplicacion es de gran interes y ayuda en el contexto actual del Peru, pues hay muchas personas dueñas de farmacia que aun usar una gestion a papel.
 </div>
 
-***Enlace del video:*** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h067_upc_edu_pe/IQDfea9TGuZzRJvdVeBhjy5mAdxf1pd3l4c4MFBbEunnp6E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VQDWTS]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h067_upc_edu_pe/IQDfea9TGuZzRJvdVeBhjy5mAdxf1pd3l4c4MFBbEunnp6E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VQDWTS)
 
 ### 5.3.3. Evaluaciones según heurísticas
 
