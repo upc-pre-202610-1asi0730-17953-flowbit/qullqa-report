@@ -4996,6 +4996,42 @@ Durante este último ciclo, QULLQA consolidó definitivamente su madurez técnic
   <br/><i>Evidencia de conexión estable entre el Backend y SQL en el cierre del proyecto</i>
 </p>
 
+### 5.2.4.8 Team Collaboration Insights
+
+**Dinámica de Implementación**
+<p align="center">
+Durante este cuarto y último ciclo de desarrollo, el equipo cerró el enfoque técnico consolidando la estabilidad del sistema sobre la base visual y funcional validada en sprints anteriores, confirmando que la arquitectura desarrollada para la web application respondía correctamente a las necesidades del usuario. Los esfuerzos finales se centraron en los siguientes pilares operativos:
+- Estabilización y afinamiento del Backend.
+- Depuración de la comunicación entre el Frontend y el Backend.
+- Consolidación de la conexión del Backend a la base de datos.
+- Implementación de validaciones en el módulo de registro de usuarios.
+</p>
+
+**Analíticos de Colaboración**
+<p align="center">
+La carga de trabajo se distribuyó equitativamente para asegurar que todos los miembros participaran en el cierre de los artefactos visuales (Frontend) y técnicos (Backend):
+* **Arquitectura Full-stack & Cierre de Despliegue:** Se consolidó el entorno de producción, afinando la integración entre el Frontend y el Backend desplegado. Se estabilizaron los flujos de lógica de negocio pendientes y se mantuvieron los pipelines de despliegue para asegurar la persistencia y disponibilidad de los datos en tiempo real de cara a la entrega final.
+* **Conectividad y Core del Negocio:** Se validó de forma definitiva la comunicación end-to-end entre la Landing Page y la Web App, confirmando un flujo de usuario fluido desde el registro (con las validaciones implementadas) hasta la gestión administrativa. Los endpoints restantes (roles, negocios, planes, almacenes, clientes, proveedores, compras y entregas) fueron estabilizados, cerrando la propuesta de valor para el control de inventarios y toma de decisiones.
+* **Calidad y Estabilidad Operativa:** Se aseguró la integridad final del sistema mediante auditorías de seguridad (npm audit) y pruebas de integración exhaustivas. La gobernanza del repositorio (GitFlow) permitió cerrar el desarrollo paralelo de los módulos críticos sin impacto en la estabilidad de las ramas principales (main y develop), garantizando un despliegue libre de regresiones para la entrega final del proyecto.
+</p>
+
+**Evidencia GitFlow: Contribución**
+<p align="center">
+  <img src="assets/img/evidences/Contribuidores_Sprint_4.png" width="200" alt="Graph"/>
+  <br/><i>Gráfico de contribución Sprint 4</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img/evidences/Commits_Sprint_4.png" width="500" alt="Commits"/>
+  <br/><i>Relación de commits para el Sprint 4</i>
+</p>
+
+**Evidencia GitFlow: Network**
+<p align="center">
+  <img src="assets/img/evidences/Network_Sprint_4.png" width="500" alt="Network"/>
+  <br/><i>Grafo de trabajo 4.0</i>
+</p>
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
