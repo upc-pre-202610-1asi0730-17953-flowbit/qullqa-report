@@ -4967,6 +4967,35 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 > Para acceder al Repositorio copia y pega el enlace en el navegador.
 > Para acceder al Producto da click en el enlace.
 
+### 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+Durante este último ciclo, QULLQA consolidó definitivamente su madurez técnica mediante el despliegue integral de una arquitectura Full-stack. El equipo cerró el proyecto logrando la interconectividad estable entre el core del negocio, la capa de persistencia de datos y la interfaz de usuario, garantizando un ecosistema funcional, robusto y disponible en producción.
+
+**Actividades de Despliegue Realizadas**
+* **Arquitectura Full-stack Consolidada:** Se mantuvo y afinó el despliegue automatizado del Frontend en Vercel y del Backend junto con la base de datos en Azure, asegurando la consistencia final entre la lógica de servidor y la experiencia del usuario.
+* **Estabilización de la Persistencia de Datos:** Se reforzó la conexión del motor de base de datos con el backend, corrigiendo los puntos de falla identificados en sprints anteriores y garantizando la trazabilidad y disponibilidad de la información en tiempo real para las operaciones de farmacias y bodegas.
+* **Comunicación End-to-End Validada:** Se completó la validación de la comunicación dinámica entre el backend y el frontend, confirmando la ejecución correcta de todas las User Stories críticas mediante el consumo estable de los endpoints restantes.
+* **Registro de Usuarios con Validaciones:** Se implementaron y desplegaron las validaciones del módulo de registro, asegurando que únicamente datos íntegros sean persistidos en la base de datos.
+* **Optimización y Aseguramiento Final:** Se realizaron las últimas mejoras en el frontend para cumplir con los estándares de usabilidad, integrando auditorías de seguridad que garantizan la estabilidad del despliegue de cara al cierre del proyecto.
+* **Pipelines Automáticos Consolidados:** Se mantuvieron activos los disparadores en GitHub Actions que ejecutan pruebas y despliegues (Vercel deploy) de forma autónoma al consolidar cambios en main, asegurando entregas continuas hasta el cierre del Sprint.
+
+**Evidencia Repo: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Repositorios_4.png" width="500" alt="Graph"/><br/>
+<i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git</a></i></p>
+
+**Evidencia Deploy: App Web**
+<p align="center">
+  <img src="assets/img/evidences/Principal_page_4.png" width="500" alt="Graph"/>
+  <br/><i>URL del repositorio (website): <a href="https://calm-tree-02cb7940f.7.azurestaticapps.net/">https://calm-tree-02cb7940f.7.azurestaticapps.net/</a></i>
+</p>
+
+**Evidencia Conexión: Conexión entre el Backend y SQL**
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_coneccion_Sprint4.jpeg" width="200" alt="Graph"/>
+  <br/><i>Evidencia de conexión estable entre el Backend y SQL en el cierre del proyecto</i>
+</p>
+
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
