@@ -4707,7 +4707,28 @@ La organización de líderes y colaboradores está directamente relacionada con 
 | **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **85** |
 ---
 
+<p align="center">
+  <img src="assets/img/artefacts/sprint_4.png" width="800" alt="Product Backlog"/>
+  <br/><i>Artefacto: Jira para Sprint Priorizado</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/Tablero_Kanban_4.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Proceso</i>
+</p>
+<p align="center">
+  <img src="assets/img/artefacts/Kanban_finalizado_4.png" width="800" alt="Tablero Kanban"/>
+  <br/><i>Artefacto: Jira para demostrar el tablero Kanban - Finalizado</i>
+</p>
+
+##### Resumen Técnico
+- **Total de Horas:** 85 horas.
+- **Distribución:** 2 semanas de desarrollo (considerando jornada laboral estándar).
+- **Entregable Principal:** Cerrar el desarrollo de QULLQA estableciendo una comunicacion clara y sin bugs en el programa.
+
+---
+
 ### 5.2.4.4 Development Evidence for Sprint Review
+
 ### 5.2.4.5 Execution Evidence for Sprint Review
 ### 5.2.4.6 Services Documentation Evidence for Sprint Review
 ### 5.2.4.7 Software Deployment Evidence for Sprint Review
