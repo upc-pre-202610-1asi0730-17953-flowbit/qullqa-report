@@ -4656,7 +4656,57 @@ La organización de líderes y colaboradores está directamente relacionada con 
 > **L:** Lider (Líder del aspecto)  
 > **C:** Colaborador (Colaborador y desarrollo)
 
-### 5.2.4.3 Sprint Backlog 2
+#### 5.2.4.3. Sprint Backlog 4
+**Periodo:** 24 de Junio – 8 de Julio  
+**Objetivo del Sprint:** Cerrar el desarrollo de QULLQA consolidando los endpoints restantes del backend, las integraciones con APIs externas (geolocalización y notificaciones), el seguimiento de entregas y la generación de reportes, dejando el sistema estable y listo para su entrega final.
+---
+| User Story Id | Título de la Historia | Task Id | Título de la Tarea | Descripción de la Tarea | Est. (Hrs) |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **QULLQA-27** | Rastrear entrega de productos al almacén | T-27-1 | Modelo de estados de entrega | Definir esquema de estados (pendiente, en tránsito, recibido) para el tracking. | 2 |
+| | | T-27-2 | Lógica de actualización de estado | Implementar lógica backend para actualizar el estado de la entrega en tiempo real. | 2 |
+| | | T-27-3 | Endpoint de consulta de seguimiento | Habilitar endpoint para consultar el estado actual de una entrega específica. | 2 |
+| **QULLQA-24** | Consultar y descargar reportes detallados | T-24-1 | Consulta agregada de datos | Crear consultas para agregar datos de ventas e inventario para el reporte. | 2 |
+| | | T-24-2 | Endpoint de generación de reporte | Implementar endpoint para generar el reporte en formato descargable. | 3 |
+| | | T-24-3 | Integración con frontend | Conectar el botón de descarga del dashboard con el endpoint de reportes. | 2 |
+| **QULLQA-40** | Consultar ubicación de entrega mediante API Geolocalización | T-40-1 | Integración con API externa | Configurar y consumir la API de geolocalización para obtener coordenadas de entrega. | 3 |
+| | | T-40-2 | Endpoint de ubicación | Crear endpoint que retorne la ubicación actual de la entrega al frontend. | 2 |
+| | | T-40-3 | Manejo de errores de API | Implementar manejo de fallos y timeouts en la consulta a la API externa. | 2 |
+| **QULLQA-41** | Enviar alertas operativas mediante API Notificación | T-41-1 | Integración con API de notificación | Configurar el servicio externo de envío de notificaciones. | 2 |
+| | | T-41-2 | Disparo de alertas | Implementar lógica para disparar la notificación según eventos operativos (stock bajo, entregas). | 2 |
+| | | T-41-3 | Registro de notificaciones enviadas | Persistir en base de datos el historial de alertas enviadas. | 1 |
+| **QULLQA-42** | Gestionar roles mediante el endpoint /roles | T-42-1 | Modelo de roles | Definir esquema de roles y permisos asociados. | 2 |
+| | | T-42-2 | Endpoints CRUD de roles | Implementar creación, edición, eliminación y consulta de roles. | 2 |
+| | | T-42-3 | Middleware de permisos | Validar que solo usuarios autorizados gestionen roles. | 2 |
+| **QULLQA-43** | Gestionar negocios mediante el endpoint /businesses | T-43-1 | Modelo de negocio | Definir esquema para datos de bodegas/farmacias registradas. | 2 |
+| | | T-43-2 | Endpoints CRUD de negocios | Implementar operaciones de gestión del recurso /businesses. | 2 |
+| | | T-43-3 | Validación de datos | Validar campos obligatorios y unicidad del negocio registrado. | 2 |
+| **QULLQA-44** | Gestionar planes mediante el endpoint /plans | T-44-1 | Modelo de planes | Definir esquema de planes (básico/pro) y sus límites. | 2 |
+| | | T-44-2 | Endpoints CRUD de planes | Implementar operaciones de gestión del recurso /plans. | 2 |
+| | | T-44-3 | Pruebas de integración | Validar la asignación correcta del plan a un negocio. | 2 |
+| **QULLQA-45** | Gestionar almacenes mediante el endpoint /warehouses | T-45-1 | Modelo de almacén | Definir esquema de almacenes y su relación con el inventario. | 2 |
+| | | T-45-2 | Endpoints CRUD de almacenes | Implementar operaciones de gestión del recurso /warehouses. | 2 |
+| | | T-45-3 | Validación de datos | Validar la unicidad y consistencia de los datos del almacén. | 2 |
+| **QULLQA-46** | Gestionar detalles de venta mediante el endpoint /saleDetails | T-46-1 | Modelo de detalle de venta | Definir esquema para los ítems asociados a cada venta. | 2 |
+| | | T-46-2 | Endpoints CRUD de saleDetails | Implementar operaciones de gestión del recurso /saleDetails. | 2 |
+| | | T-46-3 | Validación de consistencia | Validar que el detalle de venta corresponda a un stock existente. | 2 |
+| **QULLQA-47** | Gestionar clientes mediante el endpoint /customers | T-47-1 | Modelo de cliente | Definir esquema de datos de clientes. | 2 |
+| | | T-47-2 | Endpoints CRUD de clientes | Implementar operaciones de gestión del recurso /customers. | 2 |
+| | | T-47-3 | Validación de datos | Validar formato de datos de contacto y unicidad del cliente. | 2 |
+| **QULLQA-48** | Gestionar proveedores mediante el endpoint /suppliers | T-48-1 | Modelo de proveedor | Definir esquema de datos de proveedores. | 2 |
+| | | T-48-2 | Endpoints CRUD de proveedores | Implementar operaciones de gestión del recurso /suppliers. | 2 |
+| | | T-48-3 | Validación de datos | Validar campos obligatorios y unicidad del proveedor. | 2 |
+| **QULLQA-49** | Gestionar órdenes de compra mediante el endpoint /purchases | T-49-1 | Modelo de orden de compra | Definir esquema de datos para las órdenes de compra. | 2 |
+| | | T-49-2 | Endpoints CRUD de purchases | Implementar operaciones de gestión del recurso /purchases. | 2 |
+| | | T-49-3 | Validación de consistencia | Validar que la orden esté asociada a un proveedor y almacén válidos. | 2 |
+| **QULLQA-50** | Gestionar detalles de compra mediante el endpoint /purchaseDetails | T-50-1 | Modelo de detalle de compra | Definir esquema para los ítems asociados a cada orden de compra. | 2 |
+| | | T-50-2 | Endpoints CRUD de purchaseDetails | Implementar operaciones de gestión del recurso /purchaseDetails. | 2 |
+| | | T-50-3 | Validación de consistencia | Validar que el detalle corresponda a una orden de compra existente. | 2 |
+| **QULLQA-51** | Gestionar entregas mediante el endpoint /deliveries | T-51-1 | Modelo de entrega | Definir esquema de datos para las entregas realizadas. | 2 |
+| | | T-51-2 | Endpoints CRUD de deliveries | Implementar operaciones de gestión del recurso /deliveries. | 2 |
+| | | T-51-3 | Integración con seguimiento | Conectar el recurso /deliveries con el módulo de rastreo (QULLQA-27). | 2 |
+| **TOTAL** | | | | **Esfuerzo total estimado para el Sprint** | **85** |
+---
+
 ### 5.2.4.4 Development Evidence for Sprint Review
 ### 5.2.4.5 Execution Evidence for Sprint Review
 ### 5.2.4.6 Services Documentation Evidence for Sprint Review
