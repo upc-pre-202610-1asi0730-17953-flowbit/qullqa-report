@@ -4617,6 +4617,35 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
   <br/><i>Grafo de trabajo 3.0</i>
 </p>
 
+## 5.2.4 Sprint 4
+Durante el cuarto y último ciclo de desarrollo, se consolidaron y cerraron los componentes críticos de QULLQA, culminando el esfuerzo colaborativo bajo metodologías ágiles con la entrega final del Producto Mínimo Viable (MVP). En este Sprint, el equipo priorizó la estabilización definitiva del backend y su comunicación con el frontend, garantizando un flujo de datos consistente entre la aplicación web y la base de datos, así como la implementación y consolidación del módulo de registro de usuarios con métodos de validación que aseguran la integridad de la información persistida. Cada fase, desde la planificación en Jira hasta la verificación final de los registros en la base de datos, fue documentada detalladamente para validar la estabilidad del sistema y cerrar el proyecto asegurando que la propuesta de valor llegue eficazmente a bodegas y farmacias.
+
+#### 5.2.4.1. Sprint Planning 4
+El Sprint actual marcó el cierre del desarrollo de QULLQA, enfocándose en la estabilización final del backend, la comunicación fluida con el frontend y la implementación del módulo de registro de usuarios con validaciones robustas. Durante esta sesión, el equipo de desarrollo junto al Product Owner seleccionaron las Historias de Usuario pertinentes del Product Backlog para definir el objetivo central de esta última iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-24 |
+| **Time** | 10:00 AM |
+| **Location** | Cubiculo - Pabellon I |
+| **Prepared By** | Arturo Valentino Contreras Torres |
+| **Attendees (to planning meeting)** | Asmat Alminco, Martin Alejandro / Contreras Torres, Arturo Valentino / Güere Calero, Fernando Julio / Huaman Oscco, Aldo Jesus / Ramos Fuentes Rivera, Adriana Nicole |
+| **Sprint 3 Review Summary** | Se completó con éxito el desarrollo del núcleo del backend y el despliegue de la base de datos, habilitando las operaciones CRUD básicas del sistema. El Product Owner validó el funcionamiento de los endpoints principales y la conexión inicial entre el cliente y el servidor, señalando como observación la necesidad de reforzar la estabilidad de la conexión con la base de datos y de completar la validación de los datos ingresados en los formularios de registro antes del cierre del proyecto. |
+| **Sprint 3 Retrospective Summary** | Como retrospectiva del trabajo, el equipo identificó como acierto la consolidación de una arquitectura backend funcional en un tiempo ajustado, gracias a la división clara de responsabilidades y al uso constante de GitHub y Jira para el seguimiento del avance. Se reconoció como oportunidad de mejora anticipar con mayor rigurosidad las pruebas de integración entre el backend y la base de datos, así como establecer validaciones de datos desde etapas más tempranas del desarrollo, para evitar retrabajo en el sprint final. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | **Contexto:** En este último sprint, el equipo de ingeniería de Qullqa se enfoca en cerrar el proyecto consolidando la estabilidad del sistema. Priorizamos el afinamiento del backend, la depuración de la comunicación con el frontend y el fortalecimiento de la conexión con la base de datos, además de implementar un módulo de registro de usuarios con validaciones que garanticen la integridad de la información. El objetivo es dejar un sistema robusto, sin errores de conexión, listo para su entrega final.<br><br>**Sprint Goal:**<br>*"Our focus is to close the project by refining the backend logic, stabilizing the connection between the application and the database, and delivering a validated user registration flow. We believe this will ensure reliable, error-free data persistence and a consistent state between the frontend and backend. This will be confirmed when new user registrations are validated and correctly stored in the database with zero connection failures, and all core CRUD operations run consistently in the production environment."* |
+| **Sprint 4 Velocity** | 40 (Tiempo estimado en referencia a resultados anteriores) |
+| **Sum of Story Points** | 43 |
+
+### 5.2.4.2 Aspect Leaders and Collaborators
+### 5.2.4.3 Sprint Backlog 2
+### 5.2.4.4 Development Evidence for Sprint Review
+### 5.2.4.5 Execution Evidence for Sprint Review
+### 5.2.4.6 Services Documentation Evidence for Sprint Review
+### 5.2.4.7 Software Deployment Evidence for Sprint Review
+### 5.2.4.8 Team Collaboration Insights during Sprint
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 #### Segmento 1: Bodegueros independientes
