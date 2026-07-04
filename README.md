@@ -4778,6 +4778,128 @@ Finalmente, se presentan los commits más importantes correspondientes al cierre
   | Adriana | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
   | Martin | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
 
+### 5.2.4.5 Execution Evidence for Sprint Review
+En este último Sprint se logró consolidar la integración entre la aplicación web, la landing page y la base de datos, cerrando el ciclo de desarrollo de QULLQA. Se corrigieron desperfectos visuales identificados en la landing page, se afinaron detalles de la aplicación web y se validó el correcto funcionamiento del registro de usuarios con las validaciones implementadas. A continuación, se presentan capturas que evidencian los resultados obtenidos al cierre del proyecto.
+<br/>
+
+1.  Sección Principal: Formulario de inicio de sesion
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Inicio_Sesion_3.png" width="800" alt="Header Landing page"/>
+  <br/><i>Formulario de inicio de sesion</i>
+</p>
+<br/>
+
+2. Sección de formulario para la creacion de una cuenta
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Crear_cuenta_3.png" width="800" alt="MainInformation"/>
+  <br/><i>Sección de muestra para crear cuenta</i>
+</p>
+<br/>
+
+3. Seccion principal de dashboard
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Dashboard_3.png" width="800" alt="Segmento Objetivo"/>
+  <br/><i>Seccion visualizacion principal</i>
+</p>
+<br/>
+
+4. Seccion de visualizacion de productos
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Inventario_3.png" width="800" alt="Servicios"/>
+  <br/><i>Seccion productos</i>
+</p>
+<br/>
+
+5. Sección visión: Ventas y registros.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Ventas_3.png" width="800" alt="Vision"/>
+  <br/><i>Seccion compras</i>
+</p>
+<br/>
+
+6. Sección visualizacion : Proveedores.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Proveedores_3.png" width="800" alt="Portafolio"/>
+  <br/><i>seccion Customers</i>
+</p>
+<br/>
+
+7. Sección alertas: Pantalla de alertas.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Alertas_3.png" width="800" alt="Planes"/>
+  <br/><i>Pantalla alertas</i>
+</p>
+<br/>
+
+8. Seccion principal: Implementacion de I18N.
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/I18N_3.png" width="800" alt="Formulario"/>
+  <br/><i>Implementacion de la internacionalizacion</i>
+</p>
+<br/>
+
+9. Seccion principal: Coneccion Backend - SQL
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_coneccion_Sprint3.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Coneccion entre el Backend y la base de datos</i>
+</p>
+<br/>
+
+10. Seccion principal: Validacion de errores
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_Validacion.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Validaciones en los endpoints</i>
+</p>
+<br/>
+
+11. Seccion principal: Swagger
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Swagger.png" width="800" alt="Formulario"/>
+  <br/><i>Despliegue del Backend: Herramienta</i>
+</p>
+<br/>
+
+12. Seccion principal: Validacion de errores
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Evidencia_Backend.png" width="800" alt="Formulario"/>
+  <br/><i>Evidencia despliegue del Backend</i>
+</p>
+<br/>
+
+Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
+<p align="center">
+  <img src="assets/img/evidences/Repositorios_3.png" width="800" alt="Repositorio de Github"/>
+  <br/><i>Repositorio de GitHub sobre la app web</i>
+</p>
+
+Video de explicación landing page: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQDqpNUpHEpuSbdSMAmRmD1bAe_mipNfraF-vfJ5pc-kjIw?e=c2nf7O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video de explicación Web Application: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h067_upc_edu_pe/IQAJiNl5Q6OVSYIjo7xicw2fAXyhj9OEDmgj92Z6rnCFY0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JLPZIr)
+
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
