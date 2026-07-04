@@ -4626,7 +4626,7 @@ El Sprint actual marcó el cierre del desarrollo de QULLQA, enfocándose en la e
 | **Sprint #** | Sprint 4 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| **Date** | 2026-06-24 |
+| **Date** | 2026-07-04 |
 | **Time** | 10:00 AM |
 | **Location** | Cubiculo - Pabellon I |
 | **Prepared By** | Arturo Valentino Contreras Torres |
@@ -4636,9 +4636,26 @@ El Sprint actual marcó el cierre del desarrollo de QULLQA, enfocándose en la e
 | **Sprint Goal & User Stories** | |
 | **Sprint 4 Goal** | **Contexto:** En este último sprint, el equipo de ingeniería de Qullqa se enfoca en cerrar el proyecto consolidando la estabilidad del sistema. Priorizamos el afinamiento del backend, la depuración de la comunicación con el frontend y el fortalecimiento de la conexión con la base de datos, además de implementar un módulo de registro de usuarios con validaciones que garanticen la integridad de la información. El objetivo es dejar un sistema robusto, sin errores de conexión, listo para su entrega final.<br><br>**Sprint Goal:**<br>*"Our focus is to close the project by refining the backend logic, stabilizing the connection between the application and the database, and delivering a validated user registration flow. We believe this will ensure reliable, error-free data persistence and a consistent state between the frontend and backend. This will be confirmed when new user registrations are validated and correctly stored in the database with zero connection failures, and all core CRUD operations run consistently in the production environment."* |
 | **Sprint 4 Velocity** | 40 (Tiempo estimado en referencia a resultados anteriores) |
-| **Sum of Story Points** | 43 |
+| **Sum of Story Points** | 38 |
 
-### 5.2.4.2 Aspect Leaders and Collaborators
+#### 5.2.4.2. Aspect Leaders and Collaborators
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 4. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el cierre del proyecto **QULLQA**.
+
+La organización de líderes y colaboradores está directamente relacionada con la selección de tareas (tasks) que se desarrollarán durante este último Sprint, orientadas al afinamiento del backend, la comunicación con el frontend, la estabilidad de la conexión con la base de datos y la implementación de validaciones en el módulo de registro.
+
+| Team Member | GitHub Username | Desarrollo Backend & API (L/C) | Comunicación Frontend-Backend (L/C) | Estabilidad de Conexión BD (L/C) | Registro de Usuarios & Validaciones (L/C) | QA & Testing (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | L | C | C |
+| Contreras Torres, Arturo Valentino | Arturouu | C | C | C | C | L |
+| Güere Calero, Fernando Julio | FerG17 | L | C | C | C | C |
+| Huaman Oscco, Aldo Jesus | Jesusho22 | C | L | C | L | C |
+| Ramos Fuentes Rivera, Adriana Nicole | Adriana832 | C | C | C | C | C |
+
+---
+> **Leyenda:**  
+> **L:** Lider (Líder del aspecto)  
+> **C:** Colaborador (Colaborador y desarrollo)
+
 ### 5.2.4.3 Sprint Backlog 2
 ### 5.2.4.4 Development Evidence for Sprint Review
 ### 5.2.4.5 Execution Evidence for Sprint Review
