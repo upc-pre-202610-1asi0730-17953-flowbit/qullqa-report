@@ -1236,7 +1236,7 @@ Datos del entrevistado
 - **Timing:**
 
 <p align="center">
-  <img src="assets/img/Entrevistas/entrevista-pablo.png" alt="Entrevista con Pablo Aguilar" width="500"/>
+  <img src="assets/img/Entrevistas/entrevista-aguilar.png" alt="Entrevista con Pablo Aguilar" width="500"/>
   <br/><i>Evidencia de entrevista: Pablo Aguilar </i>
 </p>
 
