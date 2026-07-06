@@ -4772,11 +4772,11 @@ Finalmente, se presentan los commits más importantes correspondientes al cierre
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
   | :--- | :--- | :--- | :--- | :--- | :---: |
-  | Arturouu | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
-  | Fernando | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
-  | Jesus | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
-  | Adriana | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
-  | Martin | [rama] | [hash] | [mensaje del commit] | [descripción del cambio] | [fecha] |
+  | Arturouu | develop | a687719 | feat(program.cs) | update program.cs with bounded context updated. | 05/07/2026 |
+  | Fernando | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
+  | Jesus | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
+  | Adriana | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
+  | Martin | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
 
 ### 5.2.4.5 Execution Evidence for Sprint Review
 En este último Sprint se logró consolidar la integración entre la aplicación web, la landing page y la base de datos, cerrando el ciclo de desarrollo de QULLQA. Se corrigieron desperfectos visuales identificados en la landing page, se afinaron detalles de la aplicación web y se validó el correcto funcionamiento del registro de usuarios con las validaciones implementadas. A continuación, se presentan capturas que evidencian los resultados obtenidos al cierre del proyecto.
