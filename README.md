@@ -36,7 +36,7 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 </p>
 
 
-*Junio, 2026*
+*Julio, 2026*
 
 </div>
 
@@ -133,6 +133,35 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
     Primera versión publicada de Video About-The-Product <br>
     Primera versión publicada de Video About-The-Team <br>
     Capítulo V: Product Implementation, Validation & Deployment (Sprint 3 / Validation Interviews) <br>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cuarta Entrega (TB2)</b></td>
+    <td>06/07/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Güere Calero, Fernando Julio <br>
+      <br>
+      <p></p>
+      Huaman Oscco, Aldo Jesus <br>
+      <br>
+      <p></p>
+      Ramos Fuentes Rivera, Adriana Nicole <br>
+    </td>
+    <td>
+    Mejora de reporte <br>
+    Mejora de artefactos <br>
+    Nueva versión desplegada de Landing Page <br>
+    Nueva versión desplegada de Frontend Web Applications <br>
+    Nueva versión desplegada de Web Services <br>
+    Nueva versión publicada de Video About-The-Product <br>
+    Nueva versión publicada de Video About-The-Team <br>
+    Capítulo V: Product Implementation, Validation & Deployment (Sprint 4) <br>
     </td>
   </tr>
 </table>
