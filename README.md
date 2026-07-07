@@ -5608,7 +5608,7 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 </p>
 
 
-***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=YXqRsN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAdDqRexp68TLThi-l8NjiEARqM516DLuN5DljcCjkjl1A?e=OFYlpk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Conclusiones
 ## Conclusiones y recomendaciones
@@ -5674,15 +5674,33 @@ En el video About the Team se presenta al equipo de Flowbit, mostrando el proces
   <br/><i>Video About The Team</i>
 </p>
 
-***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=Q3dda9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCADhNcLe0xToyXYAX1U7MzAQTYqPDshwfZ3uFiai1q318?e=9091cw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Bibliografía
 
-Romero, P. (2024, 10 de enero). Retos para impulsar la expansión de las billeteras digitales en las bodegas peruanas. Conexión ESAN. Recuperado de https://www.esan.edu.pe/conexion-esan/retos-para-impulsar-la-expansion-de-las-billeteras-digitales-en-las-bodegas-peruanas
+Big picture EventStorming. (s.f.). GitHub - ddd-by-examples. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
+
+Brandolini, A. (2013). Introducing EventStorming: An act of deliberate collective learning. Leanpub.
+
+Conventional commits (v1.0.0). (s.f.). https://www.conventionalcommits.org/
 
 Delgado, R. S. B., & Lopez, H. Y. B., (2024). Modelo PDCA para incrementar el índice de rotación de inventario aplicando la clasificación ABC-SLP, Kanban y Conteo Cíclico en una pequeña empresa de comercio farmacéutico [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/682410
 
+Design level EventStorming. (s.f.). GitHub - ddd-by-examples. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
+
+Driessen, V. (2010, 5 de enero). A successful Git branching model. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
+
+Fowler, M. (2011, 14 de julio). CQRS. martinfowler.com. https://martinfowler.com/bliki/CQRS.html
+
+Fowler, M. (s.f.). Ubiquitous language. martinfowler.com. https://martinfowler.com/bliki/UbiquitousLanguage.html
+
 Mendoza, B. J. F., & Anchiraico, B. W. R., (2018). Determinación de patrones de ventas en boticas independientes para mejorar las ventas [Tesis de maestría, Universidad San Ignacio de Loyola]. Repositorio Académico USIL. https://hdl.handle.net/20.500.14005/8591
+
+Romero, P. (2024, 10 de enero). Retos para impulsar la expansión de las billeteras digitales en las bodegas peruanas. Conexión ESAN. Recuperado de https://www.esan.edu.pe/conexion-esan/retos-para-impulsar-la-expansion-de-las-billeteras-digitales-en-las-bodegas-peruanas
+
+Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley.
 
 # Anexos
 
@@ -5707,5 +5725,5 @@ URL de exposición (TB1): [Video TB1](https://upcedupe-my.sharepoint.com/:v:/g/p
 
 URL de exposición (AV2): [Video AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQCYjcotrz3fQZQFukTwOX3RAUn5wV_QxTnIp1yeFCCLbys?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fl1sS7)
 
-URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDb8jeQmyLrQ4ud5MnXBZ9DAVp6eLyyheKHS_yGeaR4bDc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MN0lUS)
+URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDNE4A1qMTrTYE_QElMs1ClAaW3_xKLBqtzQtXsYMdbZpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MgzAuW)
 
