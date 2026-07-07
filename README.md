@@ -5608,7 +5608,7 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 </p>
 
 
-***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=YXqRsN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAdDqRexp68TLThi-l8NjiEARqM516DLuN5DljcCjkjl1A?e=OFYlpk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Conclusiones
 ## Conclusiones y recomendaciones
@@ -5674,7 +5674,7 @@ En el video About the Team se presenta al equipo de Flowbit, mostrando el proces
   <br/><i>Video About The Team</i>
 </p>
 
-***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=Q3dda9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+***Enlace del video:*** [Ver video aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCADhNcLe0xToyXYAX1U7MzAQTYqPDshwfZ3uFiai1q318?e=9091cw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Bibliografía
 
