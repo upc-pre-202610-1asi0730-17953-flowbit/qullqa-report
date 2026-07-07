@@ -5084,19 +5084,25 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 **Evidencia GitFlow: Contribución**
 <p align="center">
-  <img src="assets/img/evidences/Contribuidores_Sprint_4.png" width="200" alt="Graph"/>
+  <img src="assets/img/evidences/Grafica_task.png" width="200" alt="Graph"/>
   <br/><i>Gráfico de contribución Sprint 4</i>
 </p>
 
 **Evidencia GitFlow: Commits**
 <p align="center">
-  <img src="assets/img/evidences/Commits_Sprint_4.png" width="500" alt="Commits"/>
+  <img src="assets/img/evidences/Commits_report.png" width="500" alt="Commits"/>
+  <br/><i>Relación de commits para el Sprint 4</i>
+</p>
+
+**Evidencia GitFlow: Commits**
+<p align="center">
+  <img src="assets/img/evidences/Evidence_Commits_4.png" width="500" alt="Commits"/>
   <br/><i>Relación de commits para el Sprint 4</i>
 </p>
 
 **Evidencia GitFlow: Network**
 <p align="center">
-  <img src="assets/img/evidences/Network_Sprint_4.png" width="500" alt="Network"/>
+  <img src="assets/img/evidences/Network_Final.png" width="500" alt="Network"/>
   <br/><i>Grafo de trabajo 4.0</i>
 </p>
 
