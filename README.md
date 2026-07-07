@@ -36,7 +36,7 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 </p>
 
 
-*Junio, 2026*
+*Julio, 2026*
 
 </div>
 
@@ -133,6 +133,35 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
     Primera versión publicada de Video About-The-Product <br>
     Primera versión publicada de Video About-The-Team <br>
     Capítulo V: Product Implementation, Validation & Deployment (Sprint 3 / Validation Interviews) <br>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cuarta Entrega (TB2)</b></td>
+    <td>06/07/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Güere Calero, Fernando Julio <br>
+      <br>
+      <p></p>
+      Huaman Oscco, Aldo Jesus <br>
+      <br>
+      <p></p>
+      Ramos Fuentes Rivera, Adriana Nicole <br>
+    </td>
+    <td>
+    Mejora de reporte <br>
+    Mejora de artefactos <br>
+    Nueva versión desplegada de Landing Page <br>
+    Nueva versión desplegada de Frontend Web Applications <br>
+    Nueva versión desplegada de Web Services <br>
+    Nueva versión publicada de Video About-The-Product <br>
+    Nueva versión publicada de Video About-The-Team <br>
+    Capítulo V: Product Implementation, Validation & Deployment (Sprint 4) <br>
     </td>
   </tr>
 </table>
@@ -290,6 +319,15 @@ Para registrar el avance integral del equipo, se produjeron los videos About-the
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -329,6 +367,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Asumió la corrección de los segmentos objetivo a partir de la retroalimentación recibida y coordinó con el equipo técnico el Software Deployment Configuration y la implementación de bounded contexts en la web application, garantizando continuidad en la gestión de comunicaciones entre los miembros responsables del despliegue.
       <br><br><u>AV2</u><br>
       Estuvo a cargo de tareas de desarrollo backend y coordinó junto al equipo la ejecución de la entrevista de validación, cuyo registro forma parte de la evidencia de Sprint 3, además de participar en la producción del video About the Team. Aplicó la evaluación según heurísticas para sustentar las mejoras propuestas en los userflows y en la web application, manteniendo coordinación constante con el resto del equipo de desarrollo.
+      <br><br><u>TB2</u><br>
+      Aseguró la calidad del reporte final coordinando con el equipo la revisión integral de los contenidos del informe. Condujo la mejora de pantallas —wireframes, mockups y userflows— alineándolas con los ajustes definidos durante el sprint, y participó en la producción del video About the Team, contribuyendo a la presentación coordinada del trabajo del equipo en el cierre del proyecto.
       <br><br>
       <b>Contreras Torres, Arturo Valentino</b><br>
       <u>AV1</u><br>
@@ -337,6 +377,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Estuvo a cargo de la elaboración del Project Report Collaboration Insights y coordinó la mejora del Design Level Event Storming, la actualización de User Stories y Technical Stories, la implementación de bounded contexts y la mejora de la landing page, evidenciando continuidad en la coordinación técnica del equipo a través de las actas de seguimiento del sprint.
       <br><br><u>AV2</u><br>
       Condujo el desarrollo backend y el despliegue en Azure, coordinando la conexión entre frontend y backend. Participó en la entrevista de validación y en el video About the Team, además de impulsar la mejora de la webapp y de los diagramas del proyecto, evidenciando trabajo coordinado y sostenido con el resto del equipo a lo largo del sprint.
+      <br><br><u>TB2</u><br>
+      Condujo el desarrollo backend y el despliegue de los productos en producción, coordinando la conexión frontend-backend para el cierre técnico del sistema. Impulsó la mejora de la webapp, la landing page y los diagramas del proyecto, asegurando coherencia entre los artefactos técnicos y el estado final del sistema, y participó en el video About the Team.
       <br><br>
       <b>Güere Calero, Fernando Julio</b><br>
       <u>AV1</u><br>
@@ -345,6 +387,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Coordinó la elaboración del Development Evidence y del Execution Evidence for Sprint Review, registrando de forma sistemática el avance técnico del equipo. Lideró la implementación de bounded contexts y la mejora de la landing page, garantizando continuidad entre los registros de evidencia y el trabajo de desarrollo.
       <br><br><u>AV2</u><br>
       Estuvo a cargo del desarrollo backend, la mejora de la webapp y de la landing page, así como la conexión entre frontend y backend y el despliegue en Azure del Swagger. Coordinó con el equipo la realización de la entrevista de validación y participó en el video About the Team, evidenciando capacidad de sostener el liderazgo técnico del proyecto durante todo el sprint.
+      <br><br><u>TB2</u><br>
+      Estuvo a cargo del desarrollo backend, la mejora de la webapp y de la landing page, la conexión frontend-backend y el despliegue final de los productos, coordinando el cierre técnico del sistema. Su participación en el video About the Team evidenció continuidad en el liderazgo técnico sostenido durante todo el ciclo del proyecto.
       <br><br>
       <b>Huaman Oscco, Aldo Jesus</b><br>
       <u>AV1</u><br>
@@ -353,6 +397,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Estuvo a cargo de la documentación del Services Documentation Evidence y del Software Deployment Evidence for Sprint Review, además de registrar los Team Collaboration Insights durante el sprint, lo que evidencia de forma directa su capacidad de coordinar y dejar constancia del trabajo conjunto del equipo. Participó también en la implementación de bounded contexts en la web application.
       <br><br><u>AV2</u><br>
       Condujo el desarrollo backend y la actualización del Product Backlog y del Report Collaboration Insights, coordinando con el equipo el desarrollo del Sprint 3. Participó en la entrevista de validación y en el video About the Team, sosteniendo la práctica de documentar evidencia de coordinación que mantuvo desde el TB1.
+      <br><br><u>TB2</u><br>
+      Condujo el desarrollo del Sprint 4 y la actualización del Report Collaboration Insights, coordinando con el equipo el aseguramiento de la calidad del reporte final. Participó en el video About the Team, sosteniendo hasta el último entregable la práctica de documentar la evidencia de trabajo conjunto que caracterizó al equipo durante todo el proyecto.
       <br><br>
       <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
       <u>AV1</u><br>
@@ -361,6 +407,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Lideró la mejora del diagrama de base de datos y la revisión cruzada de diagramas con el resto del equipo, coordinando además la actualización de conclusiones y recomendaciones. Participó en la implementación de bounded contexts y en la mejora de la landing page, manteniendo coherencia entre la documentación técnica y el trabajo de los demás integrantes.
       <br><br><u>AV2</u><br>
       Estuvo a cargo del desarrollo backend y coordinó la ejecución de la entrevista de validación y la producción del video About the Team y del video About the Product. Aplicó la evaluación según heurísticas y condujo el desarrollo del Sprint 3, evidenciando continuidad en la coordinación del equipo durante el cierre del proyecto.
+      <br><br><u>TB2</u><br>
+      Aseguró la calidad del reporte final coordinando con el equipo la revisión de los contenidos del informe. Estuvo a cargo de la edición del video About the Team y del video About the Product, siendo responsable de la presentación audiovisual definitiva del proyecto, y participó en la producción del video About the Team como cierre del trabajo conjunto del equipo.
     </td>
     <td>
       <u>AV1</u><br>
@@ -369,6 +417,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Durante el TB1 el equipo mantuvo la práctica de liderazgo compartido, evidenciada en la documentación sistemática de Development, Execution, Services Documentation y Software Deployment Evidence for Sprint Review, así como en los Team Collaboration Insights registrados durante el sprint. Estos artefactos constituyen evidencia directa de coordinación continua entre los integrantes a lo largo del ciclo de desarrollo.
       <br><br><u>AV2</u><br>
       En el AV2 el liderazgo conjunto se reflejó en la coordinación técnica para el desarrollo del backend, la conexión frontend-backend y el despliegue en Azure, tareas que requirieron sincronización constante entre los responsables de cada bounded context. La ejecución coordinada de la entrevista de validación y la producción de los videos About the Team y About the Product reforzaron, con nueva evidencia, la capacidad del equipo para sostener el liderazgo compartido hasta el cierre del proyecto.
+      <br><br><u>TB2</u><br>
+      En el TB2 el liderazgo conjunto se manifestó en la capacidad del equipo para distribuir de forma autónoma las responsabilidades técnicas y documentales del cierre del proyecto, sin depender de una figura central. La coordinación entre los frentes de desarrollo backend, despliegue de productos, mejora del producto y producción audiovisual se sostuvo a través de la comunicación continua entre los integrantes, evidenciando que el equipo consolidó una dinámica de liderazgo compartido a lo largo de todo el ciclo del proyecto.
     </td>
   </tr>
   <tr>
@@ -381,6 +431,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las observaciones recibidas sobre los segmentos objetivo y propuso la corrección correspondiente; además planificó junto al equipo la configuración del despliegue, garantizando el cumplimiento de los objetivos técnicos establecidos para el sprint.
       <br><br><u>AV2</u><br>
       Fue receptivo a los resultados de la evaluación según heurísticas, proponiendo mejoras concretas en los userflows y en la web application a partir de esas observaciones, y planificó junto al equipo las tareas de desarrollo backend necesarias para cumplir los objetivos del sprint final.
+      <br><br><u>TB2</u><br>
+      Fue receptivo a las observaciones del equipo durante la revisión del reporte, proponiendo correcciones para asegurar la coherencia y calidad del informe final. Planificó junto al equipo la mejora de wireframes, mockups y userflows, garantizando que los artefactos de diseño reflejaran el estado final del producto antes del cierre del proyecto.
       <br><br>
       <b>Contreras Torres, Arturo Valentino</b><br>
       <u>AV1</u><br>
@@ -389,6 +441,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las críticas recibidas sobre el Event Storming inicial y propuso su mejora, además de planificar junto al equipo la actualización de User Stories y Technical Stories y la implementación de MockAPI, garantizando el cumplimiento de los objetivos funcionales del sprint.
       <br><br><u>AV2</u><br>
       Propuso e implementó mejoras en la webapp y en los diagramas del proyecto a partir de la retroalimentación del equipo, y planificó el despliegue en Azure y la conexión frontend-backend, asegurando el cumplimiento de los objetivos técnicos previstos para el cierre del proyecto.
+      <br><br><u>TB2</u><br>
+      Fue proactivo en la planificación del despliegue final de los productos, coordinando las tareas de conexión frontend-backend. Propuso mejoras en la webapp, la landing page y los diagramas a partir de la revisión final del equipo, garantizando que el producto entregado fuera coherente con la arquitectura y el diseño definidos a lo largo del proyecto.
       <br><br>
       <b>Güere Calero, Fernando Julio</b><br>
       <u>AV1</u><br>
@@ -397,6 +451,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Escuchó las observaciones del equipo sobre el avance del sprint y las incorporó en el Development y Execution Evidence for Sprint Review, planificando junto al equipo la implementación de bounded contexts y la mejora de la landing page para cumplir los objetivos establecidos.
       <br><br><u>AV2</u><br>
       Fue proactivo en la planificación de las entrevistas de validación y en la estructuración de tareas de optimización del frontend y desarrollo del backend, garantizando la cooperación entre los integrantes responsables de la conexión frontend-backend y el despliegue del Swagger en Azure.
+      <br><br><u>TB2</u><br>
+      Fue proactivo en la planificación del cierre técnico del proyecto, estructurando junto a Contreras Torres las tareas de conexión frontend-backend y despliegue final de productos. Escuchó las observaciones del equipo para incorporar mejoras en la webapp y la landing page, garantizando cooperación e integración efectiva entre los integrantes hasta el último entregable.
       <br><br>
       <b>Huaman Oscco, Aldo Jesus</b><br>
       <u>AV1</u><br>
@@ -405,6 +461,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Documentó de forma proactiva las Services Documentation Evidence y Software Deployment Evidence, escuchando las necesidades del equipo para registrar los Team Collaboration Insights del sprint, lo que garantizó cooperación e integración efectiva entre los miembros del grupo.
       <br><br><u>AV2</u><br>
       Analizó el estado del Product Backlog y propuso su actualización junto con la del Report Collaboration Insights, planificando con el equipo el desarrollo del Sprint 3 para asegurar el cumplimiento de los objetivos de cierre del proyecto.
+      <br><br><u>TB2</u><br>
+      Planificó con el equipo el desarrollo del Sprint 4 y propuso la actualización del Report Collaboration Insights como mecanismo de cierre de la evidencia colaborativa del proyecto. Aseguró la calidad del reporte final escuchando las observaciones de sus compañeros e incorporándolas en las revisiones correspondientes.
       <br><br>
       <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
       <u>AV1</u><br>
@@ -413,6 +471,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las observaciones sobre el diagrama de base de datos y propuso su mejora junto con la revisión cruzada de los demás diagramas, planificando la actualización de conclusiones y recomendaciones para garantizar coherencia entre la documentación y el sistema.
       <br><br><u>AV2</u><br>
       Estableció metas y distribuyó responsabilidades para la ejecución de las entrevistas de validación y la producción de los videos About the Team y About the Product, considerando las opiniones del equipo y de los usuarios entrevistados. Esta organización permitió cumplir, junto con la evaluación según heurísticas y el desarrollo del Sprint 3, los objetivos del cierre del proyecto dentro de los plazos establecidos.
+      <br><br><u>TB2</u><br>
+      Estableció metas para la edición y producción final del video About the Team y del video About the Product, coordinando con el equipo los criterios de revisión del reporte. Su proactividad en el aseguramiento de la calidad documental y audiovisual garantizó que los entregables finales del proyecto cumplieran con los estándares establecidos por el equipo.
     </td>
     <td>
       <u>AV1</u><br>
@@ -421,6 +481,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Durante el TB1 el equipo analizó de forma conjunta las críticas y observaciones recibidas sobre los avances del AV1, traduciéndolas en mejoras concretas sobre el Event Storming, los diagramas y la landing page. La planificación coordinada de la documentación de evidencias de sprint y del despliegue permitió garantizar la cooperación, participación e integración efectiva de todos los miembros del grupo.
       <br><br><u>AV2</u><br>
       En el AV2 el equipo estableció metas claras para el cierre del proyecto, distribuyendo de forma inclusiva las tareas de desarrollo backend, conexión frontend-backend, despliegue en Azure y producción audiovisual. La incorporación de las opiniones recogidas en las entrevistas de validación y en la evaluación según heurísticas evidencia que el equipo analizó la retroalimentación recibida y propuso soluciones concretas, cumpliendo los objetivos planificados para el sprint final dentro de los plazos establecidos.
+      <br><br><u>TB2</u><br>
+      En el TB2 el equipo planificó el cierre del proyecto distribuyendo las tareas según las fortalezas de cada integrante, garantizando que tanto los entregables técnicos como los documentales y audiovisuales se completaran dentro de los plazos establecidos. La revisión conjunta del reporte, la mejora de los productos y la producción del material audiovisual final evidencian que el entorno colaborativo construido desde el AV1 permitió cumplir los objetivos del último entregable de manera coordinada e inclusiva.
     </td>
   </tr>
 </table>
@@ -1174,7 +1236,7 @@ Datos del entrevistado
 - **Timing:**
 
 <p align="center">
-  <img src="assets/img/Entrevistas/entrevista-pablo.png" alt="Entrevista con Pablo Aguilar" width="500"/>
+  <img src="assets/img/Entrevistas/entrevista-aguilar.png" alt="Entrevista con Pablo Aguilar" width="500"/>
   <br/><i>Evidencia de entrevista: Pablo Aguilar </i>
 </p>
 
@@ -1355,13 +1417,13 @@ vencidos debido a la gran pérdida que estas generan, luego, lógicamente la otr
 
 **Primer segmento objetivo: Bodegueros Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="500" alt="User Journey Map - Carlos Mendoza"/>
+  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="800" alt="User Journey Map - Carlos Mendoza"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carlos Mendoza.</i>
 </p>
 
 **Segundo segmento objetivo: Farmacias Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="500" alt="User Journey Map - Carmen Rojas"/>
+  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="800" alt="User Journey Map - Carmen Rojas"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carmen Rojas.</i>
 </p>
 
