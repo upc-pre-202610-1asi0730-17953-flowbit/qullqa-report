@@ -5678,11 +5678,29 @@ En el video About the Team se presenta al equipo de Flowbit, mostrando el proces
 
 # Bibliografía
 
-Romero, P. (2024, 10 de enero). Retos para impulsar la expansión de las billeteras digitales en las bodegas peruanas. Conexión ESAN. Recuperado de https://www.esan.edu.pe/conexion-esan/retos-para-impulsar-la-expansion-de-las-billeteras-digitales-en-las-bodegas-peruanas
+Big picture EventStorming. (s.f.). GitHub - ddd-by-examples. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
+
+Brandolini, A. (2013). Introducing EventStorming: An act of deliberate collective learning. Leanpub.
+
+Conventional commits (v1.0.0). (s.f.). https://www.conventionalcommits.org/
 
 Delgado, R. S. B., & Lopez, H. Y. B., (2024). Modelo PDCA para incrementar el índice de rotación de inventario aplicando la clasificación ABC-SLP, Kanban y Conteo Cíclico en una pequeña empresa de comercio farmacéutico [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/682410
 
+Design level EventStorming. (s.f.). GitHub - ddd-by-examples. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
+
+Driessen, V. (2010, 5 de enero). A successful Git branching model. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
+
+Fowler, M. (2011, 14 de julio). CQRS. martinfowler.com. https://martinfowler.com/bliki/CQRS.html
+
+Fowler, M. (s.f.). Ubiquitous language. martinfowler.com. https://martinfowler.com/bliki/UbiquitousLanguage.html
+
 Mendoza, B. J. F., & Anchiraico, B. W. R., (2018). Determinación de patrones de ventas en boticas independientes para mejorar las ventas [Tesis de maestría, Universidad San Ignacio de Loyola]. Repositorio Académico USIL. https://hdl.handle.net/20.500.14005/8591
+
+Romero, P. (2024, 10 de enero). Retos para impulsar la expansión de las billeteras digitales en las bodegas peruanas. Conexión ESAN. Recuperado de https://www.esan.edu.pe/conexion-esan/retos-para-impulsar-la-expansion-de-las-billeteras-digitales-en-las-bodegas-peruanas
+
+Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley.
 
 # Anexos
 
