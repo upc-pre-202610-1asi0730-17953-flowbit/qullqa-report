@@ -5622,6 +5622,18 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 
 * El proyecto también permitió fortalecer las competencias técnicas y colaborativas del equipo, especialmente en áreas como desarrollo web, arquitectura de software, modelado de dominio, trabajo en equipo y comunicación efectiva.
 
+* La división de la solución mediante bounded contexts permitió representar de manera más clara los procesos principales del negocio, como la gestión de inventario, ventas, proveedores, alertas, suscripciones y seguimiento de pedidos. Esta separación favorece el mantenimiento del sistema y facilita la incorporación de nuevas funcionalidades sin afectar de forma directa a otros módulos.
+
+* La elaboración y revisión del diagrama de base de datos evidenció la importancia de mantener coherencia entre los requerimientos, el modelo de dominio y la persistencia de la información. Una estructura de datos correctamente definida resulta esencial para evitar duplicidad, asegurar la trazabilidad de las operaciones y sostener el crecimiento futuro de la plataforma.
+
+* Las entrevistas de validación permitieron comprobar que funcionalidades como las alertas de bajo stock y vencimiento, el registro de ventas, la consulta de productos y el control de permisos por roles generan valor directo para bodegueros y dueños de farmacias, debido a que responden a problemas frecuentes de su gestión cotidiana.
+
+* La integración entre la landing page, la aplicación web, los servicios backend y la base de datos permitió demostrar la viabilidad técnica de Qullqa como producto digital. Sin embargo, también evidenció que la consistencia de la información y la comunicación entre componentes son factores críticos para ofrecer una experiencia confiable al usuario.
+
+* El enfoque incremental aplicado durante los sprints facilitó la mejora progresiva del producto, ya que cada entrega permitió corregir observaciones, validar decisiones previas y priorizar funcionalidades de mayor impacto. Esto redujo el riesgo de desarrollar características poco relevantes para los segmentos objetivo.
+
+* Qullqa tiene potencial para contribuir a la digitalización de pequeños comercios peruanos, al centralizar procesos que suelen realizarse de forma manual o mediante herramientas dispersas. Su propuesta de valor se fortalece al ofrecer información oportuna para reducir pérdidas, controlar el inventario y apoyar la toma de decisiones del negocio.
+
 ### Recomendaciones
 
 * Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
@@ -5631,6 +5643,22 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 * Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
 
 * Es conveniente desarrollar estrategias de capacitación y acompañamiento para los usuarios finales, ya que la adopción tecnológica depende no solo de la herramienta, sino también de la confianza y comprensión que los usuarios tengan sobre ella.
+
+* Se recomienda implementar un modo de operación tolerante a conexiones inestables, mediante almacenamiento temporal de datos y sincronización posterior. Esta característica permitiría que las funciones esenciales de ventas e inventario continúen disponibles en establecimientos con acceso limitado a Internet.
+
+* Se debe reforzar la seguridad de la plataforma mediante autenticación robusta, autorización basada en roles, cifrado de información sensible, copias de seguridad periódicas y registros de auditoría. Estas medidas son especialmente importantes porque el sistema administra información comercial y operativa de los negocios.
+
+* Es recomendable establecer pruebas automatizadas para frontend, backend e integración, complementadas con pruebas de usabilidad y rendimiento. Esto ayudaría a detectar errores antes de cada despliegue y garantizaría que las nuevas versiones no afecten funcionalidades previamente validadas.
+
+* Conviene mejorar la trazabilidad de las operaciones, registrando el usuario, la fecha y el detalle de acciones como ajustes de stock, anulaciones de ventas y modificaciones de productos. De esta manera, los propietarios podrán supervisar mejor las actividades realizadas dentro del sistema.
+
+* Se recomienda incorporar mecanismos de importación inicial de productos e inventario desde archivos como Excel o CSV. Esta funcionalidad reduciría el esfuerzo de migración para negocios que actualmente gestionan su información mediante hojas de cálculo y facilitaría la adopción de Qullqa.
+
+* Resulta conveniente definir indicadores de éxito del producto, como reducción de productos vencidos, disminución de quiebres de stock, tiempo promedio de registro de ventas, frecuencia de uso y nivel de satisfacción. El seguimiento de estas métricas permitirá evaluar objetivamente el impacto de la solución.
+
+* Se recomienda continuar evolucionando la arquitectura con documentación actualizada de APIs, contratos claros entre bounded contexts y mecanismos de monitoreo de servicios. Esto facilitará el mantenimiento, la detección de fallos y la incorporación de nuevas integraciones.
+
+* Para una futura expansión, conviene evaluar integraciones con comprobantes de pago, lectores de códigos de barras, proveedores y servicios de entrega. Estas funcionalidades deben priorizarse después de validar la estabilidad y aceptación de los módulos principales.
 
 ## Video About-the-Team
 
