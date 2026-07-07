@@ -4773,10 +4773,9 @@ Finalmente, se presentan los commits más importantes correspondientes al cierre
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
   | :--- | :--- | :--- | :--- | :--- | :---: |
   | Arturouu | develop | a687719 | feat(program.cs) | update program.cs with bounded context updated. | 05/07/2026 |
-  | Fernando | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
-  | Jesus | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
-  | Adriana | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
-  | Martin | develop | [hash] | feat() | [descripción del cambio] | 05/07/2026 |
+  | Fernando | develop | 234295a | feature(dashboard) | dashboard visual improvement | 05/07/2026 |
+  | Arturo | develop | 51cb0c5 | Merge pull request #27 | from upc-pre-202610-1asi0730-17953-flowbit/feature/sales | 05/07/2026 |
+  | Arturo | develop | 139b065 | Merge pull request #28 | from upc-pre-202610-1asi0730-17953-flowbit/release/1.0.0 | 05/07/2026 |
 
 ### 5.2.4.5 Execution Evidence for Sprint Review
 En este último Sprint se logró consolidar la integración entre la aplicación web, la landing page y la base de datos, cerrando el ciclo de desarrollo de QULLQA. Se corrigieron desperfectos visuales identificados en la landing page, se afinaron detalles de la aplicación web y se validó el correcto funcionamiento del registro de usuarios con las validaciones implementadas. A continuación, se presentan capturas que evidencian los resultados obtenidos al cierre del proyecto.
@@ -5049,18 +5048,18 @@ Durante este último ciclo, QULLQA consolidó definitivamente su madurez técnic
 
 **Evidencia Repo: App Web**
 <p align="center">
-  <img src="assets/img/evidences/Repositorios_4.png" width="500" alt="Graph"/><br/>
+  <img src="assets/img/evidences/Evidencia_Respositorio_Final.png" width="500" alt="Graph"/><br/>
 <i>URL del repositorio (website): <a href="https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git">https://github.com/upc-pre-202610-1asi0730-17953-flowbit/qullqa-webapp.git</a></i></p>
 
 **Evidencia Deploy: App Web**
 <p align="center">
-  <img src="assets/img/evidences/Principal_page_4.png" width="500" alt="Graph"/>
+  <img src="assets/img/evidences/Principal_page_3.png" width="500" alt="Graph"/>
   <br/><i>URL del repositorio (website): <a href="https://calm-tree-02cb7940f.7.azurestaticapps.net/">https://calm-tree-02cb7940f.7.azurestaticapps.net/</a></i>
 </p>
 
 **Evidencia Conexión: Conexión entre el Backend y SQL**
 <p align="center">
-  <img src="assets/img/evidences/Evidencia_coneccion_Sprint4.jpeg" width="200" alt="Graph"/>
+  <img src="assets/img/evidences/Conexion_MySQL.jpeg" width="200" alt="Graph"/>
   <br/><i>Evidencia de conexión estable entre el Backend y SQL en el cierre del proyecto</i>
 </p>
 
