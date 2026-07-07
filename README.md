@@ -3694,10 +3694,6 @@ La aplicación proporciona las siguientes funcionalidades **core**:
 
 Para la conexión correcta de recuperación de datos para nuestras funcionalidades, utilizamos el criterio de Mock-API, que será desplegado a una máquina virtual en el servicio Azure. 
 
-*Evidencia de la mockapi desplegada en Azure*
-
-![mockup-imagen](/assets/deployment-configuration/mockup-imagen.png)
-
 Para esto, se realizaron los siguientes pasos:
 
 - Subir el proyecto frontend al repositorio GitHub.
