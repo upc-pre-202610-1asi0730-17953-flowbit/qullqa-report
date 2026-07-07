@@ -5695,11 +5695,17 @@ URL del repositorio (mockapi):  [Repositorio Mockapi](https://github.com/upc-pre
 URL de landing page (vercel):  [Landing Page](https://qullqa-landing-page.vercel.app/) <br>
 URL de webapp (azure): [WebApp](https://calm-tree-02cb7940f.7.azurestaticapps.net/) <br>
 URL de mockapi (azure): [Mockapi](https://qullqa-mockapi-group.azurewebsites.net/api/v1) <br>
-URL de Qullqa platform (Swagger): [Swagger](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html) <br>  
+URL de Qullqa platform (Swagger): [Swagger](https://app-260706204013.azurewebsites.net/swagger/index.html) <br>  
 
-URL de Video About-the-product: [Youtube](https://youtu.be/pJ25aA79gag) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=kUFXc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
-URL de Video About-the-team: [Youtube](https://youtu.be/iUh_RTxywNs) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=5GcbPQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+URL de Video About-the-product v1: [Youtube](https://youtu.be/pJ25aA79gag) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQABChTq3VTVQZITcDkCLlagAVm2k7gM-A3KX86KF7Z2uA4?e=kUFXc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+URL de Video About-the-team v1: [Youtube](https://youtu.be/iUh_RTxywNs) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAF-sFRetLoT4qLM12f8XoZAWV0UjjCgC3bWrxlZ2ropbA?e=5GcbPQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+
+URL de Video About-the-product v2: [Youtube](https://youtu.be/BIprhMzh6wY) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAdDqRexp68TLThi-l8NjiEARqM516DLuN5DljcCjkjl1A?e=OFYlpk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
+URL de Video About-the-team v2: [Youtube](https://youtu.be/N2iZ4__F_F4) [Microsoft Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCADhNcLe0xToyXYAX1U7MzAQTYqPDshwfZ3uFiai1q318?e=9091cw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br>
 
 URL de exposición (TB1): [Video TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQACumfS21ugS4xNNlSmksD9AeuBMP7hwW2PhQl8cFKjrgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cG5D63)
 
 URL de exposición (AV2): [Video AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQCYjcotrz3fQZQFukTwOX3RAUn5wV_QxTnIp1yeFCCLbys?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fl1sS7)
+
+URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDb8jeQmyLrQ4ud5MnXBZ9DAVp6eLyyheKHS_yGeaR4bDc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MN0lUS)
+
