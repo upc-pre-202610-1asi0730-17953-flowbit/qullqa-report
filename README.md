@@ -5707,5 +5707,5 @@ URL de exposición (TB1): [Video TB1](https://upcedupe-my.sharepoint.com/:v:/g/p
 
 URL de exposición (AV2): [Video AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQCYjcotrz3fQZQFukTwOX3RAUn5wV_QxTnIp1yeFCCLbys?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fl1sS7)
 
-URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDb8jeQmyLrQ4ud5MnXBZ9DAVp6eLyyheKHS_yGeaR4bDc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MN0lUS)
+URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDNE4A1qMTrTYE_QElMs1ClAaW3_xKLBqtzQtXsYMdbZpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MgzAuW)
 
