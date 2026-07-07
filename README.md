@@ -1417,13 +1417,13 @@ vencidos debido a la gran pérdida que estas generan, luego, lógicamente la otr
 
 **Primer segmento objetivo: Bodegueros Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="500" alt="User Journey Map - Carlos Mendoza"/>
+  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="800" alt="User Journey Map - Carlos Mendoza"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carlos Mendoza.</i>
 </p>
 
 **Segundo segmento objetivo: Farmacias Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="500" alt="User Journey Map - Carmen Rojas"/>
+  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="800" alt="User Journey Map - Carmen Rojas"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carmen Rojas.</i>
 </p>
 
