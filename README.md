@@ -36,7 +36,7 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 </p>
 
 
-*Julio, 2026*
+*Junio, 2026*
 
 </div>
 
@@ -133,35 +133,6 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
     Primera versión publicada de Video About-The-Product <br>
     Primera versión publicada de Video About-The-Team <br>
     Capítulo V: Product Implementation, Validation & Deployment (Sprint 3 / Validation Interviews) <br>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Cuarta Entrega (TB2)</b></td>
-    <td>06/07/2026</td>
-    <td>
-      Asmat Alminco, Martin Alejandro <br>
-      <br>
-      <p></p>
-      Contreras Torres, Arturo Valentino <br>
-      <br>
-      <p></p>
-      Güere Calero, Fernando Julio <br>
-      <br>
-      <p></p>
-      Huaman Oscco, Aldo Jesus <br>
-      <br>
-      <p></p>
-      Ramos Fuentes Rivera, Adriana Nicole <br>
-    </td>
-    <td>
-    Mejora de reporte <br>
-    Mejora de artefactos <br>
-    Nueva versión desplegada de Landing Page <br>
-    Nueva versión desplegada de Frontend Web Applications <br>
-    Nueva versión desplegada de Web Services <br>
-    Nueva versión publicada de Video About-The-Product <br>
-    Nueva versión publicada de Video About-The-Team <br>
-    Capítulo V: Product Implementation, Validation & Deployment (Sprint 4) <br>
     </td>
   </tr>
 </table>
@@ -319,15 +290,6 @@ Para registrar el avance integral del equipo, se produjeron los videos About-the
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4](#524-sprint-4)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -367,8 +329,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Asumió la corrección de los segmentos objetivo a partir de la retroalimentación recibida y coordinó con el equipo técnico el Software Deployment Configuration y la implementación de bounded contexts en la web application, garantizando continuidad en la gestión de comunicaciones entre los miembros responsables del despliegue.
       <br><br><u>AV2</u><br>
       Estuvo a cargo de tareas de desarrollo backend y coordinó junto al equipo la ejecución de la entrevista de validación, cuyo registro forma parte de la evidencia de Sprint 3, además de participar en la producción del video About the Team. Aplicó la evaluación según heurísticas para sustentar las mejoras propuestas en los userflows y en la web application, manteniendo coordinación constante con el resto del equipo de desarrollo.
-      <br><br><u>TB2</u><br>
-      Aseguró la calidad del reporte final coordinando con el equipo la revisión integral de los contenidos del informe. Condujo la mejora de pantallas —wireframes, mockups y userflows— alineándolas con los ajustes definidos durante el sprint, y participó en la producción del video About the Team, contribuyendo a la presentación coordinada del trabajo del equipo en el cierre del proyecto.
       <br><br>
       <b>Contreras Torres, Arturo Valentino</b><br>
       <u>AV1</u><br>
@@ -377,8 +337,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Estuvo a cargo de la elaboración del Project Report Collaboration Insights y coordinó la mejora del Design Level Event Storming, la actualización de User Stories y Technical Stories, la implementación de bounded contexts y la mejora de la landing page, evidenciando continuidad en la coordinación técnica del equipo a través de las actas de seguimiento del sprint.
       <br><br><u>AV2</u><br>
       Condujo el desarrollo backend y el despliegue en Azure, coordinando la conexión entre frontend y backend. Participó en la entrevista de validación y en el video About the Team, además de impulsar la mejora de la webapp y de los diagramas del proyecto, evidenciando trabajo coordinado y sostenido con el resto del equipo a lo largo del sprint.
-      <br><br><u>TB2</u><br>
-      Condujo el desarrollo backend y el despliegue de los productos en producción, coordinando la conexión frontend-backend para el cierre técnico del sistema. Impulsó la mejora de la webapp, la landing page y los diagramas del proyecto, asegurando coherencia entre los artefactos técnicos y el estado final del sistema, y participó en el video About the Team.
       <br><br>
       <b>Güere Calero, Fernando Julio</b><br>
       <u>AV1</u><br>
@@ -387,8 +345,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Coordinó la elaboración del Development Evidence y del Execution Evidence for Sprint Review, registrando de forma sistemática el avance técnico del equipo. Lideró la implementación de bounded contexts y la mejora de la landing page, garantizando continuidad entre los registros de evidencia y el trabajo de desarrollo.
       <br><br><u>AV2</u><br>
       Estuvo a cargo del desarrollo backend, la mejora de la webapp y de la landing page, así como la conexión entre frontend y backend y el despliegue en Azure del Swagger. Coordinó con el equipo la realización de la entrevista de validación y participó en el video About the Team, evidenciando capacidad de sostener el liderazgo técnico del proyecto durante todo el sprint.
-      <br><br><u>TB2</u><br>
-      Estuvo a cargo del desarrollo backend, la mejora de la webapp y de la landing page, la conexión frontend-backend y el despliegue final de los productos, coordinando el cierre técnico del sistema. Su participación en el video About the Team evidenció continuidad en el liderazgo técnico sostenido durante todo el ciclo del proyecto.
       <br><br>
       <b>Huaman Oscco, Aldo Jesus</b><br>
       <u>AV1</u><br>
@@ -397,8 +353,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Estuvo a cargo de la documentación del Services Documentation Evidence y del Software Deployment Evidence for Sprint Review, además de registrar los Team Collaboration Insights durante el sprint, lo que evidencia de forma directa su capacidad de coordinar y dejar constancia del trabajo conjunto del equipo. Participó también en la implementación de bounded contexts en la web application.
       <br><br><u>AV2</u><br>
       Condujo el desarrollo backend y la actualización del Product Backlog y del Report Collaboration Insights, coordinando con el equipo el desarrollo del Sprint 3. Participó en la entrevista de validación y en el video About the Team, sosteniendo la práctica de documentar evidencia de coordinación que mantuvo desde el TB1.
-      <br><br><u>TB2</u><br>
-      Condujo el desarrollo del Sprint 4 y la actualización del Report Collaboration Insights, coordinando con el equipo el aseguramiento de la calidad del reporte final. Participó en el video About the Team, sosteniendo hasta el último entregable la práctica de documentar la evidencia de trabajo conjunto que caracterizó al equipo durante todo el proyecto.
       <br><br>
       <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
       <u>AV1</u><br>
@@ -407,8 +361,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Lideró la mejora del diagrama de base de datos y la revisión cruzada de diagramas con el resto del equipo, coordinando además la actualización de conclusiones y recomendaciones. Participó en la implementación de bounded contexts y en la mejora de la landing page, manteniendo coherencia entre la documentación técnica y el trabajo de los demás integrantes.
       <br><br><u>AV2</u><br>
       Estuvo a cargo del desarrollo backend y coordinó la ejecución de la entrevista de validación y la producción del video About the Team y del video About the Product. Aplicó la evaluación según heurísticas y condujo el desarrollo del Sprint 3, evidenciando continuidad en la coordinación del equipo durante el cierre del proyecto.
-      <br><br><u>TB2</u><br>
-      Aseguró la calidad del reporte final coordinando con el equipo la revisión de los contenidos del informe. Estuvo a cargo de la edición del video About the Team y del video About the Product, siendo responsable de la presentación audiovisual definitiva del proyecto, y participó en la producción del video About the Team como cierre del trabajo conjunto del equipo.
     </td>
     <td>
       <u>AV1</u><br>
@@ -417,8 +369,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Durante el TB1 el equipo mantuvo la práctica de liderazgo compartido, evidenciada en la documentación sistemática de Development, Execution, Services Documentation y Software Deployment Evidence for Sprint Review, así como en los Team Collaboration Insights registrados durante el sprint. Estos artefactos constituyen evidencia directa de coordinación continua entre los integrantes a lo largo del ciclo de desarrollo.
       <br><br><u>AV2</u><br>
       En el AV2 el liderazgo conjunto se reflejó en la coordinación técnica para el desarrollo del backend, la conexión frontend-backend y el despliegue en Azure, tareas que requirieron sincronización constante entre los responsables de cada bounded context. La ejecución coordinada de la entrevista de validación y la producción de los videos About the Team y About the Product reforzaron, con nueva evidencia, la capacidad del equipo para sostener el liderazgo compartido hasta el cierre del proyecto.
-      <br><br><u>TB2</u><br>
-      En el TB2 el liderazgo conjunto se manifestó en la capacidad del equipo para distribuir de forma autónoma las responsabilidades técnicas y documentales del cierre del proyecto, sin depender de una figura central. La coordinación entre los frentes de desarrollo backend, despliegue de productos, mejora del producto y producción audiovisual se sostuvo a través de la comunicación continua entre los integrantes, evidenciando que el equipo consolidó una dinámica de liderazgo compartido a lo largo de todo el ciclo del proyecto.
     </td>
   </tr>
   <tr>
@@ -431,8 +381,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las observaciones recibidas sobre los segmentos objetivo y propuso la corrección correspondiente; además planificó junto al equipo la configuración del despliegue, garantizando el cumplimiento de los objetivos técnicos establecidos para el sprint.
       <br><br><u>AV2</u><br>
       Fue receptivo a los resultados de la evaluación según heurísticas, proponiendo mejoras concretas en los userflows y en la web application a partir de esas observaciones, y planificó junto al equipo las tareas de desarrollo backend necesarias para cumplir los objetivos del sprint final.
-      <br><br><u>TB2</u><br>
-      Fue receptivo a las observaciones del equipo durante la revisión del reporte, proponiendo correcciones para asegurar la coherencia y calidad del informe final. Planificó junto al equipo la mejora de wireframes, mockups y userflows, garantizando que los artefactos de diseño reflejaran el estado final del producto antes del cierre del proyecto.
       <br><br>
       <b>Contreras Torres, Arturo Valentino</b><br>
       <u>AV1</u><br>
@@ -441,8 +389,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las críticas recibidas sobre el Event Storming inicial y propuso su mejora, además de planificar junto al equipo la actualización de User Stories y Technical Stories y la implementación de MockAPI, garantizando el cumplimiento de los objetivos funcionales del sprint.
       <br><br><u>AV2</u><br>
       Propuso e implementó mejoras en la webapp y en los diagramas del proyecto a partir de la retroalimentación del equipo, y planificó el despliegue en Azure y la conexión frontend-backend, asegurando el cumplimiento de los objetivos técnicos previstos para el cierre del proyecto.
-      <br><br><u>TB2</u><br>
-      Fue proactivo en la planificación del despliegue final de los productos, coordinando las tareas de conexión frontend-backend. Propuso mejoras en la webapp, la landing page y los diagramas a partir de la revisión final del equipo, garantizando que el producto entregado fuera coherente con la arquitectura y el diseño definidos a lo largo del proyecto.
       <br><br>
       <b>Güere Calero, Fernando Julio</b><br>
       <u>AV1</u><br>
@@ -451,8 +397,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Escuchó las observaciones del equipo sobre el avance del sprint y las incorporó en el Development y Execution Evidence for Sprint Review, planificando junto al equipo la implementación de bounded contexts y la mejora de la landing page para cumplir los objetivos establecidos.
       <br><br><u>AV2</u><br>
       Fue proactivo en la planificación de las entrevistas de validación y en la estructuración de tareas de optimización del frontend y desarrollo del backend, garantizando la cooperación entre los integrantes responsables de la conexión frontend-backend y el despliegue del Swagger en Azure.
-      <br><br><u>TB2</u><br>
-      Fue proactivo en la planificación del cierre técnico del proyecto, estructurando junto a Contreras Torres las tareas de conexión frontend-backend y despliegue final de productos. Escuchó las observaciones del equipo para incorporar mejoras en la webapp y la landing page, garantizando cooperación e integración efectiva entre los integrantes hasta el último entregable.
       <br><br>
       <b>Huaman Oscco, Aldo Jesus</b><br>
       <u>AV1</u><br>
@@ -461,8 +405,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Documentó de forma proactiva las Services Documentation Evidence y Software Deployment Evidence, escuchando las necesidades del equipo para registrar los Team Collaboration Insights del sprint, lo que garantizó cooperación e integración efectiva entre los miembros del grupo.
       <br><br><u>AV2</u><br>
       Analizó el estado del Product Backlog y propuso su actualización junto con la del Report Collaboration Insights, planificando con el equipo el desarrollo del Sprint 3 para asegurar el cumplimiento de los objetivos de cierre del proyecto.
-      <br><br><u>TB2</u><br>
-      Planificó con el equipo el desarrollo del Sprint 4 y propuso la actualización del Report Collaboration Insights como mecanismo de cierre de la evidencia colaborativa del proyecto. Aseguró la calidad del reporte final escuchando las observaciones de sus compañeros e incorporándolas en las revisiones correspondientes.
       <br><br>
       <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
       <u>AV1</u><br>
@@ -471,8 +413,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Analizó las observaciones sobre el diagrama de base de datos y propuso su mejora junto con la revisión cruzada de los demás diagramas, planificando la actualización de conclusiones y recomendaciones para garantizar coherencia entre la documentación y el sistema.
       <br><br><u>AV2</u><br>
       Estableció metas y distribuyó responsabilidades para la ejecución de las entrevistas de validación y la producción de los videos About the Team y About the Product, considerando las opiniones del equipo y de los usuarios entrevistados. Esta organización permitió cumplir, junto con la evaluación según heurísticas y el desarrollo del Sprint 3, los objetivos del cierre del proyecto dentro de los plazos establecidos.
-      <br><br><u>TB2</u><br>
-      Estableció metas para la edición y producción final del video About the Team y del video About the Product, coordinando con el equipo los criterios de revisión del reporte. Su proactividad en el aseguramiento de la calidad documental y audiovisual garantizó que los entregables finales del proyecto cumplieran con los estándares establecidos por el equipo.
     </td>
     <td>
       <u>AV1</u><br>
@@ -481,8 +421,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Durante el TB1 el equipo analizó de forma conjunta las críticas y observaciones recibidas sobre los avances del AV1, traduciéndolas en mejoras concretas sobre el Event Storming, los diagramas y la landing page. La planificación coordinada de la documentación de evidencias de sprint y del despliegue permitió garantizar la cooperación, participación e integración efectiva de todos los miembros del grupo.
       <br><br><u>AV2</u><br>
       En el AV2 el equipo estableció metas claras para el cierre del proyecto, distribuyendo de forma inclusiva las tareas de desarrollo backend, conexión frontend-backend, despliegue en Azure y producción audiovisual. La incorporación de las opiniones recogidas en las entrevistas de validación y en la evaluación según heurísticas evidencia que el equipo analizó la retroalimentación recibida y propuso soluciones concretas, cumpliendo los objetivos planificados para el sprint final dentro de los plazos establecidos.
-      <br><br><u>TB2</u><br>
-      En el TB2 el equipo planificó el cierre del proyecto distribuyendo las tareas según las fortalezas de cada integrante, garantizando que tanto los entregables técnicos como los documentales y audiovisuales se completaran dentro de los plazos establecidos. La revisión conjunta del reporte, la mejora de los productos y la producción del material audiovisual final evidencian que el entorno colaborativo construido desde el AV1 permitió cumplir los objetivos del último entregable de manera coordinada e inclusiva.
     </td>
   </tr>
 </table>
@@ -1236,7 +1174,7 @@ Datos del entrevistado
 - **Timing:**
 
 <p align="center">
-  <img src="assets/img/Entrevistas/entrevista-aguilar.png" alt="Entrevista con Pablo Aguilar" width="500"/>
+  <img src="assets/img/Entrevistas/entrevista-pablo.png" alt="Entrevista con Pablo Aguilar" width="500"/>
   <br/><i>Evidencia de entrevista: Pablo Aguilar </i>
 </p>
 
@@ -1417,13 +1355,13 @@ vencidos debido a la gran pérdida que estas generan, luego, lógicamente la otr
 
 **Primer segmento objetivo: Bodegueros Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="800" alt="User Journey Map - Carlos Mendoza"/>
+  <img src="assets/img/artefacts/user_journey_map_carlos_mendoza.png" width="500" alt="User Journey Map - Carlos Mendoza"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carlos Mendoza.</i>
 </p>
 
 **Segundo segmento objetivo: Farmacias Independientes**
 <p align="center">
-  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="800" alt="User Journey Map - Carmen Rojas"/>
+  <img src="assets/img/artefacts/user_journey_map_carmen_rojas.png" width="500" alt="User Journey Map - Carmen Rojas"/>
   <br/><i>Artefacto: User Journey Map basado en el user persona Carmen Rojas.</i>
 </p>
 
@@ -3342,7 +3280,7 @@ En esta sección se presenta el Design-Level EventStorming de Qullqa, realizado 
 **Design Level Event Storming - Qullqa**
 
   <div>
-    <img src="assets/img/event_storming/design-level-storming.png" alt="Design Level Event Storming - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/design_level_event_storming.png" alt="Design Level Event Storming - Qullqa" width="500"/>
   </div> <br>
 
 **Bounded Contexts**
@@ -3350,56 +3288,56 @@ En esta sección se presenta el Design-Level EventStorming de Qullqa, realizado 
 Identity & Access Management <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-iam.png" alt="Identity & Access Management - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_identity_access_management.png" alt="Identity & Access Management - Qullqa" width="500"/>
   </div> 
 
 <br>
 Subscription & Plan Management <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-suscription.png" alt="Subscription & Plan Management - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_subscription_plan_management.png" alt="Subscription & Plan Management - Qullqa" width="500"/>
   </div> 
 
 <br>
 Delivery Tracking <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-delivery.png" alt="Delivery Tracking - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_delivery_tracking.png" alt="Delivery Tracking - Qullqa" width="500"/>
   </div> 
 
 <br>
 Product & Inventory Management <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-product-inventory.png" alt="Product & Inventory Management - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_product_inventory_management.png" alt="Product & Inventory Management - Qullqa" width="500"/>
   </div> 
 
 <br>
 Sales & POS Management <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-sales.png" alt="Sales & POS Management - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_sales_pos_management.png" alt="Sales & POS Management - Qullqa" width="500"/>
   </div> 
 
 <br>
 Alerts & Operational Monitoring <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-alerts.png" alt="Alerts & Operational Monitoring - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_alerts_operational_monitoring.png" alt="Alerts & Operational Monitoring - Qullqa" width="500"/>
   </div> 
 
 <br>
 Supplier & Replenishment Management <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-supplier.png" alt="Supplier & Replenishment Management - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_supplier_replenishment_management.png" alt="Supplier & Replenishment Management - Qullqa" width="500"/>
   </div> 
 
 <br>
 Dashboard & Analytics <br>
 
  <div>
-    <img src="assets/img/event_storming/bounded-dashboard.png" alt="Dashboard & Analytics - Qullqa" width="500"/>
+    <img src="assets/img/event_storming/dlev_dashboard_analytics.png" alt="Dashboard & Analytics - Qullqa" width="500"/>
   </div> 
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -3483,7 +3421,7 @@ Dashboard & Analytics <br>
 
 ### 4.8.1. Database Diagrams
 <p align="center">
-  <img src="assets\img\diagrams\qullqa_database_diagram-2026-05-09_23-45.png" width="1000" alt="Qullqa Database Diagram"/>
+  <img src="assets\img\diagrams\qullqa_database_diagram-2026-05-09_23-45.png" width="500" alt="Qullqa Database Diagram"/>
   <br/><i>Qullqa Database Diagram</i>
 </p>
 
@@ -4952,6 +4890,52 @@ En este último Sprint se logró consolidar la integración entre la aplicación
 </p>
 <br/>
 
+13. Seccion principal: Actualizaciones en la conexion
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Actualizacion_Conexion.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Evidencia de las conexion</i>
+</p>
+<br/>
+
+14. Seccion principal: Conexion Mysql
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Conexion_MySQL.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Evidencia de la conexion actual</i>
+</p>
+<br/>
+
+15. Seccion principal: Database en Azure
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/Database_Azure.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Evidencia de la base de datos de Azure</i>
+</p>
+<br/>
+
+16. Seccion principal: Backend
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/WebApp_Backend.jpeg" width="800" alt="Formulario"/>
+  <br/><i>Evidencia despliegue del Backend</i>
+</p>
+<br/>
+
+17. Seccion principal: Backend
+
+<br/>
+<p align="center">
+  <img src="assets/img/evidences/WebApp_Backend (2).jpeg" width="800" alt="Formulario"/>
+  <br/><i>Evidencia despliegue del Backend</i>
+</p>
+<br/>
+
+
 Para finalizar, se mostrará una demostración de nuestro avance sobre la web application dentro de GitHub, para la publicación de la app web:
 <p align="center">
   <img src="assets/img/evidences/Repositorios_3.png" width="800" alt="Repositorio de Github"/>
@@ -5533,18 +5517,6 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 
 * El proyecto también permitió fortalecer las competencias técnicas y colaborativas del equipo, especialmente en áreas como desarrollo web, arquitectura de software, modelado de dominio, trabajo en equipo y comunicación efectiva.
 
-* La división de la solución mediante bounded contexts permitió representar de manera más clara los procesos principales del negocio, como la gestión de inventario, ventas, proveedores, alertas, suscripciones y seguimiento de pedidos. Esta separación favorece el mantenimiento del sistema y facilita la incorporación de nuevas funcionalidades sin afectar de forma directa a otros módulos.
-
-* La elaboración y revisión del diagrama de base de datos evidenció la importancia de mantener coherencia entre los requerimientos, el modelo de dominio y la persistencia de la información. Una estructura de datos correctamente definida resulta esencial para evitar duplicidad, asegurar la trazabilidad de las operaciones y sostener el crecimiento futuro de la plataforma.
-
-* Las entrevistas de validación permitieron comprobar que funcionalidades como las alertas de bajo stock y vencimiento, el registro de ventas, la consulta de productos y el control de permisos por roles generan valor directo para bodegueros y dueños de farmacias, debido a que responden a problemas frecuentes de su gestión cotidiana.
-
-* La integración entre la landing page, la aplicación web, los servicios backend y la base de datos permitió demostrar la viabilidad técnica de Qullqa como producto digital. Sin embargo, también evidenció que la consistencia de la información y la comunicación entre componentes son factores críticos para ofrecer una experiencia confiable al usuario.
-
-* El enfoque incremental aplicado durante los sprints facilitó la mejora progresiva del producto, ya que cada entrega permitió corregir observaciones, validar decisiones previas y priorizar funcionalidades de mayor impacto. Esto redujo el riesgo de desarrollar características poco relevantes para los segmentos objetivo.
-
-* Qullqa tiene potencial para contribuir a la digitalización de pequeños comercios peruanos, al centralizar procesos que suelen realizarse de forma manual o mediante herramientas dispersas. Su propuesta de valor se fortalece al ofrecer información oportuna para reducir pérdidas, controlar el inventario y apoyar la toma de decisiones del negocio.
-
 ### Recomendaciones
 
 * Es importante priorizar la simplicidad de la interfaz y la facilidad de uso, considerando que muchos usuarios poseen conocimientos tecnológicos limitados o muestran resistencia al cambio digital.
@@ -5554,22 +5526,6 @@ En el video About the Product se presenta Qullqa, un sistema inteligente diseña
 * Es fundamental optimizar la integración con dispositivos IoT para garantizar estabilidad, precisión y funcionamiento incluso en entornos con conectividad limitada, especialmente en zonas alejadas o con infraestructura deficiente.
 
 * Es conveniente desarrollar estrategias de capacitación y acompañamiento para los usuarios finales, ya que la adopción tecnológica depende no solo de la herramienta, sino también de la confianza y comprensión que los usuarios tengan sobre ella.
-
-* Se recomienda implementar un modo de operación tolerante a conexiones inestables, mediante almacenamiento temporal de datos y sincronización posterior. Esta característica permitiría que las funciones esenciales de ventas e inventario continúen disponibles en establecimientos con acceso limitado a Internet.
-
-* Se debe reforzar la seguridad de la plataforma mediante autenticación robusta, autorización basada en roles, cifrado de información sensible, copias de seguridad periódicas y registros de auditoría. Estas medidas son especialmente importantes porque el sistema administra información comercial y operativa de los negocios.
-
-* Es recomendable establecer pruebas automatizadas para frontend, backend e integración, complementadas con pruebas de usabilidad y rendimiento. Esto ayudaría a detectar errores antes de cada despliegue y garantizaría que las nuevas versiones no afecten funcionalidades previamente validadas.
-
-* Conviene mejorar la trazabilidad de las operaciones, registrando el usuario, la fecha y el detalle de acciones como ajustes de stock, anulaciones de ventas y modificaciones de productos. De esta manera, los propietarios podrán supervisar mejor las actividades realizadas dentro del sistema.
-
-* Se recomienda incorporar mecanismos de importación inicial de productos e inventario desde archivos como Excel o CSV. Esta funcionalidad reduciría el esfuerzo de migración para negocios que actualmente gestionan su información mediante hojas de cálculo y facilitaría la adopción de Qullqa.
-
-* Resulta conveniente definir indicadores de éxito del producto, como reducción de productos vencidos, disminución de quiebres de stock, tiempo promedio de registro de ventas, frecuencia de uso y nivel de satisfacción. El seguimiento de estas métricas permitirá evaluar objetivamente el impacto de la solución.
-
-* Se recomienda continuar evolucionando la arquitectura con documentación actualizada de APIs, contratos claros entre bounded contexts y mecanismos de monitoreo de servicios. Esto facilitará el mantenimiento, la detección de fallos y la incorporación de nuevas integraciones.
-
-* Para una futura expansión, conviene evaluar integraciones con comprobantes de pago, lectores de códigos de barras, proveedores y servicios de entrega. Estas funcionalidades deben priorizarse después de validar la estabilidad y aceptación de los módulos principales.
 
 ## Video About-the-Team
 
