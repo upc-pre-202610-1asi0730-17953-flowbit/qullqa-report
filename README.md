@@ -189,11 +189,11 @@ Para registrar el avance integral del equipo, se produjeron los videos About-the
 
 **Cuarta Entrega (TB2)**
 
-Durante la entrega del AV3 del proyecto Qullqa, el equipo consolidó la totalidad de los avances previos mediante un enfoque centrado en el cierre integral del sistema y la estabilización de los servicios desplegados. Esta etapa se caracterizó por la culminación del ciclo de desarrollo y la validación final del producto, permitiendo que la web application alcanzara su versión definitiva, completamente integrada y lista para su evaluación como incremento final del proyecto.
+Durante la entrega del TB2 del proyecto Qullqa, el equipo consolidó la totalidad de los avances previos mediante un enfoque centrado en el cierre integral del sistema y la estabilización de los servicios desplegados. Esta etapa se caracterizó por la culminación del ciclo de desarrollo y la validación final del producto, permitiendo que la web application alcanzara su versión definitiva, completamente integrada y lista para su evaluación como incremento final del proyecto.
 
-En este sprint, el equipo se centró en el cierre del backend y la consolidación de los 51 endpoints implementados a lo largo de los bounded contexts definidos (Alerts, Authentication, Businesses, Customers, Dashboard, Deliveries, Inventories, Products, Purchases, Reports, Roles, Sales, Suppliers, Users, Warehouses, Waypoints, entre otros), garantizando que la comunicación entre la capa de presentación y los servicios REST se mantuviera estable, documentada y trazable. Paralelamente, se llevó a cabo el despliegue final de las versiones actualizadas tanto de la Landing Page como de la Web Application, incorporando las últimas correcciones identificadas en los ciclos de retroalimentación anteriores y cerrando los flujos de interacción pendientes.
+En este sprint, el equipo se centró en el cierre del backend y la consolidación de los endpoints implementados a lo largo de los bounded contexts definidos (Alerts, Authentication, Businesses, Customers, Dashboard, Deliveries, Inventories, Products, Purchases, Reports, Roles, Sales, Suppliers, Users, Warehouses, Waypoints, entre otros), garantizando que la comunicación entre la capa de presentación y los servicios REST se mantuviera estable, documentada y trazable. Paralelamente, se llevó a cabo el despliegue final de las versiones actualizadas tanto de la Landing Page como de la Web Application, incorporando las últimas correcciones identificadas en los ciclos de retroalimentación anteriores y cerrando los flujos de interacción pendientes.
 
-Como parte del rigor técnico y de gestión, se realizó una exhaustiva labor de documentación y cierre de sprint. Se elaboraron los artefactos correspondientes al Sprint 4, adaptando las plantillas del Sprint 3 para reflejar el cierre definitivo del ciclo ágil: la tabla de planificación, la matriz LACX, el Sprint Backlog final (14 historias de usuario, aproximadamente 85 horas estimadas), las evidencias de desarrollo mediante tablas de commits, las evidencias de despliegue y la documentación de servicios (51 endpoints reales documentados mediante Swagger/OpenAPI), así como los insights de colaboración del equipo a lo largo del proyecto.
+Como parte del rigor técnico y de gestión, se realizó una exhaustiva labor de documentación y cierre de sprint. Se elaboraron los artefactos correspondientes al Sprint 4, adaptando las plantillas del Sprint 3 para reflejar el cierre definitivo del ciclo ágil: la tabla de planificación, la matriz LACX, el Sprint Backlog final, las evidencias de desarrollo mediante tablas de commits, las evidencias de despliegue y la documentación de servicios (endpoints documentados mediante Swagger/OpenAPI), así como los insights de colaboración del equipo a lo largo del proyecto.
 
 Para registrar el cierre integral del equipo, se produjeron los videos About-the-Product y About-the-Team, junto con el informe final, la presentación keynote y el reporte de desempeño individual. La gestión del trabajo colaborativo mantuvo su base en Jira y GitHub, donde se centralizaron la planificación de sprints, el control de versiones, la integración continua y la coherencia del repositorio, asegurando que todos los entregables, tanto el código fuente como los documentos complementarios, cumplan con los estándares de calidad definidos para el cierre final del proyecto.
 
@@ -4205,7 +4205,7 @@ La carga de trabajo se distribuyó equitativamente para asegurar que todos los m
 
 **Evidencia GitFlow: Graph**
 <p align="center">
-  <img src="assets/img/evidences/Grapho.png" width="200" alt="Graph"/>
+  <img src="assets/img/evidences/Grapho.png" width="500" alt="Graph"/>
   <br/><i>Grafo de versiones para el gitflow 2.0</i>
 </p>
 
@@ -4585,7 +4585,7 @@ Durante este ciclo, QULLQA consolidó su madurez técnica mediante el despliegue
 
 **Evidencia Coneccion: Connecion entre el Backend y SQL**
 <p align="center">
-  <img src="assets/img/evidences/Evidencia_coneccion_Sprint3.jpeg" width="200" alt="Graph"/>
+  <img src="assets/img/evidences/Evidencia_coneccion_Sprint3.jpeg" width="500" alt="Graph"/>
   <br/><i>Evidencia de coneccion entre el Backend y SQL</i>
 </p>
 
@@ -5041,7 +5041,7 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 
 * **URL de Web Application:** [https://calm-tree-02cb7940f.7.azurestaticapps.net/](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
 
-* **URL del Swagger:** [https://qullqa-platform-v1.azurewebsites.net/swagger/index.html](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html)
+* **URL del Swagger:** [https://app-260706204013.azurewebsites.net/swagger/index.html](https://app-260706204013.azurewebsites.net/swagger/index.html)
 
 > Para acceder al Repositorio copia y pega el enlace en el navegador.
 > Para acceder al Producto da click en el enlace.
