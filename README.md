@@ -40,6 +40,18 @@ u202018427 - Ramos Fuentes Rivera, Adriana Nicole<br>
 
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ---
 
 # Registro de Versiones del Informe
@@ -3682,7 +3694,7 @@ La aplicación proporciona las siguientes funcionalidades **core**:
 
 Para la conexión correcta de recuperación de datos para nuestras funcionalidades, utilizamos el criterio de Mock-API, que será desplegado a una máquina virtual en el servicio Azure. 
 
-*Evidencia de la VM desplegada en Azure*
+*Evidencia de la mockapi desplegada en Azure*
 
 ![mockup-imagen](/assets/deployment-configuration/mockup-imagen.png)
 
@@ -4614,7 +4626,7 @@ Para este Sprint, se han implementado y documentado los puntos de interacción d
 
 * **URL de Web Application:** [https://calm-tree-02cb7940f.7.azurestaticapps.net/](https://calm-tree-02cb7940f.7.azurestaticapps.net/)
 
-* **URL del Swagger:** [https://qullqa-platform-v1.azurewebsites.net/swagger/index.html](https://qullqa-platform-v1.azurewebsites.net/swagger/index.html)
+* **URL del Swagger:** [https://app-260706204013.azurewebsites.net/swagger/index.html](https://app-260706204013.azurewebsites.net/swagger/index.html)
 
 > Para acceder al Repositorio copia y pega el enlace en el navegador.
 > Para acceder al Producto da click en el enlace.
@@ -5137,7 +5149,7 @@ Durante este último ciclo, QULLQA consolidó definitivamente su madurez técnic
   <br/><i>Evidencia de conexión estable entre el Backend y SQL en el cierre del proyecto</i>
 </p>
 
-### 5.2.4.8 Team Collaboration Insights
+### 5.2.4.8 Team Collaboration Insights during Sprint
 
 **Dinámica de Implementación**
 <p align="center">
@@ -5421,7 +5433,7 @@ Wilmer Rojas, socio de farmacia independiente de 28 años residente en Pachacama
 
 **Qullqa** — Sistema de gestión de inventario para bodegas y farmacias independientes.
 
-URL Web App: https://calm-tree-02cb7940f.7.azurestaticapps.net/
+URL Web App: https://calm-tree-02cb7940f.7.azurestaticapps.net/ <br>
 URL Landing Page: https://qullqa-landing-page.vercel.app/
 
 ---
@@ -5726,4 +5738,6 @@ URL de exposición (TB1): [Video TB1](https://upcedupe-my.sharepoint.com/:v:/g/p
 URL de exposición (AV2): [Video AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQCYjcotrz3fQZQFukTwOX3RAUn5wV_QxTnIp1yeFCCLbys?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fl1sS7)
 
 URL de exposición (TB2): [Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414802_upc_edu_pe/IQDNE4A1qMTrTYE_QElMs1ClAaW3_xKLBqtzQtXsYMdbZpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MgzAuW)
+
+Usuario de prueba (con datos): prueba@gmail.com | 12345678
 
